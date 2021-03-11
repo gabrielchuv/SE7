@@ -1,27 +1,15 @@
 # Dashboard
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.1.2.
+This branch is based on the work from the technical workshops.
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Thought it might be useful to have a copy an up to date copy in case anyone wanted to look at my execellent work to compare with.
 
-## Code scaffolding
+## Worksheet:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Currently its updated to worksheet 6 - Express API worksheet
 
-## Build
+## Usage:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+You should all already have this repo so dont clone it, you'll need to check out this particular remote branch to a new branch on your local machine, run the site with: ng serve -o (the -o outputs it to the default browser for you, also ctrl + c to terminate angular once you've done :) 
