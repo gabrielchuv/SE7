@@ -1,6 +1,6 @@
-# SE7 (Name pending) Demosite
+# dontwastefood.no
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.1.2.
+This project was ideated completely by Alex Digpal-Race, he is our lord and saviour.
 
 ## Development server
 
