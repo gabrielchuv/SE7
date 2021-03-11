@@ -15,5 +15,5 @@
 7. **next step** show prototype to users
 8. iterate on design based off user feedback
 
-![Miro board from multiple double diamond meetings]()
+![Miro board from multiple double diamond meetings](mirosnapshot.png)
 #
