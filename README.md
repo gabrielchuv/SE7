@@ -4,7 +4,7 @@ This branch is based on the work from the technical workshops.
 
 ## Development server
 
-Thought it might be useful to have a copy an up to date copy in case anyone wanted to look at my execellent work to compare with.
+Thought it might be useful to have a copy of an up to date dashboard/demosite in case anyone wanted to look at my execellent work to compare with (also makes it easier to start working together).
 
 ## Worksheet:
 
