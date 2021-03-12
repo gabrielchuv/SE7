@@ -3,11 +3,11 @@
 This website is a tool for tracking and reducing household food waste. The website notifies/alerts (via selected medium ... email, website alerts, social alerts) when food is about to expire. The site acts as a hub page to track all food items you currently have, visualised by a fun, interactive fridge, you'll gain points for foods you use before the expiry timer hits **0**, if your dumb enough to let it hit 0 you'll be docked points and food waste santa will add you to the naughty list.
 
 ## **Group Members**
-1. Alex Digpal-Race (cr20208@bristol.ac.uk)
-2. Zain Kassam (dw20513@bristol.ac.uk)
-3. Anita Nguyen (wl20794@bristol.ac.uk)
-4. Jessica Sung (zu20706@bristol.ac.uk)
-5. Gabriel Chu Valdez (gabriel.chu.2020@bristol.ac.uk)
+* Alex Digpal-Race (cr20208@bristol.ac.uk)
+* Zain Kassam (dw20513@bristol.ac.uk)
+* Anita Nguyen (wl20794@bristol.ac.uk)
+* Jessica Sung (zu20706@bristol.ac.uk)
+* Gabriel Chu Valdez (gabriel.chu.2020@bristol.ac.uk)
 
 ## **The Process**
 
