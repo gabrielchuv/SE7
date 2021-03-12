@@ -1,6 +1,6 @@
 # **dontwastefood.no**
 
-1. This website is a tool for tracking and reducing household food waste. The website notifies/alerts (via selected medium ... email, website alerts, social alerts) when food is about to expire. The site acts as a hub page to track all food items you currently have, visualised by a fun, interactive fridge, you'll gain points for foods you use before the expiry timer hits **0**, if your dumb enough to let it hit 0 you'll be docked points and food waste santa will add you to the naughty list.
+This website is a tool for tracking and reducing household food waste. The website notifies/alerts (via selected medium ... email, website alerts, social alerts) when food is about to expire. The site acts as a hub page to track all food items you currently have, visualised by a fun, interactive fridge, you'll gain points for foods you use before the expiry timer hits **0**, if your dumb enough to let it hit 0 you'll be docked points and food waste santa will add you to the naughty list.
 
 # **Group Members**
 1. Alex OG Digpal-Race (cr20208@bristol.ac.uk)
