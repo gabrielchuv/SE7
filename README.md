@@ -2,12 +2,12 @@
 
 This website is a tool for tracking and reducing household food waste. The website notifies/alerts (via selected medium ... email, website alerts, social alerts) when food is about to expire. The site acts as a hub page to track all food items you currently have, visualised by a fun, interactive fridge, you'll gain points for foods you use before the expiry timer hits **0**, if your dumb enough to let it hit 0 you'll be docked points and food waste santa will add you to the naughty list.
 
-## **Group Members**
-* Alex Digpal-Race (cr20208@bristol.ac.uk)
-* Zain Kassam (dw20513@bristol.ac.uk)
-* Anita Nguyen (wl20794@bristol.ac.uk)
-* Jessica Sung (zu20706@bristol.ac.uk)
-* Gabriel Chu Valdez (gabriel.chu.2020@bristol.ac.uk)
+## **The Team**
+* [Alex Digpal-Race](https://github.com/alexDigpalRace) : <cr20208@bristol.ac.uk>
+* [Zain Kassam](https://github.com/Zainzzkk) : <dw20513@bristol.ac.uk>
+* [Anita Nguyen](https://github.com/ng0c) : <wl20794@bristol.ac.uk>
+* [Jessica Sung](https://github.com/jessicaksung) : <zu20706@bristol.ac.uk>
+* [Gabriel Chu Valdez](https://github.com/gabrielchuv) : <gabriel.chu.2020@bristol.ac.uk>
 
 ## **The Process**
 
@@ -27,7 +27,7 @@ This website is a tool for tracking and reducing household food waste. The websi
 * Design Process, Early prototyping and ideation
 * Identification of interacting users and broader stakeholders
 * UX approach – design heuristics/approach and methods
-* Understanding of user group 
+* Understanding of user group
 * The evolution of UI wireframes for key subsystems
 
 ### 4. [Sprints & Project Management](Portfolio/SprintsAndProjectManagement.md)
