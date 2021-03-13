@@ -3,9 +3,9 @@
 A brief description of what this section is about.
 
 ## Table of Contents
-- [Reflective Discussion of The Success of The Project](#reflective- discussion-of-the-success-of-the-project)
+- [Reflective Discussion of The Success of The Project](#reflective-discussion-of-the-success-of-the-project)
 	- [Reflection on Working Practices](#reflection-on-working-practices)
-- [Discussion of Future Work](#discussion-of-future work)
+- [Discussion of Future Work](#discussion-of-future-work)
 - [Social and Ethical Implications](#social-and-ethical-implications)
 
 ## Reflective Discussion of The Success of The Project
