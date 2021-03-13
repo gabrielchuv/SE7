@@ -39,12 +39,35 @@ Could include the powerpoint prototype
 
 ### Understanding of User Group
  questionnaires / user stories / interviews
+ 
+ * Iteration of user persona and evidence of data that backed up iterations
 
 ### The Stakeholders
 
 ## UX Approach
-Design heuristics/approach, design methods (design fiction / heuristics)
+We implemented several elements from 3 UX approaches: design thinking, lean UX, and systems thinking
+* Design thinking {explain importance and choice of this paradigm}
+  * Defined problem: {problem statement}
+  * Ideation: {summary of the ideation and concept development process}
+  * Wireframe: {summary of first wireframe's process (developed it from user stories) and link to full}
+  * Testing: {key takeaways from intial usability interviews and link to modified wireframe}
+* Lean UX {explain importance and choice of this paradigm}
+  * Assumptions: {outline initial assumptions (users, features, problem etc.) }
+  * Design: what was done above
+  * MVP: need to define MVP by prioritizing features
+* Systems thinking {explain importance and choice of this paradigm}
 
-### Design Heuristics
 
-## The Evolution of UI Wireframes
+## The Evolution of UI Wireframes and design heuristics
+
+* Design iteration
+  * 1st - from user stories - done
+  * 2nd - from usability test
+  * 3rd - from design heuristics and UX principles
+
+
+To do:
+* Usability testing - iterate on assumptions
+* User persona survey - iterate on assumptions
+* Prioritize MVP features
+* Launch MVP, drive traffic to it and gather feedback qualitative/quantitative
