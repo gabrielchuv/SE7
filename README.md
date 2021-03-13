@@ -33,7 +33,7 @@ This website is a tool for tracking and reducing household food waste. The websi
 ### 4. [Sprints & Project Management](Portfolio/SprintsAndProjectManagement.md)
 * The team's working methods
 * Summary of individual contributions
-* Documentation of your sprints (high level overview, timeline, and highlights)
+* Documentation of sprints (high level overview, timeline, and highlights)
 * The team's workflow
 
 ### 5. [Project Evaluation](Portfolio/ProjectEvaluation.md)
