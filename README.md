@@ -20,11 +20,11 @@ This website is a tool for tracking and reducing household food waste. The websi
 * Stack architecture
 * Back End - MongoDB - database implementation
 * Middle Tier - Express, Node, the RESTful API
-* Front End - Angular. Details of implementation
+* Front End - Angular
 * Deployment details (implementation of Docker)
 
 ### 3. [UX Design](Portfolio/UXDesign.md)
-* Design Process, Early prototyping and ideation
+* Design Process, early prototyping and ideation
 * Identification of interacting users and broader stakeholders
 * UX approach – design heuristics/approach and methods
 * Understanding of user group
