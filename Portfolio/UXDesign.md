@@ -46,19 +46,33 @@ Could include the powerpoint prototype
 
 ## UX Approach
 We implemented several elements from 3 UX approaches: design thinking, lean UX, and systems thinking
-* Design thinking {explain importance and choice of this paradigm}
-  * Defined problem: {problem statement}
-  * Ideation: {summary of the ideation and concept development process}
-  * Wireframe: {summary of first wireframe's process (developed it from user stories) and link to full}
-  * Testing: {key takeaways from intial usability interviews and link to modified wireframe}
-* Lean UX {explain importance and choice of this paradigm}
-  * Assumptions: {outline initial assumptions (users, features, problem etc.) }
-  * Design: what was done above
-  * MVP: need to define MVP by prioritizing features
-* Systems thinking {explain importance and choice of this paradigm}
+We took a pragmatic approach to implementing the user experience using elements from systems thinking, design thinking, and lean UX as necessary.
+In this section we outline the rationale behind the choice of these paradigms and the elements that we borrowed from them. The actual implementation
+is covered in the next section { link to section }.
+
+* Systems thinking: given the broader socio-environmental issue that we are trying to tackle, we used systems thinking to narrow down the scope
+  of our project and maximize our opportunity for impact. The implementation details are outlined in the Problem Scope section { link to section }
+
+* Design thinking: this paradigm allowed us to put the user at the centre of every decision we made. The elements that we implemented were:
+  * Problem definition: 
+  * User definition:
+  * Ideation:
+  * Wireframing:
+  * Testing:
+
+* Lean UX: we emphasized this approach to tighten our design feedback loop and move closer to a usable and valuable application faster
+  * Assumptions:{outline initial assumptions (users, features, problem etc.) }
+  * MVP
 
 
-## The Evolution of UI Wireframes and design heuristics
+## Our design timeline: an iterative approach
+
+* Stage 1
+  * Initial problem definition
+  * Initial user persona
+  * Double diamond sessions where we engaged in divergent and convergent thinking
+  
+
 
 * Design iteration
   * 1st - from user stories - done
