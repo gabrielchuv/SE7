@@ -3,6 +3,8 @@
 A brief description of what this section is about.
 
 ## Table of Contents
+- - [UX Approach](#ux-approach)
+	- [Design Heuristics](#design-heuristics)
 - [Design Process](#design-process)
 	- [Ideation and Concept Development](#ideation-and-concept-development)
 	- [Early Prototyping](#early-prototyping)
@@ -10,12 +12,66 @@ A brief description of what this section is about.
 	- [Identification of Interacting Users](#identification-of-interacting-users)
 	- [Understanding of User Group](#understanding-of-user-group)
 	- [The Stakeholders](#the-stakeholders)
-- [UX Approach](#ux-approach)
-	- [Design Heuristics](#design-heuristics)
 - [The Evolution of UI Wireframes](#the-evolution-of-ui-wireframes)
 
-## Design Process
-Brief introduction to how we approached this process.
+## UX Approach
+We took a pragmatic approach to implementing the user experience by using elements from systems thinking, design thinking, and lean UX as necessary.
+In this section we outline the rationale behind the choice of these paradigms and the elements that we borrowed from them. The actual implementation
+is covered in the following sections.
+
+* Systems thinking: given the broader socio-environmental issue that we are trying to tackle, we used systems thinking to narrow down the scope
+  of our project and maximize our opportunity for impact. The implementation details are outlined in the Problem Scope section { link to section }
+
+* Design thinking: this paradigm allowed us to put the user at the centre of every decision we made. The elements that we implemented were:
+  * Problem definition: 
+  * User definition:
+  * Ideation:
+  * Wireframing:
+  * Testing:
+
+* Lean UX: we emphasized this approach to tighten our design feedback loop and move closer to a usable and valuable application faster
+  * Assumptions:{outline initial assumptions (users, features, problem etc.) }
+  * MVP
+
+A word about user evaluation: user acceptance testing /evaluation of designs. Details will be provided in next sections 
+
+## Last versions of stuff
+
+### User
+
+#### User Persona
+#### User stories
+
+### Wireframe/mockup
+
+
+## Design Timeline
+
+* This section will outline and focus on the iterative nature of our design development. Initial versions of user personas, wireframes etc. and how they
+  evolved as we gathered more data and feedback. I would suggest doing it in chronological order.
+  
+* Ideation
+  * All the divergent/convergent activities (outlined below)
+  * Problem definition
+  * Initial user persona
+  * Prioritization of features
+  * User flow creation
+* Wireframing / early prototyping
+  * Balsamiq wireframing according to user stories
+  * Got feedback for first wireframe
+    * Changed our problem assumption accordingly and modified wireframe
+  * Got feedback from surveys
+    * Changed our target audience assumption accordingly
+  * -- NOT DONE YET -- Got feedback for second wireframe
+  * -- NOT DONE YET -- Design heuristics and UX principles session
+  * -- NOT DONE YET -- Prioritization of features for MVP
+  * -- NOT DONE YET -- (Maybe) - ful interaction flow diagram for prioritized features
+  * -- NOT DONE YET -- Drive traffic and gather qualitative/quantitative feedback
+  * -- NOT DONE YET -- Think of design/product future work
+
+To do:
+* Process survey data and re-define user persona
+* Target this persona in next user feedbac cycle
 
 ### Ideation & Concept Development
 **Problem statement:** Given the unsustainable amount of food waste, how might we help UK students and young professions (18-30s) be active in limiting their own food waste.
@@ -44,44 +100,3 @@ Could include the powerpoint prototype
 
 ### The Stakeholders
 
-## UX Approach
-We implemented several elements from 3 UX approaches: design thinking, lean UX, and systems thinking
-We took a pragmatic approach to implementing the user experience using elements from systems thinking, design thinking, and lean UX as necessary.
-In this section we outline the rationale behind the choice of these paradigms and the elements that we borrowed from them. The actual implementation
-is covered in the next section { link to section }.
-
-* Systems thinking: given the broader socio-environmental issue that we are trying to tackle, we used systems thinking to narrow down the scope
-  of our project and maximize our opportunity for impact. The implementation details are outlined in the Problem Scope section { link to section }
-
-* Design thinking: this paradigm allowed us to put the user at the centre of every decision we made. The elements that we implemented were:
-  * Problem definition: 
-  * User definition:
-  * Ideation:
-  * Wireframing:
-  * Testing:
-
-* Lean UX: we emphasized this approach to tighten our design feedback loop and move closer to a usable and valuable application faster
-  * Assumptions:{outline initial assumptions (users, features, problem etc.) }
-  * MVP
-
-
-## Our design timeline: an iterative approach
-
-* Stage 1
-  * Initial problem definition
-  * Initial user persona
-  * Double diamond sessions where we engaged in divergent and convergent thinking
-  
-
-
-* Design iteration
-  * 1st - from user stories - done
-  * 2nd - from usability test
-  * 3rd - from design heuristics and UX principles
-
-
-To do:
-* Usability testing - iterate on assumptions
-* User persona survey - iterate on assumptions
-* Prioritize MVP features
-* Launch MVP, drive traffic to it and gather feedback qualitative/quantitative
