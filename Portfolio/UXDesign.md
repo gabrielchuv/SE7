@@ -57,6 +57,7 @@ To do:
 * Process survey data and re-define user persona
 * Target this persona in next user feedbac cycle
 
+## Design Process 
 ### Ideation & Concept Development
 Design sessions were conducted to define the problem, develop the project idea and create wireframes to test with users. 
 1. Session 1: diverging ideas: each member brainstormed several ideas and those ideas were developed further as a group. 
