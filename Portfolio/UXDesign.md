@@ -60,19 +60,20 @@ To do:
 ## Design Process 
 ### Ideation & Concept Development
 Design sessions were conducted to define the problem, develop the project idea and create wireframes to test with users. 
-1. Session 1: diverging ideas: each member brainstormed several ideas and those ideas were developed further as a group. 
-2. Session 2: converging ideas: the team voted on the top 4 ideas. 
-3. Session 3: design thinking: the team was led throug a formal double-diamond design thinking session, divering and convering on project ideas. After deciding on issues and functions that was higher priority for the group, the idea of a food waste tracker was chosen.
-5. Session 4: brainstorming features: the team brainstormed features and prioritized them.
+Session 1: diverging ideas: each member brainstormed several ideas and those ideas were developed further as a group. 
+Session 2: converging ideas: the team voted on the top 4 ideas. 
+Session 3: design thinking: the team was led through a formal double-diamond design thinking session, divering and convering on various project ideas. The idea of a food waste tracker was chosen.
 
+![Miro board from double diamond design session](Images/designthinkingsession.jpg)
 
-![Miro board from multiple double diamond meetings](Images/mirosnapshot.png)
+Session 4: brainstorming features: the team brainstormed features and prioritized them into three categories: core features, useful features, nice to have.
 
+![Miro board for feature prioritization](Images/featureprioritization.jpg)
 
-7. Session 5: user persona and wireframing: discuss was had on the target user and the user flow. An outline of the wireframe was created with each page having a separate action (e.g main pain, log-in).
-8. Session 6: wireframing: the initial wireframe of a platform to remind users of expiring foods was completed. 
-9. Session 7: user testing with first wireframe prototype
-10. Session 8: evaluating feedback: key issues from the walk-through were discussed. The project idea shifted to a food waste calculated. A new wireframe was created. 
+Session 5: user persona and wireframing: The target user and the user flow were defined. An outline of the wireframe was created with each page having a specific task.
+Session 6: wireframing: the initial wireframe was completed.
+Session 7: the wireframe was tested with users. 
+Session 8: evaluating feedback: key issues from the walk-through were discussed. The project idea shifted to a food waste calculated. A new wireframe was created. 
 
 ### First Prototype: Reminder for Expiring Foods
 TODO
