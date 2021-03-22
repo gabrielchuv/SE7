@@ -60,8 +60,11 @@ To do:
 ## Design Process 
 ### Ideation & Concept Development
 Design sessions were conducted to define the problem, develop the project idea and create wireframes to test with users. 
+
 Session 1: diverging ideas: each member brainstormed several ideas and those ideas were developed further as a group. 
-Session 2: converging ideas: the team voted on the top 4 ideas. 
+
+Session 2: converging ideas: the team voted on the top 4 ideas.
+
 Session 3: design thinking: the team was led through a formal double-diamond design thinking session, divering and convering on various project ideas. The idea of a food waste tracker was chosen.
 
 ![Miro board from design thinking session](Images/1 Design Thinking Session.jpg)
@@ -71,8 +74,11 @@ Session 4: brainstorming features: the team brainstormed features and prioritize
 ![Miro board for feature prioritization](Images/2 Feature Prioritization.jpg)
 
 Session 5: user persona and wireframing: The target user and the user flow were defined. An outline of the wireframe was created with each page having a specific task.
+
 Session 6: wireframing: the initial wireframe was completed.
+
 Session 7: the wireframe was tested with users. 
+
 Session 8: evaluating feedback: key issues from the walk-through were discussed. The project idea shifted to a food waste calculated. A new wireframe was created. 
 
 ### First Prototype: Reminder for Expiring Foods
