@@ -63,11 +63,14 @@ Design sessions were conducted to define the problem, develop the project idea a
 1. Session 1: diverging ideas: each member brainstormed several ideas and those ideas were developed further as a group. 
 2. Session 2: converging ideas: the team voted on the top 4 ideas. 
 3. Session 3: design thinking: the team was led throug a formal double-diamond design thinking session, divering and convering on project ideas. After deciding on issues and functions that was higher priority for the group, the idea of a food waste tracker was chosen.
+5. Session 4: brainstorming features: the team brainstormed features and prioritized them.
+
+
 ![Miro board from multiple double diamond meetings](Images/mirosnapshot.png)
 
-5. Session 4: brainstorming features: the team brainstormed features and prioritized them.
-6. Session 5: user persona and wireframing: discuss was had on the target user and the user flow. An outline of the wireframe was created with each page having a separate action (e.g main pain, log-in).
-7. Session 6: wireframing: the initial wireframe of a platform to remind users of expiring foods was completed. 
+
+7. Session 5: user persona and wireframing: discuss was had on the target user and the user flow. An outline of the wireframe was created with each page having a separate action (e.g main pain, log-in).
+8. Session 6: wireframing: the initial wireframe of a platform to remind users of expiring foods was completed. 
 9. Session 7: user testing with first wireframe prototype
 10. Session 8: evaluating feedback: key issues from the walk-through were discussed. The project idea shifted to a food waste calculated. A new wireframe was created. 
 
@@ -82,10 +85,8 @@ The session highlighted key issues in usability and informed the next iteration 
 2. **The burden of inputting and editing food items was greater than the benefit of reminders.** Users agreed that the process of inputting and editing items involved “too many clicks.” One user commented, “It’s going to be faster to go to my fridge and check expiration dates instead of going to my laptop and inputting all of the foods.” 
 3. **The application promoted awareness but was not actionable to change behavior.** A user admitted that reminders of expiring food is good to know but would not incentivise him to reduce food waste. Information regarding money lost would: “If it tells me, 'You wasted $25 bucks,' I’m like 'ugh' I wasted $25. The next time I go grocery shopping, instead of getting a gallon of milk, I’ll get half that and adjust my grocery buying. After months or weeks hopefully I'm closer to 0 wastage.” He suggested providing a metric of food wasted and tackling the causes themselves including poor planning and over-buying. 
 
-User feedback informed the second prototype which calculates cost accrued for food wasted per individual. To address issues (1) and (2), users will only have to input food wasted, which is not dependent on when they shop for groceries. Less information is required from users to produce the output: a calculation of money lost and environmental damage done by food wasted. To address (3), users are informed of the amount of food wasted in pounds along with a personalized goal (e.g, buy fewer groceries). Social norming and a personalized goal could nudge behavior change. 
-
 ### Second Prototype: Food Waste Calculator
-TODO 
+User feedback informed the second prototype which calculates cost accrued for food wasted per individual. To address issues (1) and (2), users will only have to input food wasted, which is not dependent on when they shop for groceries. Less information is required from users to produce the output: a calculation of money lost and environmental damage done by food wasted. To address (3), users are informed of the amount of food wasted in pounds along with a personalized goal (e.g, buy fewer groceries). Social norming and a personalized goal could nudge behavior change. 
 
 ### User Feedback: Wireframe Walk-through 
 TODO 
