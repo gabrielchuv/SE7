@@ -68,6 +68,7 @@ Session 2: converging ideas: the team voted on the top 4 ideas.
 Session 3: design thinking: the team was led through a formal double-diamond design thinking session, divering and convering on various project ideas. The idea of a food waste tracker was chosen.
 
 ![Miro board from design thinking session](Images/1 Design Thinking Session.jpg)
+![Miro board from design thinking session](https://github.com/gabrielchuv/SE7/Portfolio/Images/design_thinking.jpg)
 
 Session 4: brainstorming features: the team brainstormed features and prioritized them into three categories: core features, useful features, nice to have.
 
