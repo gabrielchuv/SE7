@@ -10,6 +10,7 @@ A brief description of what this section is about.
 
 ## The Team's Working Methods
 Group working methods used (for instance did your team choose a particular style of agile? what communication channels did you use?)
+Projects on github used for tracking database progress and changes so it is possible to see which stage we are on
 
 ## Summary of Individual Contributions
 Discussion of team roles (specialisation is ok!). A summary of individual contributions
