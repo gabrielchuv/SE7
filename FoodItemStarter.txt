@@ -1,0 +1,94 @@
+An insert many command for instantly setting up a database with a 'starter pack' of food items for working with an MVP:
+
+db.fooditem.insertMany([
+    {
+        name: 'banana',
+        avg_mass: 118,
+        avg_cost: 0.13,
+        category: 'fruit',
+        date_added: 20/29/09
+    },
+    {
+        name: 'egg',
+        avg_mass: 50,
+        avg_cost: 0.15,
+        category: 'egg',
+        date_added: 20/29/09
+    },
+    {
+        name: 'cucucumber',
+        avg_mass: 400,
+        avg_cost: 0.43,
+        category: 'fruit',
+        date_added: 20/29/09
+    },
+    {
+        name: 'carrot',
+        avg_mass: 100,
+        avg_cost: 0.04,
+        category: 'vegetable',
+        date_added: 20/29/09
+    },
+    {
+        name: 'rice',
+        avg_mass: 1000,
+        avg_cost: 1.60,
+        category: 'grain',
+        date_added: 20/29/09
+    },
+    {
+        name: 'milk',
+        avg_volume: 2.27,
+        avg_cost: 1.09,
+        category: 'dairy',
+        date_added: 20/29/09
+    },
+    {
+        name: 'salmon',
+        avg_mass: 120,
+        avg_cost: 1.75,
+        category: 'fish',
+        date_added: 20/29/09
+    },
+    {
+        name: 'steak',
+        avg_mass: 170,
+        avg_cost: 5,
+        category: 'meat',
+        date_added: 20/29/09
+    }
+])
+
+
+Sources:
+bananas as per tesco in march 2021: https://www.tesco.com/groceries/en-GB/products/275280804
+Cost: £0.13
+Mass: 180g
+
+eggs as per tesco ^ : https://www.tesco.com/groceries/en-GB/products/250802613
+Cost: £0.15
+Mass: 50g
+
+cucumber ^ : https://www.tesco.com/groceries/en-GB/products/253558972
+Cost: £0.43
+Mass: 400g
+
+carrot ^ : https://www.tesco.com/groceries/en-GB/products/254638565
+Cost: £0.04
+Mass: 100g
+
+(pack of) rice ^ : https://www.tesco.com/groceries/en-GB/products/254877477
+Cost: £1.60
+Mass: 1000g
+
+(bottle of) milk ^ : https://www.tesco.com/groceries/en-GB/products/254656399
+Cost: £1.09
+Volume: 2.27L
+
+salmon fillet ^ : https://www.tesco.com/groceries/en-GB/products/296920881
+Cost: £1.75
+Mass 130g
+
+steak fillet ^ : https://www.tesco.com/groceries/en-GB/search?query=steak
+Cost: £5
+Mass: 170g
