@@ -6,56 +6,56 @@ db.fooditem.insertMany([
         avg_mass: 118,
         avg_cost: 0.13,
         category: 'fruit',
-        date_added: 20/29/09
+        date_added: Date()
     },
     {
         name: 'egg',
         avg_mass: 50,
         avg_cost: 0.15,
         category: 'egg',
-        date_added: 20/29/09
+        date_added: Date()
     },
     {
         name: 'cucucumber',
         avg_mass: 400,
         avg_cost: 0.43,
         category: 'fruit',
-        date_added: 20/29/09
+        date_added: Date()
     },
     {
         name: 'carrot',
         avg_mass: 100,
         avg_cost: 0.04,
         category: 'vegetable',
-        date_added: 20/29/09
+        date_added: Date()
     },
     {
         name: 'rice',
         avg_mass: 1000,
         avg_cost: 1.60,
         category: 'grain',
-        date_added: 20/29/09
+        date_added: Date()
     },
     {
         name: 'milk',
         avg_volume: 2.27,
         avg_cost: 1.09,
         category: 'dairy',
-        date_added: 20/29/09
+        date_added: Date()
     },
     {
         name: 'salmon',
         avg_mass: 120,
         avg_cost: 1.75,
         category: 'fish',
-        date_added: 20/29/09
+        date_added: Date()
     },
     {
         name: 'steak',
         avg_mass: 170,
         avg_cost: 5,
         category: 'meat',
-        date_added: 20/29/09
+        date_added: Date()
     }
 ])
 
