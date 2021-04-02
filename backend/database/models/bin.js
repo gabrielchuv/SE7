@@ -1,14 +1,20 @@
 const mongoose = require('mongoose');
 const fooditem = require('./fooditem');
 
+//types all string as mongoose cannot deal with floating point numbers so will need to parse server side
 const BinSchema = new mongoose.Schema({
-    id: {
-        type: Number,
+    food: {
+        type: String,
         required: true
     },
-    foods: {
-        type: [mongoose.Types.ObjectId]
-    } 
+    quantity: {
+        type: String,
+        required: true
+    },
+    date_added: {
+        type: Date,
+        default: Date.now
+    }
 });
 
 //create the model base on above scheme

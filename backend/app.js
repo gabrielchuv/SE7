@@ -16,22 +16,88 @@ app.use((req, res, next) => {
     next();
 })
 
-// URL - Restful API CRRUD
-//get a bin
-app.get('/bin', (req, res) => {
-    bin.find({})
-        .then(bin => res.send(bin))
-        .catch((error) => console.log(error));
-})
-
-//add food item to the bin
+// RESTFUL API FOR BIN
+//CREATE a bin
 app.post('/bin', (req, res) => {
     //create new food item with given parameters
-    (new bin({ 'id': req.body.id }))
+    (new bin({ 'food': req.body.food, 'quantity': req.body.quantity }))
         .save()
         .then((bin) => res.send(bin))
         .catch((error) => console.log(error));
-})
+});
+
+//READ all bins
+app.get('/bin', (req, res) => {
+    bin.find({})
+        .then((bin) => res.send(bin))
+        .catch((error) => console.log(error));
+});
+
+//READ A bin
+app.get('/bin/:id', (req, res) => {
+    bin.findOne({ _id: req.params.id })
+        .then((bin) => res.send(bin))
+        .catch((error) => console.log(error));
+});
+
+//update a bin (patch as following RESTfull), $set automatically matches values
+app.patch('/bin/:id', (req, res) => {
+    //$set to automatically set each field
+    bin.findOneAndUpdate({ '_id': req.params.id }, { $set: req.body })
+        .then((bin) => res.send(bin))
+        .catch((error) => console.log(error));
+});
+
+//DELETE ALL bins (FOR EASY DEBUGGING)
+app.delete('/bin/deleteall', (req, res) => {
+    bin.deleteMany({})
+        .then(bin => res.send(bin))
+        .catch((error) => console.log(error));
+});
+
+//DELETE A bin
+app.delete('/bin/:id', (req, res) => {
+    bin.findByIdAndDelete(req.params.id)
+        .then(bin => res.send(bin))
+        .catch((error) => console.log(error));
+});
+
+// RESTFUL API FOR FOOD ITEMS http://localhost:3000/search/foods/:foodname
+// CREATE a food item
+app.post('/search/foods/create', (req, res) => {
+    (new fooditem({ 'name': req.body.name, 'mass': req.body.mass, 'cost': req.body.cost, 'category': req.body.category }))
+        .save()
+        .then((fooditem) => res.send(fooditem))
+        .catch((error) => console.log(error));
+});
+
+//READ ALL FOOD ITEMS
+app.get('/search/foods', (req, res) => {
+    fooditem.find({})
+        .then((fooditem) => res.send(fooditem))
+        .catch((error) => console.log(error));
+});
+
+//READ A FOOD ITEM
+app.get('/search/foods/:foodname', (req, res) => {
+    fooditem.findOne({ 'name': req.params.foodname })
+        .then((fooditem) => res.send(fooditem))
+        .catch((error) => console.log(error));
+});
+
+//UPDATE A FOOD ITEM
+app.patch('/search/foods/:foodname', (req, res) => {
+    fooditem.findOneAndUpdate({ 'name': req.params.foodname }, { $set: req.body })
+        .then((fooditem) => res.send(fooditem))
+        .catch((error) => console.log(error));
+});
+
+//DELETE A FOOD ITEM
+app.delete('/search/foods/delete/:foodname', (req, res) => {
+    fooditem.findOneAndDelete({ 'name': req.params.foodname })
+        .then((fooditem) => res.send(fooditem))
+        .catch((error) => console.log(error));
+});
 
 
 //connect server to local host port 3000 and print to console

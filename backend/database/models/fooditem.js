@@ -1,25 +1,22 @@
 const mongoose = require('mongoose');
 
+//like bin, types are all Strings as mongoose cant deal with floating point numbers, mass? and cost will require parsing
 const FoodItemSchema = new mongoose.Schema({
     name: {
         type: String,
         required: true
     },
     mass: {
-        type: Number,
+        type: String,
         required: true
     },
     cost: {
-        type: Number,
+        type: String,
         required: true
     },
     category: {
         type: String
     },
-    date: {
-        type: Date,
-        required: true
-    }
 })
 
 //create the model base on above scheme
