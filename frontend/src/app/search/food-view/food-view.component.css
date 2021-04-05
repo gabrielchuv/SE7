@@ -1,0 +1,63 @@
+.food-manager-container {
+    display: flex;
+    margin: 25px;
+    width: 100%;
+    height: 100%;
+    background: green;
+    max-width: 900px;
+    max-height: 500px;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 100%;
+    background: #201d1d;
+    padding: 42px;
+    border-radius: 8px 0px 0px 8px;
+}
+
+.has-text-primary {
+    color: antiquewhite;
+    font-size: 30px;
+}
+
+.food-list-container {
+    background: teal;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    padding: 42px;
+}
+
+.food-item {
+    background-color: blue;
+    padding: 15px 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.circle-add-button {
+    position: absolute;
+    bottom: 35px;
+    right: 35px;
+    height: 50px;
+    border: none;
+    border-radius: 50%;
+}
+
+.food-delete {
+    color: red;
+    padding: 0px 5px;
+}
+
+.white-text {
+    color: white;
+    font-size: 12px;
+}
+
+.pull-right {
+    float: right;
+}

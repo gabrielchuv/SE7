@@ -1,8 +1,11 @@
 const mongoose = require('mongoose');
-const fooditem = require('./fooditem');
 
 //types all string as mongoose cannot deal with floating point numbers so will need to parse server side
 const BinSchema = new mongoose.Schema({
+    usrID: {
+        type: String,
+        required: true
+    },
     food: {
         type: String,
         required: true

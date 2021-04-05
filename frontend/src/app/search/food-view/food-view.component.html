@@ -1,5 +1,17 @@
 <form>
-    <label for="sbar">Enter a food item...</label><br>
-    <input type="text" id="sbar" name="sbar">
-    <input type="submit" value="Enter"><br>
+    <div class="food-manager-container">
+        <div class="sidebar">
+            <h1 class="has-text-primary">Enter a food item</h1>
+            <input type="text" id="sbar" name="sbar">
+            <input type="submit" value="Enter"><br>
+            <div class="food-list-container">
+                <a class="food-item" *ngFor="let fooditem of fooditems">
+                    <p class="white-text"> 
+                        <span class="food-delete pull-right">X</span>
+                        {{ fooditem.name }}
+                    </p>
+                </a>
+            </div>
+        </div>
+    </div>
 </form>

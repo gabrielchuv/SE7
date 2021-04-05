@@ -1,6 +1,6 @@
 //defines the structure of the fooditem object received from the backend
 
-export default class fooditem {
+export default class Fooditem {
     _id: string | undefined;
     name: string | undefined;
     mass: string | undefined;

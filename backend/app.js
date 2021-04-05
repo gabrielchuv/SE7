@@ -20,7 +20,7 @@ app.use((req, res, next) => {
 //CREATE a bin
 app.post('/bin', (req, res) => {
     //create new food item with given parameters
-    (new bin({ 'food': req.body.food, 'quantity': req.body.quantity }))
+    (new bin({ 'usrID': req.body.usrID, 'food': req.body.food, 'quantity': req.body.quantity }))
         .save()
         .then((bin) => res.send(bin))
         .catch((error) => console.log(error));
@@ -35,15 +35,15 @@ app.get('/bin', (req, res) => {
 
 //READ A bin
 app.get('/bin/:id', (req, res) => {
-    bin.findOne({ _id: req.params.id })
+    bin.find({ 'usrID': req.params.id })
         .then((bin) => res.send(bin))
         .catch((error) => console.log(error));
 });
 
 //update a bin (patch as following RESTfull), $set automatically matches values
-app.patch('/bin/:id', (req, res) => {
+app.patch('/bin/:usrid/:id', (req, res) => {
     //$set to automatically set each field
-    bin.findOneAndUpdate({ '_id': req.params.id }, { $set: req.body })
+    bin.findOneAndUpdate({ 'usrID': req.params.usrid, '_id': req.params.id }, { $set: req.body })
         .then((bin) => res.send(bin))
         .catch((error) => console.log(error));
 });
@@ -57,7 +57,7 @@ app.delete('/bin/deleteall', (req, res) => {
 
 //DELETE A bin
 app.delete('/bin/:id', (req, res) => {
-    bin.findByIdAndDelete(req.params.id)
+    bin.deleteMany({ 'usrID': req.params.id })
         .then(bin => res.send(bin))
         .catch((error) => console.log(error));
 });
