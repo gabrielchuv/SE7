@@ -29,9 +29,9 @@ export class FoodViewComponent implements OnInit {
     //using the get ALL foods method to pass back the current fooditems observable
     //subscribe enables us to asynchronously monitor the above observable for any changes and automatically change if there are some
     this.searchService.getFoods()
-      .subscribe((fooditems: any) => this.fooditems = fooditems);
-    
-    //get the uri foodname and search for it using the foodname
+      .subscribe((fooditems: any) => this.fooditems = fooditems); //get the uri foodname and search for it using the foodname
+
+      //get the uri foodname and search for it using the foodname
     this.route.params.subscribe((params: Params) => {
       this.fooditemName = params.foodname;  //get the name of the food from the uri and save it to class
       if (!this.fooditemName) return;          //if null return...
@@ -39,13 +39,15 @@ export class FoodViewComponent implements OnInit {
     })
   }
 
-
-  onCloseClick() {
-    
-  }
+  /*onFoodIconClick() {
+    this.route.params.subscribe((params: Params) => {
+      this.fooditemName = params.foodname;  //get the name of the food from the uri and save it to class
+      if (!this.fooditemName) return;          //if null return...
+      this.searchService.getFood(this.fooditemName).subscribe((fooditem: any) => this.fooditem = fooditem);
+    })
+  }*/
 
   onCreateClick() {
-    //this.searchService.createFood;
   }
 
   onDeleteClick(fooditem: Fooditem) {
@@ -54,8 +56,18 @@ export class FoodViewComponent implements OnInit {
       .subscribe((fooditems: any) => this.fooditems = this.fooditems.filter(f => f.name != fooditem.name));
   }
 
-  searchForFoods(value: string) {
-    this.searchService.getFood(value)
-      .subscribe(() => this.fooditems = this.fooditems.filter(f => f.name == value));
+  /*searchForFood(value: string) {
+    if (value == "*") {
+      this.router.navigate(['./foods'], { relativeTo: this.route });
+      this.searchService.getFoods()
+        .subscribe((fooditems: any) => this.fooditems = fooditems);
+    } else {
+      this.searchService.getFood(value)
+        .subscribe(() => this.fooditems = this.fooditems.filter(f => f.name == value));
+    }
+  }*/
+
+  onAddToBinClick(fooditem: Fooditem) {
+    
   }
 }

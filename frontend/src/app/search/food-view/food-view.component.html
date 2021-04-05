@@ -3,7 +3,7 @@
         <div class="sidebar">
             <h1 class="has-text-primary">Search for food...</h1>
             <input #searchInput type="text" class="form-control has-background-light" placeholder="Enter a food item">
-            <button class="btn btn-primary" (click)="searchForFoods(searchInput.value)">Enter</button><br>
+            <button class="btn btn-primary">Enter</button><br>
             <div class="food-list-container">
                 <a class="food-item" *ngFor="let fooditem of fooditems" [routerLink]="['/search/foods/', fooditem.name]">
                     <p class="white-text">
@@ -23,6 +23,7 @@
                     Category: {{ fooditem.category }}<br>
                 </p>
                 <button class="btn btn-primary delete-food-text" (click)="onDeleteClick(fooditem)">Delete food item</button><br>
+                <button class="btn btn-light create-food-text" (click)="onAddToBinClick(fooditem)">Add food item to bin</button><br>
             </div>
         </div>
     </div>
