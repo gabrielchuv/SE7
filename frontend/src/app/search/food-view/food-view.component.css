@@ -48,8 +48,8 @@
     border-radius: 50%;
 }
 
-.food-delete {
-    color: red;
+.food-details-close {
+    color: black;
     padding: 0px 5px;
 }
 
@@ -60,4 +60,30 @@
 
 .pull-right {
     float: right;
+}
+
+.food-details-container {
+    background: blueviolet;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    padding: 42px;
+}
+
+.food-details {
+    background-color: blue;
+    padding: 15px 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.create-food-text {
+    font-size: medium;
+    color: green;
+}
+
+.delete-food-text {
+    font-size: medium;
+    color: red;
 }

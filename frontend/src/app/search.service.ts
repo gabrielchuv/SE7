@@ -51,8 +51,12 @@ export class SearchService {
   }
 
   //update a food item
-  updateFooditem(id: string, fooditem: Fooditem) {
-    return this.WebService.patch(`bin/${id}`, { name: fooditem.name, mass: fooditem.mass, cost: fooditem.cost, category: fooditem.category})
+  updateFooditem(name: string, fooditem: Fooditem) {
+    return this.WebService.patch(`search/foods/${name}`, { name: fooditem.name, mass: fooditem.mass, cost: fooditem.cost, category: fooditem.category})
   }
 
+  //delete a food item
+  deleteFooditem(name: string) {
+    return this.WebService.delete(`search/foods/${name}`);
+  }
 }

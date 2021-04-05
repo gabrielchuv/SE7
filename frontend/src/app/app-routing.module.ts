@@ -3,7 +3,9 @@ import { RouterModule, Routes } from '@angular/router';
 import { FoodViewComponent } from './search/food-view/food-view.component';
 
 const routes: Routes = [
-  { path: '', component: FoodViewComponent }
+  { path: '', redirectTo: 'search', pathMatch: 'full' },    //full makes sure its goes to exactly search and not search/something
+  { path: 'search', component: FoodViewComponent },
+  { path: 'search/foods/:foodname', component: FoodViewComponent },
 ];
 
 @NgModule({
