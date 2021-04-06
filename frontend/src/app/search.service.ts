@@ -1,3 +1,5 @@
+//frontend angular service which handles the http requests that will go to the backend api
+
 import { Injectable } from '@angular/core';
 import { WebService } from './web.service';
 import Fooditem from './models/fooditem';
@@ -42,7 +44,7 @@ export class SearchService {
 
   //get all food items
   getFoods() {
-    return this.WebService.get('search/foods')
+    return this.WebService.get('search/foods/all')
   }
 
   //get a food item

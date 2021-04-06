@@ -72,7 +72,7 @@ app.post('/search/foods/create', (req, res) => {
 });
 
 //READ ALL FOOD ITEMS
-app.get('/search/foods', (req, res) => {
+app.get('/search/foods/all', (req, res) => {
     fooditem.find({})
         .then((fooditem) => res.send(fooditem))
         .catch((error) => console.log(error));

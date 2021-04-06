@@ -1,3 +1,5 @@
+//wrapper class for HttpClient (extracting only the methods we need)
+
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { ThrowStmt } from '@angular/compiler';

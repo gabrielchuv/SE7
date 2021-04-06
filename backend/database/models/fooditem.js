@@ -1,6 +1,8 @@
-const mongoose = require('mongoose');
+//backend models describe the different documents expected to be inputted to the BIN collection (table)
+const mongoose = require('mongoose');   //instantiat a mongoose object to access the mongoose library/methods
 
 //like bin, types are all Strings as mongoose cant deal with floating point numbers, mass? and cost will require parsing
+//possibly need to add a volume for liquid food items e.g. milk (or just change mass to be generic like 'amount')
 const FoodItemSchema = new mongoose.Schema({
     name: {
         type: String,

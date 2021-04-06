@@ -5,6 +5,7 @@ import { FoodViewComponent } from './search/food-view/food-view.component';
 const routes: Routes = [
   { path: '', redirectTo: 'search', pathMatch: 'full' },    //full makes sure its goes to exactly search and not search/something
   { path: 'search', component: FoodViewComponent },
+  { path: 'search/foods/all', component: FoodViewComponent },
   { path: 'search/foods/:foodname', component: FoodViewComponent },
 ];
 

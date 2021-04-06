@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router, Params } from '@angular/router';
 import Fooditem from 'src/app/models/fooditem';
 import { SearchService } from 'src/app/search.service';
+import { FormControl } from '@angular/forms';
 
 @Component({
   selector: 'app-food-view',
@@ -10,6 +11,8 @@ import { SearchService } from 'src/app/search.service';
 })
 export class FoodViewComponent implements OnInit {
 
+  //form control instance used for searching
+  searchControl = new FormControl('');    //intial value is empty string as this will be updated when user enters something to search for...
   //array of food items, initially empty
   fooditems: Fooditem[] = [];
   //food item (on click display info)
@@ -26,17 +29,19 @@ export class FoodViewComponent implements OnInit {
 
   //prevents access to ng things before its laoded on the page
   ngOnInit() {
-    //using the get ALL foods method to pass back the current fooditems observable
-    //subscribe enables us to asynchronously monitor the above observable for any changes and automatically change if there are some
-    this.searchService.getFoods()
-      .subscribe((fooditems: any) => this.fooditems = fooditems); //get the uri foodname and search for it using the foodname
+  }
 
-      //get the uri foodname and search for it using the foodname
-    this.route.params.subscribe((params: Params) => {
-      this.fooditemName = params.foodname;  //get the name of the food from the uri and save it to class
-      if (!this.fooditemName) return;          //if null return...
-      this.searchService.getFood(this.fooditemName).subscribe((fooditem: any) => this.fooditem = fooditem);
-    })
+  onSearch() {
+    let foodString = this.searchControl.value;
+    //get all foods if user hasnt type in a food
+    if (foodString == "") {
+      this.searchService.getFoods()
+        .subscribe((fooditems: any) => this.fooditems = fooditems);
+    //get specific food item user has searched for
+    } else {
+      this.searchService.getFood(foodString)
+        .subscribe(() => this.fooditems = this.fooditems.filter(f => f.name == foodString));   //.filter will return a filtered array where conds match, need to save that back into classes array
+    }
   }
 
   /*onFoodIconClick() {
@@ -55,17 +60,6 @@ export class FoodViewComponent implements OnInit {
     this.searchService.deleteFooditem(this.fooditemName)
       .subscribe((fooditems: any) => this.fooditems = this.fooditems.filter(f => f.name != fooditem.name));
   }
-
-  /*searchForFood(value: string) {
-    if (value == "*") {
-      this.router.navigate(['./foods'], { relativeTo: this.route });
-      this.searchService.getFoods()
-        .subscribe((fooditems: any) => this.fooditems = fooditems);
-    } else {
-      this.searchService.getFood(value)
-        .subscribe(() => this.fooditems = this.fooditems.filter(f => f.name == value));
-    }
-  }*/
 
   onAddToBinClick(fooditem: Fooditem) {
     

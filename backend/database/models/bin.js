@@ -1,6 +1,7 @@
-const mongoose = require('mongoose');
+//backend models describe the different documents expected to be inputted to the BIN collection (table)
+const mongoose = require('mongoose');   //instantiate a mongoose object to access the mongoose library/methods
 
-//types all string as mongoose cannot deal with floating point numbers so will need to parse server side
+//type is all strings as mongoose cannot deal with floating point numbers so will need to parse server side
 const BinSchema = new mongoose.Schema({
     usrID: {
         type: String,
@@ -20,7 +21,7 @@ const BinSchema = new mongoose.Schema({
     }
 });
 
-//create the model base on above scheme
+//create a model based on above scheme
 const Bin = mongoose.model('Bin', BinSchema);
 //export the model so its available else where
 module.exports = Bin;
