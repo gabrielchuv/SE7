@@ -3,8 +3,9 @@
         <div class="sidebar">
             <h1 class="has-text-primary">Search for food...</h1>
             <input type="text" class="form-control has-background-light" [formControl]="searchControl" placeholder="Enter a food item">
-            <button class="btn btn-primary" (click)="onSearch()" >Enter</button><br>
+            <button type="button" class="btn btn-primary" (click)="onSearch()">Search</button><br>
             <div class="food-list-container">
+                <a class="food-item" *ngFor="let food of fooditems" (click)="onMoreDetails()" [routerLink]="['/search/moredetails',food.name]">{{ food.name }}</a>
             </div>
         </div>
         <div class="food-details-container">
@@ -16,8 +17,6 @@
                     Cost: {{ fooditem.cost }}<br>
                     Category: {{ fooditem.category }}<br>
                 </p>
-                <button class="btn btn-primary delete-food-text" (click)="onDeleteClick(fooditem)">Delete food item</button><br>
-                <button class="btn btn-light create-food-text" (click)="onAddToBinClick(fooditem)">Add food item to bin</button><br>
             </div>
         </div>
     </div>

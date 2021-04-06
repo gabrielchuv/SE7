@@ -3,6 +3,8 @@ import { ActivatedRoute, Router, Params } from '@angular/router';
 import Fooditem from 'src/app/models/fooditem';
 import { SearchService } from 'src/app/search.service';
 import { FormControl } from '@angular/forms';
+import { Observable, observable } from 'rxjs';
+import { stringify } from '@angular/compiler/src/util';
 
 @Component({
   selector: 'app-food-view',
@@ -16,9 +18,10 @@ export class FoodViewComponent implements OnInit {
   //array of food items, initially empty
   fooditems: Fooditem[] = [];
   //food item (on click display info)
-  fooditem: Fooditem | any;
+  fooditem: Fooditem | undefined;
   //for saving fooditem name user is viewing in further detail
-  fooditemName: string = "";
+  userSearchFood: string = "";
+  foodName: string | undefined;
 
   //link a search service instance on creation
   constructor(
@@ -29,39 +32,32 @@ export class FoodViewComponent implements OnInit {
 
   //prevents access to ng things before its laoded on the page
   ngOnInit() {
+    this.searchControl.valueChanges.subscribe((word: string) => {
+      this.userSearchFood = word;
+      console.log(`search word changing: ${word}`);
+    });
   }
-
+  //TODO: add error handling for non existant food items
   onSearch() {
-    let foodString = this.searchControl.value;
-    //get all foods if user hasnt type in a food
-    if (foodString == "") {
-      this.searchService.getFoods()
-        .subscribe((fooditems: any) => this.fooditems = fooditems);
-    //get specific food item user has searched for
+    if (this.userSearchFood == "") {
+      //subscription displays database results and will update if there are any changes to the database files
+      this.searchService.getFoods().subscribe((fooditems: any) => {
+        this.fooditems = fooditems;
+      })
     } else {
-      this.searchService.getFood(foodString)
-        .subscribe(() => this.fooditems = this.fooditems.filter(f => f.name == foodString));   //.filter will return a filtered array where conds match, need to save that back into classes array
+      this.searchService.getFood(this.userSearchFood).subscribe((fooditem: any) => {
+        this.fooditems = [];
+        this.fooditems.push(fooditem);
+      })
     }
+    //using the search bar i want to filter the above results (which is all foods) down to one that reflects the users search
   }
 
-  /*onFoodIconClick() {
+  onMoreDetails() {
     this.route.params.subscribe((params: Params) => {
-      this.fooditemName = params.foodname;  //get the name of the food from the uri and save it to class
-      if (!this.fooditemName) return;          //if null return...
-      this.searchService.getFood(this.fooditemName).subscribe((fooditem: any) => this.fooditem = fooditem);
-    })
-  }*/
-
-  onCreateClick() {
-  }
-
-  onDeleteClick(fooditem: Fooditem) {
-    console.log(fooditem);
-    this.searchService.deleteFooditem(this.fooditemName)
-      .subscribe((fooditems: any) => this.fooditems = this.fooditems.filter(f => f.name != fooditem.name));
-  }
-
-  onAddToBinClick(fooditem: Fooditem) {
-    
+      this.foodName = params.foodname;
+      if (!this.foodName) return;
+      this.searchService.getFood(this.foodName).subscribe((fooditem: any) => this.fooditem = fooditem);
+    });
   }
 }

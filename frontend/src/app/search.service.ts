@@ -42,9 +42,8 @@ export class SearchService {
     return this.WebService.post('search/foods/create', { name, mass, cost, category });
   }
 
-  //get all food items
   getFoods() {
-    return this.WebService.get('search/foods/all')
+    return this.WebService.get(`search/foods/all`);
   }
 
   //get a food item
