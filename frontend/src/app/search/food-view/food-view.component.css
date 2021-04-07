@@ -29,15 +29,19 @@
     display: flex;
     flex-direction: column;
     flex-grow: 1;
+    max-height: 500px;
     padding: 42px;
+    overflow-y:scroll;
+    margin: auto;
 }
 
 .food-item {
-    background-color: blue;
+    background-color:brown;
     padding: 15px 20px;
     margin-top: 10px;
     border-radius: 5px;
     color: aliceblue;
+    font-size:small;
 }
 
 .circle-add-button {

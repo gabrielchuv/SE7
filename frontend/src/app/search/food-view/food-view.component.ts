@@ -42,12 +42,23 @@ export class FoodViewComponent implements OnInit {
     if (this.userSearchFood == "") {
       //subscription displays database results and will update if there are any changes to the database files
       this.searchService.getFoods().subscribe((fooditems: any) => {
-        this.fooditems = fooditems;
+         this.fooditems = fooditems;
+        
       })
     } else {
       this.searchService.getFood(this.userSearchFood).subscribe((fooditem: any) => {
-        this.fooditems = [];
-        this.fooditems.push(fooditem);
+        next: {
+          if (fooditem) {
+            this.fooditems = [];
+            this.fooditems.push(fooditem);
+          }
+        }
+        error: {
+          //clear the array
+          this.fooditems = [];
+          //push into it a new error food item
+          this.fooditems.push({ _id: "error", name:"Item not found: try another one", mass: "error", cost: "error", category: "go away" });
+        }
       })
     }
   }
