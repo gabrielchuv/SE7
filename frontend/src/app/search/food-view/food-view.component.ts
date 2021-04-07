@@ -1,10 +1,8 @@
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute, Router, Params } from '@angular/router';
+import { ActivatedRoute, Router} from '@angular/router';
 import Fooditem from 'src/app/models/fooditem';
-import { SearchService } from 'src/app/search.service';
+import { SearchService } from '../../common/services/search.service';
 import { FormControl } from '@angular/forms';
-import { Observable, observable } from 'rxjs';
-import { stringify } from '@angular/compiler/src/util';
 
 @Component({
   selector: 'app-food-view',
@@ -62,7 +60,6 @@ export class FoodViewComponent implements OnInit {
   }
 
   onMoreDetails(food: string) {
-
       if (!food) return;
       this.searchService.getFood(food).subscribe((fooditem: any) => this.fooditem = fooditem);
   }
