@@ -2,8 +2,8 @@
 
 import { Injectable } from '@angular/core';
 import { WebService } from './web.service';
-import Fooditem from './models/fooditem';
-import Bin from './models/bin'
+import Fooditem from '../../models/fooditem';
+import Bin from '../../models/bin';
 
 @Injectable({
   providedIn: 'root'
@@ -12,7 +12,7 @@ export class SearchService {
 
   constructor(private WebService: WebService) { }
 
-  //create a bin 
+  //create a bin
   createBin( usrID: string , food: string, quantity: string) {
     return this.WebService.post('bin', { usrID, food, quantity });
   }
