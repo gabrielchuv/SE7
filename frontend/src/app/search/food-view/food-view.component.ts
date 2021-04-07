@@ -48,10 +48,8 @@ export class FoodViewComponent implements OnInit {
     } else {
       this.searchService.getFood(this.userSearchFood).subscribe((fooditem: any) => {
         next: {
-          if (fooditem) {
             this.fooditems = [];
             this.fooditems.push(fooditem);
-          }
         }
         error: {
           //clear the array
