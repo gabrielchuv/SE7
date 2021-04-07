@@ -2,8 +2,8 @@
 
 import { Injectable } from '@angular/core';
 import { WebService } from './web.service';
-import Fooditem from './models/fooditem';
-import Bin from './models/bin'
+import Fooditem from '../../models/fooditem';
+import Bin from '../../models/bin'
 
 @Injectable({
   providedIn: 'root'
