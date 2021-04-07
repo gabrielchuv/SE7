@@ -2,10 +2,10 @@
     <div class="food-manager-container">
         <div class="sidebar">
             <h1 class="has-text-primary">Search for food...</h1>
-            <input type="text" class="form-control has-background-light" [formControl]="searchControl" placeholder="Enter a food item">
+            <input type="text" (keydown.enter)="$event.preventDefault()" class="form-control has-background-light" [formControl]="searchControl" placeholder="Enter a food item">
             <button type="button" class="btn btn-primary" (click)="onSearch()">Search</button><br>
             <div class="food-list-container">
-                <a class="food-item" *ngFor="let food of fooditems" (click)="onMoreDetails()" [routerLink]="['/search/moredetails',food.name]">{{ food.name }}</a>
+                <button type="button" class="btn-light food-item" *ngFor="let food of fooditems" (click)="onMoreDetails(food.name!)">{{ food.name }}</button>
             </div>
         </div>
         <div class="food-details-container">

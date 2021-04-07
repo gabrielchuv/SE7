@@ -21,7 +21,7 @@ export class FoodViewComponent implements OnInit {
   fooditem: Fooditem | undefined;
   //for saving fooditem name user is viewing in further detail
   userSearchFood: string = "";
-  foodName: string | undefined;
+  foodName: string = "";
 
   //link a search service instance on creation
   constructor(
@@ -50,14 +50,11 @@ export class FoodViewComponent implements OnInit {
         this.fooditems.push(fooditem);
       })
     }
-    //using the search bar i want to filter the above results (which is all foods) down to one that reflects the users search
   }
 
-  onMoreDetails() {
-    this.route.params.subscribe((params: Params) => {
-      this.foodName = params.foodname;
-      if (!this.foodName) return;
-      this.searchService.getFood(this.foodName).subscribe((fooditem: any) => this.fooditem = fooditem);
-    });
+  onMoreDetails(food: string) {
+
+      if (!food) return;
+      this.searchService.getFood(food).subscribe((fooditem: any) => this.fooditem = fooditem);
   }
 }
