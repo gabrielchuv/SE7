@@ -1,0 +1,19 @@
+.site-title {
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 400%;
+    text-align: center;
+}
+.site-description {
+    font-size: 50%;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.calculate-button {
+    background-color: #6b8d7e;
+    color: white;
+    font-size: 50%;
+}
