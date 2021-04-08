@@ -1,3 +1,8 @@
+html, body {
+  background-color: #FFF6E3;
+  margin: -19px 0 0 0; /*-19px here to remove white space on the very top of the page*/
+  width: 100%; 
+}
 
 h1 {
   background-color: #FFF6E3;
@@ -25,4 +30,5 @@ img {
 
 .bin_background {
   background-color: #FFF6E3;
+  background-repeat: repeat;
 }
