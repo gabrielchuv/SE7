@@ -1,0 +1,20 @@
+body {
+  background-color: #FFF6E3;
+}
+
+h1 {
+  background-color: #FFF6E3;
+  text-align: center;
+  margin-bottom: 0;
+  color: #272C35;
+  padding-top: 40px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 2em;
+}
+
+img {
+  align-self: center;
+  background-color: #FFF6E3;
+  align-items: center;
+}
