@@ -1,20 +1,28 @@
-body {
-  background-color: #FFF6E3;
-}
 
 h1 {
   background-color: #FFF6E3;
   text-align: center;
-  margin-bottom: 0;
   color: #272C35;
-  padding-top: 40px;
+  padding-top: 50px;
   font-family: 'Open Sans', sans-serif;
   font-weight: bold;
   font-size: 2em;
 }
 
 img {
-  align-self: center;
   background-color: #FFF6E3;
-  align-items: center;
+}
+
+.center {
+  display: block;
+  margin-left: 100px;
+  margin-right: auto;
+  margin-top: 200px;
+  margin-bottom: 0px;
+  width: 30%;
+  height: 30%;
+}
+
+.bin_background {
+  background-color: #FFF6E3;
 }
