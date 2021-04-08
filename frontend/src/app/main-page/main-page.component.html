@@ -2,25 +2,3 @@
   <h1>What have you wasted this week?</h1>
   <img src="/assets/bin.png" class="center">
 </div>
-
-<div class="food-searchbar-container">
-  <form>
-      <input type="text" (keydown.enter)="$event.preventDefault()" class="form-control has-background-light" [formControl]="searchControl" placeholder="Enter a food item">
-      <button type="button" class="btn btn-primary" (click)="onSearch()">Search</button>
-  </form>
-</div>
-
-<div class="food-list-container">
-<button type="button" class="btn-light food-item" *ngFor="let food of fooditems" (click)="onMoreDetails(food.name!)">{{ food.name }}</button><br>
-</div>
-
-<div class="food-details-container">
-<div class="food-details" *ngIf="fooditem">
-  <button class="btn btn-danger food-details-close pull-right" [routerLink]="['/search']">x</button>
-  <p class="white-text">
-      Name: {{ fooditem.name }}<br>
-      Mass: {{ fooditem.mass }}<br>
-      Cost: {{ fooditem.cost }}<br>
-      Category: {{ fooditem.category }}<br>
-  </p>
-</div>
