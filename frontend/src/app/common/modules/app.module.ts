@@ -6,12 +6,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from '../components/app.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { FoodViewComponent } from '../../search/food-view/food-view.component';
+import { LandingPageComponent} from '../../landing-page/landing-page.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    FoodViewComponent
+    FoodViewComponent,
+    LandingPageComponent
   ],
   imports: [
     BrowserModule,
