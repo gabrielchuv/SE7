@@ -1,0 +1,58 @@
+
+/* Overall */
+html {
+    font-size: 16px;
+    font-family: roboto, sans-serif; /*double check this */
+    color: black;
+  }
+
+body {
+    background-color: #fff6e3;
+}
+
+/* First message */
+
+.first_message {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.first_message_content {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    padding-top: 6rem;
+    justify-content: center;
+}
+
+.first_message_content h1 {
+    font-weight: bold;
+    font-size: 2.5rem;
+    padding-bottom: 1rem;
+    border-left: 4px solid;
+    padding-left: 1 rem;
+    font-family: "open sans", sans-serif; /* double chekc this */
+}
+
+.first_message_content p {
+    border-left: 4px solid;
+    margin-left: 1 rem;
+}
+
+.first_message img {
+    width: 20%;
+    height: 100px;
+    padding: 2rem;
+    padding-top: 6rem;
+}
+
+/* Second message */
+
+.second_message {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
