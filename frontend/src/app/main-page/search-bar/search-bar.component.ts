@@ -5,6 +5,7 @@ import { SearchService } from 'src/app/common/services/search.service';
 import { FormControl } from '@angular/forms';
 import { Observable, observable } from 'rxjs';
 import { stringify } from '@angular/compiler/src/util';
+import { MainPageComponent } from '../main-page.component';
 
 @Component({
   selector: 'app-search-bar',

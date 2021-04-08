@@ -6,7 +6,7 @@ import { SearchBarComponent } from '../../main-page/search-bar/search-bar.compon
 
 const routes: Routes = [
   { path: '', redirectTo: 'search', pathMatch: 'full' },    //full makes sure its goes to exactly search and not search/something
-  { path: 'test', component: SearchBarComponent},
+  { path: 'main', component: MainPageComponent},
   { path: 'search', component: FoodViewComponent },
   { path: 'search/moredetails/:foodname', component: FoodViewComponent },
 ];
