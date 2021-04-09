@@ -1,8 +1,6 @@
-
 /* Overall */
 html {
     font-size: 16px;
-    font-family: roboto, sans-serif; /*double check this */
     color: black;
   }
 
@@ -22,20 +20,18 @@ body {
     display: flex;
     flex-direction: column;
     width: 80%;
-    padding-top: 5rem;
+    padding-top: 4rem;
     align-items: center;
 }
 
 .first_message_content h1 {
     font-weight: bold;
-    font-size: 2.5rem;
-    padding-bottom: 1rem;
-    padding-left: 1rem;
-    font-family: "open sans", sans-serif; /* double chekc this */
+    font-size: 3rem;
+    padding-bottom: 1.5rem;
 }
 
 .first_message_content p {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
 }
 
 /* Image  */
@@ -43,14 +39,14 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 3rem;
+    padding-top: 2.5rem;
 }
 
 .image img {
-    width: 25%;
+    width: 20%;
+    position: relative;
+    right: 20px;
 }
-
-
 
 /* Second message */
 
