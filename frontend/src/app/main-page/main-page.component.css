@@ -1,4 +1,7 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+* {
+  font-family: 'Open Sans', sans-serif;
+}
 /* mobile view */
 @media (min-width: 320px) and (max-width: 480px), (orientation:landscape) {
   h1 {
@@ -6,7 +9,6 @@
     text-align: center;
     color: #272C35;
     padding-top: 70px;
-    font-family: 'Open Sans', sans-serif;
     font-weight: bold;
     font-size: 1.7em;
     margin: 0;
@@ -82,7 +84,6 @@
     position: absolute;
     left: 37px;
     top: 320px;
-    font-family: 'Open Sans', sans-serif;
   }
 
   .heading {
@@ -198,7 +199,6 @@
     text-align: center;
     color: #272C35;
     padding-top: 70px;
-    font-family: 'Open Sans', sans-serif;
     font-weight: bold;
     font-size: 1.7em;
     margin: 0;
@@ -274,7 +274,6 @@
     position: absolute;
     left: 120px;
     top: 330px;
-    font-family: 'Open Sans', sans-serif;
   }
 
   .heading {
@@ -390,7 +389,6 @@
     text-align: center;
     color: #272C35;
     padding-top: 70px;
-    font-family: 'Open Sans', sans-serif;
     font-weight: bold;
     font-size: 2.5em;
   }
@@ -466,7 +464,6 @@
     position: absolute;
     left: 260px;
     top: 500px;
-    font-family: 'Open Sans', sans-serif;
   }
 
   .heading {
@@ -582,7 +579,6 @@
     text-align: center;
     color: #272C35;
     padding-top: 50px;
-    font-family: 'Open Sans', sans-serif;
     font-weight: bold;
     font-size: 2.5em;
   }
@@ -656,7 +652,6 @@
     position: absolute;
     left: 600px;
     top: 200px;
-    font-family: 'Open Sans', sans-serif;
   }
 
   .heading {
@@ -772,7 +767,7 @@
     text-align: center;
     color: #272C35;
     padding-top: 100px;
-    font-family: 'Open Sans', sans-serif;
+
     font-weight: bold;
     font-size: 2.5em;
   }
@@ -847,7 +842,7 @@
     position: absolute;
     left: 730px;
     top: 220px;
-    font-family: 'Open Sans', sans-serif;
+
   }
 
   .heading {
