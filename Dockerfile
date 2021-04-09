@@ -20,11 +20,20 @@ USER node
 # go into backend and install dependencies
 WORKDIR /home/node/app/backend
 RUN npm install
+#copy backend to dest
 COPY --chown=node:node ./backend .
 # go into frontend and install dependencies
 WORKDIR /home/node/app/frontend
 RUN npm install
+#copy frontend to dest
 COPY --chown=node:node ./frontend .
+
+#build website (working dir still set to front end)
+RUN ./node_modules/.bin/ng build
+
+#copy rest of SE7 folder e.g. waitfor script!
+WORKDIR /home/node/app
+COPY --chown=node:node . .
 
 # Add metadata to the image to describe which port the container is listening on at runtime.
 EXPOSE 3000

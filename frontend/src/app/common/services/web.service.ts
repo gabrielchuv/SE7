@@ -12,7 +12,7 @@ export class WebService {
 
   //set above to be backend server port...
   constructor(private http: HttpClient) {
-    this.ROOT_URL = "http://localhost:3000";
+    this.ROOT_URL = "http://localhost:3000/api";
   }
   
   get(uri: string) {

@@ -3,6 +3,7 @@ const app = express();                      //create an express server
 const http = require('http');
 const path = require('path');
 const api = require('./api');
+const db = require('./database/db');
 
 //parse JSON data
 app.use(express.json());
@@ -18,7 +19,7 @@ app.use((req, res, next) => {
 // Point static path to dist (folder where build files are located)
 app.use(express.static(path.join(__dirname, '../frontend/dist/frontend')));
 
-app.use('/', api);
+app.use('/api', api);
 
 // Catch all other routes and return the index file
 app.get('*', (req, res) => {
