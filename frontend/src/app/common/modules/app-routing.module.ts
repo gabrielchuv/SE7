@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { StatsPageComponent } from 'src/app/stats-page/stats-page.component';
 import { FoodViewComponent } from '../../search/food-view/food-view.component';
+import {LandingPageComponent} from '../../landing-page/landing-page.component';
 
 const routes: Routes = [
   { path: '', redirectTo: 'search', pathMatch: 'full' },    //full makes sure its goes to exactly search and not search/something
