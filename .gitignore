@@ -47,3 +47,6 @@ Thumbs.db
 
 #Alex added:
 .env
+
+# backend
+backend/node_modules

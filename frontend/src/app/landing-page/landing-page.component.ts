@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import {platformBrowser} from '@angular/platform-browser';
+
 
 @Component({
   selector: 'app-landing-page',
@@ -7,9 +9,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LandingPageComponent implements OnInit {
 
-  constructor() { }
+  constructor() {
+    console.log('width ' + window.innerWidth);
+  }
 
   ngOnInit(): void {
   }
-
 }
