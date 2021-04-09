@@ -1,10 +1,8 @@
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute, Router, Params } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import Fooditem from '../../models/fooditem';
 import { SearchService } from '../../common/services/search.service';
 import { FormControl } from '@angular/forms';
-import { Observable, observable } from 'rxjs';
-import { stringify } from '@angular/compiler/src/util';
 
 @Component({
   selector: 'app-food-view',
@@ -14,7 +12,6 @@ import { stringify } from '@angular/compiler/src/util';
 export class FoodViewComponent implements OnInit {
 
   // form control instance used for searching
-  // tslint:disable-next-line:max-line-length
   searchControl = new FormControl('');    // intial value is empty string as this will be updated when user enters something to search for...
   // array of food items, initially empty
   fooditems: Fooditem[] = [];
@@ -44,27 +41,16 @@ export class FoodViewComponent implements OnInit {
       // subscription displays database results and will update if there are any changes to the database files
       this.searchService.getFoods().subscribe((fooditems: any) => {
          this.fooditems = fooditems;
-
       });
     } else {
       this.searchService.getFood(this.userSearchFood).subscribe((fooditem: any) => {
-        next: {
-            this.fooditems = [];
-            this.fooditems.push(fooditem);
-        }
-        error: {
-          // clear the array
+        if (fooditem) {
           this.fooditems = [];
-          // push into it a new error food item
-          this.fooditems.push({ _id: 'error', name: 'Item not found: try another one', mass: 'error', cost: 'error', category: 'go away' });
+          this.fooditems.push(fooditem);
+        } else {
+          this.fooditems = [{_id: "error", name: "ITEM DOES NOT EXIST", mass: "error", cost: "error", category: "error"}];
         }
       });
     }
-  }
-
-  onMoreDetails(food: string) {
-
-      if (!food) { return; }
-      this.searchService.getFood(food).subscribe((fooditem: any) => this.fooditem = fooditem);
   }
 }

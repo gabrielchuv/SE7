@@ -1,9 +1,9 @@
 const express = require('express');         //link express
 const app = express();                      //create an express server
-const mongoose = require('./database/mongoose');    //link mongoose
-
-const bin = require('./database/models/bin');
-const fooditem = require('./database/models/fooditem');
+const http = require('http');
+const path = require('path');
+const api = require('./api');
+const db = require('../db');
 
 //parse JSON data
 app.use(express.json());
@@ -16,89 +16,22 @@ app.use((req, res, next) => {
     next();
 })
 
-// RESTFUL API FOR BIN
-//CREATE a bin
-app.post('/bin', (req, res) => {
-    //create new food item with given parameters
-    (new bin({ 'usrID': req.body.usrID, 'food': req.body.food, 'quantity': req.body.quantity }))
-        .save()
-        .then((bin) => res.send(bin))
-        .catch((error) => console.log(error));
+// Point static path to dist (folder where build files are located)
+app.use(express.static(path.join(__dirname, '../frontend/dist/frontend')));
+
+app.use('/api', api);
+
+// Catch all other routes and return the index file
+app.get('*', (req, res) => {
+    res.sendFile(path.join(__dirname, '../frontend/dist/frontend/index.html'));
 });
 
-//READ all bins
-app.get('/bin', (req, res) => {
-    bin.find({})
-        .then((bin) => res.send(bin))
-        .catch((error) => console.log(error));
-});
+//
+const port = process.env.PORT || '3000';
+app.set('port', port);
 
-//READ A bin
-app.get('/bin/:id', (req, res) => {
-    bin.find({ 'usrID': req.params.id })
-        .then((bin) => res.send(bin))
-        .catch((error) => console.log(error));
-});
-
-//update a bin (patch as following RESTfull), $set automatically matches values
-app.patch('/bin/:usrid/:id', (req, res) => {
-    //$set to automatically set each field
-    bin.findOneAndUpdate({ 'usrID': req.params.usrid, '_id': req.params.id }, { $set: req.body })
-        .then((bin) => res.send(bin))
-        .catch((error) => console.log(error));
-});
-
-//DELETE ALL bins (FOR EASY DEBUGGING)
-app.delete('/bin/deleteall', (req, res) => {
-    bin.deleteMany({})
-        .then(bin => res.send(bin))
-        .catch((error) => console.log(error));
-});
-
-//DELETE A bin
-app.delete('/bin/:id', (req, res) => {
-    bin.deleteMany({ 'usrID': req.params.id })
-        .then(bin => res.send(bin))
-        .catch((error) => console.log(error));
-});
-
-// RESTFUL API FOR FOOD ITEMS http://localhost:3000/search/foods/:foodname
-// CREATE a food item
-app.post('/search/foods/create', (req, res) => {
-    (new fooditem({ 'name': req.body.name, 'mass': req.body.mass, 'cost': req.body.cost, 'category': req.body.category }))
-        .save()
-        .then((fooditem) => res.send(fooditem))
-        .catch((error) => console.log(error));
-});
-
-//READ ALL FOOD ITEMS
-app.get('/search/foods/all', (req, res) => {
-    fooditem.find({})
-        .then((fooditem) => res.send(fooditem))
-        .catch((error) => console.log(error));
-});
-
-//READ A FOOD ITEM
-app.get('/search/foods/:foodname', (req, res) => {
-    fooditem.findOne({ 'name': req.params.foodname })
-        .then((fooditem) => res.send(fooditem))
-        .catch((error) => console.log(error));
-});
-
-//UPDATE A FOOD ITEM
-app.patch('/search/foods/:foodname', (req, res) => {
-    fooditem.findOneAndUpdate({ 'name': req.params.foodname }, { $set: req.body })
-        .then((fooditem) => res.send(fooditem))
-        .catch((error) => console.log(error));
-});
-
-//DELETE A FOOD ITEM
-app.delete('/search/foods/delete/:foodname', (req, res) => {
-    fooditem.findOneAndDelete({ 'name': req.params.foodname })
-        .then((fooditem) => res.send(fooditem))
-        .catch((error) => console.log(error));
-});
-
+//
+const server = http.createServer(app);
 
 //connect server to local host port 3000 and print to console
-app.listen(3000, () => console.log("Server is connected on Port 3000"));
+app.listen(port, () => console.log(`Backend Express Server is connected on Port ${port}`));
