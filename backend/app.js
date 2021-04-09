@@ -3,7 +3,7 @@ const app = express();                      //create an express server
 const http = require('http');
 const path = require('path');
 const api = require('./api');
-const db = require('./database/db');
+const db = require('../db');
 
 //parse JSON data
 app.use(express.json());

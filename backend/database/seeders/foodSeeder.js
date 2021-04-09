@@ -1,11 +1,5 @@
 const Fooditem = require('../models/fooditem');
 const mongoose = require('mongoose');
-const { exists } = require('../models/fooditem');
-
-mongoose.connect('mongodb://127.0.0.1:27017/dontwastefood',
-    { useNewUrlParser: true, useUnifiedTopology: true, useFindAndModify: false })
-    .then(() => console.log("Database Connected"))
-    .catch((error) => console.log(error));
 
 const fooditems = [
     new Fooditem({
@@ -75,16 +69,4 @@ const fooditems = [
         category: "fruit"
     }),
 ];
-var done = 0;
-for (var i = 0; i < fooditems.length; i++) {
-    fooditems[i].save((error, result) => {
-        done++;
-        if (done === fooditems.length) {
-            exists();
-        }
-    });
-}
 
-function exit() {
-    mongoose.disconnect;
-}
