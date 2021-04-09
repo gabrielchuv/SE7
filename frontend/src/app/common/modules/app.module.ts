@@ -6,15 +6,10 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from '../components/app.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { MainPageComponent } from '../../main-page/main-page.component';
-import { ReceiptComponent } from './../../main-page/receipt/receipt.component';
-import { SearchBarComponent } from '../../main-page/search-bar/search-bar.component';
-
 @NgModule({
   declarations: [
     AppComponent,
-    MainPageComponent,
-    ReceiptComponent,
-    SearchBarComponent
+    MainPageComponent
   ],
   imports: [
     BrowserModule,
