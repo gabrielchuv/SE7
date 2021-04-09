@@ -1,0 +1,80 @@
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+
+<div class="bin_background">
+  <h1>What have you wasted this week?</h1>
+  <div class="wrap">
+     <div class="search">
+        <input type="text" (keydown.enter)="$event.preventDefault()" class="searchTerm" [formControl]="searchControl" placeholder="Enter food item">
+        <button type="submit" class="searchButton" (click)="onSearch()">
+          <i class="fa fa-search"></i>
+       </button>
+     </div>
+  </div>
+
+  <div class="bin-image">
+    <img src="/assets/bin.png" class="center">
+  </div>
+
+  <div class="receipt">
+    <!-- Title -->
+    <div class="heading">
+      <Strong>Your binned items</Strong><br>This week
+    </div>
+
+    <div class="sub-heading">
+      <div>ITEM</div>
+      <div>AMT</div>
+    </div>​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​
+
+    <!-- Product #1 -->
+    <div class="item">
+
+      <div class="description">
+        <span>Carrots</span>
+      </div>
+
+      <div class="quantity">
+        <button class="minus-btn" type="button" name="button">
+          <span class="glyphicon glyphicon-minus"></span>
+        </button>
+        <input type="text" name="name" value="1">
+        <button class="plus-btn" type="button" name="button">
+          <span class="glyphicon glyphicon-plus"></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Product #2 -->
+    <div class="item">
+
+
+      <div class="description">
+        <span>Fish</span>
+      </div>
+
+      <div class="quantity">
+        <button class="minus-btn" type="button" name="button">
+          <span class="glyphicon glyphicon-minus"></span>
+        </button>
+        <input type="text" name="name" value="1">
+        <button class="plus-btn" type="button" name="button">
+          <span class="glyphicon glyphicon-plus"></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Item count-->
+    <div class="sub-item">
+
+      <div class="description">
+        <span>ITEM COUNT</span>
+      </div>
+      <div class="item-count">
+        <p>2</p>
+      </div>
+    </div>
+  </div>
+
+</div>
