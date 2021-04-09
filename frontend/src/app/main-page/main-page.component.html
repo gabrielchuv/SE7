@@ -4,7 +4,6 @@
 
 <div class="bin_background">
   <h1>What have you wasted this week?</h1>
-
   <div class="wrap">
      <div class="search">
         <input type="text" (keydown.enter)="$event.preventDefault()" class="searchTerm" [formControl]="searchControl" placeholder="Enter food item">
@@ -16,14 +15,14 @@
 
   <div class="bin-image">
     <img src="/assets/bin.png" class="center">
-  </div> 
+  </div>
 
   <div class="shopping-cart">
     <!-- Title -->
     <div class="title">
       <Strong>Your binned items</Strong><br>This week
     </div>
-   
+
     <div class="sub-heading">
       <div>ITEM</div>
       <div>AMT</div>
@@ -33,11 +32,11 @@
     <div class="item">
       <div class="buttons">
       </div>
-      
+
       <div class="description">
         <span>Common Projects</span>
       </div>
-   
+
       <div class="quantity">
         <button class="plus-btn" type="button" name="button">
           <span class="glyphicon glyphicon-minus"></span>
@@ -48,16 +47,16 @@
         </button>
       </div>
     </div>
-   
+
     <!-- Product #2 -->
     <div class="item">
       <div class="buttons">
       </div>
-      
+
       <div class="description">
         <span>Maison Margiela</span>
       </div>
-   
+
       <div class="quantity">
         <button class="plus-btn" type="button" name="button">
           <span class="glyphicon glyphicon-minus"></span>
@@ -68,12 +67,12 @@
         </button>
       </div>
     </div>
-   
+
     <!-- Item count-->
     <div class="item">
       <div class="buttons">
       </div>
-      
+
       <div class="description">
         <span>ITEM COUNT</span>
       </div>
@@ -82,5 +81,5 @@
       </div>
     </div>
   </div>
-   
+
 </div>
