@@ -7,13 +7,15 @@ import { AppComponent } from '../components/app.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { FoodViewComponent } from '../../search/food-view/food-view.component';
 import { LandingPageComponent} from '../../landing-page/landing-page.component';
+import { MainPageComponent } from './../../main-page/main-page.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     FoodViewComponent,
-    LandingPageComponent
+    LandingPageComponent,
+    MainPageComponent
   ],
   imports: [
     BrowserModule,
