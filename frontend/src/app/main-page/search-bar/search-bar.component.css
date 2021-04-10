@@ -1,6 +1,6 @@
 /* mobile view */
 @media (min-width: 320px) and (max-width: 480px), (orientation:landscape) {
-  .search {
+  .search-bar {
     width: 100%;
     position: relative;
     display: flex;
@@ -33,6 +33,10 @@
     font-size: 20px;
   }
 
+  button:hover {
+    background: #4a6d5e;
+  }
+
   .wrap {
     width: 50%;
     position: absolute;
@@ -42,12 +46,9 @@
   }
 }
 
-
-
-
   /* tablet view */
 @media (min-width: 481px) and (max-width: 768px), (orientation:landscape) {
-    .search {
+    .search-bar {
       width: 100%;
       position: relative;
       display: flex;
@@ -80,6 +81,10 @@
       font-size: 20px;
     }
 
+    button:hover {
+      background: #4a6d5e;
+    }
+
     .wrap {
       width: 50%;
       position: absolute;
@@ -91,7 +96,7 @@
 
 /* laptop view */
 @media (min-width: 769px) and (max-width: 1024px), (orientation:landscape) {
-  .search {
+  .search-bar {
     width: 100%;
     position: relative;
     display: flex;
@@ -124,6 +129,10 @@
     font-size: 20px;
   }
 
+  button:hover {
+    background: #4a6d5e;
+  }
+
   .wrap{
     width: 80%;
     position: absolute;
@@ -136,7 +145,7 @@
 
 /* desktop view */
 @media (min-width: 1025px) and (max-width: 1200px), (orientation:landscape) {
-  .search {
+  .search-bar {
     width: 100%;
     position: relative;
     display: flex;
@@ -169,6 +178,10 @@
     font-size: 20px;
   }
 
+  button:hover {
+    background: #4a6d5e;
+  }
+
   .wrap {
     width: 20%;
     position: absolute;
@@ -179,7 +192,7 @@
 }
 
 @media (min-width: 1201px) {
-  .search {
+  .search-bar {
     width: 100%;
     position: relative;
     display: flex;
