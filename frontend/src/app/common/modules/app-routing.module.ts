@@ -10,7 +10,7 @@ const routes: Routes = [
   { path: 'search', component: FoodViewComponent },
   { path: 'search/moredetails/:foodname', component: FoodViewComponent },
   { path: 'stats', component: StatsPageComponent },
-  { path: 'main-page', component: MainPageComponent}
+  { path: 'main', component: MainPageComponent}
 
 ];
 
