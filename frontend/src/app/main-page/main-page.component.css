@@ -2,6 +2,7 @@
 * {
   font-family: 'Open Sans', sans-serif;
 }
+
 /* mobile view */
 @media (min-width: 320px) and (max-width: 480px), (orientation:landscape) {
   h1 {
@@ -740,21 +741,20 @@
   }
 
   button[class*=btn] {
-    width: 25px;
-    height: 25px;
+    width: 30px;
+    height: 30px;
     background-color: #272C35;
-    border-radius: 15px;
+    border-radius: 10px;
     border: none;
     cursor: pointer;
   }
 
-  button span {
-    color: #ffffff;
+  button[class*=btn]:hover {
+    background-color: #434343;
   }
 
-  button:focus,
-  input:focus {
-    outline:0;
+  button span {
+    color: #ffffff;
   }
 
   .item-count {
@@ -829,6 +829,11 @@
     cursor: pointer;
     font-size: 20px;
   }
+
+  button:hover {
+    background: #4a6d5e;
+  }
+  
 
   /* resize the wrap to see the search bar change!*/
   .wrap {
@@ -957,4 +962,27 @@
     color: #43484D;
     font-weight: 300;
   }
+
+  /* Style of calculate button */
+  .calculate-button {
+    position: absolute;
+    left: 835px;
+  }
+
+  .calculate-button button {
+    height: 45px;
+    border: 1px solid #5E8976;
+    background: #5E8976;
+    text-align: center;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+  .calculate-button button:hover {
+    background: #4a6d5e;
+  }
+
 }
