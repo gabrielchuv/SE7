@@ -741,16 +741,12 @@
   }
 
   button[class*=btn] {
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
     background-color: #272C35;
     border-radius: 10px;
     border: none;
     cursor: pointer;
-  }
-
-  button[class*=btn]:hover {
-    background-color: #434343;
   }
 
   button span {
@@ -942,6 +938,10 @@
     border-radius: 15px;
     border: none;
     cursor: pointer;
+  }
+
+  button[class*=btn]:hover {
+    background-color: #434343;
   }
 
   button span {
