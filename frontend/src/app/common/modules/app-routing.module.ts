@@ -5,7 +5,8 @@ import { LandingPageComponent } from '../../landing-page/landing-page.component'
 import { MainPageComponent } from './../../main-page/main-page.component';
 
 const routes: Routes = [
-  { path: '', redirectTo: 'main', pathMatch: 'full' },    //full makes sure its goes to exactly search and not search/something
+  { path: '', redirectTo: 'home', pathMatch: 'full' },    //full makes sure its goes to exactly search and not search/something
+  { path: 'home', component: LandingPageComponent },
   { path: 'stats', component: StatsPageComponent },
   { path: 'main', component: MainPageComponent}
 
