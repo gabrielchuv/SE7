@@ -1,48 +1,227 @@
-/* style of the search bar */
-.search {
-  width: 100%;
-  position: relative;
-  display: flex;
+/* mobile view */
+@media (min-width: 320px) and (max-width: 480px), (orientation:landscape) {
+  .search {
+    width: 100%;
+    position: relative;
+    display: flex;
+  }
+
+  .searchTerm {
+    width: 100%;
+    border: 3px solid #5E8976;
+    border-right: none;
+    padding: 10px;
+    height: 40px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #272C35;
+  }
+
+  .searchTerm:focus{
+    color: #272C35;
+  }
+
+  .searchButton {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #5E8976;
+    background: #5E8976;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+  }
+
+  .wrap {
+    width: 50%;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
 }
 
-.searchTerm {
-  width: 100%;
-  border: 3px solid #5E8976;
-  border-right: none;
-  padding: 20px;
-  height: 41px;
-  border-radius: 5px 0 0 5px;
-  outline: none;
-  color: #272C35;
-  font-size: 17px;
+
+
+
+  /* tablet view */
+@media (min-width: 481px) and (max-width: 768px), (orientation:landscape) {
+    .search {
+      width: 100%;
+      position: relative;
+      display: flex;
+    }
+
+    .searchTerm {
+      width: 100%;
+      border: 3px solid #5E8976;
+      border-right: none;
+      padding: 10px;
+      height: 40px;
+      border-radius: 5px 0 0 5px;
+      outline: none;
+      color: #272C35;
+    }
+
+    .searchTerm:focus{
+      color: #272C35;
+    }
+
+    .searchButton {
+      width: 40px;
+      height: 40px;
+      border: 1px solid #5E8976;
+      background: #5E8976;
+      text-align: center;
+      color: #fff;
+      border-radius: 0 5px 5px 0;
+      cursor: pointer;
+      font-size: 20px;
+    }
+
+    .wrap {
+      width: 50%;
+      position: absolute;
+      top: 20%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
 }
 
-.searchTerm:focus{
-  color: #272C35;
+/* laptop view */
+@media (min-width: 769px) and (max-width: 1024px), (orientation:landscape) {
+  .search {
+    width: 100%;
+    position: relative;
+    display: flex;
+  }
+
+  .searchTerm {
+    width: 25%;
+    border: 3px solid #5E8976;
+    border-right: none;
+    padding: 5px;
+    height: 40px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #272C35;
+  }
+
+  .searchTerm:focus {
+    color: #272C35;
+  }
+
+  .searchButton {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #5E8976;
+    background: #5E8976;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+  }
+
+  .wrap{
+    width: 80%;
+    position: absolute;
+    top: 20%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+  }
 }
 
-.searchButton {
-  width: 45px;
-  height: 46px;
-  border: 1px solid #5E8976;
-  background: #5E8976;
-  text-align: center;
-  color: #fff;
-  border-radius: 0 5px 5px 0;
-  cursor: pointer;
-  font-size: 20px;
+
+/* desktop view */
+@media (min-width: 1025px) and (max-width: 1200px), (orientation:landscape) {
+  .search {
+    width: 100%;
+    position: relative;
+    display: flex;
+  }
+
+  .searchTerm {
+    width: 100%;
+    border: 3px solid #5E8976;
+    border-right: none;
+    padding: 7px;
+    height: 40px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #272C35;
+  }
+
+  .searchTerm:focus{
+    color: #272C35;
+  }
+
+  .searchButton {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #5E8976;
+    background: #5E8976;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+  }
+
+  .wrap {
+    width: 20%;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+  }
 }
 
-button:hover {
-  background: #4a6d5e;
-}
+@media (min-width: 1201px) {
+  .search {
+    width: 100%;
+    position: relative;
+    display: flex;
+  }
 
+  .searchTerm {
+    width: 100%;
+    border: 3px solid #5E8976;
+    border-right: none;
+    padding: 20px;
+    height: 41px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #272C35;
+    font-size: 17px;
+  }
 
-/* resize the wrap to see the search bar change!*/
-.wrap {
-  width: 20%;
-  position: absolute;
-  top: 32%;
-  left: 30%;
-  transform: translate(-50%, -50%);
+  .searchTerm:focus{
+    color: #272C35;
+  }
+
+  .searchButton {
+    width: 45px;
+    height: 46px;
+    border: 1px solid #5E8976;
+    background: #5E8976;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+  }
+
+  button:hover {
+    background: #4a6d5e;
+  }
+
+  .wrap {
+    width: 20%;
+    position: absolute;
+    top: 32%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+  }
 }
