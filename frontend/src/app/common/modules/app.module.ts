@@ -8,14 +8,15 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { FoodViewComponent } from '../../search/food-view/food-view.component';
 import { LandingPageComponent} from '../../landing-page/landing-page.component';
 import { MainPageComponent } from './../../main-page/main-page.component';
-
+import { SearchBarComponent} from './../../main-page/search-bar/search-bar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     FoodViewComponent,
     LandingPageComponent,
-    MainPageComponent
+    MainPageComponent,
+    SearchBarComponent
   ],
   imports: [
     BrowserModule,

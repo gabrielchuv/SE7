@@ -1,1 +1,8 @@
-<p>search-bar works!</p>
+<div class="wrap">
+   <div class="search">
+      <input type="text" (keydown.enter)="$event.preventDefault()" class="searchTerm" [formControl]="searchControl" placeholder="Enter food item">
+      <button type="submit" class="searchButton" (click)="onSearch()">
+        <i class="fa fa-search"></i>
+     </button>
+   </div>
+</div>
