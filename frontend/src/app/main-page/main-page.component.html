@@ -1,17 +1,12 @@
-
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 
+
 <div class="bin_background">
   <h1>What have you wasted this week?</h1>
-  <div class="wrap">
-     <div class="search">
-        <input type="text" (keydown.enter)="$event.preventDefault()" class="searchTerm" [formControl]="searchControl" placeholder="Enter food item">
-        <button type="submit" class="searchButton" (click)="onSearch()">
-          <i class="fa fa-search"></i>
-       </button>
-     </div>
-  </div>
+
+  <!-- search bar -->
+  <app-search-bar></app-search-bar>
 
   <div class="bin-image">
     <img src="/assets/bin.png" class="center">

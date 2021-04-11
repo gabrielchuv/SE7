@@ -37,6 +37,7 @@ export class MainPageComponent implements OnInit{
           console.log(`search word changing: ${word}`);
         });
       }
+      
       //TODO: add error handling for non existant food items
       onSearch() {
         if (this.userSearchFood == "") {
