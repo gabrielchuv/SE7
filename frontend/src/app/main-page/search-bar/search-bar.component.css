@@ -1,5 +1,5 @@
 /* mobile view */
-@media (min-width: 320px) and (max-width: 480px), (orientation:landscape) {
+@media (min-width: 320px) and (max-width: 480px), (orientation:portrait) {
   .search-bar {
     width: 100%;
     position: relative;

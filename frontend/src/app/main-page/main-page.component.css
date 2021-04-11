@@ -4,7 +4,7 @@
 }
 
 /* mobile view */
-@media (min-width: 320px) and (max-width: 480px), (orientation:landscape) {
+@media (min-width: 320px) and (max-width: 480px), (orientation:portrait) {
   h1 {
     background-color: #FFF6E3;
     text-align: center;
@@ -134,6 +134,8 @@
 
   button span {
     color: #ffffff;
+    font-size: 10px;
+    top: 0;
   }
 
   button:focus,
@@ -283,6 +285,8 @@
 
   button span {
     color: #ffffff;
+    font-size: 10px;
+    top: 0;
   }
 
   button:focus,
@@ -432,6 +436,8 @@
 
   button span {
     color: #ffffff;
+    font-size: 10px;
+    top: 0;
   }
 
   button:focus,
@@ -579,6 +585,8 @@
 
   button span {
     color: #ffffff;
+    font-size: 10px;
+    top: 0;
   }
 
   .item-count {
@@ -725,6 +733,8 @@
 
   button span {
     color: #ffffff;
+    font-size: 10px;
+    top: 0;
   }
 
   button:focus,
