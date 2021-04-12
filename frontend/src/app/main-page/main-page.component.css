@@ -1,767 +1,196 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-* {
-  font-family: 'Open Sans', sans-serif;
+.title-style {
+  font-weight: bolder;
+  font-size: 50px;
+  transform: translate(7.5%, 190%);
+  max-width: 1000px;
+  width: 100%;
+  text-align: center;
 }
 
-/* mobile view */
-@media (min-width: 320px) and (max-width: 480px), (orientation:landscape) {
-  h1 {
-    background-color: #FFF6E3;
-    text-align: center;
-    color: #272C35;
-    padding-top: 70px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: bold;
-    font-size: 1.7em;
-    margin: 0;
-  }
-
-  /* bin positon */
-  .center {
-    display: block;
-    margin-left: 120px;
-    margin-right: 100px;
-    margin-top: 80px;
-    margin-bottom: 0px;
-    width: 25%;
-    height: 25%;
-  }
-
-  .bin_background {
-    background-color: #FFF6E3;
-    padding-bottom: 600px;
-  }
-
-  /* style of receipt section */
-  .receipt {
-    width: 250px;
-    height: 400px;
-    background: #FFFFFF;
-    box-shadow: 1px 2px 3px 0px rgba(0,0,0,0.10);
-    border-radius: 6px;
-    flex-direction: column;
-    position: absolute;
-    left: 37px;
-    top: 320px;
-    font-family: 'Open Sans', sans-serif;
-  }
-
-  .heading {
-    height: 80px;
-    text-align: center;
-    border-bottom: 1px solid #272C35;
-    padding: 20px 30px;
-    color: #000000;
-    font-size: 18px;
-    font-weight: 300;
-  }
-
-  .sub-heading {
-    display: grid;
-    grid-auto-flow: column;
-    gap: 4px;
-    align-items: center;
-    justify-items: center;
-    border-bottom:  1px solid #272C35;
-    height: 30px;
-  }
-
-  .item {
-    padding: 20px 30px;
-    height: 100px;
-    display: flex;
-  }
-
-  .sub-item {
-    border-top: 1px solid #272C35;
-    padding: 8px 30px;
-    height: 100px;
-    display: flex;
-  }
-
-  .buttons {
-    position: relative;
-    padding-top: 30px;
-    margin-right: 60px;
-  }
-
-  .description {
-    margin-top: 0px;
-    width: 50px;
-    padding-right: 0px;
-  }
-
-  .description span {
-    display: block;
-    font-size: 14px;
-    color: #272C35;
-    font-weight: 400;
-    padding-left: 10px;
-  }
-
-  .description span:first-child {
-    margin-bottom: 5px;
-  }
-
-  .description span:last-child {
-    font-weight: 300;
-    margin-top: 8px;
-    color: #272C35;
-  }
-
-  .quantity {
-    margin-left: 70px;
-  }
-
-  .quantity input {
-    -webkit-appearance: none;
-    border: none;
-    text-align: center;
-    width: 23px;
-    font-size: 16px;
-    color: #272C35;
-    font-weight: 300;
-  }
-
-  button[class*=btn] {
-    width: 22px;
-    height: 22px;
-    background-color: #272C35;
-    border-radius: 15px;
-    border: none;
-    cursor: pointer;
-  }
-
-  button span {
-    color: #ffffff;
-  }
-
-  button:focus,
-  input:focus {
-    outline:0;
-  }
-
-  .item-count {
-    width: 150px;
-    padding-top: 10px;
-    text-align: right;
-    font-size: 16px;
-    color: #43484D;
-    font-weight: 300;
-    padding-right: 45px;
-  }
+.bin-image {
+  position: absolute;
+  top: 38%;
+  left: 17%;
+  width: auto;
+  height: auto;
+  max-height: 500px;
+  max-width: 500px;
 }
 
-/* tablet view */
-@media (min-width: 481px) and (max-width: 768px), (orientation:landscape){
-  h1 {
-    background-color: #FFF6E3;
-    text-align: center;
-    color: #272C35;
-    padding-top: 70px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: bold;
-    font-size: 1.7em;
-    margin: 0;
-  }
-
-  /* bin positon */
-  .center {
-    display: block;
-    margin-left: 190px;
-    margin-right: 100px;
-    margin-top: 100px;
-    margin-bottom: 0px;
-    width: 20%;
-    height: 20%;
-  }
-
-  .bin_background {
-    background-color: #FFF6E3;
-    padding-bottom: 600px;
-  }
-
-  /* style of receipt section */
-  .receipt {
-    width: 250px;
-    height: 400px;
-    background: #FFFFFF;
-    box-shadow: 1px 2px 3px 0px rgba(0,0,0,0.10);
-    border-radius: 6px;
-    flex-direction: column;
-    position: absolute;
-    left: 120px;
-    top: 330px;
-    font-family: 'Open Sans', sans-serif;
-  }
-
-  .heading {
-    height: 80px;
-    text-align: center;
-    border-bottom: 1px solid #272C35;
-    padding: 20px 30px;
-    color: #000000;
-    font-size: 18px;
-    font-weight: 300;
-  }
-
-  .sub-heading {
-    display: grid;
-    grid-auto-flow: column;
-    gap: 4px;
-    align-items: center;
-    justify-items: center;
-    border-bottom:  1px solid #272C35;
-    height: 30px;
-  }
-
-  .item {
-    padding: 20px 30px;
-    height: 100px;
-    display: flex;
-  }
-
-  .sub-item {
-    border-top: 1px solid #272C35;
-    padding: 8px 30px;
-    height: 100px;
-    display: flex;
-  }
-
-  .buttons {
-    position: relative;
-    padding-top: 30px;
-    margin-right: 60px;
-  }
-
-  .description {
-    margin-top: 0px;
-    width: 50px;
-    padding-right: 0px;
-  }
-
-  .description span {
-    display: block;
-    font-size: 14px;
-    color: #272C35;
-    font-weight: 400;
-    padding-left: 10px;
-  }
-
-  .description span:first-child {
-    margin-bottom: 5px;
-  }
-
-  .description span:last-child {
-    font-weight: 300;
-    margin-top: 8px;
-    color: #272C35;
-  }
-
-  .quantity {
-    margin-left: 70px;
-  }
-
-  .quantity input {
-    -webkit-appearance: none;
-    border: none;
-    text-align: center;
-    width: 23px;
-    font-size: 16px;
-    color: #272C35;
-    font-weight: 300;
-  }
-
-  button[class*=btn] {
-    width: 22px;
-    height: 22px;
-    background-color: #272C35;
-    border-radius: 15px;
-    border: none;
-    cursor: pointer;
-  }
-
-  button span {
-    color: #ffffff;
-  }
-
-  button:focus,
-  input:focus {
-    outline:0;
-  }
-
-  .item-count {
-    width: 150px;
-    padding-top: 10px;
-    text-align: right;
-    font-size: 16px;
-    color: #43484D;
-    font-weight: 300;
-    padding-right: 45px;
-  }
+.receipt {
+  max-width: 450px;
+  max-height: 650px;
+  width: 100%;
+  height: 100%;
+  background: #FFFFFF;
+  box-shadow: 1px 2px 3px 0px rgba(0,0,0,0.10);
+  border-radius: 6px;
+  /*flex-direction: column;*/
+  position: absolute;
+  right: 15%;
+  top: 15%;
 }
 
-/* laptop view */
-@media (min-width: 769px) and (max-width: 1024px), (orientation:landscape) {
-  h1 {
-    background-color: #FFF6E3;
-    text-align: center;
-    color: #272C35;
-    padding-top: 70px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: bold;
-    font-size: 2.5em;
-  }
-
-  /* bin position */
-  .center {
-    display: block;
-    margin-left: 300px;
-    margin-right: auto;
-    margin-top: 140px;
-    margin-bottom: 0px;
-    width: 25%;
-    height: 25%;
-  }
-
-  .bin_background {
-    background-color: #FFF6E3;
-    padding-bottom: 600px;
-    padding-top: 5px;
-  }
-
-  /* style of receipt section */
-  .receipt {
-    width: 300px;
-    height: 423px;
-    background: #FFFFFF;
-    box-shadow: 1px 2px 3px 0px rgba(0,0,0,0.10);
-    border-radius: 6px;
-    flex-direction: column;
-    position: absolute;
-    left: 260px;
-    top: 500px;
-    font-family: 'Open Sans', sans-serif;
-  }
-
-  .heading {
-    height: 80px;
-    text-align: center;
-    border-bottom: 1px solid #272C35;
-    padding: 20px 30px;
-    color: #000000;
-    font-size: 18px;
-    font-weight: 300;
-  }
-
-  .sub-heading {
-    display: grid;
-    grid-auto-flow: column;
-    gap: 4px;
-    align-items: center;
-    justify-items: center;
-    border-bottom:  1px solid #272C35;
-    height: 30px;
-  }
-
-  .item {
-    padding: 20px 30px;
-    height: 100px;
-    display: flex;
-  }
-
-  .sub-item {
-    border-top: 1px solid #272C35;
-    padding: 20px 30px;
-    height: 100px;
-    display: flex;
-  }
-
-  .buttons {
-    position: relative;
-    padding-top: 30px;
-    margin-right: 60px;
-  }
-
-  .description {
-    margin-top: 0px;
-    width: 95px;
-  }
-
-  .description span {
-    display: block;
-    font-size: 14px;
-    color: #272C35;
-    font-weight: 400;
-    padding-left: 10px;
-  }
-
-  .description span:first-child {
-    margin-bottom: 5px;
-  }
-
-  .description span:last-child {
-    font-weight: 300;
-    margin-top: 8px;
-    color: #272C35;
-  }
-
-  .quantity {
-    padding-top: 20px;
-    margin-left: 60px;
-  }
-
-  .quantity input {
-    -webkit-appearance: none;
-    border: none;
-    text-align: center;
-    width: 32px;
-    font-size: 16px;
-    color: #272C35;
-    font-weight: 300;
-  }
-
-  button[class*=btn] {
-    width: 25px;
-    height: 25px;
-    background-color: #272C35;
-    border-radius: 15px;
-    border: none;
-    cursor: pointer;
-  }
-
-  button span {
-    color: #ffffff;
-  }
-
-  button:focus,
-  input:focus {
-    outline:0;
-  }
-
-  .item-count {
-    width: 150px;
-    padding-top: 20px;
-    text-align: right;
-    font-size: 16px;
-    color: #43484D;
-    font-weight: 300;
-    padding-right: 45px;
-  }
+.heading {
+  height: 90px;
+  text-align: center;
+  border-bottom: 2px solid #272C35;
+  color: #000000;
 }
 
-/* desktop view */
-@media (min-width: 1025px) and (max-width: 1200px), (orientation:landscape) {
-  h1 {
-    background-color: #FFF6E3;
-    text-align: center;
-    color: #272C35;
-    padding-top: 50px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: bold;
-    font-size: 2.5em;
-  }
-
-  .center {
-    display: block;
-    margin-left: 170px;
-    margin-right: auto;
-    margin-top: 179px;
-    margin-bottom: 0px;
-    width: 25%;
-    height: 25%;
-  }
-
-  .bin_background {
-    background-color: #FFF6E3;
-    padding-bottom: 600px;
-  }
-
-  /* style of receipt section */
-  .receipt {
-    width: 300px;
-    height: 423px;
-    background: #FFFFFF;
-    box-shadow: 1px 2px 3px 0px rgba(0,0,0,0.10);
-    border-radius: 6px;
-    flex-direction: column;
-    position: absolute;
-    left: 600px;
-    top: 200px;
-    font-family: 'Open Sans', sans-serif;
-  }
-
-  .heading {
-    height: 80px;
-    text-align: center;
-    border-bottom: 1px solid #272C35;
-    padding: 20px 30px;
-    color: #000000;
-    font-size: 18px;
-    font-weight: 300;
-  }
-
-  .sub-heading {
-    display: grid;
-    grid-auto-flow: column;
-    gap: 4px;
-    align-items: center;
-    justify-items: center;
-    border-bottom:  1px solid #272C35;
-    height: 30px;
-  }
-
-  .item {
-    padding: 20px 30px;
-    height: 100px;
-    display: flex;
-  }
-
-  .sub-item {
-    border-top: 1px solid #272C35;
-    padding: 20px 30px;
-    height: 100px;
-    display: flex;
-  }
-
-  .buttons {
-    position: relative;
-    padding-top: 30px;
-    margin-right: 60px;
-  }
-
-  .description {
-    margin-top: 0px;
-    width: 95px;
-  }
-
-  .description span {
-    display: block;
-    font-size: 14px;
-    color: #272C35;
-    font-weight: 400;
-    padding-left: 10px;
-  }
-
-  .description span:first-child {
-    margin-bottom: 5px;
-  }
-
-  .description span:last-child {
-    font-weight: 300;
-    margin-top: 8px;
-    color: #272C35;
-  }
-
-  .quantity {
-    padding-top: 20px;
-    margin-left: 60px;
-  }
-
-  .quantity input {
-    -webkit-appearance: none;
-    border: none;
-    text-align: center;
-    width: 32px;
-    font-size: 16px;
-    color: #272C35;
-    font-weight: 300;
-  }
-
-  button[class*=btn] {
-    width: 25px;
-    height: 25px;
-    background-color: #272C35;
-    border-radius: 10px;
-    border: none;
-    cursor: pointer;
-  }
-
-  button span {
-    color: #ffffff;
-  }
-
-  .item-count {
-    width: 150px;
-    padding-top: 20px;
-    text-align: right;
-    font-size: 16px;
-    color: #43484D;
-    font-weight: 300;
-    padding-right: 45px;
-  }
+.heading-line {
+  padding-top: 10px;
+  font-size: 25px;
+  font-weight: bolder;
 }
 
-@media (min-width: 1201px) {
-  /* default styles */
-  h1 {
-    background-color: #FFF6E3;
-    text-align: center;
-    color: #272C35;
-    padding-top: 100px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: bold;
-    font-size: 2.5em;
-  }
+.heading-sub-line {
+  font-size: 25px;
+  font-weight: lighter;
+}
 
-  /* bin position */
-  .center {
-    margin-left: 255px;
-    margin-right: auto;
-    margin-top: 150px;
-    margin-bottom: 0px;
-    width: 25%;
-    height: 25%;
-  }
+.sub-heading {
+  display: grid;
+  grid-auto-flow: column;
+  justify-items: center;
+  height: 40px;
+  padding-top: 5px;
+  border-bottom:  2px solid #272C35;
+}
+.sub-heading-text {
+  font-size: 20px;
+}
 
-  .bin_background {
-    background-color: #FFF6E3;
-    width: 100%;
-  }
+.item-full{
+  max-height: 460px;
+  height: 100%;
+}
 
-  /* style of receipt section */
-  .receipt {
-    width: 450px;
-    height: 423px;
-    background: #FFFFFF;
-    box-shadow: 1px 2px 3px 0px rgba(0,0,0,0.10);
-    border-radius: 6px;
-    flex-direction: column;
-    position: absolute;
-    left: 730px;
-    top: 220px;
-    font-family: 'Open Sans', sans-serif;
-  }
+.item {
+  /*padding: 20px 30px;*/
+  padding-top: 2%;
+  max-height: 50px;
+  height: 100%;
+  display: flex;
+}
 
-  .heading {
-    height: 80px;
-    text-align: center;
-    border-bottom: 1px solid #272C35;
-    padding: 20px 30px;
-    color: #000000;
-    font-size: 19px;
-    font-weight: 300;
-  }
+.sub-item {
+  border-top: 2px solid #272C35;
+  height: 50px;
+  display: flex;
+}
 
-  .sub-heading {
-    display: grid;
-    grid-auto-flow: column;
-    justify-items: center;
-    height: 30px;
-    border-bottom:  1px solid #272C35;
-  }
+.buttons {
+  position: relative;
+  padding-top: 30px;
+  margin-right: 50px;
+}
 
-  .item {
-    padding: 20px 30px;
-    height: 100px;
-    display: flex;
-  }
+.description {
+  width: 50%;
+  text-align: center;
+  font-size: 19px;
+}
 
-  .sub-item {
-    border-top: 1px solid #272C35;
-    padding: 20px 30px;
-    height: 100px;
-    display: flex;
-  }
+/*.description span {*/
+/*  display: block;*/
+/*  font-size: 15px;*/
+/*  color: #272C35;*/
+/*  font-weight: 400;*/
+/*  width: 130px;*/
+/*}*/
 
-  .buttons {
-    position: relative;
-    padding-top: 30px;
-    margin-right: 50px;
-  }
+/*.description span:first-child {*/
+/*  margin-bottom: 5px;  width: 50%;*/
+/*  text-align: center;*/
+/*  font-size: 19px;*/
+/*}*/
 
-  .description {
-    padding-top: 10px;
-    padding-left: 40px;
-    padding-right: 90px;
-    margin-right: 60px;
-  }
+/*.description span:last-child {*/
+/*  font-weight: 300;*/
+/*  margin-top: 8px;*/
+/*  color: #272C35;*/
+/*}*/
 
-  .description span {
-    display: block;
-    font-size: 15px;
-    color: #272C35;
-    font-weight: 400;
-    width: 130px;
-  }
+.quantity {
+  width: 50%;
+  text-align: center;
+}
 
-  .description span:first-child {
-    margin-bottom: 5px;
-  }
+.quantity input {
+  -webkit-appearance: none;
+  border: none;
+  text-align: center;
+  width: 32px;
+  font-size: 16px;
+  color: #272C35;
+  font-weight: 300;
+}
 
-  .description span:last-child {
-    font-weight: 300;
-    margin-top: 8px;
-    color: #272C35;
-  }
+button[class*=btn] {
+  width: 25px;
+  height: 25px;
+  background-color: #272C35;
+  border-radius: 15px;
+  border: none;
+  cursor: pointer;
+}
 
-  .quantity {
-    padding-top: 20px;
-    margin-right: 50px;
-  }
+button[class*=btn]:hover {
+  background-color: #434343;
+}
 
-  .quantity input {
-    -webkit-appearance: none;
-    border: none;
-    text-align: center;
-    width: 32px;
-    font-size: 16px;
-    color: #272C35;
-    font-weight: 300;
-  }
+button span {
+  color: #ffffff;
+}
 
-  button[class*=btn] {
-    width: 25px;
-    height: 25px;
-    background-color: #272C35;
-    border-radius: 15px;
-    border: none;
-    cursor: pointer;
-  }
+button:focus,
+input:focus {
+  outline:0;
+}
 
-  button[class*=btn]:hover {
-    background-color: #434343;
-  }
+.sub-description{
+  width: 50%;
+  padding-top: 3%;
+  text-align: center;
+  font-size: 19px;
+}
+.item-count {
+  width: 50%;
+  text-align: center;
+  padding-top: 3%;
+  font-size: 19px;
+  color: #43484D;
+  font-weight: 300;
+}
 
-  button span {
-    color: #ffffff;
-  }
+/* Style of calculate button */
+.calculate-button {
+  position: absolute;
+  right: 19.5%;
+  bottom: 7.5%;
+}
 
-  button:focus,
-  input:focus {
-    outline:0;
-  }
+.calculate-button button {
+  height: 45px;
+  border: 1px solid #5E8976;
+  padding-left: 15px;
+  padding-right: 15px;
+  background: #5E8976;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
+}
 
-  .item-count {
-    width: 110px;
-    padding-top: 20px;
-    padding-right: 0px;
-    text-align: right;
-    font-size: 16px;
-    color: #43484D;
-    font-weight: 300;
-  }
+.calculate-button button:hover {
+  background: #4a6d5e;
+}
 
-  /* Style of calculate button */
-  .calculate-button {
-    position: absolute;
-    left: 835px;
-  }
+@media all and (orientation: landscape) and (max-width: 1919px) {
 
-  .calculate-button button {
-    height: 45px;
-    border: 1px solid #5E8976;
-    background: #5E8976;
-    text-align: center;
-    color: #fff;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 20px;
-    cursor: pointer;
+  .title-style{
+    font-size: 300%;
+    width: 45%;
   }
-
-  .calculate-button button:hover {
-    background: #4a6d5e;
-  }
-
 }
