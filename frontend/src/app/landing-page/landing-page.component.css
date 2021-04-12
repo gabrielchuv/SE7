@@ -17,6 +17,7 @@ body {
     font-size: 50%;
     text-align: center;
     padding-top: 20px;
+  padding-bottom: 20px;
     font-weight: lighter;
 }
 
@@ -24,7 +25,7 @@ body {
     background-color: #6b8d7e;
     color: white;
     font-size: 60%;
-    padding: 5px 30px;
+    padding: 10px 30px;
     font-style: italic;
 }
 
@@ -41,6 +42,7 @@ body {
     max-width: 300px;
     max-height: 300px;
   }
+
 
 
 
@@ -132,15 +134,12 @@ body {
 /*this may not work all the time so test*/
 @media all and (orientation: landscape) and (max-width: 1919px) {
     .site-title {
-      position: fixed;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      font-size: 150%;
-      text-align: center;
-      font-family: 'Open Sans', sans-serif;
-      font-weight: bold;
+      font-size: 300%;
     }
+
+  .site-description {
+    padding-bottom: 20px;
+  }
     .bottomRight-image-container {
       width: auto;
       height: 30%;
