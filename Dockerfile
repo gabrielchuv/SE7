@@ -30,7 +30,7 @@ RUN npm install
 COPY --chown=node:node ./frontend .
 
 #build website (working dir still set to front end)
-RUN ./node_modules/.bin/ng build
+RUN /home/node/app/frontend/node_modules/.bin/ng build
 
 #copy rest of SE7 folder e.g. waitfor script!
 WORKDIR /home/node/app
