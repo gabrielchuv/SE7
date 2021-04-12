@@ -17,6 +17,7 @@ COPY frontend/package*.json ./frontend/
 USER node
 
 # Run the command inside your image filesystem to install ALL dependencies.
+
 # go into backend and install dependencies
 WORKDIR /home/node/app/backend
 RUN npm install
@@ -29,11 +30,14 @@ RUN npm install
 COPY --chown=node:node ./frontend .
 
 #build website (working dir still set to front end)
-RUN ./node_modules/.bin/ng build
+RUN /home/node/app/frontend/node_modules/.bin/ng build
 
 #copy rest of SE7 folder e.g. waitfor script!
 WORKDIR /home/node/app
 COPY --chown=node:node . .
+
+#if the wait-for.sh isnt executable on your local computer itll be copied to alpine like that, either make it executable on your local machine or uncomment out the below line
+#RUN chmod +x wait-for.sh
 
 # Add metadata to the image to describe which port the container is listening on at runtime.
 EXPOSE 3000

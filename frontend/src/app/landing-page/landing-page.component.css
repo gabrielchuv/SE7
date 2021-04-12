@@ -7,21 +7,31 @@
     text-align: center;
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
+    width: auto;
+    height: auto;
+    max-width: 1000px;
+    max-height: 500px;
+    border-top-color: #f9cb36;
 }
 
 .site-description {
     font-size: 50%;
     text-align: center;
     padding-top: 20px;
+  padding-bottom: 20px;
     font-weight: lighter;
 }
 
 .calculate-button {
     background-color: #6b8d7e;
     color: white;
-    font-size: 60%;
-    padding: 5px 30px;
+  padding: 10px 30px;
+  font-size: 60%;
     font-style: italic;
+  cursor: pointer;
+}
+.calculate-button:hover {
+  background: #4a6d5e;
 }
 
 .button {border-radius: 12px;}
@@ -37,6 +47,7 @@
     max-width: 300px;
     max-height: 300px;
   }
+
 
 
 
@@ -121,58 +132,62 @@
   bottom: 0;
   width: 100%;
   height: auto;
-  max-height: 400px;
-  max-width: 400px;
+  max-height: 300px;
+  max-width: 300px;
 }
 
 /*this may not work all the time so test*/
 @media all and (orientation: landscape) and (max-width: 1919px) {
     .site-title {
-      position: fixed;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      font-size: 150%;
-      text-align: center;
-      font-family: 'Open Sans', sans-serif;
-      font-weight: bold;
+      font-size: 250%;
     }
+
+  .site-description {
+    padding-bottom: 20px;
+  }
     .bottomRight-image-container {
       width: auto;
-      height: 30%;
+      height: 20%;
+      z-index: -1;
     }
 
     .middleRight-image-container {
       width: auto;
-      height: 30%;
+      height: 25%;
+      z-index: -1;
     }
 
     .topRight-image-container {
       width: auto;
-      height: 30%;
+      height: 20%;
+      z-index: -1;
     }
 
     .topMiddle-image-container {
       width: auto;
-      height: 30%;
+      height: 20%;
+      z-index: -1;
     }
     .topLeft-image-container {
       width: auto;
-      height: 30%;
+      height: 20%;
+      z-index: -1;
     }
     .middleLeft-image-container {
       width: auto;
       height: 30%;
+      z-index: -1;
     }
     .bottomLeft-image-container {
       width: auto;
-      height: 30%;
+      height: 20%;
+      z-index: -1;
     }
     .bottomMiddle-image-container {
       width: auto;
-      height: 30%;
+      height: 20%;
+      z-index: -1;
     }
-
 
   }
 
@@ -205,7 +220,7 @@
 
     .topMiddle-image-container {
       width: 30%;
-      height: auto;
+      height: 30%;
       right: 35%;
     }
     .topLeft-image-container {
