@@ -156,6 +156,8 @@ The second wireframe walkthrough uncovered...
 3. The statistical breakdown of the user's wastage was a great medium for visualising progress to reduce waste and makes the site more impactful/actionable to the food wastage issue.
 
 ### Con's
+1. The naming of the statistics tab and page caused confusion as to what the tab pertained before going to it, renaming it to something more OBVIOUS? (what else would statistics means on a tracking food wastage site).
+2.  
 
 ### First User Persona
 With the aim of having a user-centred design process from the start, we created a hypothethical target user persona. Max is mainly characterized by caring about the environment and wanting to take action outside and inside his life to create a more sustainable world. Further details can be seen below:
