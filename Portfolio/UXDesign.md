@@ -164,13 +164,19 @@ The second wireframe walkthrough uncovered...
 Each page was designed with usability heuristics in mind.
 
 **1. Clear walk-through of system**
+
 From the landing page to the results page, users are navigated to the next page by a green button at the center or bottom of the page. Since the order of the instructions are crucial to the system (e.g users need to input items wasted before total food cost of food wasted is calculated), users are prevented from skipping pages and guided through each process. 
+
 **2. Intuitive icons**
+
 The icons and layouts used follow real-world conventions, allowing users to easily recognize the functions of the features.  For example, on the main search page, the list of items added from the search are displayed on a receipt form. This format was chosen as receipts typically hold information of items and quantity of items. Additionally, on the receipt, the plus and minus icons were chosen to increment or decrement item quantity accordingly. 
+
 **3. Minimal design**  
+
 To minimize the amount of information or instructions on a page, each task was given its own page. For example, the landing-page provides the purpose of the application, the main search-page allows users to add food wasted and the result page outputs the cost of food wasted per year along with comparable statistics. 
 
 The design of each page was mindful of the number of clicks required from users. Initially, the design relied on pop-up overlays, for example, to search for an item and to adjust its quantity with a drop-down. The overlays were removed in favor of simple icons like the plus and minus icons to adjust quantities of one or more items. 
+
 
 ### First User Persona
 With the aim of having a user-centred design process from the start, we created a hypothethical target user persona. Max is mainly characterized by caring about the environment and wanting to take action outside and inside his life to create a more sustainable world. Further details can be seen below:
