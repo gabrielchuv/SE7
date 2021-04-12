@@ -53,10 +53,16 @@ body {
 .second_message {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-around;
     padding-top: 4rem;
     padding-bottom: 4rem;
+}
+
+.second_message_content {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    align-items: center;
 }
 
 .second_message p {
