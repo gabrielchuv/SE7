@@ -6,6 +6,7 @@ html {
 
 body {
     background-color: #fff6e3;
+    min-height: 100vh;
 }
 
 /* First message */
