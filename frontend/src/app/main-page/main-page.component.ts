@@ -37,7 +37,7 @@ export class MainPageComponent implements OnInit{
           console.log(`search word changing: ${word}`);
         });
       }
-      
+
       //TODO: add error handling for non existant food items
       onSearch() {
         if (this.userSearchFood == "") {
@@ -65,6 +65,10 @@ export class MainPageComponent implements OnInit{
       onMoreDetails(food: string) {
           if (!food) return;
           this.searchService.getFood(food).subscribe((fooditem: any) => this.fooditem = fooditem);
+      }
+
+      toStats() {
+        this.router.navigate(['../stats'], {relativeTo: this.route});
       }
 
 }
