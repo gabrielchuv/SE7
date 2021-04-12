@@ -157,7 +157,8 @@ The second wireframe walkthrough uncovered...
 
 ### Con's
 1. The naming of the statistics tab and page caused confusion as to what the tab pertained before going to it, renaming it to something more OBVIOUS? (what else would statistics means on a tracking food wastage site).
-2.  
+2. The about and FAQ's could really be merged into one and the about can be a tab of the FAQ page.
+3. Submitting food items on the user main page could be clearer.
 
 ### First User Persona
 With the aim of having a user-centred design process from the start, we created a hypothethical target user persona. Max is mainly characterized by caring about the environment and wanting to take action outside and inside his life to create a more sustainable world. Further details can be seen below:

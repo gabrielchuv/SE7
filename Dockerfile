@@ -17,6 +17,7 @@ COPY frontend/package*.json ./frontend/
 USER node
 
 # Run the command inside your image filesystem to install ALL dependencies.
+
 # go into backend and install dependencies
 WORKDIR /home/node/app/backend
 RUN npm install
