@@ -1,33 +1,33 @@
 .site-title {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 400%;
-    text-align: center;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: bold;
-    width: auto;
-    height: auto;
-    max-width: 1000px;
-    max-height: 500px;
-    border-top-color: #f9cb36;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 400%;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  width: auto;
+  height: auto;
+  max-width: 1000px;
+  max-height: 500px;
+  border-top-color: #f9cb36;
 }
 
 .site-description {
-    font-size: 50%;
-    text-align: center;
-    padding-top: 20px;
+  font-size: 50%;
+  text-align: center;
+  padding-top: 20px;
   padding-bottom: 20px;
-    font-weight: lighter;
+  font-weight: lighter;
 }
 
 .calculate-button {
-    background-color: #6b8d7e;
-    color: white;
+  background-color: #6b8d7e;
+  color: white;
   padding: 10px 30px;
   font-size: 60%;
-    font-style: italic;
+  font-style: italic;
   cursor: pointer;
 }
 .calculate-button:hover {
@@ -37,19 +37,16 @@
 .button {border-radius: 12px;}
 
 .bottomRight-image-container {
-    /*position: fixed;*/
-    /*transform: translate(530%, 275%);*/
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    width: auto;
-    height: auto;
-    max-width: 300px;
-    max-height: 300px;
+  /*position: fixed;*/
+  /*transform: translate(530%, 275%);*/
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: auto;
+  height: auto;
+  max-width: 300px;
+  max-height: 300px;
   }
-
-
-
 
 .middleRight-image-container {
   /*position: absolute;*/
@@ -241,6 +238,5 @@
       height: auto;
       right: 35%;
     }
-
 
   }
