@@ -147,7 +147,15 @@ The session highlighted key issues in usability and informed the next iteration 
 User feedback informed the second prototype which calculates cost accrued for food wasted per individual. To address issues (1) and (2), users will only have to input food wasted, which is not dependent on when they shop for groceries. Less information is required from users to produce the output: a calculation of money lost and environmental damage done by food wasted. To address (3), users are informed of the amount of food wasted in pounds along with a personalized goal (e.g, buy fewer groceries). Social norming and a personalized goal could nudge behavior change.
 
 ### User Feedback: Wireframe Walk-through
-TODO
+Users were again shown the updated/new wireframe protoype to see if the changes made were an improvement on the last version and to gleen more insight into improving the user experience of the site. A mix of four users, some from the last feedback session and some new to the site, aged 18-30 were asked to explore the wireframe telling the feedback practioners, their opinion on what each page did, how effective it was at doing this, and what they would do next. The practioners checked off the user story list tasks the user's were able to complete on their own and any tasks left at the end were then hinted at to see if the user could accomplish there task. 
+
+The second wireframe walkthrough uncovered...
+#### Pro's
+1. The **Jane the cow** feature was a nice 'gamified' way to measure and compare how well the user was doing in terms of waste.
+2. The core concept of the site was clearer and all users said they were more likely to use and keep coming back to the site.
+3. The statistical breakdown of the user's wastage was a great medium for visualising progress to reduce waste and makes the site more impactful/actionable to the food wastage issue.
+
+### Con's
 
 ### First User Persona
 With the aim of having a user-centred design process from the start, we created a hypothethical target user persona. Max is mainly characterized by caring about the environment and wanting to take action outside and inside his life to create a more sustainable world. Further details can be seen below:
