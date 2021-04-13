@@ -25,7 +25,7 @@ export class MainPageComponent implements OnInit{
       }
 
       Add() {
-        // Might want to initialise a max quantity value so it doesn't break to app
+        // Might want to initialise a max quantity value so it doesn't break the app
         this.list++;
       }
 
