@@ -7,6 +7,10 @@
   text-align: center;
 }
 
+.search-bin-container {
+
+}
+
 .bin-image {
   position: absolute;
   top: 38%;
@@ -192,5 +196,9 @@ input:focus {
   .title-style{
     font-size: 300%;
     width: 45%;
+  }
+  .bin-image {
+    width: 100%;
+    display: flex;
   }
 }
