@@ -13,26 +13,35 @@ import { stringify } from '@angular/compiler/src/util';
 export class MainPageComponent implements OnInit{
       
       list: number;
+      total: number;
 
       constructor(
         private route: ActivatedRoute,              //for getting the current route
         private router: Router                      //for redirecting the user to another route
       ) { 
-        this.list = 1;                              // Initialise quantity to be 1 by default
+        this.list = 1;      
+        this.total = 1;                        // Initialise quantity to be 1 by default
       }
 
       ngOnInit() {
       }
 
-      Add() {
+      add() {
         // Might want to initialise a max quantity value so it doesn't break the app
         this.list++;
+        return this.total++;
       }
 
-      Subtract() {
+      subtract() {
         if (this.list > 0) {
           this.list--;
+          return this.total--;
         }
+        return this.total;
+      }
+
+      getTotal() {
+        return this.total;
       }
 
       toStats() {
