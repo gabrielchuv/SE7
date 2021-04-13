@@ -1,8 +1,14 @@
 <div class="wrap">
    <div class="search-bar">
       <input type="text" (keydown.enter)="$event.preventDefault()" class="searchTerm" [formControl]="searchControl" placeholder="Enter food item">
-      <button type="submit" class="searchButton" (click)="onSearch()">
+      <button type="submit" name="button" class="searchButton" (ngSubmit)="onSearch()">
         <i class="fa fa-search"></i>
      </button>
+   </div>
+
+   <div class="search-result">
+     <ul *ngFor="let fooditem of fooditems">
+       <a click=""> {{ fooditem.name }}</a>
+     </ul>
    </div>
 </div>
