@@ -44,10 +44,9 @@ export class SearchBarComponent implements OnInit {
       //subscription displays database results and will update if there are any changes to the database files
       this.searchService.getFoods().subscribe((fooditems: any) => {
          this.fooditems = fooditems;
-
       })
     } else {
-      this.searchService.getFood(this.userSearchFood).subscribe((fooditem: any) => {
+     this.searchService.getFood(this.userSearchFood).subscribe((fooditem: any) => {
         next: {
             this.fooditems = [];
             this.fooditems.push(fooditem);
@@ -61,10 +60,4 @@ export class SearchBarComponent implements OnInit {
       })
     }
   }
-
-  onMoreDetails(food: string) {
-      if (!food) return;
-      this.searchService.getFood(food).subscribe((fooditem: any) => this.fooditem = fooditem);
-  }
-
 }

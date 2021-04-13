@@ -232,4 +232,12 @@
     left: 30%;
     transform: translate(-50%, -50%);
   }
+
+  .food-select {
+    max-width: fit-content;
+    max-height: fit-content;
+    background-color: #5E8976;
+  }
+
+  
 }
