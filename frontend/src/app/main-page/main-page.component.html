@@ -33,11 +33,11 @@
       </div>
 
       <div class="quantity">
-        <button class="minus-btn" type="button" name="button">
+        <button (click)="decreaseQuantity()" class="minus-btn" type="button" name="button">
           <span class="glyphicon glyphicon-minus"></span>
         </button>
-        <input type="text" name="name" value="1">
-        <button class="plus-btn" type="button" name="button">
+        <input type="text" [(ngModel)]="quantity">
+        <button (click)="increaseQuantity()" class="plus-btn" type="button" name="button">
           <span class="glyphicon glyphicon-plus"></span>
         </button>
       </div>
@@ -69,7 +69,7 @@
         ITEM COUNT
       </div>
       <div class="item-count">
-        2
+        <p>{{getTotal()}}</p>
       </div>
     </div>
   </div>

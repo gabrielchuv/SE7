@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router, Params } from '@angular/router';
-import Fooditem from 'src/app/models/fooditem';
 import { SearchService } from 'src/app/common/services/search.service';
 import { FormControl } from '@angular/forms';
 import { Observable, observable } from 'rxjs';
@@ -13,22 +12,41 @@ import { stringify } from '@angular/compiler/src/util';
   styleUrls: ['./main-page.component.css']
 })
 export class MainPageComponent implements OnInit{
-;
+      
+      quantity: number;
+      total: number;
 
-      //link a search service instance on creation
       constructor(
-        private searchService: SearchService,       //for using the seearch service we created
         private route: ActivatedRoute,              //for getting the current route
         private router: Router                      //for redirecting the user to another route
-      ) { }
-
-      //prevents access to ng things before its laoded on the page
-      ngOnInit() {
+      ) { 
+        this.quantity = 1;                              // Initialise quantity to be 1 by default
+        this.total = this.quantity;                                             
       }
 
+      ngOnInit() {
+      }
+      
+      // Might have to re-evaluate once implementation from search to list is done
+      increaseQuantity() {
+        // Might want to initialise a max quantity value so it doesn't break the app
+        this.quantity++;
+        return this.total++;
+      }
+
+      decreaseQuantity() {
+        if (this.quantity > 0) {
+          this.quantity--;
+          return this.total--;
+        }
+        return this.total;
+      }
+
+      getTotal() {
+        return this.total;
+      }
 
       toStats() {
         this.router.navigate(['../stats'], {relativeTo: this.route});
       }
-
 }
