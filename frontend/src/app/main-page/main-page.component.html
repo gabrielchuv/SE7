@@ -31,11 +31,11 @@
       </div>
 
       <div class="quantity">
-        <button class="minus-btn" type="button" name="button">
+        <button (click)="Subtract()" class="minus-btn" type="button" name="button">
           <span class="glyphicon glyphicon-minus"></span>
         </button>
-        <input type="text" name="name" value="1">
-        <button class="plus-btn" type="button" name="button">
+        <input type="text" [(ngModel)]="list">
+        <button (click)="Add()" class="plus-btn" type="button" name="button">
           <span class="glyphicon glyphicon-plus"></span>
         </button>
       </div>
@@ -50,11 +50,11 @@
       </div>
 
       <div class="quantity">
-        <button class="minus-btn" type="button" name="button">
+        <button (click)="Subtract()" class="minus-btn" type="button" name="button">
           <span class="glyphicon glyphicon-minus"></span>
         </button>
         <input type="text" name="name" value="1">
-        <button class="plus-btn" type="button" name="button">
+        <button (click)="Add()" class="plus-btn" type="button" name="button">
           <span class="glyphicon glyphicon-plus"></span>
         </button>
       </div>
