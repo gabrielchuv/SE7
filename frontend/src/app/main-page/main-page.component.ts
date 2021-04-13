@@ -12,15 +12,15 @@ import { stringify } from '@angular/compiler/src/util';
 })
 export class MainPageComponent implements OnInit{
       
-      list: number;
+      quantity: number;
       total: number;
 
       constructor(
         private route: ActivatedRoute,              //for getting the current route
         private router: Router                      //for redirecting the user to another route
       ) { 
-        this.list = 1;                              // Initialise quantity to be 1 by default
-        this.total = this.list;                                             
+        this.quantity = 1;                              // Initialise quantity to be 1 by default
+        this.total = this.quantity;                                             
       }
 
       ngOnInit() {
@@ -29,13 +29,13 @@ export class MainPageComponent implements OnInit{
       // Might have to re-evaluate once implementation from search to list is done
       increaseQuantity() {
         // Might want to initialise a max quantity value so it doesn't break the app
-        this.list++;
+        this.quantity++;
         return this.total++;
       }
 
       decreaseQuantity() {
-        if (this.list > 0) {
-          this.list--;
+        if (this.quantity > 0) {
+          this.quantity--;
           return this.total--;
         }
         return this.total;
