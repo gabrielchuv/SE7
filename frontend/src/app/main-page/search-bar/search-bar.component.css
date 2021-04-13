@@ -1,5 +1,72 @@
+.maxsize {
+  max-width: 550px;
+}
+
+.search-bar {
+  width: 100%;
+  display: flex;
+}
+
+.searchTerm {
+  width: 100%;
+  border: 3px solid #5E8976;
+  border-right: none;
+  padding: 20px;
+  height: 41px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #272C35;
+  font-size: 17px;
+}
+
+.searchTerm:focus{
+  color: #272C35;
+}
+
+.searchButton {
+  width: 45px;
+  height: 46px;
+  border: 1px solid #5E8976;
+  background: #5E8976;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+button:hover {
+  background: #4a6d5e;
+}
+
+.wrap {
+  width: 20%;
+  position: absolute;
+  top: 32%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+}
+
+
+.example-form {
+  min-width: 150px;
+  max-width: 500px;
+  width: 100%;
+}
+
+.example-full-width {
+  width: 100%;
+}
+
+
+
 /* mobile view */
 @media (min-width: 320px) and (max-width: 480px), (orientation:portrait) {
+
+  .maxsize {
+    width: 50%;
+  }
+
   .search-bar {
     width: 100%;
     display: flex;
@@ -47,7 +114,12 @@
 
   /* tablet view */
 @media (min-width: 481px) and (max-width: 768px), (orientation:landscape) {
-    .search-bar {
+
+  .maxsize {
+    width: 50%;
+  }
+
+  .search-bar {
       width: 100%;
       display: flex;
     }
@@ -94,6 +166,11 @@
 
 /* laptop view */
 @media (min-width: 769px) and (max-width: 1024px), (orientation:landscape) {
+
+  .maxsize {
+    width: 50%;
+  }
+
   .search-bar {
     width: 100%;
     display: flex;
@@ -184,63 +261,5 @@
     top: 20%;
     left: 30%;
     transform: translate(-50%, -50%);
-  }
-}
-
-@media (min-width: 1201px) {
-  .search-bar {
-    width: 100%;
-    display: flex;
-  }
-
-  .searchTerm {
-    width: 100%;
-    border: 3px solid #5E8976;
-    border-right: none;
-    padding: 20px;
-    height: 41px;
-    border-radius: 5px 0 0 5px;
-    outline: none;
-    color: #272C35;
-    font-size: 17px;
-  }
-
-  .searchTerm:focus{
-    color: #272C35;
-  }
-
-  .searchButton {
-    width: 45px;
-    height: 46px;
-    border: 1px solid #5E8976;
-    background: #5E8976;
-    text-align: center;
-    color: #fff;
-    border-radius: 0 5px 5px 0;
-    cursor: pointer;
-    font-size: 20px;
-  }
-
-  button:hover {
-    background: #4a6d5e;
-  }
-
-  .wrap {
-    width: 20%;
-    position: absolute;
-    top: 32%;
-    left: 30%;
-    transform: translate(-50%, -50%);
-  }
-
-
-  .example-form {
-  min-width: 150px;
-  max-width: 500px;
-  width: 100%;
-  }
-
-  .example-full-width {
-    width: 100%;
   }
 }
