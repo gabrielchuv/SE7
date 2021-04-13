@@ -19,20 +19,21 @@ export class MainPageComponent implements OnInit{
         private route: ActivatedRoute,              //for getting the current route
         private router: Router                      //for redirecting the user to another route
       ) { 
-        this.list = 1;      
-        this.total = 1;                        // Initialise quantity to be 1 by default
+        this.list = 1;                              // Initialise quantity to be 1 by default
+        this.total = this.list;                                             
       }
 
       ngOnInit() {
       }
-
-      add() {
+      
+      // Might have to re-evaluate once implementation from search to list is done
+      increaseQuantity() {
         // Might want to initialise a max quantity value so it doesn't break the app
         this.list++;
         return this.total++;
       }
 
-      subtract() {
+      decreaseQuantity() {
         if (this.list > 0) {
           this.list--;
           return this.total--;

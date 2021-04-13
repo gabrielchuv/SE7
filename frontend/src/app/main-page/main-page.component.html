@@ -31,11 +31,11 @@
       </div>
 
       <div class="quantity">
-        <button (click)="subtract()" class="minus-btn" type="button" name="button">
+        <button (click)="decreaseQuantity()" class="minus-btn" type="button" name="button">
           <span class="glyphicon glyphicon-minus"></span>
         </button>
         <input type="text" [(ngModel)]="list">
-        <button (click)="add()" class="plus-btn" type="button" name="button">
+        <button (click)="increaseQuantity()" class="plus-btn" type="button" name="button">
           <span class="glyphicon glyphicon-plus"></span>
         </button>
       </div>
