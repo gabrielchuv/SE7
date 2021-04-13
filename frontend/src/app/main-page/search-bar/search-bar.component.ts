@@ -43,19 +43,18 @@ export class SearchBarComponent implements OnInit {
     if (this.userSearchFood == "") {
       //subscription displays database results and will update if there are any changes to the database files
       this.searchService.getFoods().subscribe((fooditems: any) => {
-         this.fooditems = fooditems;
+        this.fooditems = fooditems;
       })
     } else {
-     this.searchService.getFood(this.userSearchFood).subscribe((fooditem: any) => {
-        next: {
-            this.fooditems = [];
-            this.fooditems.push(fooditem);
-        }
-        error: {
-          //clear the array
-          this.fooditems = [];
+      this.searchService.getFood(this.userSearchFood).subscribe((fooditem: any) => {
+
+        this.fooditems = [];
+
+        if (fooditem != null) {
+          this.fooditems.push(fooditem);
+        } else {
           //push into it a new error food item
-          this.fooditems.push({ _id: "error", name:"Item not found: try another one", mass: "error", cost: "error", category: "go away" });
+          this.fooditems.push({ _id: "error", name: "Item not found: try another one", mass: "error", cost: "error", category: "go away" });
         }
       })
     }
