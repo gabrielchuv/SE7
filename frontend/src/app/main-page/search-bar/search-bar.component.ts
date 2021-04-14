@@ -36,18 +36,14 @@ export class SearchBarComponent implements OnInit {
   }
 
   onSearch() {
-    console.log('food processed1');
     if (this.userSearchFood == "") {
-      console.log('food processed1');
       //subscription displays database results and will update if there are any changes to the database files
       this.searchService.getFoods().subscribe((fooditems: any) => {
         this.fooditems = fooditems;
       })
     } else {
       this.searchService.getFood(this.userSearchFood).subscribe((fooditem: any) => {
-
         this.fooditems = [];
-
         if (fooditem != null) {
           this.fooditems.push(fooditem);
         } else {
@@ -60,6 +56,6 @@ export class SearchBarComponent implements OnInit {
 
   onFoodSelect(fooditem: any) {
     this.onFoodPicked.emit(fooditem.name);
-    //console.log(fooditem);
+    console.log(`Emitting food item: ${fooditem}`);
   }
 }
