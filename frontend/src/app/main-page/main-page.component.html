@@ -2,7 +2,6 @@
 <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 
 <div>
-
   <div class="search-bin-container">
     <div class="title-style">What food have you wasted this week?</div>
     <!-- search bar -->
@@ -10,74 +9,40 @@
     <img class="bin-image" src="/assets/bin.png">
   </div>
 
-<div class="right-side-container">
-  <div class="receipt">
-    <!-- Title -->
-    <div class="heading">
-      <div class="heading-line">Your binned items</div>
-      <div class="heading-sub-line">This week</div>
-    </div>
-
-    <div class="sub-heading">
-      <div class="sub-heading-text">ITEM</div>
-      <div class="sub-heading-text">AMT</div>
-    </div>
-
-<!--    item part of receipt-->
-    <div class="item-full">
-    <!-- Product #1 -->
-    <div class="item">
-
-      <div class="description">
-        Carrots
+  <div class="right-side-container">
+    <div class="receipt">
+      <!-- Title -->
+      <div class="heading">
+        <div class="heading-line">Your binned items</div>
+        <div class="heading-sub-line">This week</div>
       </div>
 
-      <div class="quantity">
-        <button (click)="decreaseQuantity()" class="minus-btn" type="button" name="button">
-          <span class="glyphicon glyphicon-minus"></span>
-        </button>
-        <input type="text" [(ngModel)]="quantity">
-        <button (click)="increaseQuantity()" class="plus-btn" type="button" name="button">
-          <span class="glyphicon glyphicon-plus"></span>
-        </button>
+      <div class="sub-heading">
+        <div class="sub-heading-text">ITEM</div>
+        <div class="sub-heading-text">AMT</div>
+      </div>
+
+      <!--    !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!item part of receipt!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+      <div class="item-full">
+        <!-- Product #1 -->
+        <div class="item" *ngFor="let bin of binList">
+          <div class="description">{{bin.food}}</div>
+          <div class="quantity">
+            <button class="minus-btn" type="button" name="button">
+              <span class="glyphicon glyphicon-minus"></span>
+            </button>
+            <button class="plus-btn" type="button" name="button">
+              <span class="glyphicon glyphicon-plus"></span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="sub-description">ITEM COUNT
+      <div class="item-count"> TOTAL PLACEHOLDER</div>
       </div>
     </div>
 
-    <!-- Product #2 -->
-    <div class="item">
-
-
-      <div class="description">
-        Fish
-      </div>
-
-      <div class="quantity">
-        <button class="minus-btn" type="button" name="button">
-          <span class="glyphicon glyphicon-minus"></span>
-        </button>
-        <input type="text" name="name" value="1">
-        <button class="plus-btn" type="button" name="button">
-          <span class="glyphicon glyphicon-plus"></span>
-        </button>
-      </div>
-    </div>
-    </div>
-    <!-- Item count -->
-    <div class="sub-item">
-
-      <div class="sub-description">
-        ITEM COUNT
-      </div>
-      <div class="item-count">
-        <p>{{getTotal()}}</p>
-      </div>
-    </div>
+    <div class="calculate-button" (click)="toStats()">Calculate total</div>
   </div>
-
-  <div class="calculate-button" (click)="toStats()">
-    <!-- Lazy href, need to change this later when connecting to backend -->
-    <button href="#">Calculate Money Wasted</button>
-  </div>
-</div>
-
 </div>
