@@ -24,6 +24,14 @@ export class MainPageComponent implements OnInit {
   ngOnInit() {
   }
 
+  addBinEntry(foodName: string) {
+    this.binList.push(new Bin(foodName, "1"));
+  }
+
+  getQuantity(index: number): number {
+    return parseInt(this.binList[index].quantity!);
+  }
+
   toStats() {
     this.router.navigate(['../stats'], { relativeTo: this.route });
   }

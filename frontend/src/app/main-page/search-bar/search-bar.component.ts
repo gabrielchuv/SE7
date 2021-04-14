@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, EventEmitter, OnInit, Output } from '@angular/core';
 import { ActivatedRoute, Router, Params } from '@angular/router';
 import Fooditem from 'src/app/models/fooditem';
 import { SearchService } from 'src/app/common/services/search.service';
@@ -16,14 +16,14 @@ export class SearchBarComponent implements OnInit {
   searchControl = new FormControl('');    //intial value is empty string as this will be updated when user enters something to search for...
   //array of food items, initially empty
   fooditems: Fooditem[] = [];
-  //food item (on click display info)
-  fooditem: Fooditem | undefined;
+  //food item selected from search to add to list, @output exposes it to the parent
+  @Output() onFoodPicked = new EventEmitter<string>();
   //for saving fooditem name user is viewing in further detail
   userSearchFood: string = "";
   foodName: string = "";
   //link a search service instance on creation
   constructor(
-    private searchService: SearchService,       //for using the seearch service we created
+    private searchService: SearchService,       //for using the search service we created
     private route: ActivatedRoute,              //for getting the current route
     private router: Router                      //for redirecting the user to another route
   ) { }
@@ -34,39 +34,28 @@ export class SearchBarComponent implements OnInit {
       console.log(`search word changing: ${word}`);
     });
   }
-  //TODO: add error handling for non existant food items
+
   onSearch() {
-console.log('food processed1');
     if (this.userSearchFood == "") {
-      console.log('food processed1');
       //subscription displays database results and will update if there are any changes to the database files
       this.searchService.getFoods().subscribe((fooditems: any) => {
-         this.fooditems = fooditems;
+        this.fooditems = fooditems;
       })
     } else {
-    console.log('food processed2');
-     this.searchService.getFood(this.userSearchFood).subscribe((fooditem: any) => {
-        next: {
-            this.fooditems = [];
-            this.fooditems.push(fooditem);
-        }
-        error: {
-          //clear the array
-          this.fooditems = [];
+      this.searchService.getFood(this.userSearchFood).subscribe((fooditem: any) => {
+        this.fooditems = [];
+        if (fooditem != null) {
+          this.fooditems.push(fooditem);
+        } else {
           //push into it a new error food item
-          this.fooditems.push({ _id: "error", name:"Item not found: try another one", mass: "error", cost: "error", category: "go away" });
+          this.fooditems.push({ _id: "error", name: "Item not found: try another one", mass: "error", cost: "error", category: "go away" });
         }
       })
     }
   }
 
-  onFoodSelection() {
-  }
-
-
-  
-  onMoreDetails(food: string) {
-      if (!food) return;
-      this.searchService.getFood(food).subscribe((fooditem: any) => this.fooditem = fooditem);
+  onFoodSelect(fooditem: any) {
+    this.onFoodPicked.emit(fooditem.name);
+    console.log(`Emitting food item: ${fooditem}`);
   }
 }

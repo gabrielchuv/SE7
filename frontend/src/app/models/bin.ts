@@ -5,4 +5,9 @@ export default class Bin {
     food: string | undefined;
     quantity: string | undefined;
     date_added: Date | undefined;
+
+    constructor(foodname: string, quantity: string) {
+        this.food = foodname;
+        this.quantity = quantity;
+    }
 }
