@@ -2,6 +2,7 @@
 <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 
 <div class="title-style">What food have you wasted this week?</div>
+
 <body>
 
   <div>
@@ -21,49 +22,23 @@
       <div class="sub-heading-text">ITEM</div>
       <div class="sub-heading-text">AMT</div>
     </div>
-<!--    ​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​-->
+    <!--    ​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​-->
 
-<!--    item part of receipt-->
+    <!--    !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!item part of receipt!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
     <div class="item-full">
-    <!-- Product #1 -->
-    <div class="item">
-
-      <div class="description">
-        Carrots
+      <!-- Product #1 -->
+      <div class="item" *ngFor="let bin in binList">
+        <div class="description">{{bin.food}}</div>
+        <div class="quantity">
+          <button class="minus-btn" type="button" name="button">
+            <span class="glyphicon glyphicon-minus"></span>
+          </button>
+          <input type="text" [(ngModel)]="bin.quantity">
+          <button class="plus-btn" type="button" name="button">
+            <span class="glyphicon glyphicon-plus"></span>
+          </button>
+        </div>
       </div>
-
-      <div class="quantity">
-        <button class="minus-btn" type="button" name="button">
-          <span class="glyphicon glyphicon-minus"></span>
-        </button>
-        <input type="text" name="name" value="1">
-        <button class="plus-btn" type="button" name="button">
-          <span class="glyphicon glyphicon-plus"></span>
-        </button>
-      </div>
-    </div>
-
-    <!-- Product #2 -->
-    <div class="item">
-
-
-      <div class="description">
-        Fish
-      </div>
-
-      <div class="quantity">
-        <button class="minus-btn" type="button" name="button">
-          <span class="glyphicon glyphicon-minus"></span>
-        </button>
-        <input type="text" name="name" value="1">
-        <button class="plus-btn" type="button" name="button">
-          <span class="glyphicon glyphicon-plus"></span>
-        </button>
-      </div>
-    </div>
-    </div>
-    <!-- Item count -->
-    <div class="sub-item">
 
       <div class="sub-description">
         ITEM COUNT
