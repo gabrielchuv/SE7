@@ -5,7 +5,11 @@
         <i class="fa fa-search"></i>
      </button>
    </div>
-   <div class=".food-select">
-      <button type="button" *ngFor="let fooditem of fooditems">{{fooditem.name}}</button>
+   <div class="food-select">
+     <ul>
+       <li *ngFor="let fooditem of fooditems">
+         {{fooditem.name}}
+       </li>
+     </ul>
    </div>
 </div>

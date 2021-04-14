@@ -25,7 +25,7 @@ export class SearchBarComponent implements OnInit {
 
   //link a search service instance on creation
   constructor(
-    private searchService: SearchService,       //for using the seearch service we created
+    private searchService: SearchService,       //for using the search service we created
     private route: ActivatedRoute,              //for getting the current route
     private router: Router                      //for redirecting the user to another route
   ) { }
@@ -38,7 +38,6 @@ export class SearchBarComponent implements OnInit {
     });
   }
 
-  //TODO: add error handling for non existant food items
   onSearch() {
     if (this.userSearchFood == "") {
       //subscription displays database results and will update if there are any changes to the database files

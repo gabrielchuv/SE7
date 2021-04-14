@@ -187,6 +187,7 @@
   }
 }
 
+/* MAIN ONE */
 @media (min-width: 1201px) {
   .search-bar {
     width: 100%;
@@ -205,6 +206,7 @@
     font-size: 17px;
   }
 
+  /* when typing */
   .searchTerm:focus{
     color: #272C35;
   }
@@ -234,10 +236,18 @@
   }
 
   .food-select {
-    max-width: fit-content;
-    max-height: fit-content;
-    background-color: #5E8976;
+    width: 100%;
+    position: absolute;
+    left: 0%;
+    top: 100%;
   }
 
-  
+  .food-select li {
+    list-style-type: none;
+    width: 100%;
+    max-height: fit-content;
+    padding: 10px;
+    background-color: #fff;
+    color: #00000;
+  }
 }
