@@ -61,7 +61,7 @@ button:hover {
 
 
 /* mobile view */
-@media (min-width: 320px) and (max-width: 480px), (orientation:portrait) {
+@media (min-width: 320px) , (orientation:portrait) {
 
   .maxsize {
     width: 50%;
