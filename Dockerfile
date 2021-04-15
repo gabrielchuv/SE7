@@ -16,14 +16,13 @@ COPY frontend/package*.json ./frontend/
 # Change the user to node. This will apply to both the runtime user and the following commands.
 USER node
 
-# Run the command inside your image filesystem to install ALL dependencies.
-
-# go into backend and install dependencies
+# go into image backend and install dependencies
 WORKDIR /home/node/app/backend
 RUN npm install
 #copy backend to dest
 COPY --chown=node:node ./backend .
-# go into frontend and install dependencies
+
+# go into image frontend and install dependencies
 WORKDIR /home/node/app/frontend
 RUN npm install
 #copy frontend to dest
@@ -37,7 +36,7 @@ WORKDIR /home/node/app
 COPY --chown=node:node . .
 
 #if the wait-for.sh isnt executable on your local computer itll be copied to alpine like that, either make it executable on your local machine or uncomment out the below line
-#RUN chmod +x wait-for.sh
+RUN chmod +x wait-for.sh
 
 # Add metadata to the image to describe which port the container is listening on at runtime.
 EXPOSE 3000

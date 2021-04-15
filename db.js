@@ -1,5 +1,6 @@
 const mongoose = require('./backend/node_modules/mongoose');
 const Fooditem = require('./backend/database/models/fooditem');
+const Bin = require('./backend/database/models/bin');
 
 var collectionArray = new Array();
 
@@ -22,7 +23,7 @@ mongoose.connect(url, options).
     then(() => { console.log('MongoDB is connected') })
     .catch((err) => { console.log(err) });
 
-
+// fooditems collection to prepopulate database if loading for the first time
 const fooditems = [
     new Fooditem({
         name: "steak",
@@ -105,6 +106,7 @@ mongoose.connection.on('open', () => {
         console.log(this.collectionArray);
         //if there are no collection names in db, fooditems collection needs to be created to populate db with foods
         if (!this.collectionArray.length) {
+            //generate a food items collection in mongoDB container
             console.log("No fooditems collection detected, generating them ... ");
             for (var i = 0; i < fooditems.length; i++) {
                 fooditems[i].save((err) => {
@@ -114,6 +116,8 @@ mongoose.connection.on('open', () => {
                 });
                 console.log(`populating db with: ${fooditems[i].name}`);
             }
+
+            //TODO create bins collection? might do it automatically when saving the first document with createBin
         }
     })
 })
