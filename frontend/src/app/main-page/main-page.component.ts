@@ -26,7 +26,7 @@ export class MainPageComponent implements OnInit {
 
   addBinEntry(foodName: string) {
     console.log(`adding to the bin: ${foodName}`);
-    this.binList.push(new Bin(foodName, "1"));
+    this.binList.push(new Bin('1', foodName, "1"));
     this.runningTotal++;
   }
 
@@ -51,7 +51,15 @@ export class MainPageComponent implements OnInit {
     console.log(`incrementing amount to: ${bin.quantity}`);
   }
 
+
+  // send binList data to backend
   toStats() {
+    for (let i = 0; i < this.binList.length; i++) {
+      console.log(`creating bin: ${this.binList[i].food} ${this.binList[i].quantity}`);
+      this.searchService.createBin(this.binList[i].usrID!, this.binList[i].food!, this.binList[i].quantity!);
+    }
+
+
     this.router.navigate(['../stats'], { relativeTo: this.route });
   }
 }
