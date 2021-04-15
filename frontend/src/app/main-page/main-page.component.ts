@@ -19,7 +19,7 @@ export class MainPageComponent implements OnInit {
     private router: Router                      //for redirecting the user to another route
   ) { }
 
-  //prevents access to ng things before its laoded on the page
+  //prevents access to ng things before its loaded on the page
   ngOnInit() {
   }
 
