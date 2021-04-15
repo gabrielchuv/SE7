@@ -93,6 +93,16 @@ const fooditems = [
     }),
 ];
 
+const bins = [
+  new Bin({
+    usrID: "1",
+    food: "carrot",
+    quantity: "2",
+    date_added: Date()
+  })
+];
+
+
 //check if collections exist
 //on connection open - https://stackoverflow.com/questions/13444876/node-js-mongoose-check-if-a-collection-exists
 mongoose.connection.on('open', () => {
@@ -118,6 +128,15 @@ mongoose.connection.on('open', () => {
             }
 
             //TODO create bins collection? might do it automatically when saving the first document with createBin
+            console.log("No bins collection detected, generating them ... ");
+            for (var i = 0; i < bins.length; i++) {
+                bins[i].save((err) => {
+                    if (err) {
+                        console.error(err);
+                    }
+                });
+                console.log(`populating db with: ${bins[i].food}`);
+            }
         }
     })
 })
