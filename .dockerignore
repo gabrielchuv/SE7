@@ -1,0 +1,7 @@
+.gitignore
+./Portfolio
+README.md
+./backend/node_modules
+./frontend/e2e
+./frontend/dist
+./frontend/node_modules

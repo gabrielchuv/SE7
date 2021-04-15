@@ -17,7 +17,7 @@ export class SearchBarComponent implements OnInit {
   //array of food items, initially empty
   fooditems: Fooditem[] = [];
   //food item selected from search to add to list, @output exposes it to the parent
-  @Output() onFoodPicked = new EventEmitter<string>();
+  @Output() onFoodPickedEvent = new EventEmitter<string>();
   //for saving fooditem name user is viewing in further detail
   userSearchFood: string = "";
   foodName: string = "";
@@ -54,8 +54,8 @@ export class SearchBarComponent implements OnInit {
     }
   }
 
-  onFoodSelect(fooditem: any) {
-    this.onFoodPicked.emit(fooditem.name);
+  onFoodSelect(fooditem: string) {
     console.log(`Emitting food item: ${fooditem}`);
+    this.onFoodPickedEvent.emit(fooditem);
   }
 }

@@ -5,7 +5,7 @@
   <div class="search-bin-container">
     <div class="title-style">What food have you wasted this week?</div>
     <!-- search bar -->
-    <app-search-bar class="search" (onFoodPicked)="addBinEntry($event)"></app-search-bar>
+    <app-search-bar class="search" (onFoodPickedEvent)="addBinEntry($event)"></app-search-bar>
     <img class="bin-image" src="/assets/bin.png">
   </div>
 
@@ -24,13 +24,11 @@
 
       <!--    !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!item part of receipt!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
       <div class="item-full">
-        <div class="item" *ngFor="let bin of binList">{{bin.food}}</div>
-
-      <div class="sub-description">ITEM COUNT
-      <div class="item-count"> TOTAL PLACEHOLDER</div>
+        <div class="item" *ngFor="let bin of binList">{{bin.food}} {{bin.quantity}}</div>
+        <div class="sub-description">ITEM COUNT
+          <div class="item-count">TOTAL PLACEHOLDER</div>
+        </div>
       </div>
+      <div class="calculate-button" (click)="toStats()">Calculate total</div>
     </div>
-
-    <div class="calculate-button" (click)="toStats()">Calculate total</div>
   </div>
-</div>

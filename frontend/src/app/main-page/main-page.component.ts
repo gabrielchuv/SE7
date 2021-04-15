@@ -25,9 +25,12 @@ export class MainPageComponent implements OnInit {
   }
 
   addBinEntry(foodName: string) {
+    console.log(`adding to the bin: ${foodName}`);
     this.binList.push(new Bin(foodName, "1"));
   }
 
+  //TODO have option to increment/decrement the quantities of each thing in bin
+  //will need below method to parse string quantities to numbers for inc/dec
   getQuantity(index: number): number {
     return parseInt(this.binList[index].quantity!);
   }
