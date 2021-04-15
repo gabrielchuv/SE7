@@ -11,6 +11,7 @@ import { stringify } from '@angular/compiler/src/util';
   templateUrl: './search-bar.component.html',
   styleUrls: ['./search-bar.component.css']
 })
+
 export class SearchBarComponent implements OnInit {
   //form control instance used for searching
   searchControl = new FormControl('');    //intial value is empty string as this will be updated when user enters something to search for...
@@ -34,7 +35,6 @@ export class SearchBarComponent implements OnInit {
       console.log(`search word changing: ${word}`);
     });
   }
-
   onSearch() {
     if (this.userSearchFood == "") {
       //subscription displays database results and will update if there are any changes to the database files
@@ -53,9 +53,8 @@ export class SearchBarComponent implements OnInit {
       })
     }
   }
-
-  onFoodSelect(fooditem: any) {
-    this.onFoodPickedEvent.emit(fooditem.name);
+  onFoodSelect(fooditem: string) {
     console.log(`Emitting food item: ${fooditem}`);
+    this.onFoodPickedEvent.emit(fooditem);
   }
 }
