@@ -30,7 +30,7 @@ label {
 .container {
   border-radius: 5px;
   background-color: #f2f2f2;
-  padding: 20px;
+  /*padding: 20px;*/
 }
 
 /* Floating column for labels: 25% width */
