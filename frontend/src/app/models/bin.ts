@@ -7,8 +7,8 @@ export default class Bin {
     quantity: string | undefined;
     date_added: Date | undefined;
 
-    constructor(foodname: string, quantity: number) {
+    constructor(foodname: string, quantity: string) {
         this.food = foodname;
-        this.quantity = quantity.toString();
+        this.quantity = quantity;
     }
 }

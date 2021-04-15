@@ -25,7 +25,7 @@ export class MainPageComponent implements OnInit {
 
   addBinEntry(foodName: string) {
     console.log(`adding to the bin: ${foodName}`);
-    this.binList.push(new Bin(foodName, 1));
+    this.binList.push(new Bin(foodName, "1"));
   }
 
   decrementQuantity(bin: any) {

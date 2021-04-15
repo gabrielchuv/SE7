@@ -7,6 +7,6 @@
    </div>
 
    <div class="search-result">
-     <button class="btn btn-primary" *ngFor="let fooditem of fooditems" (click)="onFoodSelect(fooditem.name)"> {{ fooditem.name }}</button>
+     <button class="btn btn-primary" *ngFor="let fooditem of fooditems" (click)="onFoodSelect(fooditem.name!)"> {{ fooditem.name }}</button>
    </div>
 </div>

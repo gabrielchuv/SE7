@@ -54,8 +54,8 @@ export class SearchBarComponent implements OnInit {
     }
   }
 
-  onFoodSelect(fooditem: any) {
-    this.onFoodPickedEvent.emit(fooditem.name);
+  onFoodSelect(fooditem: string) {
+    this.onFoodPickedEvent.emit(fooditem);
     console.log(`Emitting food item: ${fooditem}`);
   }
 }
