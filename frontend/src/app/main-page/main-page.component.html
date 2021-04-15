@@ -1,6 +1,5 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-
 <div>
   <div class="search-bin-container">
     <div class="title-style">What food have you wasted this week?</div>
@@ -8,7 +7,6 @@
     <app-search-bar class="search" (onFoodPickedEvent)="addBinEntry($event)"></app-search-bar>
     <img class="bin-image" src="/assets/bin.png">
   </div>
-
   <div class="right-side-container">
     <div class="receipt">
       <!-- Title -->
@@ -16,34 +14,24 @@
         <div class="heading-line">Your binned items</div>
         <div class="heading-sub-line">This week</div>
       </div>
-
       <div class="sub-heading">
         <div class="sub-heading-text">ITEM</div>
         <div class="sub-heading-text">AMT</div>
       </div>
-
       <!--    !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!item part of receipt!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
       <div class="item-full">
-        <!-- Product #1 -->
-        <div class="item" *ngFor="let bin of binList">
-          <div class="description">{{bin.food}}</div>
-          <div class="quantity">
-            <button class="minus-btn" type="button" name="button">
-              <span class="glyphicon glyphicon-minus"></span>
-            </button>
-            <button class="plus-btn" type="button" name="button">
-              <span class="glyphicon glyphicon-plus"></span>
-            </button>
-          </div>
+        <div class="item" *ngFor="let bin of binList">{{bin.food}}
+          <button class="minus-btn" type="button" (click)="decrementQuantity(bin)">
+            <span class="glyphicon glyphicon-minus"></span>
+          </button>
+          {{bin.quantity}}
+          <button class="plus-btn" type="button" (click)="incrementQuantity(bin)">
+            <span class="glyphicon glyphicon-plus"></span>
+          </button>
         </div>
       </div>
-      <div class="sub-item">
       <div class="sub-description">ITEM COUNT</div>
-        <div class="item-count"> TOTAL PLACEHOLDER</div>
-      </div>
-    </div>
-    <div class="calculate-button">
-    <button type="button" (click)="toStats()">Calculate total</button>
+      <div class="item-count">TOTAL PLACEHOLDER</div>
+      <div class="calculate-button" (click)="toStats()">Calculate total</div>
     </div>
   </div>
-</div>

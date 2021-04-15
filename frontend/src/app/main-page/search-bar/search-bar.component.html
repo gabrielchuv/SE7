@@ -1,12 +1,11 @@
 <div class="maxsize">
-   <div class="search-bar">
-      <input type="text" (keydown.enter)="$event.preventDefault()" class="searchTerm" [formControl]="searchControl" placeholder="Enter food item">
-      <button type="button" class="searchButton" (click)="onSearch()">
-        <i class="fa fa-search"></i>
-     </button>
-   </div>
-
-   <div class="search-result">
-     <button class="btn btn-primary" *ngFor="let fooditem of fooditems" (click)="onFoodSelect(fooditem.name!)"> {{ fooditem.name }}</button>
-   </div>
+  <div class="search-bar">
+     <input type="text" (keydown.enter)="$event.preventDefault()" class="searchTerm" [formControl]="searchControl" placeholder="Enter food item">
+     <button type="button" class="searchButton" (click)="onSearch()">
+       <i class="fa fa-search"></i>
+    </button>
+  </div>
+  <div class="search-result">
+    <button class="btn btn-primary" *ngFor="let fooditem of fooditems" (click)="onFoodSelect(fooditem.name!)"> {{ fooditem.name }}</button>
+  </div>
 </div>
