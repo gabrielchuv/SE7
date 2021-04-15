@@ -44,9 +44,9 @@ label {
 /* Floating column for inputs: 75% width */
 .col-75 {
   float: left;
-  width: 65%;
+  width: 60%;
   margin-top: 6px;
-  align-content: flex-start;
+  padding-right: 5%;
 }
 
 /* Clear floats after the columns */
