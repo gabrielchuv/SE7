@@ -29,10 +29,24 @@ export class MainPageComponent implements OnInit {
     this.binList.push(new Bin(foodName, "1"));
   }
 
-  //TODO have option to increment/decrement the quantities of each thing in bin
-  //will need below method to parse string quantities to numbers for inc/dec
-  getQuantity(index: number): number {
-    return parseInt(this.binList[index].quantity!);
+  decrementQuantity(bin: any) {
+    //parse to int
+    var asNumber = parseInt(bin.quantity);
+    //if its not 0
+    if (asNumber > 0) {
+      asNumber--;
+    }
+    //turn back to string and set it
+    bin.quantity = asNumber.toString();
+    console.log(`decrementing amount to: ${bin.quantity}`);
+    
+  }
+
+  incrementQuantity(bin: any) {
+    var asNumber = parseInt(bin.quantity);
+    asNumber++;
+    bin.quantity = asNumber.toString();
+    console.log(`incrementing amount to: ${bin.quantity}`);
   }
 
   toStats() {

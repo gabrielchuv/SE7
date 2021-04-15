@@ -24,11 +24,17 @@
 
       <!--    !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!item part of receipt!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
       <div class="item-full">
-        <div class="item" *ngFor="let bin of binList">{{bin.food}} {{bin.quantity}}</div>
-        <div class="sub-description">ITEM COUNT
-          <div class="item-count">TOTAL PLACEHOLDER</div>
+        <div class="item" *ngFor="let bin of binList">{{bin.food}} {{bin.quantity}}
+          <button class="minus-btn" type="button" (click)="decrementQuantity(bin)">
+            <span class="glyphicon glyphicon-minus"></span>
+          </button>
+          <button class="plus-btn" type="button" (click)="incrementQuantity(bin)">
+            <span class="glyphicon glyphicon-plus"></span>
+          </button>
         </div>
       </div>
+      <div class="sub-description">ITEM COUNT</div>
+      <div class="item-count">TOTAL PLACEHOLDER</div>
       <div class="calculate-button" (click)="toStats()">Calculate total</div>
     </div>
   </div>
