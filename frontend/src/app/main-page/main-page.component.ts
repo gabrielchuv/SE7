@@ -3,7 +3,6 @@ import { ActivatedRoute, Router } from '@angular/router';
 import { SearchService } from 'src/app/common/services/search.service';
 import Bin from '../models/bin';
 
-
 @Component({
   selector: 'app-main-page',
   templateUrl: './main-page.component.html',
@@ -20,8 +19,32 @@ export class MainPageComponent implements OnInit {
     private router: Router                      //for redirecting the user to another route
   ) { }
 
-  //prevents access to ng things before its laoded on the page
+  //prevents access to ng things before its loaded on the page
   ngOnInit() {
+  }
+
+  addBinEntry(foodName: string) {
+    console.log(`adding to the bin: ${foodName}`);
+    this.binList.push(new Bin(foodName, "1"));
+  }
+
+  decrementQuantity(bin: any) {
+    //parse to int
+    var asNumber = parseInt(bin.quantity);
+    //if its not 0
+    if (asNumber > 0) {
+      asNumber--;
+    }
+    //turn back to string and set it
+    bin.quantity = asNumber.toString();
+    console.log(`decrementing amount to: ${bin.quantity}`);
+  }
+
+  incrementQuantity(bin: any) {
+    var asNumber = parseInt(bin.quantity);
+    asNumber++;
+    bin.quantity = asNumber.toString();
+    console.log(`incrementing amount to: ${bin.quantity}`);
   }
 
   toStats() {
