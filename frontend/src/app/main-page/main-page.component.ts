@@ -29,7 +29,7 @@ export class MainPageComponent implements OnInit {
     this.binList.push(new Bin('1', foodName, "1"));
     this.runningTotal++;
   }
-
+  //decrement quanity of the passed bin
   decrementQuantity(bin: any) {
     //parse to int
     var asNumber = parseInt(bin.quantity);
@@ -43,6 +43,7 @@ export class MainPageComponent implements OnInit {
     console.log(`decrementing amount to: ${bin.quantity}`);
   }
 
+  //increment quanity of the passed bin
   incrementQuantity(bin: any) {
     var asNumber = parseInt(bin.quantity);
     asNumber++;
@@ -54,9 +55,10 @@ export class MainPageComponent implements OnInit {
 
   // send binList data to backend
   toStats() {
+    console.log("redirecting to stats page and sending data...");
     for (let i = 0; i < this.binList.length; i++) {
-      console.log(`creating bin: ${this.binList[i].food} ${this.binList[i].quantity}`);
-      this.searchService.createBin(this.binList[i].usrID!, this.binList[i].food!, this.binList[i].quantity!);
+      this.searchService.createBin(this.binList[i].usrID!, this.binList[i].food!, this.binList[i].quantity!)
+        .subscribe((res) => console.log(`added bin: ${res} to database`));
     }
 
 
