@@ -7,6 +7,13 @@ html {
 body { 
     background-color: #fff6e3;
     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+h1, p {
+    text-align: center;
 }
 
 /* First message */
@@ -40,7 +47,6 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 2.5rem;
 }
 
 .image img {
@@ -55,7 +61,6 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    padding-top: 4rem;
     padding-bottom: 4rem;
 }
 
@@ -68,4 +73,20 @@ body {
 
 .second_message p {
     font-size: 1.7rem;
+}
+
+
+
+@media all and (orientation: portrait) and (max-width: 812px) {
+    .first_message_content {
+        padding-top: 0rem;
+    }
+
+    .second_message {
+        padding-bottom: 0rem;
+    }
+
+    .image img {
+        width: 45%;
+    }
 }
