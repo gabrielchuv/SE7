@@ -4,9 +4,8 @@ const router = express.Router();
 const bin = require('./database/models/bin');
 const fooditem = require('./database/models/fooditem');
 
-// RESTFUL API FOR BIN
-//CREATE a bin
-router.post('/bin', (req, res) => {
+// RESTFUL API FOR BIN http://localhost:3000/api/bin/...
+router.post('/bin/create', (req, res) => {
     //create new food item with given parameters
     (new bin({ 'usrID': req.body.usrID, 'food': req.body.food, 'quantity': req.body.quantity }))
         .save()
@@ -15,7 +14,7 @@ router.post('/bin', (req, res) => {
 });
 
 //READ all bins
-router.get('/bin', (req, res) => {
+router.get('/bin/all', (req, res) => {
     bin.find({})
         .then((bin) => res.send(bin))
         .catch((error) => console.log(error));
@@ -50,7 +49,7 @@ router.delete('/bin/:id', (req, res) => {
         .catch((error) => console.log(error));
 });
 
-// RESTFUL API FOR FOOD ITEMS http://localhost:3000/search/foods/:foodname
+// RESTFUL API FOR FOOD ITEMS http://localhost:3000/api/search/foods/:foodname
 // CREATE a food item
 router.post('/search/foods/create', (req, res) => {
     (new fooditem({ 'name': req.body.name, 'mass': req.body.mass, 'cost': req.body.cost, 'category': req.body.category }))
@@ -68,7 +67,7 @@ router.get('/search/foods/all', (req, res) => {
 
 //READ A FOOD ITEM
 router.get('/search/foods/:foodname', (req, res) => {
-    fooditem.findOne({ 'name': req.params.foodname })
+    fooditem.find({ 'name': new RegExp(req.params.foodname) })
         .then((fooditem) => res.send(fooditem))
         .catch((error) => console.log(error));
 });

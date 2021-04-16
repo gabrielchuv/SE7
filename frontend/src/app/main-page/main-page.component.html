@@ -7,6 +7,7 @@
     <app-search-bar class="search" (onFoodPickedEvent)="addBinEntry($event)"></app-search-bar>
     <img class="bin-image" src="/assets/bin.png">
   </div>
+
   <div class="right-side-container">
     <div class="receipt">
       <!-- Title -->
@@ -14,24 +15,40 @@
         <div class="heading-line">Your binned items</div>
         <div class="heading-sub-line">This week</div>
       </div>
+
       <div class="sub-heading">
         <div class="sub-heading-text">ITEM</div>
         <div class="sub-heading-text">AMT</div>
       </div>
+
       <!--    !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!item part of receipt!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
-      <div class="item-full">
-        <div class="item" *ngFor="let bin of binList">{{bin.food}}
-          <button class="minus-btn" type="button" (click)="decrementQuantity(bin)">
-            <span class="glyphicon glyphicon-minus"></span>
-          </button>
-          {{bin.quantity}}
-          <button class="plus-btn" type="button" (click)="incrementQuantity(bin)">
-            <span class="glyphicon glyphicon-plus"></span>
-          </button>
+      <cdk-virtual-scroll-viewport itemSize="50" class="item-full">
+        <div class="item" *ngFor="let bin of binList">
+          <div class="description">
+            {{bin.food}}
+          </div>
+
+          <div class="quantity">
+            <button class="minus-btn" type="button" (click)="decrementQuantity(bin)">
+              <span class="glyphicon glyphicon-minus"></span>
+            </button>
+            <input type="text" value="{{bin.quantity}}">
+            <button class="plus-btn" type="button" (click)="incrementQuantity(bin)">
+              <span class="glyphicon glyphicon-plus"></span>
+            </button>
+          </div>
         </div>
+      </cdk-virtual-scroll-viewport>
+
+      <div class="sub-item">
+        <div class="sub-description">
+          <span>ITEM COUNT</span>
+        </div>
+        <div class="item-count">{{runningTotal}}</div>
       </div>
-      <div class="sub-description">ITEM COUNT</div>
-      <div class="item-count">{{runningTotal}}</div>
-      <div class="calculate-button" (click)="toStats()">Calculate total</div>
     </div>
+      <div class="calculate-button">
+        <button (click)="toStats()">Calculate total</button>
+      </div>
   </div>
+</div>

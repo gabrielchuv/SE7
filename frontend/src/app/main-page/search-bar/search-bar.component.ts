@@ -45,7 +45,7 @@ export class SearchBarComponent implements OnInit {
       this.searchService.getFood(this.userSearchFood).subscribe((fooditem: any) => {
         this.fooditems = [];
         if (fooditem != null) {
-          this.fooditems.push(fooditem);
+          this.fooditems = (fooditem);
         } else {
           //push into it a new error food item
           this.fooditems.push({ _id: "error", name: "Item not found: try another one", mass: "error", cost: "error", category: "go away" });
@@ -53,6 +53,7 @@ export class SearchBarComponent implements OnInit {
       })
     }
   }
+
   onFoodSelect(fooditem: string) {
     console.log(`Emitting food item: ${fooditem}`);
     this.onFoodPickedEvent.emit(fooditem);
