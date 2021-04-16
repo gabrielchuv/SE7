@@ -53,7 +53,7 @@ export class SearchService {
 
   //get a food item
   getFood(name: string) {
-    return this.http.get(`${this.ROOT_URL}/search/foods/${name}`);
+    return this.http.get<Fooditem[]>(`${this.ROOT_URL}/search/foods/${name}`);
   }
 
   //update a food item

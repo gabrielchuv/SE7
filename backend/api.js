@@ -67,7 +67,7 @@ router.get('/search/foods/all', (req, res) => {
 
 //READ A FOOD ITEM
 router.get('/search/foods/:foodname', (req, res) => {
-    fooditem.findOne({ 'name': req.params.foodname })
+    fooditem.find({ 'name': new RegExp(req.params.foodname) })
         .then((fooditem) => res.send(fooditem))
         .catch((error) => console.log(error));
 });
