@@ -4,7 +4,7 @@ services:
   nodejs:
     build:
       context: .
-      dockerfile: Dockerfile 
+      dockerfile: Dockerfile
     image: nodejs
     container_name: nodejs
     restart: unless-stopped
