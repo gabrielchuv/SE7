@@ -19,6 +19,7 @@ import {LoginOverlayComponent} from "../../landing-page/login-overlay/login-over
 import {MatDialogModule} from '@angular/material/dialog';
 import {MatIconModule} from '@angular/material/icon';
 import {MatTabsModule} from '@angular/material/tabs';
+import {ScrollingModule} from '@angular/cdk/scrolling';
 
 @NgModule({
   declarations: [
@@ -45,6 +46,7 @@ import {MatTabsModule} from '@angular/material/tabs';
     MatDialogModule,
     MatIconModule,
     MatTabsModule,
+    ScrollingModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

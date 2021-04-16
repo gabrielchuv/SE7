@@ -202,8 +202,8 @@ input:focus {
   position: absolute;
   bottom: 1%;
   right: 50%;
-  transform: translate(55%, 0%);
-
+  transform: translate(50%, 0%);
+  width: 70%;
 }
 
 .calculate-button button {
@@ -216,6 +216,7 @@ input:focus {
   border-radius: 5px;
   cursor: pointer;
   font-size: 20px;
+  width: 100%;
 }
 
 .calculate-button button:hover {

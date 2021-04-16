@@ -22,7 +22,7 @@
       </div>
 
       <!--    !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!item part of receipt!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
-      <div class="item-full">
+      <cdk-virtual-scroll-viewport itemSize="50" class="item-full">
         <div class="item" *ngFor="let bin of binList">
           <div class="description">
             {{bin.food}}
@@ -38,7 +38,7 @@
             </button>
           </div>
         </div>
-      </div>
+      </cdk-virtual-scroll-viewport>
 
       <div class="sub-item">
         <div class="sub-description">
@@ -46,10 +46,9 @@
         </div>
         <div class="item-count">{{runningTotal}}</div>
       </div>
-
+    </div>
       <div class="calculate-button">
         <button (click)="toStats()">Calculate total</button>
       </div>
-    </div>
   </div>
 </div>
