@@ -1,0 +1,62 @@
+<div class="container">
+  <mat-tab-group dynamicHeight mat-stretch-tabs class="example-stretched-tabs mat-elevation-z4">
+    <mat-tab label="Login">
+  <form>
+    <div class="row">
+      <div class="col-25">
+        <label>Username</label>
+      </div>
+      <div class="col-75">
+        <input type="text" placeholder="Username">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label>Password</label>
+      </div>
+      <div class="col-75">
+        <input type="password" placeholder="Password">
+      </div>
+    </div>
+    <button class="button" (click)="onLoginClick()">Log-in</button>
+  </form>
+    </mat-tab>
+    <mat-tab label="Register">
+      <form>
+        <div class="row">
+          <div class="col-25">
+            <label>Username</label>
+          </div>
+          <div class="col-75">
+            <input type="text" placeholder="Username">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label>Email</label>
+          </div>
+          <div class="col-75">
+            <input type="text" placeholder="Email">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label>Password</label>
+          </div>
+          <div class="col-75">
+            <input type="password" placeholder="Password">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label>Confirm Password</label>
+          </div>
+          <div class="col-75">
+            <input type="password" placeholder="Confirm Password">
+          </div>
+        </div>
+        <button class="button" (click)="onLoginClick()">Register</button>
+      </form>
+    </mat-tab>
+  </mat-tab-group>
+</div>
