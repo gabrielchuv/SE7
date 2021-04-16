@@ -1,5 +1,6 @@
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<!--<link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">-->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
 <div>
   <div class="search-bin-container">
     <div class="title-style">What food have you wasted this week?</div>
@@ -8,9 +9,11 @@
     <img class="bin-image" src="/assets/bin.png">
   </div>
 
+
+  <!-- receipt -->
   <div class="right-side-container">
     <div class="receipt">
-      <!-- Title -->
+      <!-- receipt heading -->
       <div class="heading">
         <div class="heading-line">Your binned items</div>
         <div class="heading-sub-line">This week</div>
@@ -21,7 +24,7 @@
         <div class="sub-heading-text">AMT</div>
       </div>
 
-      <!--    !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!item part of receipt!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+      <!-- receipt items -->
       <cdk-virtual-scroll-viewport itemSize="50" class="item-full">
         <div class="item" *ngFor="let bin of binList">
           <div class="description">
@@ -40,6 +43,7 @@
         </div>
       </cdk-virtual-scroll-viewport>
 
+      <!-- receipt totals -->
       <div class="sub-item">
         <div class="sub-description">
           <span>ITEM COUNT</span>
@@ -47,6 +51,8 @@
         <div class="item-count">{{runningTotal}}</div>
       </div>
     </div>
+
+      <!-- calculate button -->
       <div class="calculate-button">
         <button (click)="toStats()">Calculate total</button>
       </div>
