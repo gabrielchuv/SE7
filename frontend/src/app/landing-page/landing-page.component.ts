@@ -12,8 +12,7 @@ import {MatDialog, MatDialogConfig} from '@angular/material/dialog';
 export class LandingPageComponent implements OnInit {
 
   constructor(private route: ActivatedRoute,
-              private router: Router,
-              private dialog: MatDialog) {
+              private router: Router) {
 
   }
 
@@ -21,11 +20,6 @@ export class LandingPageComponent implements OnInit {
   }
 
   onCalculateClick() {
-    const dialogConfig = new MatDialogConfig();
-    dialogConfig.autoFocus = true;
-    dialogConfig.width = "60%";
-    dialogConfig.height = "50%";
-    dialogConfig.panelClass = 'login';
-    this.dialog.open(LoginOverlayComponent, dialogConfig)
+    this.router.navigate(['../main'], {relativeTo: this.route});
   }
 }
