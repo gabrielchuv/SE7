@@ -72,6 +72,8 @@
   height: auto;
   max-width: 300px;
   max-height: 300px;
+  margin-top: 3%;
+  z-index: -1;
 }
 
 .topMiddle-image-container {
@@ -83,7 +85,9 @@
   width: auto;
   height: auto;
   max-width: 300px;
-  max-height: 300px;
+  max-height: 200px;
+  margin-top: 3%;
+  z-index: -1;
 }
 
 .topLeft-image-container {
@@ -95,7 +99,9 @@
   width: auto;
   height: auto;
   max-width: 300px;
-  max-height: 300px;
+  max-height: 200px;
+  margin-top: 3%;
+  z-index: -1;
 }
 
 .middleLeft-image-container {
@@ -205,41 +211,49 @@
     .bottomRight-image-container {
       width: 30%;
       height: auto;
+      z-index: -1;
     }
 
     .middleRight-image-container {
       width: 20%;
       height: auto;
       top: 45%;
+      z-index: -1;
     }
 
     .topRight-image-container {
       width: 30%;
       height: auto;
+      z-index: -1;
     }
 
     .topMiddle-image-container {
       width: 30%;
       height: 30%;
       right: 35%;
+      z-index: -1;
     }
     .topLeft-image-container {
       width: 30%;
       height: auto;
+      z-index: -1;
     }
     .middleLeft-image-container {
       width: 20%;
       height: auto;
       top: 41%;
+      z-index: -1;
     }
     .bottomLeft-image-container {
       width: 30%;
       height: auto;
+      z-index: -1;
     }
     .bottomMiddle-image-container {
       width: 30%;
       height: auto;
       right: 35%;
+      z-index: -1;
     }
 
   }
