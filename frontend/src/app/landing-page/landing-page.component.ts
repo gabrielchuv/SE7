@@ -23,7 +23,7 @@ export class LandingPageComponent implements OnInit {
   onCalculateClick() {
     const dialogConfig = new MatDialogConfig();
     dialogConfig.autoFocus = true;
-    dialogConfig.width = "40%";
+    dialogConfig.width = "60%";
     dialogConfig.height = "50%";
     dialogConfig.panelClass = 'login';
     this.dialog.open(LoginOverlayComponent, dialogConfig)

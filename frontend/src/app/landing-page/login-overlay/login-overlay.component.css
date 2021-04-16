@@ -29,8 +29,9 @@ label {
 /* Style the container */
 .container {
   border-radius: 5px;
-  background-color: #f2f2f2;
+  background-color: #F6F6F6;
   /*padding: 20px;*/
+  margin-top: 5%;
 }
 
 /* Floating column for labels: 25% width */
@@ -56,10 +57,37 @@ label {
   clear: both;
 }
 
+.tabs {
+  /*width: 85%;*/
+  justify-content: center;
+}
+
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
+@media (orientation: landscape) and (max-width: 800px) {
   .col-25, .col-75 {
+    font-size: 70%;
+  }
+
+  .container {
+    margin-top: 0;
+  }
+}
+
+@media (orientation: portrait) and (max-width: 800px) {
+  .col-25 {
+    margin-top: 0;
+    font-size: 70%;
     width: 100%;
+  }
+
+  .col-75 {
+    margin-top: 0;
+    font-size: 70%;
+    width: 80%;
+    transform: translate(15%, 0);
+  }
+
+  .container {
     margin-top: 0;
   }
 }

@@ -11,7 +11,9 @@
   height: auto;
   max-width: 1000px;
   max-height: 500px;
-  border-top-color: #f9cb36;
+  padding: 20px;
+  border-top: 5px solid #f9cb36;
+  border-bottom: 5px solid #f9cb36;
 }
 
 .site-description {
@@ -137,6 +139,7 @@
 @media all and (orientation: landscape) and (max-width: 1919px) {
     .site-title {
       font-size: 250%;
+      padding: 1%;
     }
 
   .site-description {
