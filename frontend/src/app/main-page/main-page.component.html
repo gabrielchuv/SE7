@@ -7,7 +7,6 @@
     <app-search-bar class="search" (onFoodPickedEvent)="addBinEntry($event)"></app-search-bar>
     <img class="bin-image" src="/assets/bin.png">
   </div>
-
   <div class="right-side-container">
     <div class="receipt">
       <!-- Title -->
@@ -27,7 +26,9 @@
           <div class="description">
             {{bin.food}}
           </div>
-
+          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
           <div class="quantity">
             <button class="minus-btn" type="button" (click)="decrementQuantity(bin)">
               <span class="glyphicon glyphicon-minus"></span>
