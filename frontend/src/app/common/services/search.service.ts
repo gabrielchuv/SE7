@@ -1,7 +1,7 @@
 //frontend angular service which handles the http requests that will go to the backend api
 
 import { Injectable } from '@angular/core';
-import { WebService } from './web.service';
+import { HttpClient } from '@angular/common/http';
 import Fooditem from '../../models/fooditem';
 import Bin from '../../models/bin';
 
@@ -10,54 +10,59 @@ import Bin from '../../models/bin';
 })
 export class SearchService {
 
-  constructor(private WebService: WebService) { }
+  readonly ROOT_URL;
+
+  //set above to be backend server port...
+  constructor(private http: HttpClient) {
+    this.ROOT_URL = "http://localhost:3000/api";
+  }
 
   //create a bin
-  createBin( usrID: string , food: string, quantity: string) {
-    return this.WebService.post('bin', { usrID, food, quantity });
+  createBin(usrID: string, food: string, quantity: string) {
+    return this.http.post<Bin>(`${this.ROOT_URL}/bin/create`, { usrID, food, quantity });
   }
 
   //get all bins
   getBins() {
-    return this.WebService.get('bin')
+    return this.http.get(`${this.ROOT_URL}/bin/all`);
   }
 
-  //get a bin
-  getBin(id: string) {
-    return this.WebService.get(`bin/${id}`);
+  //get all bins of a specific user
+  getBin(usrID: string) {
+    return this.http.get(`${this.ROOT_URL}/bin/${usrID}`);
   }
 
-  //update a bin
+  //update a bin !!!!!!!!probably dont need this!!!!!!! would be too hard to get _id of the bin to update
   updateBin(usrID: string, _id: string, bin: Bin) {
-    return this.WebService.patch(`bin/${usrID}/${_id}`, { food: bin.food, quantity: bin.quantity } )
+    return this.http.patch(`${this.ROOT_URL}/bin/${usrID}/${_id}`, { food: bin.food, quantity: bin.quantity });
   }
 
   //delete a bin
   deleteBin(id: string) {
-    return this.WebService.delete(`bin/${id}`);
+    return this.http.delete(`${this.ROOT_URL}/bin/${id}`);
   }
 
   //create a food item
   createFood(name: string, mass: string, cost: string, category: string) {
-    return this.WebService.post('search/foods/create', { name, mass, cost, category });
+    return this.http.post(`${this.ROOT_URL}/search/foods/create`, { name, mass, cost, category });
   }
 
   getFoods() {
-    return this.WebService.get(`search/foods/all`);
+    return this.http.get(`${this.ROOT_URL}/search/foods/all`);
   }
 
   //get a food item
   getFood(name: string) {
-    return this.WebService.get(`search/foods/${name}`);
+    return this.http.get(`${this.ROOT_URL}/search/foods/${name}`);
   }
 
   //update a food item
   updateFooditem(name: string, fooditem: Fooditem) {
-    return this.WebService.patch(`search/foods/${name}`, { name: fooditem.name, mass: fooditem.mass, cost: fooditem.cost, category: fooditem.category})
+    return this.http.patch(`${this.ROOT_URL}/search/foods/${name}`, { name: fooditem.name, mass: fooditem.mass, cost: fooditem.cost, category: fooditem.category });
   }
 
   //delete a food item
   deleteFooditem(name: string) {
-    return this.WebService.delete(`search/foods/${name}`);
+    return this.http.delete(`${this.ROOT_URL}/search/foods/${name}`);
   }
 }

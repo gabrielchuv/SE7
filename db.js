@@ -93,7 +93,7 @@ const fooditems = [
     }),
 ];
 
-//check if collections exist
+//check if food collections exist
 //on connection open - https://stackoverflow.com/questions/13444876/node-js-mongoose-check-if-a-collection-exists
 mongoose.connection.on('open', () => {
     mongoose.connection.db.listCollections(/*{ name: 'fooditems' }*/).toArray((err, collectionNames) => {
@@ -102,8 +102,6 @@ mongoose.connection.on('open', () => {
             return;
         }
         this.collectionArray = collectionNames;
-        console.log("Collections detected: ");
-        console.log(this.collectionArray);
         //if there are no collection names in db, fooditems collection needs to be created to populate db with foods
         if (!this.collectionArray.length) {
             //generate a food items collection in mongoDB container
@@ -116,8 +114,6 @@ mongoose.connection.on('open', () => {
                 });
                 console.log(`populating db with: ${fooditems[i].name}`);
             }
-
-            //TODO create bins collection? might do it automatically when saving the first document with createBin
         }
     })
 })

@@ -34,4 +34,4 @@ app.set('port', port);
 const server = http.createServer(app);
 
 //connect server to local host port 3000 and print to console
-app.listen(port, () => console.log(`Backend Express Server is connected on Port ${port}`));
+app.listen(port, () => console.log(`!!!!!!!!!!!!!!!!!!Backend Express Server is connected on Port ${port}!!!!!!!!!!!!!!!!!!!!!!!!!!!`));

@@ -180,12 +180,13 @@ input:focus {
   outline:0;
 }
 
-.sub-description{
+.sub-description {
   width: 50%;
   padding-top: 2%;
   text-align: center;
   font-size: 22px;
 }
+
 .item-count {
   width: 50%;
   text-align: center;
