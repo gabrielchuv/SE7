@@ -1,6 +1,8 @@
 const mongoose = require('./backend/node_modules/mongoose');
-/* NEW */
-const url = `mongodb+srv://gabrielchuv:c4bxosoxD@food-waste-app.esxbd.mongodb.net/myFirstDatabase?retryWrites=true&w=majority`
+/* SEMI NEW */
+/*const url = `mongodb+srv://gabrielchuv:qZ7nKcff5pLb67vQ@food-waste-app.esxbd.mongodb.net/myFirstDatabase?retryWrites=true&w=majority`*/
+/* NEW NEW  */
+const url = process.env.MONGODB_URI;
 /* NEW */
 const options={
     useNewUrlParser: true,
