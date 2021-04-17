@@ -1,14 +1,14 @@
 const mongoose = require('./backend/node_modules/mongoose');
 /* SEMI NEW */
-const url = `mongodb+srv://gabrielchuv:qZ7nKcff5pLb67vQ@food-waste-app.esxbd.mongodb.net/myFirstDatabase?retryWrites=true&w=majority`;
+/*const url = `mongodb+srv://gabrielchuv:qZ7nKcff5pLb67vQ@food-waste-app.esxbd.mongodb.net/myFirstDatabase?retryWrites=true&w=majority`;*/
 /* NEW NEW  */
 /*const url = process.env.MONGODB_URI;*/
 /* NEW */
-const options={
+/*const options={
     useNewUrlParser: true,
     useCreateIndex: true,
     useUnifiedTopology: true 
-}
+}*/
 
 
 const Fooditem = require('./backend/database/models/fooditem');
@@ -17,22 +17,22 @@ const Bin = require('./backend/database/models/bin');
 var collectionArray = new Array();
 
 /* OLD */
-/*const {
+const {
     MONGO_USERNAME,
     MONGO_PASSWORD,
     MONGO_HOSTNAME,
     MONGO_PORT,
     MONGO_DB
-} = process.env;*/
+} = process.env;
 
 /* OLD */
-/*const options = {
+const options = {
     useNewUrlParser: true,
     useUnifiedTopology: true,
-};*/
+};
 
 /* OLD */
-/*const url = `mongodb://${MONGO_USERNAME}:${MONGO_PASSWORD}@${MONGO_HOSTNAME}:${MONGO_PORT}/${MONGO_DB}?authSource=admin`;*/
+const url = `mongodb://${MONGO_USERNAME}:${MONGO_PASSWORD}@${MONGO_HOSTNAME}:${MONGO_PORT}/${MONGO_DB}?authSource=admin`;
 
 mongoose.connect(url, options).
     then(() => { console.log('MongoDB is connected') })
