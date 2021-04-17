@@ -1,10 +1,9 @@
-/* Overall */
-html {
-    font-size: 16px;
-    color: black;
-  }
 
-body { 
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
     background-color: #fff6e3;
     min-height: 100vh;
     display: flex;
@@ -13,33 +12,38 @@ body {
 }
 
 h1, p {
-    text-align: center;
+    //text-align: center;
 }
 
 /* First message */
 
 .first_message {
-    display: flex;
+    //display: flex;
     flex-direction: row;
     justify-content: space-around;
+    margin-left: 15%;
+    text-align: left;
 }
 
 .first_message_content {
-    display: flex;
     flex-direction: column;
-    width: 80%;
+    width: 40%;
     padding-top: 4rem;
     align-items: center;
+    text-align: left;
 }
 
 .first_message_content h1 {
     font-weight: bold;
     font-size: 3rem;
-    padding-bottom: 1.5rem;
+    padding-bottom: 2rem;
+    text-align: left;
 }
 
 .first_message_content p {
     font-size: 1.5rem;
+    text-align: left;
+
 }
 
 /* Image  */
@@ -50,9 +54,10 @@ h1, p {
 }
 
 .image img {
-    width: 20%;
-    position: relative;
-    right: 20px;
+    width: 25%;
+    position: absolute;
+    right: 15%;
+    top: 25%;
 }
 
 /* Second message */
@@ -69,12 +74,12 @@ h1, p {
     flex-direction: column;
     width: 80%;
     align-items: center;
+    margin-bottom: 5%;
 }
 
 .second_message p {
     font-size: 1.7rem;
 }
-
 
 
 @media all and (orientation: portrait) and (max-width: 812px) {

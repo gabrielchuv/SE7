@@ -1,3 +1,7 @@
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+
 .site-title {
   position: fixed;
   top: 50%;
@@ -26,17 +30,19 @@
 
 .calculate-button {
   background-color: #6b8d7e;
-  color: white;
+  color: #fff;
   padding: 10px 30px;
   font-size: 60%;
-  font-style: italic;
   cursor: pointer;
+  border: none;
 }
 .calculate-button:hover {
   background: #4a6d5e;
 }
 
-.button {border-radius: 12px;}
+.button {
+  border-radius: 10px;
+}
 
 .bottomRight-image-container {
   /*position: fixed;*/
@@ -72,6 +78,8 @@
   height: auto;
   max-width: 300px;
   max-height: 300px;
+  margin-top: 3%;
+  z-index: -1;
 }
 
 .topMiddle-image-container {
@@ -83,7 +91,9 @@
   width: auto;
   height: auto;
   max-width: 300px;
-  max-height: 300px;
+  max-height: 200px;
+  margin-top: 3%;
+  z-index: -1;
 }
 
 .topLeft-image-container {
@@ -95,7 +105,9 @@
   width: auto;
   height: auto;
   max-width: 300px;
-  max-height: 300px;
+  max-height: 200px;
+  margin-top: 3%;
+  z-index: -1;
 }
 
 .middleLeft-image-container {
@@ -205,41 +217,49 @@
     .bottomRight-image-container {
       width: 30%;
       height: auto;
+      z-index: -1;
     }
 
     .middleRight-image-container {
       width: 20%;
       height: auto;
       top: 45%;
+      z-index: -1;
     }
 
     .topRight-image-container {
       width: 30%;
       height: auto;
+      z-index: -1;
     }
 
     .topMiddle-image-container {
       width: 30%;
       height: 30%;
       right: 35%;
+      z-index: -1;
     }
     .topLeft-image-container {
       width: 30%;
       height: auto;
+      z-index: -1;
     }
     .middleLeft-image-container {
       width: 20%;
       height: auto;
       top: 41%;
+      z-index: -1;
     }
     .bottomLeft-image-container {
       width: 30%;
       height: auto;
+      z-index: -1;
     }
     .bottomMiddle-image-container {
       width: 30%;
       height: auto;
       right: 35%;
+      z-index: -1;
     }
 
   }
