@@ -1,8 +1,8 @@
 const mongoose = require('./backend/node_modules/mongoose');
 /* SEMI NEW */
-/*const url = `mongodb+srv://gabrielchuv:qZ7nKcff5pLb67vQ@food-waste-app.esxbd.mongodb.net/myFirstDatabase?retryWrites=true&w=majority`*/
+const url = `mongodb+srv://gabrielchuv:qZ7nKcff5pLb67vQ@food-waste-app.esxbd.mongodb.net/myFirstDatabase?retryWrites=true&w=majority`;
 /* NEW NEW  */
-const url = process.env.MONGODB_URI;
+/*const url = process.env.MONGODB_URI;*/
 /* NEW */
 const options={
     useNewUrlParser: true,
