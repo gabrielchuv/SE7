@@ -20,6 +20,7 @@ import {MatDialogModule} from '@angular/material/dialog';
 import {MatIconModule} from '@angular/material/icon';
 import {MatTabsModule} from '@angular/material/tabs';
 import {ScrollingModule} from '@angular/cdk/scrolling';
+import {MatAutocompleteModule} from '@angular/material/autocomplete';
 
 @NgModule({
   declarations: [
@@ -47,6 +48,7 @@ import {ScrollingModule} from '@angular/cdk/scrolling';
     MatIconModule,
     MatTabsModule,
     ScrollingModule,
+    MatAutocompleteModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
