@@ -19,7 +19,7 @@ body {
 
 .first_message {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
     margin-left: 15%;
     text-align: left;
