@@ -11,14 +11,9 @@ body {
     justify-content: space-around;
 }
 
-h1, p {
-    //text-align: center;
-}
-
 /* First message */
 
 .first_message {
-    //display: flex;
     flex-direction: row;
     justify-content: space-around;
     margin-left: 15%;
