@@ -11,11 +11,6 @@ body {
     justify-content: space-around;
 }
 
-<<<<<<< HEAD
-/* First message */
-
-.first_message {
-=======
 /*h1, p {
     //text-align: center;
 }*/
@@ -23,8 +18,7 @@ body {
 /* First message */
 
 .first_message {
-   /* //display: flex;*/
->>>>>>> 4c595f1e050931cb61f8ad2f7e49c19f1bb2dcf2
+    display: flex;
     flex-direction: row;
     justify-content: space-around;
     margin-left: 15%;
