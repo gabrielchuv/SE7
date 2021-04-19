@@ -1,11 +1,14 @@
 <div class="maxsize">
   <div class="search-bar">
-     <input type="text" (keydown.enter)="$event.preventDefault()" class="searchTerm" [formControl]="searchControl" placeholder="Enter food item">
+     <input type="text" (keydown.enter)="$event.preventDefault()" class="searchTerm"
+            [formControl]="searchControl" placeholder="Enter food item" (keyup.enter)="onSearch()">
      <button type="button" class="searchButton" (click)="onSearch()">
        <i class="fa fa-search"></i>
     </button>
   </div>
   <div class="search-result">
-    <button class="btn btn-primary" *ngFor="let fooditem of fooditems" (click)="onFoodSelect(fooditem.name!)"> {{ fooditem.name }}</button>
+  <cdk-virtual-scroll-viewport itemSize="20" class="search-results">
+     <button mat-stroked-button class="results-buttons" *cdkVirtualFor="let fooditem of fooditems" (click)="onFoodSelect(fooditem.name!)"> {{ fooditem.name }}</button>
+  </cdk-virtual-scroll-viewport>
   </div>
 </div>
