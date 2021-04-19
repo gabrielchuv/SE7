@@ -36,7 +36,7 @@ WORKDIR /home/node/app
 COPY --chown=node:node . .
 
 #if the wait-for.sh isnt executable on your local computer itll be copied to alpine like that, either make it executable on your local machine or uncomment out the below line
-RUN chmod +x wait-for.sh
+RUN chmod +x ./wait-for.sh
 
 # Add metadata to the image to describe which port the container is listening on at runtime.
 EXPOSE 3000
