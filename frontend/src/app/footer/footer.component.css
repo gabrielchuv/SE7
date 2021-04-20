@@ -10,20 +10,22 @@ footer {
     margin: 30px 0 20px;
     font-size: 25px;
     font-weight: bold;
+    cursor: pointer;
   }
   
-  footer .three-column {
+  footer .list-items {
    overflow: hidden;
   }
   
-  footer .three-column li{
+  footer .list-items li{
    width: 33.3333%;
     float: left;
     padding: 5px 0;
     color: #aaa;
+    cursor: pointer;
   }
 
-  footer .three-column li:hover{
+  footer .list-items li:hover{
     width: 33.3333%;
      float: left;
      padding: 5px 0;
