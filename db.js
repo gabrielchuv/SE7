@@ -291,7 +291,7 @@ const fooditems = [
         mass: "12",
         cost: "1.00",
         category: "meat"
-    }),
+    })
 ];
 
 //check if food collections exist
