@@ -317,4 +317,5 @@ mongoose.connection.on('open', () => {
             }
         }
     })
+    /* remove existing food items, and add all food items  */
 })
