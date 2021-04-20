@@ -30,8 +30,8 @@ app.get('*', (req, res) => {
 const port = process.env.PORT || '3000';
 app.set('port', port);
 
-//
+// creates the http server on the local machine
 const server = http.createServer(app);
 
-//connect server to local host port 3000 and print to console
-app.listen(port, () => console.log(`!!!!!!!!!!!!!!!!!!Backend Express Server is connected on Port ${port}!!!!!!!!!!!!!!!!!!!!!!!!!!!`));
+//binds and listens for the connections on the specified port
+app.listen(port, () => console.log(`Express Server is connected on Port ${port}`));
