@@ -2,7 +2,11 @@ footer {
     background: #272C35;
     color: #FFFFFF;
     padding-top: 10px;
-  }
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    margin: 0;
+}
     
 footer h3 {
     color: #FFFFFF;
@@ -17,7 +21,7 @@ footer .list-items {
    overflow: hidden;
 }
   
-footer .list-items li{
+footer .list-items li {
     width: 33.3333%;
     float: left;
     padding: 5px 0;
@@ -25,7 +29,7 @@ footer .list-items li{
     cursor: pointer;
 }
 
-footer .list-items li:hover{
+footer .list-items li:hover {
     width: 33.3333%;
     float: left;
     padding: 5px 0;
@@ -43,4 +47,8 @@ footer .copyright {
   
 footer .copyright span {
     color: #aaa;
+}
+
+footer .copyright span:hover {
+    color: rgb(143, 141, 141);
 }
