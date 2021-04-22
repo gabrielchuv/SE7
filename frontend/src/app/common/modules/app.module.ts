@@ -21,6 +21,7 @@ import {MatIconModule} from '@angular/material/icon';
 import {MatTabsModule} from '@angular/material/tabs';
 import {ScrollingModule} from '@angular/cdk/scrolling';
 import {MatAutocompleteModule} from '@angular/material/autocomplete';
+import {PrivacyPolicyPageComponent} from "../../privacy-policy-page/privacy-policy-page.component";
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import {MatAutocompleteModule} from '@angular/material/autocomplete';
     LandingPageComponent,
     MainPageComponent,
     SearchBarComponent,
-    LoginOverlayComponent
+    LoginOverlayComponent,
+    PrivacyPolicyPageComponent
   ],
   imports: [
     BrowserModule,
