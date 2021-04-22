@@ -23,6 +23,7 @@ import {MatTabsModule} from '@angular/material/tabs';
 import {ScrollingModule} from '@angular/cdk/scrolling';
 import {MatAutocompleteModule} from '@angular/material/autocomplete';
 import {PrivacyPolicyPageComponent} from "../../privacy-policy-page/privacy-policy-page.component";
+import { AboutPageComponent } from './../../about-page/about-page.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import {PrivacyPolicyPageComponent} from "../../privacy-policy-page/privacy-poli
     SearchBarComponent,
     LoginOverlayComponent,
     PrivacyPolicyPageComponent,
-    FooterComponent
+    FooterComponent,
+    AboutPageComponent
   ],
   imports: [
     BrowserModule,
