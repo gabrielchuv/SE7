@@ -10,7 +10,7 @@ import Bin from '../models/bin';
 })
 
 export class StatsPageComponent implements OnInit {
-  binsInDB: any = [];
+  binsInDB: Bin[] = [];
 
   constructor(
     private searchService: SearchService
