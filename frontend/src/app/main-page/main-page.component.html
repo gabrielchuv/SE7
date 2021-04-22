@@ -27,6 +27,7 @@
       <!-- receipt items -->
       <cdk-virtual-scroll-viewport itemSize="50" class="item-full">
         <div class="item" *ngFor="let bin of binList">
+          <b class="mad-closing-class" (click)="removeBinEntry(bin)">X</b>
           <div class="description">
             {{bin.food}}
           </div>

@@ -227,6 +227,14 @@ input:focus {
   background: #4a6d5e;
 }
 
+.mad-closing-class {
+  color: #000000;
+  cursor: pointer;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
 @media all and (orientation: landscape) and (min-width: 922px) and (max-width: 1919px) and (min-height: 640px){
 
   .title-style{

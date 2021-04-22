@@ -1,4 +1,6 @@
 const mongoose = require('./backend/node_modules/mongoose');
+//below needed to get hints/intellisense for mongoose commands, above is needed for actual mongoose operation
+//const mongoose = require('mongoose');
 /* SEMI NEW */
 /*const url = `mongodb+srv://gabrielchuv:qZ7nKcff5pLb67vQ@food-waste-app.esxbd.mongodb.net/myFirstDatabase?retryWrites=true&w=majority`;*/
 /* NEW NEW  */
@@ -297,27 +299,42 @@ const fooditems = [
 //check if food collections exist
 //on connection open - https://stackoverflow.com/questions/13444876/node-js-mongoose-check-if-a-collection-exists
 mongoose.connection.on('open', () => {
-    mongoose.connection.db.listCollections(/*{ name: 'fooditems' }*/).toArray((err, collectionNames) => {
-        if (err) {
-            console.error(err);
-            return;
-        }
-        this.collectionArray = collectionNames;
-        //if there are no collection names in db, fooditems collection needs to be created to populate db with foods
-        if (!this.collectionArray.length) {
-            //generate a food items collection in mongoDB container
-            console.log("No fooditems collection detected, generating them ... ");
-            for (var i = 0; i < fooditems.length; i++) {
-                fooditems[i].save((err) => {
-                    if (err) {
-                        console.error(err);
-                    }
-                });
-                console.log(`populating db with: ${fooditems[i].name}`);
-            }
+    mongoose.connection.collection({ name: 'fooditems' }).countDocuments({}).then((value) => {
+        console.log(`!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!length of fooditems collection: ${value}!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!`);
+        //if current collection length is less than prepopulated
+        if (value < fooditems.length) {
+            //delete collection
+            mongoose.connection.dropCollection({ name: 'fooditems' }, (err) => {
+                if (err) {
+                    console.error(err);
+                    return;
+                }
+                //add everything in fooditems
+                for (var i = 0; i < fooditems.length; i++) {
+                    fooditems[i].save((err) => {
+                        if (err) {
+                            console.error(err);
+                        }
+                    });
+                }
+            });
         }
     })
-    /* remove existing food items, and add all food items  */
     //compare length of pre-populated food items list to food items collection running in container
     //if container has less that pre-populated, delete the fooditems collection and make new with pre-populated items
 })
+
+// mongoose.connection.db.listCollections().toArray((err, collectionNames) => {
+
+//     this.collectionArray = collectionNames;
+//     //if there are no collection names in db, fooditems collection needs to be created to populate db with foods
+//     if (!this.collectionArray.length) {
+//         for (var i = 0; i < fooditems.length; i++) {
+//             fooditems[i].save((err) => {
+//                 if (err) {
+//                     console.error(err);
+//                 }
+//             });
+//         }
+//     }
+// })
