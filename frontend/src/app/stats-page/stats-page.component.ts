@@ -24,4 +24,11 @@ export class StatsPageComponent implements OnInit {
       }
     })
   }
+
+  /*ngOnInit() {
+    this.searchService.getBin("1").subscribe((bin: any) => {
+      console.log(bin)
+    })
+  }*/
+
 }
