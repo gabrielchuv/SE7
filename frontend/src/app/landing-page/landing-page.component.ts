@@ -4,6 +4,7 @@ import { ActivatedRoute, Router } from '@angular/router';
 import {LoginOverlayComponent} from "./login-overlay/login-overlay.component";
 import {MatDialog, MatDialogConfig} from '@angular/material/dialog';
 import { FormControl } from '@angular/forms';
+import {MatButtonModule} from '@angular/material/button';
 
 @Component({
   selector: 'app-landing-page',

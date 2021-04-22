@@ -15,17 +15,21 @@
 
 
 <div class="container">
+
+  <div class="middle">
+
+    <button type="submit" class="btn-image" (click)="changeLabelName()">
+      <img src="../../assets/sally2.gif" width="100%" />
+    </button>
+    <label #estimateInput class="estimateTerm"> $ {{name}} lost from food waste </label>
+  </div>
   <div class="split left">
     <div class="content-left">
       <div class="estimate">
 
-        <button type="submit" (click)="changeLabelName()">
-        Click Me
-    </button>
 
 
 
-        <label #estimateInput class="estimateTerm"> $ {{name}} lost from food waste </label>
 
 
         <!-- Enter a value <input type="text" [(ngModel)]="name"> -->
@@ -44,7 +48,7 @@
 
   <div class="split right">
     <!-- image cover right hand contents -->
-    <img src='../../assets/cloud_from_canva.png' class="cropped">
+    <img src='../../assets/cloud_from_canva_cropped.png' class="cropped">
     <div class="content-right">
       <h1 class="header">Where has your money gone?</h1>
       <h2 class="subheader"> Click on the pot of money to increase your estimate of how much money you are losing per month from food waste. </h2>
