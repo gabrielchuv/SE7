@@ -3,6 +3,7 @@ import {platformBrowser} from '@angular/platform-browser';
 import { ActivatedRoute, Router } from '@angular/router';
 import {LoginOverlayComponent} from "./login-overlay/login-overlay.component";
 import {MatDialog, MatDialogConfig} from '@angular/material/dialog';
+import { FormControl } from '@angular/forms';
 
 @Component({
   selector: 'app-landing-page',
@@ -10,6 +11,7 @@ import {MatDialog, MatDialogConfig} from '@angular/material/dialog';
   styleUrls: ['./landing-page.component.css']
 })
 export class LandingPageComponent implements OnInit {
+  estimateControl = new FormControl('');
 
   constructor(private route: ActivatedRoute,
               private router: Router) {

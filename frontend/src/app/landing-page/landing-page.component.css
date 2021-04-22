@@ -2,6 +2,96 @@
   font-family: 'Open Sans', sans-serif;
 }
 
+h1, h2 {
+  font-size: 2.4rem;
+  color: #272C35;
+  transform: translateX(-50%);
+  white-space: normal;
+  /* border: 5px solid black; */
+}
+
+.estimateTerm {
+  width: 100%;
+  font-size: 2rem;
+  text-align: center;
+  /* border: 1px solid green; */
+}
+
+
+.content-right {
+  position: relative;
+  left: 60%;
+  top: 40%;
+  width: 70%;
+  text-align: center;
+}
+
+.content-left {
+  position: relative;
+  left: 50%;
+  top: 50%;
+  width: 70%;
+  text-align: center;
+}
+
+.estimate {
+  display: flex;
+  transform: translateX(-50%);
+}
+
+
+.header {
+  font-weight: bold;
+}
+
+.subheader {
+  font-size: 1.2rem;
+  font-weight: lighter;
+  margin-top: 5%;
+}
+
+.btn {
+    margin-top: 7%;
+    font-size: 1rem;
+    padding: 12px 24px;
+    cursor: pointer;
+    border-radius: 30px;
+    border-width: medium;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.split {
+  position: absolute;
+  height: 100%;
+  overflow: hidden;
+}
+
+.split.left {
+  width: 45%;
+  left:0;
+  /* border: 5px solid red; */
+}
+
+.split.right {
+  width: 55%;
+  right:0;
+}
+
+.cropped {
+  top: 0;
+  position: absolute;
+  width: 100%; /* width of container */
+  height: 100%; /* height of container */
+  object-fit: cover;
+  object-position: 0% 0%;
+  /* border: 5px solid blue; */
+}
+
+
+/* previous styles
 .site-title {
   position: fixed;
   top: 50%;
@@ -36,11 +126,11 @@
 }
 .calculate-button:hover {
   background: #4a6d5e;
-}
+} */
 
-.button {
+/* .button {
   border-radius: 10px;
-}
+} */
 
 
 /* resizing for later
