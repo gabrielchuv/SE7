@@ -11,9 +11,6 @@ body {
     justify-content: space-around;
 }
 
-/*h1, p {
-    //text-align: center;
-}*/
 
 /* First message */
 
@@ -83,6 +80,11 @@ body {
 
 
 @media all and (orientation: portrait) and (max-width: 812px) {
+    
+    .first_message {
+        flex-direction: row;
+    }
+
     .first_message_content {
         padding-top: 0rem;
     }
