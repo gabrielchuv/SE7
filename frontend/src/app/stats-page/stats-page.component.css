@@ -8,12 +8,9 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
-/*h1, p {
-    //text-align: center;
-}*/
 
 /* First message */
 
@@ -21,28 +18,27 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    margin-left: 15%;
-    text-align: left;
+    text-align: center;
 }
 
 .first_message_content {
     flex-direction: column;
-    width: 40%;
+    /*width: 40%;*/
     padding-top: 4rem;
     align-items: center;
-    text-align: left;
+    /*text-align: left;*/
 }
 
 .first_message_content h1 {
     font-weight: bold;
     font-size: 3rem;
-    padding-bottom: 2rem;
-    text-align: left;
+   /* padding-bottom: 2rem;
+    text-align: left;*/
 }
 
 .first_message_content p {
     font-size: 1.5rem;
-    text-align: left;
+    /*text-align: left;*/
 
 }
 
@@ -51,14 +47,15 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-right: 5%;
 }
 
-.image img {
+/*.image img {
     width: 25%;
     position: absolute;
     right: 15%;
     top: 25%;
-}
+}*/
 
 /* Second message */
 
@@ -67,6 +64,7 @@ body {
     flex-direction: row;
     justify-content: space-around;
     padding-bottom: 4rem;
+    text-align: center;
 }
 
 .second_message_content {
@@ -74,7 +72,7 @@ body {
     flex-direction: column;
     width: 80%;
     align-items: center;
-    margin-bottom: 5%;
+   /* margin-bottom: 5%;*/
 }
 
 .second_message p {
@@ -83,6 +81,7 @@ body {
 
 
 @media all and (orientation: portrait) and (max-width: 812px) {
+    
     .first_message_content {
         padding-top: 0rem;
     }
