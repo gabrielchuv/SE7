@@ -57,7 +57,7 @@ The API was built based on the RESTful design. There were only two collections o
 
 ## Front End
 ### Angular
-Details of implementation. ?(this is basically the above)
+Details of implementation. ?
 
 ## Deployment Details
 Following the guidelines atlassian recommends when it comes to continuous integration, the team split the github repo into several branches (main, develop). The main branch wasnt really touched until the team could be sure the site was in a secure, stable and 'ready' state that we would be happy to show off to the world, the first instance of updating main was to push the MVP site which had all the main features we wanted to show off. The develop branch was where most of the work happened and was the default branch, the workflow went something like:
