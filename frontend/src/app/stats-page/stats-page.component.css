@@ -8,7 +8,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 
@@ -18,8 +18,8 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-   /* margin-left: 15%;
-    text-align: left;*/
+    margin-left: 15%;
+    /*text-align: left;*/
 }
 
 .first_message_content {
