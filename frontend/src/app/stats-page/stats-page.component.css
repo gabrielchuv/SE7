@@ -18,8 +18,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    margin-left: 15%;
-    /*text-align: left;*/
+    text-align: center;
 }
 
 .first_message_content {
@@ -48,6 +47,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-right: 5%;
 }
 
 /*.image img {
@@ -64,6 +64,7 @@ body {
     flex-direction: row;
     justify-content: space-around;
     padding-bottom: 4rem;
+    text-align: center;
 }
 
 .second_message_content {
