@@ -1,14 +1,14 @@
 const mongoose = require('./backend/node_modules/mongoose');
 /* SEMI NEW */
-const url = `mongodb+srv://gabrielchuv:qZ7nKcff5pLb67vQ@food-waste-app.esxbd.mongodb.net/myFirstDatabase?retryWrites=true&w=majority`;
+/*const url = `mongodb+srv://gabrielchuv:qZ7nKcff5pLb67vQ@food-waste-app.esxbd.mongodb.net/myFirstDatabase?retryWrites=true&w=majority`;*/
 /* NEW NEW  */
 /*const url = process.env.MONGODB_URI;*/
 /* NEW */
-const options={
+/*const options={
     useNewUrlParser: true,
     useCreateIndex: true,
     useUnifiedTopology: true 
-}
+}*/
 
 
 const Fooditem = require('./backend/database/models/fooditem');
@@ -318,6 +318,4 @@ mongoose.connection.on('open', () => {
         }
     })
     /* remove existing food items, and add all food items  */
-    //compare length of pre-populated food items list to food items collection running in container
-    //if container has less that pre-populated, delete the fooditems collection and make new with pre-populated items
 })
