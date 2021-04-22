@@ -51,7 +51,7 @@ table {
 	border-spacing: 0;
 }
 .background {
-  background-color: #fff6e3;
+  background-color: #DBF0F8;
 }
 
 /*html, body { height: 100%; background-color: #fff6e3;}*/
@@ -60,7 +60,7 @@ table {
 
 .mat-dialog-container {
   padding: 0 !important;
-  background-color: #F6F6F6;
+  background-color: #ç;
 
 }
 
@@ -74,4 +74,3 @@ table {
   padding-left:30px;
   padding-right:30px;
 }
-
