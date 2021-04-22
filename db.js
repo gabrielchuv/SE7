@@ -318,4 +318,6 @@ mongoose.connection.on('open', () => {
         }
     })
     /* remove existing food items, and add all food items  */
+    //compare length of pre-populated food items list to food items collection running in container
+    //if container has less that pre-populated, delete the fooditems collection and make new with pre-populated items
 })
