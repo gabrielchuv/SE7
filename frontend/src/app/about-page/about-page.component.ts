@@ -6,7 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./about-page.component.css']
 })
 export class AboutPageComponent implements OnInit {
-
+  panelOpenState = false;
+  
   constructor() { }
 
   ngOnInit(): void {
