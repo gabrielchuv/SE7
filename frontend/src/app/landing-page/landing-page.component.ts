@@ -13,6 +13,8 @@ import { FormControl } from '@angular/forms';
 export class LandingPageComponent implements OnInit {
   estimateControl = new FormControl('');
 
+  public name: any = 0;
+
   constructor(private route: ActivatedRoute,
               private router: Router) {
 
@@ -23,5 +25,11 @@ export class LandingPageComponent implements OnInit {
 
   onCalculateClick() {
     this.router.navigate(['../main'], {relativeTo: this.route});
+  }
+
+  changeLabelName() {
+    var temp: number = parseInt(this.name) + 10;
+    this.name = temp.toString();
+
   }
 }

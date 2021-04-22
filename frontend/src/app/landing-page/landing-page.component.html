@@ -1,12 +1,39 @@
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 <div class="container">
   <div class="split left">
     <div class="content-left">
       <div class="estimate">
-        <label #estimateInput class="estimateTerm"> $0 lost from food waste </label>
+
+        <button type="submit" (click)="changeLabelName()">
+        Click Me
+    </button>
+
+
+
+        <label #estimateInput class="estimateTerm"> $ {{name}} lost from food waste </label>
+
+
+        <!-- Enter a value <input type="text" [(ngModel)]="name"> -->
+        <!-- <label id="lblName"> hello {{name}} </label> -->
       </div>
+
+
+
     </div>
   </div>
 
@@ -14,7 +41,9 @@
 
 
 
+
   <div class="split right">
+    <!-- image cover right hand contents -->
     <img src='../../assets/cloud_from_canva.png' class="cropped">
     <div class="content-right">
       <h1 class="header">Where has your money gone?</h1>
