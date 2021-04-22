@@ -18,28 +18,28 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    margin-left: 15%;
-    text-align: left;
+   /* margin-left: 15%;
+    text-align: left;*/
 }
 
 .first_message_content {
     flex-direction: column;
-    width: 40%;
+    /*width: 40%;*/
     padding-top: 4rem;
     align-items: center;
-    text-align: left;
+    /*text-align: left;*/
 }
 
 .first_message_content h1 {
     font-weight: bold;
     font-size: 3rem;
-    padding-bottom: 2rem;
-    text-align: left;
+   /* padding-bottom: 2rem;
+    text-align: left;*/
 }
 
 .first_message_content p {
     font-size: 1.5rem;
-    text-align: left;
+    /*text-align: left;*/
 
 }
 
@@ -50,12 +50,12 @@ body {
     align-items: center;
 }
 
-.image img {
+/*.image img {
     width: 25%;
     position: absolute;
     right: 15%;
     top: 25%;
-}
+}*/
 
 /* Second message */
 
@@ -71,7 +71,7 @@ body {
     flex-direction: column;
     width: 80%;
     align-items: center;
-    margin-bottom: 5%;
+   /* margin-bottom: 5%;*/
 }
 
 .second_message p {
@@ -81,10 +81,6 @@ body {
 
 @media all and (orientation: portrait) and (max-width: 812px) {
     
-    .first_message {
-        flex-direction: row;
-    }
-
     .first_message_content {
         padding-top: 0rem;
     }
