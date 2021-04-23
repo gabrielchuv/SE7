@@ -40,11 +40,11 @@ When designing the system and user interactions, 5 common usability heuristics w
 The objective of the application is to increase awareness of individual food waste. The system process is as follows: 
 
 <p align="center"> 
-Users guess how much money they are losing from food waste
-↓
-Users input the amount of food went to waste that week
-↓
-The system calculates their money lost from food waste per year
+Users guess how much money they are losing from food waste <br> 
+↓ <br>
+Users input the amount of food went to waste that week <br>
+↓ <br>
+The system calculates their money lost from food waste per year <br>
 </p> 
 
 To ensure all steps are completed in order and to prevent skipping of steps, users are navigated to the next step by a button at the bottom of the page. The buttons are clearly labeled with the objective of the next page to set expectations. 
