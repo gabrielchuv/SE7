@@ -2,10 +2,14 @@
 - [UX Approach](#ux-approach)
 	- [Design Heuristics](#design-heuristics)
 - [Design Timeline](#design-timeline)
+- [User Personas]
 - [Design Process](#design-process)
 	- [First Prototype](#first-prototyping)
 	- [User Feedback: Wireframe Walkthrough](#user-feedback-wireframe-walkthrough)
 	- [Second Prototype](#first-prototyping)
+	- [User Feedback: Wireframe Walkthrough](#user-feedback-wireframe-walkthrough)
+	- [Minimal Viable Product] 
+	- [High-fidelity Design] 
 
 ## UX Approach
 We took a pragmatic approach to implementing the user experience by using elements from systems thinking, design thinking, and lean UX as necessary.
@@ -81,6 +85,32 @@ Session 11: designing MVP: the design for the first MVP with the core features w
 Session 12: designing for high-fidelity: once the initial MVP was developed, the design was re-visited to add elements of play. 
 
 Session 13: designing for high-fidelity design: the high-fidelity design was presented to the group and approved to be developed in the next sprint. 
+
+## User Personas 
+
+### First User Persona
+With the aim of having a user-centred design process from the start, we created a hypothethical target user persona. Max is mainly characterized by caring about the environment and wanting to take action outside and inside his life to create a more sustainable world. Further details can be seen below:
+
+![User Persona 1](https://github.com/gabrielchuv/SE7/blob/main/Portfolio/Images/User_persona_1.png)
+
+#### User surveys
+We subjected our assumptions for Max to test by surveying 36 students from various courses at the University of Bristol. The updated user persona was based on the results of the surveys and can be seen below.
+
+Our approach
+We selected questions that would allow us to test the different areas that we deeemed core to our user persona. More specifically, we aimed to gather data around the assumptions we had made about our users' goals, frustrations, demographics and food consumption habits. Additionally, we selected questions that would allows us to understand to what extend an individual user was experiencing the issue of wasting food.
+
+Moreover, we approached the data analysis by first filtering the results by frequency of experiencing the problem of food wastage to narrow down the results to those who experienced the problem the most. These people are more likely to become early adopters and 50% of surveyees fit this criterion. This subset of people was further analyzed. Some of the questions were open-ended so we placed the data into categories (i.e. Hobbies: likes sports, likes arts etc.) to be able to summarize it. 
+
+Insights
+
+Most of the relevant results are reflected by the new user persona, however, an additional inisght was that half of surveyees (i.e. people who didn’t experience food going bad often) said that they “never” or "almost never" wasted food. Interestingly, a larger amount of people from this subset were already taking actions to prevent wastage compared to the group who had the problem more often. This would make the former group the right one to target if we were aiming to create a tool that allows people to take action on reducing food wastage. However, our tool’s main objective is to change people's behaviour (hopefully nudging them into behaving more like the former group) which reconfirms our decision to focus on the latter group of people who are not taking effective action to reduce their food wastage.
+
+( ADD LINKS ) Our survey questions can be seen here and the raw data can be seen here.
+
+### Second User Persona
+
+![User Persona 1](https://github.com/gabrielchuv/SE7/blob/main/Portfolio/Images/User_persona_2.png)
+
 
 ## Design Process
 
@@ -162,26 +192,6 @@ The second wireframe walkthrough uncovered...
 2. The about and FAQ's could really be merged into one and the about can be a tab of the FAQ page.
 3. Submitting food items on the user main page could be clearer.
 
-### First User Persona
-With the aim of having a user-centred design process from the start, we created a hypothethical target user persona. Max is mainly characterized by caring about the environment and wanting to take action outside and inside his life to create a more sustainable world. Further details can be seen below:
+### Minimal Viable Product (MVP) 
 
-![User Persona 1](https://github.com/gabrielchuv/SE7/blob/main/Portfolio/Images/User_persona_1.png)
-
-#### User surveys
-We subjected our assumptions for Max to test by surveying 36 students from various courses at the University of Bristol. The updated user persona was based on the results of the surveys and can be seen below.
-
-Our approach
-We selected questions that would allow us to test the different areas that we deeemed core to our user persona. More specifically, we aimed to gather data around the assumptions we had made about our users' goals, frustrations, demographics and food consumption habits. Additionally, we selected questions that would allows us to understand to what extend an individual user was experiencing the issue of wasting food.
-
-Moreover, we approached the data analysis by first filtering the results by frequency of experiencing the problem of food wastage to narrow down the results to those who experienced the problem the most. These people are more likely to become early adopters and 50% of surveyees fit this criterion. This subset of people was further analyzed. Some of the questions were open-ended so we placed the data into categories (i.e. Hobbies: likes sports, likes arts etc.) to be able to summarize it. 
-
-Insights
-
-Most of the relevant results are reflected by the new user persona, however, an additional inisght was that half of surveyees (i.e. people who didn’t experience food going bad often) said that they “never” or "almost never" wasted food. Interestingly, a larger amount of people from this subset were already taking actions to prevent wastage compared to the group who had the problem more often. This would make the former group the right one to target if we were aiming to create a tool that allows people to take action on reducing food wastage. However, our tool’s main objective is to change people's behaviour (hopefully nudging them into behaving more like the former group) which reconfirms our decision to focus on the latter group of people who are not taking effective action to reduce their food wastage.
-
-( ADD LINKS ) Our survey questions can be seen here and the raw data can be seen here.
-
-### Second User Persona
-
-![User Persona 1](https://github.com/gabrielchuv/SE7/blob/main/Portfolio/Images/User_persona_2.png)
-
+### High-fidelity Design
