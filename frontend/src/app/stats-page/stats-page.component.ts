@@ -22,21 +22,25 @@ export class StatsPageComponent implements OnInit {
     this.searchService.getBins().subscribe((bins: any) => {
       if (bins != null) {
         //go through each entry in bins
+        //resetting calculation value
+        this.totalCost = 0;
         bins.forEach((binEntry: any) => {
           //search food items with the food name
           this.searchService.getFood(binEntry.food!).subscribe((foods) => {
             //foods is an array but there SHOULD only be one food item in it, so get its zeroth elements cost 
             //multiply it by the quantity and save the total BIN ENTRY cost
+          
             this.binEntryTotal = parseFloat(foods[0].cost!) * parseInt(binEntry.quantity!);
-            //resetting calculation value
-            this.totalCost = 0;
+            
             //add the bin entry cost to the total
             this.totalCost += this.binEntryTotal;
-            //getting expected wasted money in a year
+            
         
             console.log(`bin entry: ${this.i++} total bin entry cost: ${this.binEntryTotal.toFixed(2)}`);
           })
         });
+        //getting expected wasted money in a year
+        //this.totalCost *= 52;
         console.log(bins); //for debugging
       }
     })
