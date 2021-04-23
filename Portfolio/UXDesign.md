@@ -3,15 +3,13 @@
 	- [Design Heuristics](#design-heuristics)
 - [Design Timeline](#design-timeline)
 - [Design Process](#design-process)
-	- [Ideation and Concept Development](#ideation-and-concept-development)
 	- [First Prototype](#first-prototyping)
 	- [User Feedback: Wireframe Walkthrough](#user-feedback-wireframe-walkthrough)
 	- [Second Prototype](#first-prototyping)
 
 ## UX Approach
 We took a pragmatic approach to implementing the user experience by using elements from systems thinking, design thinking, and lean UX as necessary.
-In this section we outline the rationale behind the choice of these paradigms and the elements that we borrowed from them. The actual implementation
-is covered in the following sections.
+In this section we outline the rationale behind the choice of these paradigms and the elements that we borrowed from them. 
 
 * Systems thinking: given the broader socio-environmental issue that we are trying to tackle, we used systems thinking to narrow down the scope
   of our project and maximize our opportunity for impact. The implementation details are outlined in the Problem Scope section { link to section }
@@ -27,39 +25,32 @@ is covered in the following sections.
   * Assumptions:{outline initial assumptions (users, features, problem etc.) }
   * MVP
 
-A word about user evaluation: user acceptance testing /evaluation of designs. Details will be provided in next sections
+A word about user evaluation: user acceptance testing /evaluation of designs. Details will be provided in next sections.
 
 ## Design Timeline
 
-* This section will outline and focus on the iterative nature of our design development. Initial versions of user personas, wireframes etc. and how they
-  evolved as we gathered more data and feedback. I would suggest doing it in chronological order.
-
-* Ideation
-  * All the divergent/convergent activities (outlined below)
+### Outline
+* Ideation / Concept development 
+  * Design thinking
   * Problem definition
-  * Initial user persona
+  * User personas 
   * Prioritization of features
-  * User flow creation
-* Wireframing / early prototyping
+  * User flow 
+* Wireframing / Prototyping 
   * Balsamiq wireframing according to user stories
-  * Got feedback for first wireframe
+  * Feedback from first wireframe
     * Changed our problem assumption accordingly and modified wireframe
-  * Got feedback from surveys
+  * Feedback from surveys
     * Changed our target audience assumption accordingly
   * Got feedback for second wireframe
-  * Design heuristics and UX principles session
+  * Design heuristics and UX principles prioritization 
   * Prioritization of features for MVP
+* Implementation / Iteration 
   * High fidelity design
   * -- NOT DONE YET -- Drive traffic and gather qualitative/quantitative feedback
   * -- NOT DONE YET -- Think of design/product future work
 
-To do:
-* Process survey data and re-define user persona
-* Target this persona in next user feedback cycle
-
-## Design Process
-### Ideation & Concept Development
-Design sessions were conducted to define the problem, develop the project idea and create wireframes to test with users.
+### Design Sessions
 
 Session 1: diverging ideas: each member brainstormed several ideas and those ideas were developed further as a group.
 
@@ -81,7 +72,18 @@ Session 7: the wireframe was tested with users.
 
 Session 8: evaluating feedback: key issues from the walk-through were discussed. The project idea shifted to a food waste calculated. A new wireframe was created.
 
-#
+Session 9: the wireframe was tested with users. 
+
+Session 10: evaluating feedback: notable feedback from the walk-through were discussed. The feedback validated the decision for a food waste calculator. 
+
+Session 11: designing MVP: the design for the first MVP with the core features were presented to the group for feedback. Design decisions were made based on usability heuristics. The MVP was approved to be developed in the first sprint. 
+
+Session 12: designing for high-fidelity: once the initial MVP was developed, the design was re-visited to add elements of play. 
+
+Session 13: designing for high-fidelity design: the high-fidelity design was presented to the group and approved to be developed in the next sprint. 
+
+## Design Process
+
 ### First Prototype: Reminder for Expiring Foods
 After the initial ideation sessions, we started our first prototype. We wanted to create a website which help people track the expiration date of their food items. We had the assumption that the reason why people waste food is because it expires before they get the chance to eat them. With this in mind, we designed our prototype around the idea of a fridge, which we wanted to be a core component on our website to represent a person's actual fridge. On the website, the user can input all the food items that they have, and the website will estimate the expiration date of that item (the user have the option to change this if it is inaccurate). Once the user have input all their food items, the website will prompt the user when their food is about to expire. The user can decide how frequent they would like to be notified.
 
@@ -159,24 +161,6 @@ The second wireframe walkthrough uncovered...
 1. The naming of the statistics tab and page caused confusion as to what the tab pertained before going to it, renaming it to something more OBVIOUS? (what else would statistics means on a tracking food wastage site).
 2. The about and FAQ's could really be merged into one and the about can be a tab of the FAQ page.
 3. Submitting food items on the user main page could be clearer.
-
-### Usability Heuristics 
-Each page was designed with usability heuristics in mind.
-
-**1. Clear walk-through of system**
-
-From the landing page to the results page, users are navigated to the next page by a green button at the center or bottom of the page. Since the order of the instructions are crucial to the system (e.g users need to input items wasted before total food cost of food wasted is calculated), users are prevented from skipping pages and guided through each process. 
-
-**2. Intuitive icons**
-
-The icons and layouts used follow real-world conventions, allowing users to easily recognize the functions of the features.  For example, on the main search page, the list of items added from the search are displayed on a receipt form. This format was chosen as receipts typically hold information of items and quantity of items. Additionally, on the receipt, the plus and minus icons were chosen to increment or decrement item quantity accordingly. 
-
-**3. Minimal design**  
-
-To minimize the amount of information or instructions on a page, each task was given its own page. For example, the landing-page provides the purpose of the application, the main search-page allows users to add food wasted and the result page outputs the cost of food wasted per year along with comparable statistics. 
-
-The design of each page was mindful of the number of clicks required from users. Initially, the design relied on pop-up overlays, for example, to search for an item and to adjust its quantity with a drop-down. The overlays were removed in favor of simple icons like the plus and minus icons to adjust quantities of one or more items. 
-
 
 ### First User Persona
 With the aim of having a user-centred design process from the start, we created a hypothethical target user persona. Max is mainly characterized by caring about the environment and wanting to take action outside and inside his life to create a more sustainable world. Further details can be seen below:
