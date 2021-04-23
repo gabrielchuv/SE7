@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Input } from '@angular/core';
 import { SearchService } from 'src/app/common/services/search.service';
+import { ActivatedRoute, Router } from '@angular/router';
 import Bin from '../models/bin';
 
 @Component({
@@ -15,8 +16,12 @@ export class StatsPageComponent implements OnInit {
   i: number = 0;
 
   constructor(
-    private searchService: SearchService
+    private searchService: SearchService,
+    private route: ActivatedRoute,
+    private router: Router
   ) { }
+
+  
 
   ngOnInit() {
     this.searchService.getBins().subscribe((bins: any) => {
@@ -45,10 +50,10 @@ export class StatsPageComponent implements OnInit {
     })
   }
 
-  /*ngOnInit() {
-    this.searchService.getBin("1").subscribe((bin: any) => {
-      console.log(bin)
-    })
-  }*/
+  onNavClick() {
+    this.router.navigate(['../home'], {relativeTo: this.route});
+  }
+
+
 
 }
