@@ -23,5 +23,6 @@ const FoodItemSchema = new mongoose.Schema({
 
 //create the model base on above scheme
 const fooditem = mongoose.model('fooditem', FoodItemSchema);
+
 //export the model so its available else where
 module.exports = fooditem;

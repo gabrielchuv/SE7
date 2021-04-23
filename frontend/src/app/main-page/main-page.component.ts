@@ -19,9 +19,9 @@ export class MainPageComponent implements OnInit {
     private route: ActivatedRoute,              //for getting the current route
     private router: Router                      //for redirecting the user to another route
   ) { }
+
   //prevents access to ng things before its loaded on the page
   ngOnInit() {
-
   }
 
   addBinEntry(foodName: string) {
@@ -29,6 +29,7 @@ export class MainPageComponent implements OnInit {
     this.binList.push(new Bin('1', foodName, "1"));
     this.runningTotal++;
   }
+
   //decrement quanity of the passed bin
   decrementQuantity(bin: any) {
     //parse to int
@@ -60,8 +61,16 @@ export class MainPageComponent implements OnInit {
       this.searchService.createBin(this.binList[i].usrID!, this.binList[i].food!, this.binList[i].quantity!)
         .subscribe((res) => console.log(`added bin: ${res} to database`));
     }
-
-
     this.router.navigate(['../stats'], { relativeTo: this.route });
+  }
+
+  //when remove button click, generates a new list  excluding the bin passed, save that back to this binList
+  removeBinEntry(bin: Bin) {
+    this.binList = this.binList.filter((binElement) => binElement != bin);
+    //recalculate the total number of items
+    this.runningTotal = 0;
+    this.binList.forEach((binEntry) => {
+      this.runningTotal += parseInt(binEntry.quantity!);
+    })
   }
 }
