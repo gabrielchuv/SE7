@@ -20,6 +20,7 @@ export class StatsPageComponent implements OnInit {
 
   ngOnInit() {
     this.searchService.getBins().subscribe((bins: any) => {
+      this.totalCost = 0;
       if (bins != null) {
         //go through each entry in bins
         bins.forEach((binEntry: any) => {
