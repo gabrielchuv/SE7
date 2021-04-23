@@ -2,14 +2,14 @@
 - [UX Approach](#ux-approach)
 	- [Design Heuristics](#design-heuristics)
 - [Design Timeline](#design-timeline)
-- [User Personas]
+- [User Personas](#user-personas)
 - [Design Process](#design-process)
 	- [First Prototype](#first-prototyping)
-	- [User Feedback: Wireframe Walkthrough](#user-feedback-wireframe-walkthrough)
+	- [First Prototype: Wireframe Walkthrough](#first-prototype-wireframe-walkthrough)
 	- [Second Prototype](#first-prototyping)
-	- [User Feedback: Wireframe Walkthrough](#user-feedback-wireframe-walkthrough)
-	- [Minimal Viable Product] 
-	- [High-fidelity Design] 
+	- [Second Prototype: Wireframe Walkthrough](#second-prototype-wireframe-walkthrough)
+	- [Minimal Viable Product](#minimal-viable-product-mvp)
+	- [High-fidelity Design](#high-fidelity-design)
 
 ## UX Approach
 We took a pragmatic approach to implementing the user experience by using elements from systems thinking, design thinking, and lean UX as necessary.
@@ -30,6 +30,45 @@ In this section we outline the rationale behind the choice of these paradigms an
   * MVP
 
 A word about user evaluation: user acceptance testing /evaluation of designs. Details will be provided in next sections.
+
+### Design Heuristics
+
+When designing the system and user interactions, 5 common usability heuristics were taken into account. 
+
+**1. Visibility of the system**
+
+The objective of the application is to increase awareness of individual food waste. The system process is as follows: 
+
+<p align="center"> 
+Users guess how much money they are losing from food waste
+↓
+Users input the amount of food went to waste that week
+↓
+The system calculates their money lost from food waste per year
+</p> 
+
+To ensure all steps are completed in order and to prevent skipping of steps, users are navigated to the next step by a button at the bottom of the page. The buttons are clearly labeled with the objective of the next page to set expectations. 
+
+**2. Reliability to the Real World**
+
+With the theme around food waste and money lost, the design of the application includes recognizable icons related to the theme. For example, the search function was designed with the idea of food waste. The search term function is positioned above an icon of a waste bin to emphasize that the food searched were the foods that went to waste. On the same page, the list of food items added are displayed on a receipt format as receipts typically hold information of items and quantity of items. The design was modelled off of a real grocery store receipt. 
+
+**3. User control**
+
+The group discussed whether to add a function to remove items from the list once they are added. Some argued that the item to remove can remain on the list but be set to 0. Others argued that the system will automatically remove the item once it is set to 0 quantity. To provide users more control in the case that an item was added by mistake or an item is to be removed, an additional ‘x’ icon was added next to the food name. A simple click on the icon will remove the item. 
+
+**4. Error prevention**
+
+As the system requires users to complete tasks in-order, extra thought was given to guide users through each step. To do so, a pot-of-money character, Sally, is introduced. From the landing page to the results page, Sally provides instructions and feedback on her thought bubble. As well as providing useful information, Sally becomes a familiar character throughout the application. 
+
+As inputting the food items wasted involves the most feedback from users, several error-prevention features were added. For example, the search box is validated on alphanumeric inputs and items selected are marked with bolder colors on hover. 
+
+**5. Minimalistic design**
+
+To minimize the amount of information on one page, each task (e.g., introduction of the application, input of food items, output of the cost of food wasted)  was given its own page. 
+
+Based on user feedback, the design of each page was mindful of the number of clicks required from users. Initially, the design relied on pop-up overlays, for example, to search for an item and to adjust its quantity with a drop-down. The overlays were removed in favor of simple icons like the plus and minus icons to adjust quantities of one or more items.
+
 
 ## Design Timeline
 
@@ -167,7 +206,7 @@ Furthermore, we designed our prototype in the perspective of the user, and thus,
 <br></br>
 
 #
-### User Feedback: Wireframe Walk-through
+### First Prototype: Wireframe Walk-through
 The wireframe for an application to remind users of expiring foods was evaluated with 5 users aged 18-30 who were interested in sustainability. During a virtual walk-through, users were asked to navigate each page to accomplish tasks including registering for an account, searching for items, editing expiration dates and setting notification preferences. Any difficulties were noted.
 
 The session highlighted key issues in usability and informed the next iteration of the prototype. The issues were as follows:
@@ -178,7 +217,7 @@ The session highlighted key issues in usability and informed the next iteration 
 ### Second Prototype: Food Waste Calculator
 User feedback informed the second prototype which calculates cost accrued for food wasted per individual. To address issues (1) and (2), users will only have to input food wasted, which is not dependent on when they shop for groceries. Less information is required from users to produce the output: a calculation of money lost and environmental damage done by food wasted. To address (3), users are informed of the amount of food wasted in pounds along with a personalized goal (e.g, buy fewer groceries). Social norming and a personalized goal could nudge behavior change.
 
-### User Feedback: Wireframe Walk-through
+### Second Prototype: Wireframe Walk-through
 Users were again shown the updated/new wireframe protoype to see if the changes made were an improvement on the last version and to gleen more insight into improving the user experience of the site. A mix of four users, some from the last feedback session and some new to the site, aged 18-30 were asked to explore the wireframe telling the feedback practioners, their opinion on what each page did, how effective it was at doing this, and what they would do next. The practioners checked off the user story list tasks the user's were able to complete on their own and any tasks left at the end were then hinted at to see if the user could accomplish there task. 
 
 The second wireframe walkthrough uncovered...
