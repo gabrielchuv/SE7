@@ -20,7 +20,6 @@ export class StatsPageComponent implements OnInit {
 
   ngOnInit() {
     this.searchService.getBins().subscribe((bins: any) => {
-      this.totalCost = 0;
       if (bins != null) {
         //go through each entry in bins
         bins.forEach((binEntry: any) => {
@@ -30,6 +29,7 @@ export class StatsPageComponent implements OnInit {
             //multiply it by the quantity and save the total BIN ENTRY cost
             this.binEntryTotal = parseFloat(foods[0].cost!) * parseInt(binEntry.quantity!);
             //add the bin entry cost to the total
+            this.totalCost = 0;
             this.totalCost += this.binEntryTotal;
             console.log(`bin entry: ${this.i++} total bin entry cost: ${this.binEntryTotal.toFixed(2)}`);
           })
