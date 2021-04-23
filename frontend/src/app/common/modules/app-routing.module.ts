@@ -1,3 +1,4 @@
+import { AboutPageComponent } from './../../about-page/about-page.component';
 import { NgModule, Component } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { StatsPageComponent } from 'src/app/stats-page/stats-page.component';
@@ -10,7 +11,9 @@ const routes: Routes = [
   { path: 'home', component: LandingPageComponent },
   { path: 'stats', component: StatsPageComponent },
   { path: 'main', component: MainPageComponent},
-  { path: 'privacy', component: PrivacyPolicyPageComponent}
+  { path: 'privacy', component: PrivacyPolicyPageComponent},
+  { path: 'about', component: AboutPageComponent }
+
 ];
 
 @NgModule({
