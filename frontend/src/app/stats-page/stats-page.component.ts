@@ -28,9 +28,12 @@ export class StatsPageComponent implements OnInit {
             //foods is an array but there SHOULD only be one food item in it, so get its zeroth elements cost 
             //multiply it by the quantity and save the total BIN ENTRY cost
             this.binEntryTotal = parseFloat(foods[0].cost!) * parseInt(binEntry.quantity!);
-            //add the bin entry cost to the total
+            //resetting calculation value
             this.totalCost = 0;
+            //add the bin entry cost to the total
             this.totalCost += this.binEntryTotal;
+            //getting expected wasted money in a year
+            this.totalCost *= 52;
             console.log(`bin entry: ${this.i++} total bin entry cost: ${this.binEntryTotal.toFixed(2)}`);
           })
         });
