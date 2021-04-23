@@ -34,7 +34,6 @@ export class StatsPageComponent implements OnInit {
             
             //add the bin entry cost to the total
             this.totalCost += this.binEntryTotal;
-            
         
             console.log(`bin entry: ${this.i++} total bin entry cost: ${this.binEntryTotal.toFixed(2)}`);
           })

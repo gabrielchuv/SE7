@@ -24,5 +24,9 @@ export class FooterComponent implements OnInit {
     this.router.navigate(['../about'], {relativeTo: this.route});
   }
 
+  onPrivacyClick() {
+    this.router.navigate(['../privacy'], {relativeTo: this.route});
+  }
+
 
 }
