@@ -10,7 +10,7 @@ import Bin from '../models/bin';
 })
 
 export class StatsPageComponent implements OnInit {
-  binsInDB: any = [];
+  binsInDB: Bin[] = [];
 
   constructor(
     private searchService: SearchService
@@ -24,4 +24,11 @@ export class StatsPageComponent implements OnInit {
       }
     })
   }
+
+  /*ngOnInit() {
+    this.searchService.getBin("1").subscribe((bin: any) => {
+      console.log(bin)
+    })
+  }*/
+
 }

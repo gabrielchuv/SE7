@@ -9,6 +9,7 @@ import {FormsModule, ReactiveFormsModule} from "@angular/forms";
 import { LandingPageComponent} from '../../landing-page/landing-page.component';
 import { MainPageComponent } from '../../main-page/main-page.component';
 import { SearchBarComponent} from '../../main-page/search-bar/search-bar.component';
+import { FooterComponent } from './../../footer/footer.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatInputModule} from '@angular/material/input';
@@ -21,6 +22,7 @@ import {MatIconModule} from '@angular/material/icon';
 import {MatTabsModule} from '@angular/material/tabs';
 import {ScrollingModule} from '@angular/cdk/scrolling';
 import {MatAutocompleteModule} from '@angular/material/autocomplete';
+import {PrivacyPolicyPageComponent} from "../../privacy-policy-page/privacy-policy-page.component";
 
 @NgModule({
   declarations: [
@@ -28,7 +30,9 @@ import {MatAutocompleteModule} from '@angular/material/autocomplete';
     LandingPageComponent,
     MainPageComponent,
     SearchBarComponent,
-    LoginOverlayComponent
+    LoginOverlayComponent,
+    PrivacyPolicyPageComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
