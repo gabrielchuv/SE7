@@ -1,0 +1,55 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+footer {
+    background: #272C35;
+    color: #FFFFFF;
+    width: 100%;
+    position:relative;
+}
+    
+footer h3 {
+    color: #FFFFFF;
+    letter-spacing: 1px;
+    margin: 30px 0 20px;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+}
+  
+footer .list-items {
+   overflow: hidden;
+}
+  
+footer .list-items li {
+    width: 33.3333%;
+    float: left;
+    padding: 5px 0;
+    color: #aaa;
+    cursor: pointer;
+}
+
+footer .list-items li:hover {
+    width: 33.3333%;
+    float: left;
+    padding: 5px 0;
+    color: rgb(143, 141, 141);
+}
+ 
+    
+footer .copyright {
+    padding: 15px 0;
+    background: #272C35;
+    margin-top: 20px;
+    font-size: 15px;
+    color: #aaa;
+}
+  
+footer .copyright span {
+    color: #aaa;
+}
+
+footer .copyright span:hover {
+    color: rgb(143, 141, 141);
+}

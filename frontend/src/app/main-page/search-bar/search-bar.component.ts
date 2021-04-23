@@ -1,4 +1,4 @@
-import { Component, EventEmitter, OnInit, Output } from '@angular/core';
+import { Component, ElementRef, EventEmitter, HostListener, OnInit, Output } from '@angular/core';
 import { ActivatedRoute, Router, Params } from '@angular/router';
 import Fooditem from 'src/app/models/fooditem';
 import { SearchService } from 'src/app/common/services/search.service';
@@ -22,12 +22,25 @@ export class SearchBarComponent implements OnInit {
   //for saving fooditem name user is viewing in further detail
   userSearchFood: string = "";
   foodName: string = "";
+
+  //magic - https://stackoverflow.com/questions/40107008/detect-click-outside-angular-component
+  @HostListener('document:click', ['$event'])
+  clickout(event: any) {
+    if (this.eRef.nativeElement.contains(event.target)) {
+      console.log("clicked on form");
+    } else {
+      this.fooditems = [];
+    }
+  }
+
   //link a search service instance on creation
   constructor(
     private searchService: SearchService,       //for using the search service we created
     private route: ActivatedRoute,              //for getting the current route
-    private router: Router                      //for redirecting the user to another route
+    private router: Router,                      //for redirecting the user to another route
+    private eRef: ElementRef
   ) { }
+
   //prevents access to ng things before its laoded on the page
   ngOnInit() {
     this.searchControl.valueChanges.subscribe((word: string) => {
@@ -35,6 +48,8 @@ export class SearchBarComponent implements OnInit {
       console.log(`search word changing: ${word}`);
     });
   }
+
+  //when user clicks/presses enter the string in the form is search for
   onSearch() {
     if (this.userSearchFood == "") {
       //subscription displays database results and will update if there are any changes to the database files
