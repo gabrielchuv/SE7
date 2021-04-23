@@ -1,7 +1,10 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
 footer {
     background: #272C35;
     color: #FFFFFF;
-    padding-top: 10px;
     width: 100%;
     position:relative;
 }

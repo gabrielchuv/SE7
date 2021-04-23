@@ -20,4 +20,9 @@ export class FooterComponent implements OnInit {
     this.router.navigate(['../home'], {relativeTo: this.route});
   }
 
+  onAboutClick() {
+    this.router.navigate(['../about'], {relativeTo: this.route});
+  }
+
+
 }

@@ -22,7 +22,9 @@ import {MatIconModule} from '@angular/material/icon';
 import {MatTabsModule} from '@angular/material/tabs';
 import {ScrollingModule} from '@angular/cdk/scrolling';
 import {MatAutocompleteModule} from '@angular/material/autocomplete';
+import {MatExpansionModule} from '@angular/material/expansion';
 import {PrivacyPolicyPageComponent} from "../../privacy-policy-page/privacy-policy-page.component";
+import { AboutPageComponent } from './../../about-page/about-page.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +34,8 @@ import {PrivacyPolicyPageComponent} from "../../privacy-policy-page/privacy-poli
     SearchBarComponent,
     LoginOverlayComponent,
     PrivacyPolicyPageComponent,
-    FooterComponent
+    FooterComponent,
+    AboutPageComponent
   ],
   imports: [
     BrowserModule,
@@ -53,6 +56,7 @@ import {PrivacyPolicyPageComponent} from "../../privacy-policy-page/privacy-poli
     MatTabsModule,
     ScrollingModule,
     MatAutocompleteModule,
+    MatExpansionModule
   ],
   providers: [],
   bootstrap: [AppComponent],

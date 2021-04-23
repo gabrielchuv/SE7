@@ -2,16 +2,18 @@
 - [UX Approach](#ux-approach)
 	- [Design Heuristics](#design-heuristics)
 - [Design Timeline](#design-timeline)
+- [User Personas](#user-personas)
 - [Design Process](#design-process)
-	- [Ideation and Concept Development](#ideation-and-concept-development)
 	- [First Prototype](#first-prototyping)
-	- [User Feedback: Wireframe Walkthrough](#user-feedback-wireframe-walkthrough)
+	- [First Prototype: Wireframe Walkthrough](#first-prototype-wireframe-walkthrough)
 	- [Second Prototype](#first-prototyping)
+	- [Second Prototype: Wireframe Walkthrough](#second-prototype-wireframe-walkthrough)
+	- [Minimal Viable Product](#minimal-viable-product-mvp)
+	- [High-fidelity Design](#high-fidelity-design)
 
 ## UX Approach
 We took a pragmatic approach to implementing the user experience by using elements from systems thinking, design thinking, and lean UX as necessary.
-In this section we outline the rationale behind the choice of these paradigms and the elements that we borrowed from them. The actual implementation
-is covered in the following sections.
+In this section we outline the rationale behind the choice of these paradigms and the elements that we borrowed from them. 
 
 * Systems thinking: given the broader socio-environmental issue that we are trying to tackle, we used systems thinking to narrow down the scope
   of our project and maximize our opportunity for impact. The implementation details are outlined in the Problem Scope section { link to section }
@@ -27,39 +29,71 @@ is covered in the following sections.
   * Assumptions:{outline initial assumptions (users, features, problem etc.) }
   * MVP
 
-A word about user evaluation: user acceptance testing /evaluation of designs. Details will be provided in next sections
+A word about user evaluation: user acceptance testing /evaluation of designs. Details will be provided in next sections.
+
+### Design Heuristics
+
+When designing the system and user interactions, 5 common usability heuristics were taken into account. 
+
+**1. Visibility of the system**
+
+The objective of the application is to increase awareness of individual food waste. The system process is as follows: 
+
+<p align="center"> 
+Users guess how much money they are losing from food waste <br> 
+↓ <br>
+Users input the amount of food went to waste that week <br>
+↓ <br>
+The system calculates their money lost from food waste per year <br>
+</p> 
+
+To ensure all steps are completed in order and to prevent skipping of steps, users are navigated to the next step by a button at the bottom of the page. The buttons are clearly labeled with the objective of the next page to set expectations. 
+
+**2. Reliability to the Real World**
+
+With the theme around food waste and money lost, the design of the application includes recognizable icons related to the theme. For example, the search function was designed with the idea of food waste. The search term function is positioned above an icon of a waste bin to emphasize that the food searched were the foods that went to waste. On the same page, the list of food items added are displayed on a receipt format as receipts typically hold information of items and quantity of items. The design was modelled off of a real grocery store receipt. 
+
+**3. User control**
+
+The group discussed whether to add a function to remove items from the list once they are added. Some argued that the item to remove can remain on the list but be set to 0. Others argued that the system will automatically remove the item once it is set to 0 quantity. To provide users more control in the case that an item was added by mistake or an item is to be removed, an additional ‘x’ icon was added next to the food name. A simple click on the icon will remove the item. 
+
+**4. Error prevention**
+
+As the system requires users to complete tasks in-order, extra thought was given to guide users through each step. To do so, a pot-of-money character, Sally, is introduced. From the landing page to the results page, Sally provides instructions and feedback on her thought bubble. As well as providing useful information, Sally becomes a familiar character throughout the application. 
+
+As inputting the food items wasted involves the most feedback from users, several error-prevention features were added. For example, the search box is validated on alphanumeric inputs and items selected are marked with bolder colors on hover. 
+
+**5. Minimalistic design**
+
+To minimize the amount of information on one page, each task (e.g., introduction of the application, input of food items, output of the cost of food wasted)  was given its own page. 
+
+Based on user feedback, the design of each page was mindful of the number of clicks required from users. Initially, the design relied on pop-up overlays, for example, to search for an item and to adjust its quantity with a drop-down. The overlays were removed in favor of simple icons like the plus and minus icons to adjust quantities of one or more items.
+
 
 ## Design Timeline
 
-* This section will outline and focus on the iterative nature of our design development. Initial versions of user personas, wireframes etc. and how they
-  evolved as we gathered more data and feedback. I would suggest doing it in chronological order.
-
-* Ideation
-  * All the divergent/convergent activities (outlined below)
+### Outline
+* Ideation / Concept development 
+  * Design thinking
   * Problem definition
-  * Initial user persona
+  * User personas 
   * Prioritization of features
-  * User flow creation
-* Wireframing / early prototyping
+  * User flow 
+* Wireframing / Prototyping 
   * Balsamiq wireframing according to user stories
-  * Got feedback for first wireframe
+  * Feedback from first wireframe
     * Changed our problem assumption accordingly and modified wireframe
-  * Got feedback from surveys
+  * Feedback from surveys
     * Changed our target audience assumption accordingly
   * Got feedback for second wireframe
-  * Design heuristics and UX principles session
+  * Design heuristics and UX principles prioritization 
   * Prioritization of features for MVP
+* Implementation / Iteration 
   * High fidelity design
   * -- NOT DONE YET -- Drive traffic and gather qualitative/quantitative feedback
   * -- NOT DONE YET -- Think of design/product future work
 
-To do:
-* Process survey data and re-define user persona
-* Target this persona in next user feedback cycle
-
-## Design Process
-### Ideation & Concept Development
-Design sessions were conducted to define the problem, develop the project idea and create wireframes to test with users.
+### Design Sessions
 
 Session 1: diverging ideas: each member brainstormed several ideas and those ideas were developed further as a group.
 
@@ -81,7 +115,44 @@ Session 7: the wireframe was tested with users.
 
 Session 8: evaluating feedback: key issues from the walk-through were discussed. The project idea shifted to a food waste calculated. A new wireframe was created.
 
-#
+Session 9: the wireframe was tested with users. 
+
+Session 10: evaluating feedback: notable feedback from the walk-through were discussed. The feedback validated the decision for a food waste calculator. 
+
+Session 11: designing MVP: the design for the first MVP with the core features were presented to the group for feedback. Design decisions were made based on usability heuristics. The MVP was approved to be developed in the first sprint. 
+
+Session 12: designing for high-fidelity: once the initial MVP was developed, the design was re-visited to add elements of play. 
+
+Session 13: designing for high-fidelity design: the high-fidelity design was presented to the group and approved to be developed in the next sprint. 
+
+## User Personas 
+
+### First User Persona
+With the aim of having a user-centred design process from the start, we created a hypothethical target user persona. Max is mainly characterized by caring about the environment and wanting to take action outside and inside his life to create a more sustainable world. Further details can be seen below:
+
+![User Persona 1](https://github.com/gabrielchuv/SE7/blob/main/Portfolio/Images/User_persona_1.png)
+
+#### User surveys
+We subjected our assumptions for Max to test by surveying 36 students from various courses at the University of Bristol. The updated user persona was based on the results of the surveys and can be seen below.
+
+Our approach
+We selected questions that would allow us to test the different areas that we deeemed core to our user persona. More specifically, we aimed to gather data around the assumptions we had made about our users' goals, frustrations, demographics and food consumption habits. Additionally, we selected questions that would allows us to understand to what extend an individual user was experiencing the issue of wasting food.
+
+Moreover, we approached the data analysis by first filtering the results by frequency of experiencing the problem of food wastage to narrow down the results to those who experienced the problem the most. These people are more likely to become early adopters and 50% of surveyees fit this criterion. This subset of people was further analyzed. Some of the questions were open-ended so we placed the data into categories (i.e. Hobbies: likes sports, likes arts etc.) to be able to summarize it. 
+
+Insights
+
+Most of the relevant results are reflected by the new user persona, however, an additional inisght was that half of surveyees (i.e. people who didn’t experience food going bad often) said that they “never” or "almost never" wasted food. Interestingly, a larger amount of people from this subset were already taking actions to prevent wastage compared to the group who had the problem more often. This would make the former group the right one to target if we were aiming to create a tool that allows people to take action on reducing food wastage. However, our tool’s main objective is to change people's behaviour (hopefully nudging them into behaving more like the former group) which reconfirms our decision to focus on the latter group of people who are not taking effective action to reduce their food wastage.
+
+( ADD LINKS ) Our survey questions can be seen here and the raw data can be seen here.
+
+### Second User Persona
+
+![User Persona 1](https://github.com/gabrielchuv/SE7/blob/main/Portfolio/Images/User_persona_2.png)
+
+
+## Design Process
+
 ### First Prototype: Reminder for Expiring Foods
 After the initial ideation sessions, we started our first prototype. We wanted to create a website which help people track the expiration date of their food items. We had the assumption that the reason why people waste food is because it expires before they get the chance to eat them. With this in mind, we designed our prototype around the idea of a fridge, which we wanted to be a core component on our website to represent a person's actual fridge. On the website, the user can input all the food items that they have, and the website will estimate the expiration date of that item (the user have the option to change this if it is inaccurate). Once the user have input all their food items, the website will prompt the user when their food is about to expire. The user can decide how frequent they would like to be notified.
 
@@ -135,7 +206,7 @@ Furthermore, we designed our prototype in the perspective of the user, and thus,
 <br></br>
 
 #
-### User Feedback: Wireframe Walk-through
+### First Prototype: Wireframe Walk-through
 The wireframe for an application to remind users of expiring foods was evaluated with 5 users aged 18-30 who were interested in sustainability. During a virtual walk-through, users were asked to navigate each page to accomplish tasks including registering for an account, searching for items, editing expiration dates and setting notification preferences. Any difficulties were noted.
 
 The session highlighted key issues in usability and informed the next iteration of the prototype. The issues were as follows:
@@ -146,7 +217,7 @@ The session highlighted key issues in usability and informed the next iteration 
 ### Second Prototype: Food Waste Calculator
 User feedback informed the second prototype which calculates cost accrued for food wasted per individual. To address issues (1) and (2), users will only have to input food wasted, which is not dependent on when they shop for groceries. Less information is required from users to produce the output: a calculation of money lost and environmental damage done by food wasted. To address (3), users are informed of the amount of food wasted in pounds along with a personalized goal (e.g, buy fewer groceries). Social norming and a personalized goal could nudge behavior change.
 
-### User Feedback: Wireframe Walk-through
+### Second Prototype: Wireframe Walk-through
 Users were again shown the updated/new wireframe protoype to see if the changes made were an improvement on the last version and to gleen more insight into improving the user experience of the site. A mix of four users, some from the last feedback session and some new to the site, aged 18-30 were asked to explore the wireframe telling the feedback practioners, their opinion on what each page did, how effective it was at doing this, and what they would do next. The practioners checked off the user story list tasks the user's were able to complete on their own and any tasks left at the end were then hinted at to see if the user could accomplish there task. 
 
 The second wireframe walkthrough uncovered...
@@ -160,44 +231,6 @@ The second wireframe walkthrough uncovered...
 2. The about and FAQ's could really be merged into one and the about can be a tab of the FAQ page.
 3. Submitting food items on the user main page could be clearer.
 
-### Usability Heuristics 
-Each page was designed with usability heuristics in mind.
+### Minimal Viable Product (MVP) 
 
-**1. Clear walk-through of system**
-
-From the landing page to the results page, users are navigated to the next page by a green button at the center or bottom of the page. Since the order of the instructions are crucial to the system (e.g users need to input items wasted before total food cost of food wasted is calculated), users are prevented from skipping pages and guided through each process. 
-
-**2. Intuitive icons**
-
-The icons and layouts used follow real-world conventions, allowing users to easily recognize the functions of the features.  For example, on the main search page, the list of items added from the search are displayed on a receipt form. This format was chosen as receipts typically hold information of items and quantity of items. Additionally, on the receipt, the plus and minus icons were chosen to increment or decrement item quantity accordingly. 
-
-**3. Minimal design**  
-
-To minimize the amount of information or instructions on a page, each task was given its own page. For example, the landing-page provides the purpose of the application, the main search-page allows users to add food wasted and the result page outputs the cost of food wasted per year along with comparable statistics. 
-
-The design of each page was mindful of the number of clicks required from users. Initially, the design relied on pop-up overlays, for example, to search for an item and to adjust its quantity with a drop-down. The overlays were removed in favor of simple icons like the plus and minus icons to adjust quantities of one or more items. 
-
-
-### First User Persona
-With the aim of having a user-centred design process from the start, we created a hypothethical target user persona. Max is mainly characterized by caring about the environment and wanting to take action outside and inside his life to create a more sustainable world. Further details can be seen below:
-
-![User Persona 1](https://github.com/gabrielchuv/SE7/blob/main/Portfolio/Images/User_persona_1.png)
-
-#### User surveys
-We subjected our assumptions for Max to test by surveying 36 students from various courses at the University of Bristol. The updated user persona was based on the results of the surveys and can be seen below.
-
-Our approach
-We selected questions that would allow us to test the different areas that we deeemed core to our user persona. More specifically, we aimed to gather data around the assumptions we had made about our users' goals, frustrations, demographics and food consumption habits. Additionally, we selected questions that would allows us to understand to what extend an individual user was experiencing the issue of wasting food.
-
-Moreover, we approached the data analysis by first filtering the results by frequency of experiencing the problem of food wastage to narrow down the results to those who experienced the problem the most. These people are more likely to become early adopters and 50% of surveyees fit this criterion. This subset of people was further analyzed. Some of the questions were open-ended so we placed the data into categories (i.e. Hobbies: likes sports, likes arts etc.) to be able to summarize it. 
-
-Insights
-
-Most of the relevant results are reflected by the new user persona, however, an additional inisght was that half of surveyees (i.e. people who didn’t experience food going bad often) said that they “never” or "almost never" wasted food. Interestingly, a larger amount of people from this subset were already taking actions to prevent wastage compared to the group who had the problem more often. This would make the former group the right one to target if we were aiming to create a tool that allows people to take action on reducing food wastage. However, our tool’s main objective is to change people's behaviour (hopefully nudging them into behaving more like the former group) which reconfirms our decision to focus on the latter group of people who are not taking effective action to reduce their food wastage.
-
-( ADD LINKS ) Our survey questions can be seen here and the raw data can be seen here.
-
-### Second User Persona
-
-![User Persona 1](https://github.com/gabrielchuv/SE7/blob/main/Portfolio/Images/User_persona_2.png)
-
+### High-fidelity Design
