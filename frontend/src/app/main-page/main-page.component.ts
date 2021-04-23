@@ -67,5 +67,10 @@ export class MainPageComponent implements OnInit {
   //when remove button click, generates a new list  excluding the bin passed, save that back to this binList
   removeBinEntry(bin: Bin) {
     this.binList = this.binList.filter((binElement) => binElement != bin);
+    //recalculate the total number of items
+    this.runningTotal = 0;
+    this.binList.forEach((binEntry) => {
+      this.runningTotal += parseInt(binEntry.quantity!);
+    })
   }
 }

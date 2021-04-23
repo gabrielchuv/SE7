@@ -4,6 +4,7 @@ const http = require('http');
 const path = require('path');
 const api = require('./api');
 const db = require('../db');
+const foodSeeder = require('./database/foodSeeder');
 
 //parse JSON data
 app.use(express.json());
@@ -35,3 +36,6 @@ const server = http.createServer(app);
 
 //binds and listens for the connections on the specified port
 app.listen(port, () => console.log(`Express Server is connected on Port ${port}`));
+
+//seed food items if needed
+foodSeeder.seedFood();
