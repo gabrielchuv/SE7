@@ -19,7 +19,7 @@ export class StatsPageComponent implements OnInit {
     private searchService: SearchService,
     private route: ActivatedRoute,
     private router: Router
-  ) { }
+  ) { this.totalCost = 0; }
 
   
 
@@ -27,8 +27,6 @@ export class StatsPageComponent implements OnInit {
     this.searchService.getBins().subscribe((bins: any) => {
       if (bins != null) {
         //go through each entry in bins
-        //resetting calculation value
-        this.totalCost = 0;
         bins.forEach((binEntry: any) => {
           //search food items with the food name
           this.searchService.getFood(binEntry.food!).subscribe((foods) => {
