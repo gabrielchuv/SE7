@@ -20,6 +20,12 @@ export class StatsPageComponent implements OnInit {
     private route: ActivatedRoute,
     private router: Router
   ) { }
+
+
+  componentDidMount() {
+    this.totalCost = 0;
+    console.log(this.totalCost);
+    }
     
   
   ngOnInit() {
