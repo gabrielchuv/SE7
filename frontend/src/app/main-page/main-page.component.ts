@@ -28,6 +28,11 @@ export class MainPageComponent implements OnInit {
     console.log(`adding to the bin: ${foodName}`);
     this.binList.push(new Bin('1', foodName, "1"));
     this.runningTotal++;
+
+    // sorting list of items alphabetically
+    var temp = this.binList;
+    this.binList = temp.sort((a, b) => a.food!.localeCompare(b.food!));
+    console.log('sorted as: ' + this.binList);
   }
 
   //decrement quanity of the passed bin
