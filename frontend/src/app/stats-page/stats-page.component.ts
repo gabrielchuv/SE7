@@ -39,9 +39,9 @@ export class StatsPageComponent implements OnInit {
             this.totalCost += this.binEntryTotal;
 
             if(this.totalCost > 356){
-              this.displayText = `That is ${this.totalCost - 356} dolllars more than the average person in the UK.`;
+              this.displayText = `That is ${Math.round(this.totalCost - 356)} dolllars more than the average person in the UK.`;
             }
-            else {this.displayText = `That is ${356 - this.totalCost} dolllars less than the average person in the UK.`}
+            else {this.displayText = `That is ${Math.round(356 - this.totalCost)} dolllars less than the average person in the UK.`}
         
             console.log(`bin entry: ${this.i++} total bin entry cost: ${this.binEntryTotal.toFixed(2)}`);
           })
