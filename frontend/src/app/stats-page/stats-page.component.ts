@@ -24,7 +24,7 @@ export class StatsPageComponent implements OnInit {
 
   componentDidMount() {
     this.totalCost = 0;
-    console.log(this.totalCost);
+    console.log("total cost: " ,this.totalCost);
     }
     
   
