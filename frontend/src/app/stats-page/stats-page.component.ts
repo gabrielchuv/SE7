@@ -20,10 +20,6 @@ export class StatsPageComponent implements OnInit {
     private route: ActivatedRoute,
     private router: Router
   ) { }
-
-  componentDidUpdate() {
-    this.totalCost = 0
-      }
     
   
   ngOnInit() {
@@ -44,8 +40,7 @@ export class StatsPageComponent implements OnInit {
             console.log(`bin entry: ${this.i++} total bin entry cost: ${this.binEntryTotal.toFixed(2)}`);
           })
         });
-        //getting expected wasted money in a year
-        //this.totalCost *= 52;
+
         console.log(bins); //for debugging
       }
     })
