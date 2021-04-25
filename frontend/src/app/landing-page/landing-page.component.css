@@ -2,6 +2,13 @@
   font-family: 'Open Sans', sans-serif;
 }
 
+h1, h2 {
+  font-size: 2.5rem;
+  color: #272C35;
+  transform: translateX(-50%);
+  white-space: normal;
+}
+
 .split {
   position: absolute;
   height: 100%;
@@ -9,18 +16,10 @@
 }
 
 .split.left {
-  width: 40%;
-  left:0;
-  /* border: 5px solid red; */
-}
-
-.middle {
   position: absolute;
   top:19%;
   z-index: 1;
-
 }
-
 
 .split.right {
   width: 60%;
@@ -35,46 +34,16 @@
   text-align: center;
 }
 
-/* .content-left {
-  position: absolute;
-  left: 40%;
-  top: 30%;
-  width: 70%;
-  text-align: center;
-  border: 10px solid red;
-} */
-
-h1, h2 {
-  font-size: 2.5rem;
-  color: #272C35;
-  transform: translateX(-50%);
-  white-space: normal;
-  /* border: 5px solid black; */
-}
 
 .estimateTerm {
   font-size: 2rem;
   margin-left: 5%;
   text-align: left;
-  /* border: 2px solid red; */
-
-}
-
-.estimate {
-  /* display: flex; */
-  transform: translateX(-30%);
-
 }
 
 .btn-image {
-    /* background-image: url('../../assets/cloud_from_canva.png');
-    background-size: cover;
-    display: flex; */
     background-color: inherit;
-    /* position: absolute;
-    left: 0%; */
     border:none;
-
 }
 
 .cropped {
@@ -84,7 +53,6 @@ h1, h2 {
   height: 100%; /* height of container */
   object-fit: cover;
   object-position: 0% 0%;
-  /* border: 5px solid blue; */
 }
 
 .header {
@@ -109,60 +77,3 @@ h1, h2 {
     align-items: center;
     justify-content: center;
 }
-
-/* previous styles
-.site-title {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 400%;
-  text-align: center;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: bold;
-  width: auto;
-  height: auto;
-  max-width: 1000px;
-  max-height: 500px;
-  padding: 20px;
-}
-
-.site-description {
-  font-size: 50%;
-  text-align: center;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  font-weight: lighter;
-}
-
-.calculate-button {
-  background-color: #6b8d7e;
-  color: #fff;
-  padding: 10px 30px;
-  font-size: 60%;
-  cursor: pointer;
-  border: none;
-}
-.calculate-button:hover {
-  background: #4a6d5e;
-} */
-
-/* .button {
-  border-radius: 10px;
-} */
-
-
-/* resizing for later
-@media all and (orientation: portrait) and (max-width: 812px) {
-    .site-title {
-      position: fixed;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      font-size: 150%;
-      text-align: center;
-      font-family: 'Open Sans', sans-serif;
-      font-weight: bold;
-    }
-}
-*/
