@@ -14,6 +14,7 @@ export class StatsPageComponent implements OnInit {
   binEntryTotal: number = 0;
   totalCost: number = 0;
   i: number = 0;
+  displayText = '';
 
   constructor(
     private searchService: SearchService,
@@ -36,6 +37,12 @@ export class StatsPageComponent implements OnInit {
             
             //add the bin entry cost to the total
             this.totalCost += this.binEntryTotal;
+
+            if(this.totalCost > 200){
+              this.displayText = 'Hi tweety'
+
+            }
+            else {this.displayText = 'Bye tweety'}
         
             console.log(`bin entry: ${this.i++} total bin entry cost: ${this.binEntryTotal.toFixed(2)}`);
           })
