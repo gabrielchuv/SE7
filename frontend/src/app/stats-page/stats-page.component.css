@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: #fff6e3;
+    background-color: #DBF0F8;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -81,7 +81,7 @@ body {
 
 
 @media all and (orientation: portrait) and (max-width: 812px) {
-    
+
     .first_message_content {
         padding-top: 0rem;
     }
