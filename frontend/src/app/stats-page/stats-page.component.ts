@@ -21,12 +21,6 @@ export class StatsPageComponent implements OnInit {
     private router: Router
   ) { }
 
-
-  componentDidMount() {
-    this.totalCost = 0;
-    console.log("total cost: " ,this.totalCost);
-    }
-    
   
   ngOnInit() {
     this.searchService.getBins().subscribe((bins: any) => {
