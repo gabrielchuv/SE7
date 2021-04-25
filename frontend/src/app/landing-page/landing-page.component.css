@@ -2,272 +2,78 @@
   font-family: 'Open Sans', sans-serif;
 }
 
-.wrapper {
+h1, h2 {
+  font-size: 2.5rem;
+  color: #272C35;
+  transform: translateX(-50%);
+  white-space: normal;
+
+
+.split {
+  position: absolute;
+  height: 100%;
+  overflow: hidden;
+}
+
+.split.left {
+  position: absolute;
+  top:19%;
+  z-index: 1;
+}
+
+.split.right {
+  width: 60%;
+  right:0;
+}
+
+.content-right {
   position: relative;
-  min-height: 100vh;
-  width: 100%;
-  margin: 0;
-  padding: 0;
+  left: 60%;
+  top: 40%;
+  width: 70%;
+  text-align: center;
 }
 
-.site-title {
+
+.estimateTerm {
+  font-size: 2rem;
+  margin-left: 5%;
+  text-align: left;
+}
+
+.btn-image {
+    background-color: inherit;
+    border:none;
+}
+
+.cropped {
+  top: 0;
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 400%;
-  text-align: center;
-  font-family: 'Open Sans', sans-serif;
+  width: 100%; /* width of container */
+  height: 100%; /* height of container */
+  object-fit: cover;
+  object-position: 0% 0%;
+}
+
+.header {
   font-weight: bold;
-  width: auto;
-  height: auto;
-  max-width: 1000px;
-  max-height: 500px;
-  padding: 20px;
-  border-top: 5px solid #f9cb36;
-  border-bottom: 5px solid #f9cb36;
 }
 
-.site-description {
-  font-size: 50%;
-  text-align: center;
-  padding-top: 20px;
-  padding-bottom: 20px;
+.subheader {
+  font-size: 1.2rem;
   font-weight: lighter;
+  margin-top: 5%;
 }
 
-.calculate-button {
-  background-color: #6b8d7e;
-  color: #fff;
-  padding: 10px 30px;
-  font-size: 60%;
-  cursor: pointer;
-  border: none;
+.btn {
+    margin-top: 7%;
+    font-size: 1.2rem;
+    padding: 2% 2%;
+    cursor: pointer;
+    border-radius: 30px;
+    border-width: medium;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.calculate-button:hover {
-  background: #4a6d5e;
-}
-
-.button {
-  border-radius: 10px;
-}
-
-.bottomRight-image-container {
-  /*position: fixed;*/
-  /*transform: translate(530%, 275%);*/
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  width: auto;
-  height: auto;
-  max-width: 300px;
-  max-height: 300px;
-  }
-
-.middleRight-image-container {
-  /*position: absolute;*/
-  /*transform: translate(435%, -5%);*/
-  position: absolute;
-  right: 1%;
-  top: 35%;
-  width: auto;
-  height: auto;
-  max-width: 300px;
-  max-height: 300px;
-}
-
-.topRight-image-container {
-  /*position: absolute;*/
-  /*transform: translate(435%, -5%);*/
-  position: absolute;
-  right: 1%;
-  top: 0;
-  width: auto;
-  height: auto;
-  max-width: 300px;
-  max-height: 300px;
-  margin-top: 3%;
-  z-index: -1;
-}
-
-.topMiddle-image-container {
-  /*position: absolute;*/
-  /*transform: translate(435%, -5%);*/
-  position: absolute;
-  right: 43%;
-  top: 0;
-  width: auto;
-  height: auto;
-  max-width: 300px;
-  max-height: 200px;
-  margin-top: 3%;
-  z-index: -1;
-}
-
-.topLeft-image-container {
-  /*position: absolute;*/
-  /*transform: translate(435%, -5%);*/
-  position: absolute;
-  left: 1%;
-  top: 0;
-  width: auto;
-  height: auto;
-  max-width: 300px;
-  max-height: 200px;
-  margin-top: 3%;
-  z-index: -1;
-}
-
-.middleLeft-image-container {
-  /*position: absolute;*/
-  /*transform: translate(435%, -5%);*/
-  position: absolute;
-  left: 1%;
-  top: 35%;
-  width: auto;
-  height: auto;
-  max-width: 300px;
-  max-height: 300px;
-}
-
-
-.bottomLeft-image-container {
-  /*position: absolute;*/
-  /*transform: translate(435%, -5%);*/
-  position: absolute;
-  left: 1%;
-  bottom: 0;
-  width: auto;
-  height: auto;
-  max-width: 300px;
-  max-height: 300px;
-}
-
-.bottomMiddle-image-container {
-  /*position: absolute;*/
-  /*transform: translate(435%, -5%);*/
-  position: absolute;
-  right: 40%;
-  bottom: 0;
-  width: 100%;
-  height: auto;
-  max-height: 300px;
-  max-width: 300px;
-}
-
-/*this may not work all the time so test*/
-@media all and (orientation: landscape) and (max-width: 1919px) {
-    .site-title {
-      font-size: 250%;
-      padding: 1%;
-    }
-
-  .site-description {
-    padding-bottom: 20px;
-  }
-    .bottomRight-image-container {
-      width: auto;
-      height: 20%;
-      z-index: -1;
-    }
-
-    .middleRight-image-container {
-      width: auto;
-      height: 25%;
-      z-index: -1;
-    }
-
-    .topRight-image-container {
-      width: auto;
-      height: 20%;
-      z-index: -1;
-    }
-
-    .topMiddle-image-container {
-      width: auto;
-      height: 20%;
-      z-index: -1;
-    }
-    .topLeft-image-container {
-      width: auto;
-      height: 20%;
-      z-index: -1;
-    }
-    .middleLeft-image-container {
-      width: auto;
-      height: 30%;
-      z-index: -1;
-    }
-    .bottomLeft-image-container {
-      width: auto;
-      height: 20%;
-      z-index: -1;
-    }
-    .bottomMiddle-image-container {
-      width: auto;
-      height: 20%;
-      z-index: -1;
-    }
-
-  }
-
-@media all and (orientation: portrait) and (max-width: 812px) {
-    .site-title {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      font-size: 150%;
-      text-align: center;
-      font-family: 'Open Sans', sans-serif;
-      font-weight: bold;
-    }
-    .bottomRight-image-container {
-      width: 30%;
-      height: auto;
-      z-index: -1;
-    }
-
-    .middleRight-image-container {
-      width: 20%;
-      height: auto;
-      top: 45%;
-      z-index: -1;
-    }
-
-    .topRight-image-container {
-      width: 30%;
-      height: auto;
-      z-index: -1;
-    }
-
-    .topMiddle-image-container {
-      width: 30%;
-      height: 30%;
-      right: 35%;
-      z-index: -1;
-    }
-    .topLeft-image-container {
-      width: 30%;
-      height: auto;
-      z-index: -1;
-    }
-    .middleLeft-image-container {
-      width: 20%;
-      height: auto;
-      top: 41%;
-      z-index: -1;
-    }
-    .bottomLeft-image-container {
-      width: 30%;
-      height: auto;
-      z-index: -1;
-    }
-    .bottomMiddle-image-container {
-      width: 30%;
-      height: auto;
-      right: 35%;
-      z-index: -1;
-    }
-
-  }

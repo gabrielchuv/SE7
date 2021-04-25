@@ -1,30 +1,23 @@
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 
-<div class=wrapper>
-  <div class="body">
-    <div class="site-title"> Where has your money gone?
-      <div class="site-description">
-        Calculate how much money you will waste this year due to wasted food
-      </div>
-      <button class="calculate-button button" type ="button" (click)="onCalculateClick()">Calculate</button>
+<div class="container">
+  <!--Sally and estimate-->
+  <div class="split left">
+    <button type="submit" class="btn-image" (click)="changeLabelName()">
+      <img src="../../assets/sally2.gif" width="100%" />
+    </button>
+    <label #estimateInput class="estimateTerm"> $ {{name}} lost from food waste </label>
+  </div>
+
+  <!-- application description and calculate button-->
+  <div class="split right">
+    <!-- image to cover right hand contents -->
+    <img src='../../assets/cloud_from_canva_cropped.png' class="cropped">
+    <div class="content-right">
+      <h1 class="header">Where has your money gone?</h1>
+      <h2 class="subheader"> Click on the pot of money to increase your estimate of how much money you are losing per month from food waste. </h2>
+      <button type="button" class="btn btn-outline-dark" name="button" (click)="onCalculateClick()">Calculate how much you're actually losing</button>
     </div>
-
-    <img class="bottomRight-image-container" src="/assets/LandingPageMoney.png">
-
-    <img class="middleRight-image-container" src="/assets/LandingPageFood5.png">
-
-    <img class="topRight-image-container" src="/assets/LandingPageFood4.png">
-
-    <img class="topMiddle-image-container" src="/assets/LandingPageFood3.png">
-
-    <img class="topLeft-image-container" src="/assets/LandingPageMoney.png">
-
-    <img class="middleLeft-image-container" src="/assets/LandingPageFood2.png">
-
-    <img class="bottomLeft-image-container" src="/assets/LandingPageMoney.png">
-
-    <img class="bottomMiddle-image-container" src="/assets/LandingPageFood1.png">
-
   </div>
 </div>
