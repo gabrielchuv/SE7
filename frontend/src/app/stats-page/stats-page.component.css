@@ -11,6 +11,11 @@ body {
     justify-content: space-evenly;
 }
 
+.navbar-brand {
+  color: #272C35;
+  font-weight: bold;
+  cursor: pointer;
+}
 
 /* First message */
 
