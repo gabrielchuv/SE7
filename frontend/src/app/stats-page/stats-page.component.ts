@@ -19,10 +19,13 @@ export class StatsPageComponent implements OnInit {
     private searchService: SearchService,
     private route: ActivatedRoute,
     private router: Router
-  ) { this.totalCost = 0; }
+  ) { }
 
+  componentDidUpdate() {
+    this.totalCost = 0
+      }
+    
   
-
   ngOnInit() {
     this.searchService.getBins().subscribe((bins: any) => {
       if (bins != null) {
