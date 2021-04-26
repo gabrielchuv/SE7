@@ -45,7 +45,6 @@ export class SearchBarComponent implements OnInit {
   ngOnInit() {
     this.searchControl.valueChanges.subscribe((word: string) => {
       this.userSearchFood = word;
-      console.log(`search word changing: ${word}`);
     });
   }
 
@@ -69,8 +68,7 @@ export class SearchBarComponent implements OnInit {
     }
   }
 
-  onFoodSelect(fooditem: string) {
-    console.log(`Emitting food item: ${fooditem}`);
-    this.onFoodPickedEvent.emit(fooditem);
+  onFoodSelect(fooditemName: string) {
+    this.onFoodPickedEvent.emit(fooditemName);
   }
 }
