@@ -9,6 +9,7 @@ A brief description of what this section is about.
 	- [Academic Review](#academic-review)
 - [Discussion of Future Work](#discussion-of-future-work)
 - [Social and Ethical Implications](#social-and-ethical-implications)
+- [Bibliography](#bibliography)
 
 ## Reflective Discussion of The Success of The Project
 Details of how you evaluated your designs (techniques used & awareness of their limitations). Description of techniques suitable for your particular design. A timeline of evaluation of your design
@@ -38,3 +39,12 @@ Discussion of future work (in terms of design, development and evaluation)
 
 ## Social and Ethical Implications
 Discussion of Social and Ethical implications of your work
+
+## Bibliography
+
+1. Prochaska, J., & Norcross, J. (2001). Stages of change. Psychotherapy: Theory, Research, Practice, Training, 38, 443–448. https://doi.org/10.1037/0033-3204.38.4.443
+2. Hellsten, L., Nigg, C., Norman, G., Burbank, P., Braun, L., Breger, R., Coday, M., Elliot, D., Garber, C., Greaney, M., Lees, F., Matthews, C., Moe, E., Resnick, B., Riebe, D., Rossi, J., Toobert, D., & Wang, T. (2008). Accumulation of Behavioral Validation Evidence for Physical Activity Stage of Change. Health Psychology : Official Journal of the Division of Health Psychology, American Psychological Association, 27, S43-53. https://doi.org/10.1037/0278-6133.27.1(Suppl.).S43
+3. Applying Behaviour Change Methods to Food Waste. (2020). In Routledge Handbook of Food Waste (pp. 293–310). Routledge. https://doi.org/10.4324/9780429462795-23
+4. Bamberg, S., & Moser, G. (n.d.). Twenty years after Hines, Hungerford, and Tomera: A new meta-analysis of psycho-social determinants of pro-environmental behaviour—ScienceDirect. Retrieved April 26, 2021, from https://www.sciencedirect.com/science/article/abs/pii/S0272494406000909
+5. Klöckner, C., & Blöbaum, A. (2010). A comprehensive action determination model—Toward a broader understanding of ecological behaviour using the example of travel mode choice. 574-586. https://doi.org/10.1016/j.jenvp.2010.03.001
+6. Quantified consumer insights on food waste | REFRESH. (n.d.). Retrieved April 26, 2021, from https://eu-refresh.org/quantified-consumer-insights-food-waste
