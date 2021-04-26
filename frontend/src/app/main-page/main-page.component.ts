@@ -20,7 +20,7 @@ export class MainPageComponent implements OnInit {
     private route: ActivatedRoute,              //for getting the current route
     private router: Router,                      //for redirecting the user to another route
     private messageService: MessageService       //for saving the yearly forecast of the bin
-  ) { }
+  ) {}
 
   //prevents access to ng things before its loaded on the page
   ngOnInit() {
