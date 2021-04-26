@@ -79,10 +79,29 @@ body {
 
 /* Social media buttons */
 
-.twitter-share-button {
+.sharing {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    display: flex;
     color: white;
+}
+
+.twitter a {
     background-color: blue;
     padding: 1rem;
+}
+
+.facebook a {
+    background-color: cornflowerblue;
+    padding: 1rem;
+}
+
+.linkedin a {
+    background-color: crimson;
+    padding: 1 rem;
 }
 
 
