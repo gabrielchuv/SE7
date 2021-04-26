@@ -53,6 +53,9 @@ export class StatsPageComponent implements OnInit {
     const selBox = document.createElement('textarea');
     selBox.style.position = 'fixed';
     selBox.value = val;
+    document.body.appendChild(selBox);
+    selBox.focus();
+    selBox.select();
     document.execCommand('copy');
     document.body.removeChild(selBox);
   }
