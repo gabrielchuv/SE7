@@ -38,10 +38,11 @@ export class StatsPageComponent implements OnInit {
             //add the bin entry cost to the total
             this.totalCost += this.binEntryTotal;
 
+            /* Change display text depending on yearly money wasted */
             if(this.totalCost > 356){
-              this.displayText = `That is ${Math.round(this.totalCost - 356)} dolllars more than the average person in the UK.`;
+              this.displayText = `That is £${Math.round(this.totalCost - 356)} more than the average person in the UK.`;
             }
-            else {this.displayText = `That is ${Math.round(356 - this.totalCost)} dolllars less than the average person in the UK.`}
+            else {this.displayText = `That is £${Math.round(356 - this.totalCost)} less than the average person in the UK.`}
         
             console.log(`bin entry: ${this.i++} total bin entry cost: ${this.binEntryTotal.toFixed(2)}`);
           })
