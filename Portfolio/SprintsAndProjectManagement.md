@@ -29,7 +29,7 @@ Zain Kassam :
 
 Anita Nguyen :
 
-Jessica Sung specialized in UX design and front-end. She has led design sessions and created the designs of the MVP and high-fidentity product. With a focus on the user experience, Jessica helped translate user feedback into requirememts and designs of prototypes. She has guided the direction of the project from a reminder service for expiring foods to a food waste calculator based on user feedback and considered the elements of serious play. She has contributed to the usability and value of the product to users. 
+Jessica Sung specialized in UX design and front-end. She has led design sessions and created the designs of the MVP and high-fidentity product. She has guided the direction of the project from a reminder service for expiring foods to a food waste calculator based on user feedback and considered the elements of serious play. Jessica has contributed to the usability and value of the product to users. 
 
 Gabriel Chu Valdez : 
 
