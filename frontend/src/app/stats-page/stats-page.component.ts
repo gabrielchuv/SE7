@@ -53,7 +53,7 @@ export class StatsPageComponent implements OnInit {
     })
   }
 
-  copyMessage(val: string){
+  copyLink(val: string){
     const selBox = document.createElement('textarea');
     selBox.style.position = 'fixed';
     selBox.value = val;
