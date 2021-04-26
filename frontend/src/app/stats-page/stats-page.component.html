@@ -11,7 +11,6 @@
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 
 <body>
-    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     <div class = "first_message_content">
         <h1>Forecasted yearly cost of food waste: £{{binTotal.toFixed(2)}}</h1>
         <p>{{displayText}}</p>
@@ -25,37 +24,29 @@
             <p>Reduce your food waste and save £{{binTotal.toFixed(2)}} this year.</p>
         </div>
     </div>
-    <!-- <div class="sharing">
-        <div class = "buttons">
-            <div class="twitter button">
-                <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" >Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-            </div>
-            <div class="facebook button">
-                <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" >Share</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-            </div>
-            <div class="linkedin button">
-                <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" >Share</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-            </div>
-        </div>
-    </div> -->
+   
     <div class="sharing">
+        <div class="message">
+            <p>See how your friend are doing!</p>
+        </div>
         <!-- Twitter button -->
         <div class="twitter-button">
             <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large" data-show-count="false">Tweet</a>
             <!-- <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large" data-show-count="false">Tweet</a> -->
         </div>
-        <div class="facebook-button">
-            <!-- Facebook button -->
-            <!-- <iframe src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&layout=button_count&size=small&width=96&height=20&appId" width="70" height="35" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe> -->
-            <iframe src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&layout=button&size=large&width=77&height=28&appId" width="77" height="28" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+        <div class="buttons">
+            <div class="facebook-button">
+                <!-- Facebook button -->
+                <!-- <iframe src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&layout=button_count&size=small&width=96&height=20&appId" width="70" height="35" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe> -->
+                <iframe src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&layout=button&size=large&width=77&height=28&appId" width="77" height="28" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+            </div>
+            <div class="link-button">
+                <!-- Copy link  -->
+                <!-- <button onclick="copyLink()">Copy site's link</button> -->
+                <button (click)="copyLink('http://localhost:3000/home')">Copy link</button>
+            </div>
         </div>
-        <div class="link">
-            <!-- Copy link  -->
-            <!-- <button onclick="copyLink()">Copy site's link</button> -->
-            <button (click)="copyLink('http://localhost:3000/home')">Copy link</button>
-        </div>
-
-        
+           
     </div>
    
    

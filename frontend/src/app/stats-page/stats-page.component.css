@@ -82,12 +82,13 @@ body {
 .sharing {
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: center;
 }
+
 
 .buttons {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
 }
 
@@ -96,20 +97,6 @@ body {
     color: white;
 }
 
-.twitter a {
-    background-color: blue;
-    padding: 1rem;
-}
-
-.facebook a {
-    background-color: cornflowerblue;
-    padding: 1rem;
-}
-
-.linkedin a {
-    background-color: crimson;
-    padding: 1rem;
-}
 
 
 @media all and (orientation: portrait) and (max-width: 812px) {
