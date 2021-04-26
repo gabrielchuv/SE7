@@ -14,18 +14,20 @@ body {
 
 /* First message */
 
-/*.first_message {
+.first_message {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-around;
     text-align: center;
-}*/
+}
+
 
 .first_message_content {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
 
 .first_message_content h1 {
     font-weight: bold;
