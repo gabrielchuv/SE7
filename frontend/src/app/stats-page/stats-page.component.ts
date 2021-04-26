@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Input } from '@angular/core';
 import { SearchService } from 'src/app/common/services/search.service';
+import { MessageService } from '../common/services/message.service';
 import { ActivatedRoute, Router } from '@angular/router';
 import Bin from '../models/bin';
 
@@ -12,48 +13,37 @@ import Bin from '../models/bin';
 
 export class StatsPageComponent implements OnInit {
   binEntryTotal: number = 0;
-  totalCost: number = 0;
+  binTotal: number = 0;
   i: number = 0;
+  binList: Bin[] = [];
 
   constructor(
     private searchService: SearchService,
     private route: ActivatedRoute,
-    private router: Router
+    private router: Router,
+    private messageService: MessageService
   ) { }
 
-  
-
+  //on page build
   ngOnInit() {
-    this.searchService.getBins().subscribe((bins: any) => {
-      if (bins != null) {
-        //go through each entry in bins
-        //resetting calculation value
-        this.totalCost = 0;
-        bins.forEach((binEntry: any) => {
-          //search food items with the food name
-          this.searchService.getFood(binEntry.food!).subscribe((foods) => {
-            //foods is an array but there SHOULD only be one food item in it, so get its zeroth elements cost 
-            //multiply it by the quantity and save the total BIN ENTRY cost
-          
-            this.binEntryTotal = parseFloat(foods[0].cost!) * parseInt(binEntry.quantity!);
-            
-            //add the bin entry cost to the total
-            this.totalCost += this.binEntryTotal;
-        
-            console.log(`bin entry: ${this.i++} total bin entry cost: ${this.binEntryTotal.toFixed(2)}`);
+    //get the total cost from the messaging service
+    this.binList = this.messageService.getBinList();
+    this.binList.forEach((binEntry) => {
+      if (binEntry != null) {
+        //get the foods cost from the database
+        this.searchService.getFood(binEntry.food!)
+          .subscribe((fooditem: any) => {
+            //get the total cost of the binEntry (= food.cost x bin.quantity)
+            this.binEntryTotal = parseFloat(fooditem[0].cost) * parseInt(binEntry.quantity!);
+            console.log(`Bin entry: food:${binEntry.food} cost:${fooditem[0].cost} quantity=${binEntry.quantity!}`);
+            //calculate a running total for the year
+            this.binTotal += this.binEntryTotal * 52;
           })
-        });
-        //getting expected wasted money in a year
-        //this.totalCost *= 52;
-        console.log(bins); //for debugging
       }
     })
   }
 
   onNavClick() {
-    this.router.navigate(['../home'], {relativeTo: this.route});
+    this.router.navigate(['../home'], { relativeTo: this.route });
   }
-
-
-
 }
