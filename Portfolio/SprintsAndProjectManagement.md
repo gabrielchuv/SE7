@@ -21,7 +21,19 @@ Projects on github used for tracking database progress and changes so it is poss
 
 
 ## Summary of Individual Contributions
-Discussion of team roles (specialisation is ok!). A summary of individual contributions
+Each member acted as a full-stack developer with specialties in particular areas. 
+
+Alex Digpal-Race :
+
+Zain Kassam :
+
+Anita Nguyen :
+
+Jessica Sung specialized in UX design and front-end. She has led design sessions and created the designs of the MVP and high-fidentity product. With a focus on the user experience, Jessica helped translate user feedback into requirememts and designs of prototypes. She has guided the direction of the project from a reminder service for expiring foods to a food waste calculator based on user feedback and considered the elements of serious play. She has contributed to the usability and value of the product to users. 
+
+Gabriel Chu Valdez : 
+
+
 
 ## Documentation of Sprints
 Documentation of your sprints, including both high level overview, timeline, and selected highlights that were critical points in the project (remember to show the users stories implemented in each sprint). We expect a summary of meeting logs (including for instance apologies for absence etc)
