@@ -16,21 +16,22 @@ body {
 
 .first_message {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-around;
     text-align: center;
 }
 
+
 .first_message_content {
+    display: flex;
     flex-direction: column;
-    /*width: 40%;*/
-    padding-top: 4rem;
     align-items: center;
-    /*text-align: left;*/
 }
+
 
 .first_message_content h1 {
     font-weight: bold;
+    padding-bottom: 1rem;
     font-size: 3rem;
    /* padding-bottom: 2rem;
     text-align: left;*/
@@ -79,6 +80,39 @@ body {
     font-size: 1.7rem;
 }
 
+/* Social media buttons */
+
+.sharing {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.sharing .message {
+    font-size: 1.7rem;
+}
+
+.link-button button {
+    padding: 0.28rem;
+    border-radius: 5px;
+    background: #5e8976;
+    color: white;
+}
+
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 25%;
+}
+
+.button {
+    display: flex;
+    color: white;
+}
+
+
 
 @media all and (orientation: portrait) and (max-width: 812px) {
     
@@ -92,5 +126,18 @@ body {
 
     .image img {
         width: 45%;
+    }
+
+    .sharing {
+        flex-direction: column;
+    }
+
+    .sharing .message p {
+        padding-bottom: 1rem;
+    }
+
+    .buttons {
+        justify-content: center;
+        width: 100%;
     }
 }
