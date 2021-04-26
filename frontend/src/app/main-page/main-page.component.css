@@ -221,10 +221,10 @@ input:focus {
 
 .calculate-button button {
   height: 45px;
-  border: 1px solid #5E8976;
+  border: 1px solid  #272C35;
   padding-left: 15px;
   padding-right: 15px;
-  background: #4D4D4D;
+  background:  #272C35;
   color: #fff;
   border-radius: 5px;
   cursor: pointer;
@@ -233,7 +233,7 @@ input:focus {
 }
 
 .calculate-button button:hover {
-  background: #272C35;
+  background: #464646;
 }
 
 .mad-closing-class {

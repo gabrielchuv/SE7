@@ -9,14 +9,16 @@
 
 .searchTerm {
   width: 100%;
-  border: 3px solid #5E8976;
+  border: 3px solid #272C35;
   border-right: none;
   padding: 20px;
   height: 41px;
   border-radius: 5px 0 0 5px;
   outline: none;
   color: #272C35;
+  background-color: #FEFAFA;
   font-size: 17px;
+  background-color: #FEFAFA;
 }
 
 .searchTerm:focus{
@@ -26,8 +28,8 @@
 .searchButton {
   width: 45px;
   height: 46px;
-  border: 1px solid #5E8976;
-  background: #5E8976;
+  border: 1px solid #272C35;
+  background: #272C35;
   text-align: center;
   color: #fff;
   border-radius: 0 5px 5px 0;
@@ -36,7 +38,7 @@
 }
 
 button:hover {
-  background: #4a6d5e;
+  background: #464646;
 }
 
 .wrap {
@@ -82,13 +84,14 @@ button:hover {
 
   .searchTerm {
     width: 100%;
-    border: 3px solid #5E8976;
+    border: 3px solid #272C35;
     border-right: none;
     padding: 10px;
     height: 40px;
     border-radius: 5px 0 0 5px;
     outline: none;
     color: #272C35;
+    background-color: #FEFAFA;
   }
 
   .searchTerm:focus{
@@ -98,8 +101,8 @@ button:hover {
   .searchButton {
     width: 40px;
     height: 40px;
-    border: 1px solid #5E8976;
-    background: #5E8976;
+    border: 1px solid #272C35;
+    background: #272C35;
     text-align: center;
     color: #fff;
     border-radius: 0 5px 5px 0;
@@ -108,7 +111,7 @@ button:hover {
   }
 
   button:hover {
-    background: #4a6d5e;
+    background: #464646;
   }
 
   .wrap {
@@ -138,13 +141,14 @@ button:hover {
 
     .searchTerm {
       width: 100%;
-      border: 3px solid #5E8976;
+      border: 3px solid #272C35;
       border-right: none;
       padding: 10px;
       height: 40px;
       border-radius: 5px 0 0 5px;
       outline: none;
       color: #272C35;
+      background-color: #FEFAFA;
     }
 
     .searchTerm:focus{
@@ -154,8 +158,8 @@ button:hover {
     .searchButton {
       width: 40px;
       height: 40px;
-      border: 1px solid #5E8976;
-      background: #5E8976;
+      border: 1px solid #272C35;
+      background: #272C35;
       text-align: center;
       color: #fff;
       border-radius: 0 5px 5px 0;
@@ -164,7 +168,7 @@ button:hover {
     }
 
     button:hover {
-      background: #4a6d5e;
+      background: #464646;
     }
 
     .wrap {
@@ -193,13 +197,14 @@ button:hover {
 
   .searchTerm {
     width: 25%;
-    border: 3px solid #5E8976;
+    border: 3px solid #272C35;
     border-right: none;
     padding: 5px;
     height: 40px;
     border-radius: 5px 0 0 5px;
     outline: none;
     color: #272C35;
+    background-color: #FEFAFA;
   }
 
   .searchTerm:focus {
@@ -209,8 +214,8 @@ button:hover {
   .searchButton {
     width: 40px;
     height: 40px;
-    border: 1px solid #5E8976;
-    background: #5E8976;
+    border: 1px solid #272C35;
+    background: #272C35;
     text-align: center;
     color: #fff;
     border-radius: 0 5px 5px 0;
@@ -219,7 +224,7 @@ button:hover {
   }
 
   button:hover {
-    background: #4a6d5e;
+    background: #464646;
   }
 
   .wrap{
@@ -241,13 +246,14 @@ button:hover {
 
   .searchTerm {
     width: 100%;
-    border: 3px solid #5E8976;
+    border: 3px solid #272C35;
     border-right: none;
     padding: 7px;
     height: 40px;
     border-radius: 5px 0 0 5px;
     outline: none;
     color: #272C35;
+    background-color: #FEFAFA;
   }
 
   .searchTerm:focus{
@@ -257,8 +263,8 @@ button:hover {
   .searchButton {
     width: 40px;
     height: 40px;
-    border: 1px solid #5E8976;
-    background: #5E8976;
+    border: 1px solid #272C35;
+    background: #272C35;
     text-align: center;
     color: #fff;
     border-radius: 0 5px 5px 0;
@@ -267,7 +273,7 @@ button:hover {
   }
 
   button:hover {
-    background: #4a6d5e;
+    background: #464646;
   }
 
   .wrap {
