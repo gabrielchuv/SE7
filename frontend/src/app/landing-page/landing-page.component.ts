@@ -26,7 +26,8 @@ export class LandingPageComponent implements OnInit {
   }
 
   onCalculateClick() {
-    this.messageService.setEstimate(this.estimate);
+    // store estimate to use in stats page
+    this.messageService.setEstimate(this.estimate.toString());
     this.router.navigate(['../main'], {relativeTo: this.route});
   }
 

@@ -16,6 +16,8 @@ export class StatsPageComponent implements OnInit {
   binTotal: number = 0;
   i: number = 0;
   binList: Bin[] = [];
+  weeklyEstimate: string = "0";
+  yearlyEstimate: string = "0";
 
   constructor(
     private searchService: SearchService,
@@ -41,6 +43,12 @@ export class StatsPageComponent implements OnInit {
           })
       }
     })
+
+    // get estimates from messaging service
+    this.weeklyEstimate = this.messageService.getEstimate();
+    // calculate yearly estimate 
+    this.yearlyEstimate = (parseInt(this.weeklyEstimate) * 52).toString();
+
   }
 
   onNavClick() {
