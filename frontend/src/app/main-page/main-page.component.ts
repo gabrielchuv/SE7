@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { SearchService } from 'src/app/common/services/search.service';
+import { MessageService } from '../common/services/message.service';
 import Bin from '../models/bin';
 
 @Component({
@@ -17,7 +18,8 @@ export class MainPageComponent implements OnInit {
   constructor(
     private searchService: SearchService,       //for using the seearch service we created
     private route: ActivatedRoute,              //for getting the current route
-    private router: Router                      //for redirecting the user to another route
+    private router: Router,                      //for redirecting the user to another route
+    private messageService: MessageService       //for saving the yearly forecast of the bin
   ) { }
 
   //prevents access to ng things before its loaded on the page
@@ -66,6 +68,8 @@ export class MainPageComponent implements OnInit {
       this.searchService.createBin(this.binList[i].usrID!, this.binList[i].food!, this.binList[i].quantity!)
         .subscribe((res) => console.log(`added bin: ${res} to database`));
     }
+    //send binList to stats page to calculate yearly forecast
+    this.messageService.setBinList(this.binList);
     this.router.navigate(['../stats'], { relativeTo: this.route });
   }
 
