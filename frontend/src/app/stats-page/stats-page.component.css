@@ -82,9 +82,16 @@ body {
 .sharing {
     display: flex;
     flex-direction: column;
+    justify-content: flex-end;
 }
 
-button {
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.button {
     display: flex;
     color: white;
 }
@@ -101,7 +108,7 @@ button {
 
 .linkedin a {
     background-color: crimson;
-    padding: 1 rem;
+    padding: 1rem;
 }
 
 
