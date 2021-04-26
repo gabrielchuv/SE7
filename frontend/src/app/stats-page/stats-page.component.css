@@ -127,4 +127,13 @@ body {
     .image img {
         width: 45%;
     }
+
+    .sharing {
+        flex-direction: column;
+    }
+
+    .buttons {
+        justify-content: center;
+        width: 100%;
+    }
 }
