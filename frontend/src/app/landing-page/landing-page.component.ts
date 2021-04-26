@@ -5,6 +5,7 @@ import {LoginOverlayComponent} from "./login-overlay/login-overlay.component";
 import {MatDialog, MatDialogConfig} from '@angular/material/dialog';
 import { FormControl } from '@angular/forms';
 import {MatButtonModule} from '@angular/material/button';
+import { MessageService } from '../common/services/message.service';
 
 @Component({
   selector: 'app-landing-page',
@@ -13,24 +14,28 @@ import {MatButtonModule} from '@angular/material/button';
 })
 export class LandingPageComponent implements OnInit {
   estimateControl = new FormControl('');
+  public estimate: any = 0;
 
-  public name: any = 0;
-
-  constructor(private route: ActivatedRoute,
-              private router: Router) {
-
-  }
+  constructor(
+    private route: ActivatedRoute,
+    private router: Router,
+    private messageService: MessageService
+  ) {}
 
   ngOnInit(): void {
   }
 
   onCalculateClick() {
+    // store estimate to use in stats page
+    this.messageService.setEstimate(this.estimate.toString());
     this.router.navigate(['../main'], {relativeTo: this.route});
   }
 
   changeLabelName() {
-    var temp: number = parseInt(this.name) + 10;
-    this.name = temp.toString();
-
+    var temp: number = parseInt(this.estimate) + 10;
+    this.estimate = temp.toString();
   }
+
+
+
 }

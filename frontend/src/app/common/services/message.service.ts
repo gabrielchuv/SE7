@@ -6,6 +6,7 @@ import Bin from '../../models/bin';
 export class MessageService {
   messages: string[] = [];
   binList: Bin[] = [];
+  estimate: string = "";
 
   add(message: string) {
     this.messages.push(message);
@@ -22,10 +23,12 @@ export class MessageService {
   getBinList(): Bin[] {
     return this.binList;
   }
+
+  setEstimate(estimate: string) {
+    this.estimate = estimate;
+  }
+
+  getEstimate(): string {
+    return this.estimate;
+  }
 }
-
-
-
-
-
-
