@@ -14,7 +14,7 @@ export class SearchService {
 
   //set above to be backend server port...
   constructor(private http: HttpClient) {
-    this.ROOT_URL = "http://localhost:3000/api";
+    this.ROOT_URL = "http://18.219.146.56/api";
   }
 
   //create a bin

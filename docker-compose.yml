@@ -16,7 +16,7 @@ services:
       - MONGO_PORT=$MONGO_PORT
       - MONGO_DB=$MONGO_DB
     ports:
-      - "3000:3000"
+      - "80:3000"
     networks:
       - app-network
     command: ./wait-for.sh db:27017 -- /home/node/app/backend/node_modules/.bin/nodemon /home/node/app/backend/app.js
