@@ -44,7 +44,7 @@ The following sections will address the social and ethical implications of our p
 Throughout the development of our prototype, we have ensured to involve the user at every stage (more details can be found [here](/UXDesign.md)). We sent out surveys to understand who our users are, and we conducted interviews to better understand our design decisions.
 
 ### 2. Understand the existing ecosystem
-Our aim for this project was to raise awareness about food waste. We have therefore, conducted extensive research about the issue (with the focus on the UK specifically) to better understand the causes of food wastage. In addition, we reviewed current solutions available which addresses the issue (for more details [here](#academic-review)). With this research in mind, we started designing our web application.
+Our aim for this project was to raise awareness about food waste. We have therefore, conducted extensive research about the issue (with the focus on the UK specifically) to better understand the causes of food wastage. In addition, we reviewed current solutions available which addresses the issue (for more details [here](#industry-and-academic-review)). With this research in mind, we started designing our web application.
 
 ### 3. Design for scale
 We have used the MEAN stack in developing our web application, which means that it is flexible and scalable. 
@@ -70,6 +70,8 @@ Furthermore, we have ensure to include a cookies notice, which users can opt out
 
 ### 9. Be collaborative
 As mentioned in section 1 and 5, we have involved the user at every stage of development. The users we have spoken to did not all have a background in Software Development, which meant that we were able to get a lot of different perspectives on our design.
+<br></br>
+
 
 ## Bibliography
 
