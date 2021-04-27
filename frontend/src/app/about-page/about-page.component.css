@@ -8,11 +8,19 @@
 
 .faq-section {
   padding: 10vh 0 0;
-  position: flex;
+  position: relative;
   min-height: 100vh;
   width: 100%;
   margin: 0;
   padding: 0;
+}
+
+.right {
+  padding: 10vh 0 0;
+  position: absolute;
+  width: 100%;
+  margin: 0;
+  left: 20%;
 }
 
 .faq-title h2 {
@@ -111,4 +119,19 @@
     line-height: 26px;
     margin-top: 10px;
   }
+}
+
+.left {
+  margin-top: 5%;
+  margin-left: 5%;
+}
+
+.left img {
+  height: 180px;
+  width: auto;
+}
+
+.left p {
+  text-align: center;
+  font-style: italic;
 }
