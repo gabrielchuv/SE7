@@ -1,5 +1,6 @@
 .navbar-brand {
   color: #000000;
+  cursor: pointer;
 }
 
 .navbar-brand:hover {
