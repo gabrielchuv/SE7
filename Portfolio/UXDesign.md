@@ -234,3 +234,9 @@ The second wireframe walkthrough uncovered...
 ### Minimal Viable Product (MVP) 
 
 ### High-fidelity Design
+
+
+
+
+
+Note, the icons used in the design and application were courtesy of canva.com and giffy.com. 
