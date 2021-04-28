@@ -80,4 +80,4 @@ The release branch, similar to main, was used for saving the site when it was in
 ### Implementation of Docker
 Docker was a way to get the same environment working across the whole team for development. Through github we could share the same code and run the site through node (& express) on each machine, but having the same data populating our local instance of the database was a problem. Using a Dockerfile to build an image of the website and then running a docker-compose script to start up and connect the image built, with a containerised instance of mongoDB that prepopulated itself with our needed data (food items).
 
-We could then run/use the site and any data created (bin entries) during runtime were saved into the mongoDB container for use later on.
+We could then run/use the site and any data created (bin entries) during runtime was saved into the mongoDB container for use later on.
