@@ -9,6 +9,12 @@
     <app-search-bar class="search" (onFoodPickedEvent)="addBinEntry($event)"></app-search-bar>
     <img class="bin-image" src="/assets/bin.png">
   </div>
+<div class="thought-container">
+  <img class="sally" src="../../assets/sally2.gif" />
+  <img class="thought-bubble" src="../../assets/thought_cloud_from_canva.png">
+  <div class="bubble-text"> Search for food items that went bad</div>
+</div>
+
 
   <!-- receipt -->
   <div class="right-side-container">
@@ -26,7 +32,7 @@
 
       <!-- receipt items -->
       <cdk-virtual-scroll-viewport itemSize="50" class="item-full">
-        <!-- for each item in the bin--> 
+        <!-- for each item in the bin-->
         <div class="item" *ngFor="let bin of binList">
           <b class="mad-closing-class" (click)="removeBinEntry(bin)">X</b>
           <div class="description">

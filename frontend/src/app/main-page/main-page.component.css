@@ -35,13 +35,45 @@
 
 .bin-image {
   max-width: 60%;
-  max-height: 70%;
+  max-height: 60%;
   position: absolute;
-  bottom: 0;
+  bottom: 10%;
   margin: 0 auto;
   right: 50%;
   transform: translate(50%, 0%);
   z-index: -1;
+}
+
+.sally {
+  position: absolute;
+  width: 40%;
+  height: 60%;
+  bottom: 0;
+  right: 0;
+}
+
+.thought-bubble {
+  position: absolute;
+  height: 75%;
+  width: 50%;
+  left: 5%;
+  z-index: -1;
+}
+
+.bubble-text {
+  position: absolute;
+  height: 75%;
+  width: 30%;
+  left: 17%;
+  top: 20%;
+  text-align: center;
+}
+
+.thought-container{
+  position: absolute;
+  bottom: 0;
+  width: 20%;
+  height: 20%;
 }
 
 .search {
