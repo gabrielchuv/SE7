@@ -24,7 +24,7 @@ import {ScrollingModule} from '@angular/cdk/scrolling';
 import {MatAutocompleteModule} from '@angular/material/autocomplete';
 import {MatExpansionModule} from '@angular/material/expansion';
 import {PrivacyPolicyPageComponent} from "../../privacy-policy-page/privacy-policy-page.component";
-import { AboutPageComponent } from './../../about-page/about-page.component';
+import { AboutPageComponent } from '../../about-page/about-page.component';
 
 @NgModule({
   declarations: [
