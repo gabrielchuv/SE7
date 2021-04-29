@@ -9,7 +9,8 @@ import {FormsModule, ReactiveFormsModule} from "@angular/forms";
 import { LandingPageComponent} from '../../landing-page/landing-page.component';
 import { MainPageComponent } from '../../main-page/main-page.component';
 import { SearchBarComponent} from '../../main-page/search-bar/search-bar.component';
-import { FooterComponent } from './../../footer/footer.component';
+import { FooterComponent } from '../../footer/footer.component';
+import { StatsPageComponent} from "../../stats-page/stats-page.component";
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatInputModule} from '@angular/material/input';
@@ -24,7 +25,10 @@ import {ScrollingModule} from '@angular/cdk/scrolling';
 import {MatAutocompleteModule} from '@angular/material/autocomplete';
 import {MatExpansionModule} from '@angular/material/expansion';
 import {PrivacyPolicyPageComponent} from "../../privacy-policy-page/privacy-policy-page.component";
-import { AboutPageComponent } from './../../about-page/about-page.component';
+import { AboutPageComponent } from '../../about-page/about-page.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+
+
 
 @NgModule({
   declarations: [
@@ -35,7 +39,8 @@ import { AboutPageComponent } from './../../about-page/about-page.component';
     LoginOverlayComponent,
     PrivacyPolicyPageComponent,
     FooterComponent,
-    AboutPageComponent
+    AboutPageComponent,
+    StatsPageComponent,
   ],
   imports: [
     BrowserModule,
@@ -56,10 +61,11 @@ import { AboutPageComponent } from './../../about-page/about-page.component';
     MatTabsModule,
     ScrollingModule,
     MatAutocompleteModule,
-    MatExpansionModule
+    MatExpansionModule,
+    FontAwesomeModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
-  entryComponents: [LoginOverlayComponent],
+  entryComponents: [LoginOverlayComponent, AppComponent],
 })
 export class AppModule { }

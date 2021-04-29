@@ -1,30 +1,53 @@
-<nav class="navbar">
-    <div class="container-fluid">
-        <a class="navbar-brand" (click)="onNavClick()">
-            <img src="/assets/bin.png" alt="" width="30" height="28" class="d-inline-block align-text-top">
-            Money Bin
-        </a>
-    </div>
-</nav>
+<!--<nav class="navbar">-->
+<!--    <div class="container-fluid">-->
+<!--        <a class="navbar-brand" (click)="onNavClick()">-->
+<!--            <img src="/assets/bin.png" alt="" width="30" height="28" class="d-inline-block align-text-top">-->
+<!--            Money Bin-->
+<!--        </a>-->
+<!--    </div>-->
+<!--</nav>-->
 
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 
-<body>
-    <div class=first_message>
-        <div class="first_message_content">
-            <h1>Forecasted yearly cost of food waste: ${{binTotal.toFixed(2)}}</h1>
-            <p>You guessed {{ weeklyEstimate }}/week or {{ yearlyEstimate }}/year in food waste.</p>
-            <p>That is X dolllars more than the average person in the UK.</p>
+
+<div class="wrapper">
+    <div class="container">
+    <div class="split left">
+      <div class="thought-bubble-container">
+        <div class="text-container">
+        <h1 class="header-text">${{binTotal.toFixed(2)}} in food waste</h1>
+        <p class="other-text">You guessed {{ weeklyEstimate }}/week or {{ yearlyEstimate }}/year in food waste. Over the year you'll actually lose X dollars.
+          That is X dolllars more than the average person in the UK.</p>
         </div>
+        <img class="thought-bubble" src="../../assets/cloudbubblebig.png">
+      </div>
+      <div class="bottom-container">
+        <button class="icon-div" mat-button (click)="onNavClick()">
+          <fa-icon [icon]="faPowerOff"></fa-icon>
+          Start over
+        </button>
+      </div>
     </div>
-    <img class="sally" src="../../assets/sally2.gif" />
-    <div class="image">
-        <img src="/assets/pileofmoney.gif" alt="money_gif">
-    </div>
-    <div class="second_message">
-        <div class="second_message_content">
-            <p>Reduce your food waste and save $X this year.</p>
+      <div class="split right">
+        <div class="sally-div">
+          <div class="thinking-cloud">
+            <p>Are you convinced now to reduce your food waste?</p>
+            <img class="think" src="assets/thought_cloud_from_canvaflip.png" />
+          </div>
+           <img class="sally" src="../../assets/sally2.gif" />
+      </div>
+        <div class="bottom-right-container">
+          <div class="share-div">
+          Share results
+          <button class="fb-button" mat-fab>
+            <fa-icon [icon]="faFacebook"></fa-icon>
+          </button>
+          <button class="twitter-button" mat-fab>
+            <fa-icon [icon]="faTwitter"></fa-icon>
+          </button>
+          </div>
         </div>
-    </div>
-</body>
+      </div>
+  </div>
+</div>
