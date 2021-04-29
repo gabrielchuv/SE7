@@ -17,6 +17,10 @@ body {
   cursor: pointer;
 }
 
+.navbar-brand:hover {
+    color: #686868;
+}
+
 /* First message */
 
 .first_message {
@@ -45,6 +49,14 @@ body {
     font-size: 1.5rem;
     /*text-align: left;*/
 
+}
+
+.sally {
+  position: absolute;
+  width: 15%;
+  height: 25%;
+  bottom: 40%;
+  right: 25%;
 }
 
 /* Image  */

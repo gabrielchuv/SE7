@@ -27,6 +27,7 @@ h1, h2 {
   position: absolute;
   top:19%;
   z-index: 1;
+  width: 45%;
 }
 
 .split.right {

@@ -7,6 +7,7 @@ footer {
     color: #FFFFFF;
     width: 100%;
     position:relative;
+    z-index: 9;
 }
     
 footer h3 {
