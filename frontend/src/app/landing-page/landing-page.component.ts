@@ -26,16 +26,18 @@ export class LandingPageComponent implements OnInit {
   }
 
   onCalculateClick() {
-    // store estimate to use in stats page
-    this.messageService.setEstimate(this.estimate.toString());
-    this.router.navigate(['../main'], {relativeTo: this.route});
+    // Prevents user from going to main page without an estimate
+    if (this.estimate == 0) {
+      window.alert("Please enter an estimate");
+    } else {
+      // store estimate to use in stats page
+      this.messageService.setEstimate(this.estimate.toString());
+      this.router.navigate(['../main'], {relativeTo: this.route});
+    }
   }
 
   changeLabelName() {
     var temp: number = parseInt(this.estimate) + 10;
     this.estimate = temp.toString();
   }
-
-
-
 }

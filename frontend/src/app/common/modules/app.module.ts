@@ -28,8 +28,6 @@ import {PrivacyPolicyPageComponent} from "../../privacy-policy-page/privacy-poli
 import { AboutPageComponent } from '../../about-page/about-page.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
-
-
 @NgModule({
   declarations: [
     AppComponent,

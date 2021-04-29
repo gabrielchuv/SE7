@@ -7,8 +7,9 @@
   </div>
 </nav>
 
-<section class="faq-section">
-    <div class="right">
+<div class="wrapper">
+    <div class="faq-section">
+      <div class="split right">
         <div class="container">
             <div class="row">
                 <!-- ***** FAQ Start ***** -->
@@ -30,7 +31,7 @@
                                 </div>
                             </div>
                             <div id="faqCollapse-1" class="collapse" aria-labelledby="faqHeading-1" data-parent="#accordion">
-                                <div class="card-body">
+                                <div itemSize="5" class="card-body">
                                     <p>
                                         This web application's primary objective is to increase awareness 
                                         about household food waste. Moreover, it also aims to nudge people's 
@@ -94,7 +95,7 @@
                                 </div>
                             </div>
                             <div id="faqCollapse-4" class="collapse" aria-labelledby="faqHeading-4" data-parent="#accordion">
-                                <div class="card-body">
+                                <cdk-virtual-scroll-viewport itemSize="20" class="card-body" id="last-card">
                                     <p>
                                         1. <b>Plan your meals for the week and get more for your money</b><br>
                                         <br>
@@ -117,30 +118,34 @@
                                         in your fridge is too high. Similarly with meat, fish and poultry, it can go bad if your
                                         fridge temperature is too low.
                                     </p>
-                                </div>
+                                </cdk-virtual-scroll-viewport>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+      </div>
+  
+      <div class="split left">
+        <table>
+            <tr>
+                <td><img src="assets/zain.png" alt="icon of Zain"><p>Zain</p></td>
+                <td></td>
+                <td><img src="assets/jess.png" alt="icon of Jess"><p>Jess</p></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><img src="assets/alex.png" alt="icon of Alex"><p>Alex</p></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td> <img src="assets/gabriel.png" alt="icon of Gabriel"><p>Gabriel</p></td>
+                <td></td>
+                <td><img src="assets/anita.png" alt="icon of Anita"><p>Anita</p></td>
+            </tr>
+        </table>
+          </div>
     </div>
-
-    <table class="left">
-        <tr>
-            <td><img src="assets/zain.png" alt="icon of Zain"><p>Zain</p></td>
-            <td></td>
-            <td><img src="assets/jess.png" alt="icon of Jess"><p>Jess</p></td>
-        </tr>
-        <tr>
-            <td></td>
-            <td><img src="assets/alex.png" alt="icon of Alex"><p>Alex</p></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td> <img src="assets/gabriel.png" alt="icon of Gabriel"><p>Gabriel</p></td>
-            <td></td>
-            <td><img src="assets/anita.png" alt="icon of Anita"><p>Anita</p></td>
-        </tr>
-    </table>
-</section>
+  </div>
+  
