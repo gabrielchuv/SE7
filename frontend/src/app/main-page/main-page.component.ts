@@ -63,14 +63,19 @@ export class MainPageComponent implements OnInit {
 
   // send binList data to backend
   toStats() {
-    console.log("redirecting to stats page and sending data...");
-    for (let i = 0; i < this.binList.length; i++) {
-      this.searchService.createBin(this.binList[i].usrID!, this.binList[i].food!, this.binList[i].quantity!)
-        .subscribe((res) => console.log(`added bin: ${res} to database`));
+    // Prevents user from going to stats page if their bin is empty
+    if (this.binList.length == 0) {
+      window.alert("Please enter an item");
+    } else {
+      console.log("redirecting to stats page and sending data...");
+      for (let i = 0; i < this.binList.length; i++) {
+        this.searchService.createBin(this.binList[i].usrID!, this.binList[i].food!, this.binList[i].quantity!)
+          .subscribe((res) => console.log(`added bin: ${res} to database`));
+      }
+      //send binList to stats page to calculate yearly forecast
+      this.messageService.setBinList(this.binList);
+      this.router.navigate(['../stats'], { relativeTo: this.route });
     }
-    //send binList to stats page to calculate yearly forecast
-    this.messageService.setBinList(this.binList);
-    this.router.navigate(['../stats'], { relativeTo: this.route });
   }
 
   //when remove button click, generates a new list  excluding the bin passed, save that back to this binList
