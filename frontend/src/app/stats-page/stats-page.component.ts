@@ -1,14 +1,18 @@
 import { Component, OnInit } from '@angular/core';
 import { Input } from '@angular/core';
+import { faPowerOff } from '@fortawesome/free-solid-svg-icons';
+import { faFacebookF, faTwitter } from '@fortawesome/free-brands-svg-icons';
 import { SearchService } from 'src/app/common/services/search.service';
 import { MessageService } from '../common/services/message.service';
 import { ActivatedRoute, Router } from '@angular/router';
 import Bin from '../models/bin';
 
+
+
 @Component({
   selector: 'app-stats-page',
   templateUrl: './stats-page.component.html',
-  styleUrls: ['./stats-page.component.css']
+  styleUrls: ['./stats-page.component.css'],
 })
 
 export class StatsPageComponent implements OnInit {
@@ -18,6 +22,10 @@ export class StatsPageComponent implements OnInit {
   binList: Bin[] = [];
   weeklyEstimate: string = "0";
   yearlyEstimate: string = "0";
+  faPowerOff = faPowerOff;
+  faFacebook = faFacebookF;
+  faTwitter = faTwitter;
+
 
   constructor(
     private searchService: SearchService,
@@ -46,7 +54,7 @@ export class StatsPageComponent implements OnInit {
 
     // get estimates from messaging service
     this.weeklyEstimate = this.messageService.getEstimate();
-    // calculate yearly estimate 
+    // calculate yearly estimate
     this.yearlyEstimate = (parseInt(this.weeklyEstimate) * 52).toString();
 
   }
