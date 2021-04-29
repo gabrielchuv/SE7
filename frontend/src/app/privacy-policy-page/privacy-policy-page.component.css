@@ -6,3 +6,43 @@
 .navbar-brand:hover {
   color: #686868;
 }
+
+.center-content {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  background-color: white;
+  padding: 3%;
+  overflow-y: auto;
+
+}
+
+.scroll {
+  /* width: 1000px%;
+  height: 500px; */
+  overflow-x: hidden;
+  overflow-y: auto;
+  text-align:justify;
+}
+
+.faq-title h2 {
+  position: relative;
+  display: inline-block;
+  font-weight: 600;
+  line-height: 1;
+  font-size: 50px;
+  margin-top: 2%;
+  margin-bottom: 0;
+}
+
+.faq-title h2::before {
+  content: "";
+  position: absolute;
+  left: 40%;
+  width: 100px;
+  height: 2px;
+  background: #000000;
+  bottom: -25px;
+  margin-left: -30px;
+}
