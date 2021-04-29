@@ -31,7 +31,7 @@
   position: relative;
   margin: 0;
   flex: 1;
-  margin-left: 5%;
+  margin-left: 3%;
 }
 
 .left img {
@@ -64,7 +64,7 @@
 .faq-title h2::before {
   content: "";
   position: absolute;
-  left: 50%;
+  left: 40%;
   width: 100px;
   height: 2px;
   background: #000000;
