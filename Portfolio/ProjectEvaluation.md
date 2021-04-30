@@ -25,6 +25,22 @@ Reflect on the working practices of your group, how well they did or did not wor
 
 ## Industry review
 
+![Alternative analysis](https://github.com/gabrielchuv/SE7/blob/main/Portfolio/Images/alternatives.png)
+
+As seen above, we have compared our application with other currently existing ones across two dimensions: convenience and accuracy. We found that none of the existing solutions provide a good performance across the two dimensions simultaneously and that very few tools are targeted at households.
+
+Firstly, the most compelling application targeted at households that we found was created by [It's Fresh](https://www.itsfresh.com/food-waste-calculator/survey.html), a company with the aim of developing technologies to extend the quality of fresh food. It allows users to easily add new food items that they have thrown away and it provides an estimate of how much money they are wasting and how much pollution they are contributing with due to their food waste. However, this tool has limited accuracy because it only allows users to enter a small variety of fruits and vegetables and no other food categories like meats, dairy etc.
+
+The only other tool aimed at households was created by the organizers of the ["Love Food Hate Waste"](https://lovefoodhatewaste.co.nz/quiz-much-money-wasting-throw-away-food/) campaign in New Zealand. This tool is really convenient because it doesn't require users to remember how much they have wasted. It only asks them general questions about their food comsumption habits. However, this results in a very vague estimate of how much money the user might be wasting. We think this is too unreliable for users to take seriously.
+
+Although the rest of the tools could, in principle, be used by households, they had businesses as their main target: [Savingfood.eu](https://savingfood.eu/food-waste-calculator/), [Restaurant.eatapp.co](https://restaurant.eatapp.co/free-food-cost-calculator), and [Flwprotocol.org](https://flwprotocol.org/why-measure/food-loss-and-waste-value-calculator/). These applications all had the potential of being more accurate when calculating the consequences of food waste. Nevertheless, they also were less convenient to use because they required users a lot more detail such as average size of portions and weights. One of them also required users to download an Excel to be able to perform the calculations.
+
+In light of this evaluation, we thought that a tool that was convenient and accurate would be adopted by people and taken seriously enough to elicit an emotional response and hopefully a change in behaviour.
+
+(maybe) In light of these tools that don't offer a solution to the problem but just a diagnosis of it, we thought we could offer a solution --> extend project to creating tool for dealing with wasted food.
+
+TODO - STILL NOT COMPELLING
+
 ## Problem defintion
 
 Food loss and waste is a global issue across various dimensions: financial, environmental, and ethical. Financially, it is estimated that the total cost associated with food lost or wasted is 2.6 trillion dollars annually (REF: http://www.fao.org/3/i3991e/i3991e.pdf). Out of this amount, around 700 billion dollars can be linked with environmental waste (REF: http://www.fao.org/nr/sustainability/food-loss-and-waste/en/). 
