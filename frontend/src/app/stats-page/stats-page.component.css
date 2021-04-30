@@ -397,7 +397,7 @@
 
 }
 
-@media all and (orientation: portrait) and (min-width: 361px) and (min-height: 641px) {
+@media all and (orientation: portrait) and (min-width: 361px) and (max-width: 650px) and (min-height: 641px) {
 
   .header-text {
     font-size: 200%;
@@ -421,6 +421,39 @@
 
   .bottom-right-container {
     font-size: 65%;
+  }
+
+}
+
+@media all and (orientation: portrait) and (min-width: 651px) and (min-height: 641px) {
+
+  .header-text {
+    font-size: 400%;
+  }
+
+  .other-text {
+    font-size: 175%;
+    text-align: center;
+  }
+
+  .thinking-cloud p{
+    margin-top: 1%;
+    font-size: 125%;
+  }
+
+  .icon-div {
+    font-size: 300%;
+    margin-right: 50%;
+  }
+
+  .bottom-right-container {
+    font-size: 275%;
+    margin-right: 5%;
+  }
+
+  .sally {
+    width: 55%;
+    height: 35%;
   }
 
 }
