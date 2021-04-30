@@ -10,16 +10,23 @@ A brief description of what this section is about.
 
 ## The Team's Working Methods
 ### Scrum
-The scrum framework was utilised to enchance the productivity and synnergy of the team. At the start of the week a sprint planning meeting would be held to discuss with the whole group, what needed doing and who would be assigned to it (the sprint backlog). The backlog tasks were added to the task management software Jira, so everyone could access it and see what was: to be done, in progress and done. The sprint was then started the same day the plan was drafted with scrum meetings happening every day/every other day (changing as appropriately decided in the scrum meetings) to discuss two things: **What was a member working on?**, **Are there any problems?**. These two questions enabled everyone to gain understanding on how the site was progressing and identified quickly if a task needed someone elses input/group discussion. 
+
+#### Rationale
+We found Scrum to be the appropriate methodology to follow because it implements several key components and principles:
+
+1. User stories: it is key for an MVP to provide the product’s core value with the minimal amount of resources. User stories allowed us to focus on the value provided to users.
+2. Defined roles: the allocation of defined roles allowed us to make decisions quicker. In particular, the role of product owner allowed us to swiftly decide what to build and the role of scrum master to keep things on track during sprints. was helpful because of the short period of time we had to work on the project.
+3. Transparency: scrum encourages transparency in the communication of issues through the standup meetings. We are all new to web development so this was very useful in order to share knowledge among ourselves.
+
+#### Implementation
+
+At the start of the week a sprint planning meeting would be held to discuss the product backlog with the whole group. It was the product owner's responsibility to create or add new items to the backlog by defining a set of user stories and ranking them in order of priority. We would then discuss among ourselves to assign story points to each story (each point was worth 2 hours) and reorganize the stories by breaking them apart or combining several. In this meeting it was decided what stories from the product backlog would be included in the next sprint and who would be assigned to it.
+
+The backlog tasks were added to the task management software Jira, so everyone could access it and see what was: to be done, in progress and done. The sprint was then started the same day the plan was drafted with standup meetings happening every day/every other day (changing as appropriately decided in the scrum meetings) to discuss two things: **What was a member working on?**, **Are there any problems?**. These two questions enabled everyone to gain understanding on how the site was progressing and identified quickly if a task needed someone elses input/group discussion. 
 
 The end of the week normally marked the end of the sprint where the scrum meeting that day would be to do an informal discussion of how the sprint had gone, if any tasks needed continuing in the next sprint, and vaguely looked at what should be done for the next sprint. A formal review was also conducted by the scrum master to analyse and put into action things discussed in the informal review to help with planning the next sprint.
 
 As well as the scrum meetings, the team engaged in heavy pair programming throughout the development cycle which meant members were normally in constant communication with another member. Often there was someone working alone but Microsoft Teams was used throughout the day and daily to provide a communication channel to the rest of the group if needed.
-
-- Rationale behind using Scrum
-- Ceremonies we engaged in - sprint planning, standups, reviews etc. - TODO
-- Use of Jira: product backlog, sprint backlog, progress tracking - TODO
-
 
 ## Summary of Individual Contributions
 Each member acted as a full-stack developer with specialties in particular areas. 
