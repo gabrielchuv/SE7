@@ -12,11 +12,12 @@ A brief description of what this section is about.
 ### Scrum
 
 #### Rationale
-We found Scrum to be the appropriate methodology to follow because it implements several key components and principles:
+We found Scrum to be the appropriate methodology to follow because it implements several key components and principles thath helped us during the development process:
 
 1. User stories: it is key for an MVP to provide the product’s core value with the minimal amount of resources. User stories allowed us to focus on the value provided to users.
 2. Defined roles: the allocation of defined roles allowed us to make decisions quicker. In particular, the role of product owner allowed us to swiftly decide what to build and the role of scrum master to keep things on track during sprints. was helpful because of the short period of time we had to work on the project.
 3. Transparency: scrum encourages transparency in the communication of issues through the standup meetings. We are all new to web development so this was very useful in order to share knowledge among ourselves.
+4. Sprints: as we developed the application, gathered feedback from users, and aligned the project with the brief we had to make frequent changes to the application. Scrum's sprint-based process was helpful to change priorities flexibly
 
 #### Implementation
 
@@ -50,24 +51,25 @@ Gabriel Chu was involved in all parts of the project to different extents and ad
 -Developer: he contributed to the frontend and hosted our application on AWS to share it with users.
 
 ## Documentation of Sprints
-### Sprint timeline
 
-#### Sprint 0: Test sprint
+
+### Sprint 0: Working on dependencies
 - Timeline: 29/03 - 02/03
-- Goal: Work on dependencies and get used to the scrum methodology and to Jira
-- User stories completed: 
+- Goal: finish off dependencies and get used to the scrum methodology and Jira
+- Tasks completed: 
   - Landing page high fidelity design
   - Main page high fidelity design
   - Statistics page high fidelity design
   - Food item entity structure
   - Food item search
-- Notes: 
 
-#### Sprint 1: MVP
+#### What was accomplished in sprint 0
+This sprint was used as a starting point or the team to get used to the Scrum methodology. We defined the dependencies that needed to be completed before being able to start building the application, tracked them with the help of Jira and finished them by the end of the week. The dependencies mainly had to do with increasing the fidelity of our previous wireframes in order to clarify and speed up the development in subsequent sprints. The basic backend's infrastructure was also put in place.... ALEX FINISH THIS
+
+#### Sprint 1: 
 - Timeline: 05/04 - 11/04
-- Goal: Create our MVP's first iteration
+- Goal: Create the MVP's frontend
 - User stories completed: 
-   - As a user I want to navigate from the landing page to track my waste
    - As a user I want to search for a food item
    - As a user I want to navigate to the stats page from the main page
 - Criteria: we used 3 criteria to decide what to include in our first iteration of the MVP. 
