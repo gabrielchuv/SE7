@@ -96,7 +96,8 @@ This sprint was used as a starting point for the team to get used to the Scrum m
 - Timeline: 05/04 - 11/04
 - Goal: Create the MVP's frontend
 - Rationale for user stories
-  -  Going into sprint 1, high priority (must-have) features were selected from the design phase. More specifically, most of the stories in this sprint are necessary for users to be able to navigate and orient themselves through the app. 
+  -  Most of the stories in this sprint are necessary for users to understand the application and be able to navigate and orient themselves in it.
+  -  Going into sprint 1, high priority (must-have) features were selected from the design phase. More specifically, most of the stories in this sprint are necessary for
 - User stories completed: 
    - As a user, when I navigate to the landing page I expect to see the title and subtitle so that I understand if the site is relevant for me 
    - As a user, I can click on the "Calculate" button in the landing page so that I can navigate to the page where I can track my food waste
@@ -135,29 +136,26 @@ The additional feature of searching originally took less time than its assigned 
 
 ### Sprint 2: Finish MVP's functionality
 - Timeline: 12/04 - 18/04
-- Goal: Add missing key functionality to the MVP
+- Goal: Add missing key functionality to the MVP and prepare for release
 - Rationale for user stories
-  - 
+  - The second sprint served us to complete most of the key functionality for the MVP. 
+  - We made sure it worked responsively in different devices because we were planning on releasing it to Bristol University students later on.
+  - We also implemented a cookie banner and a privacy policy page since we were planning to release it online and we were going to use third-party apps to track behaviour.
+  - Despite it not being essential, we took care of some usability details (i.e. scrollable lists) in order to discard a reason like poor usability when assessing why people went or did not go through the whole user flow.
 - User stories completed:
    - As a user, when I click on a food item I've searched for I want it to be added to my "binned" receipt so that it gets tracked when calculating how much I'm wasting
-   - As a user, I want to visualise the yearly forecasted cost of the food I've 'binned' for the week so that I gain perspective on the implications of my food consumption habits
    - As a user, I want to navigate back to the landing page once I've viewed the statistics page so that I can start the process again or have another user do it
    - These were 3 stories: As a user, when I navigate to the landing page, main, and stats pages from a mobile device, I want to continue understanding the application and be able to calculate how much money I'm wating yearly
    - As a user, when I get many results from a food item search, I want to be able to view them as a scrollable vertical list so that I can easily pick the one I am trying to find.
-   - As a user, I want to add and delete the number of items associated with a specific food item so that I match how much food I have wasted more accurately (plus and minus buttons)
+   - As a user, I want to add and subtract the number of items associated with a specific food item so that I match how much food I have wasted more accurately (plus and minus buttons)
    - As a user, when I navigate to the application, I want to have the option to deny cookies so that I have greater control of my private data
    - As a user, I want to know what is the applicaiton's privacy policy and what third-party applications are being used to track my data, so that I know that it is a trustworthy site
-   - As a user, if I waste more/less (yearly) than the average person I want to know by how much so that I get a better idea of how am I doing compared to the general UK population
-
-   
-
-WHY THESE STORIES
 
 #### Highlights
 
-- highlight 1
-- highlight 2
-- highlight 3
+- Amost all core functionality implemented
+- Made the application responsive
+- highlight 3????
 
 #### Implementation
 Sprint 2 was where the features left out of the MVP were implemented, a user could search for a food item from the database but nothing would happened when it was clicked, similarly once a food item had been added to the 'binned' receipt based off of the design each food needed a plus and minus button to change the quantity. Clicking the calculate button needed to (as well as navigating to the stats page) send the 'binned' food items out to the database. Site responsiveness for all pages needed to be debugged to get the site working on many different displays (not just monitors). Some team members were having deployment issues with docker and not being able to access food items which also needed to be fixed.
@@ -175,20 +173,22 @@ It was also identified half way through the sprint (15/04) that it would make se
 ### Sprint 3: MVP release & Second Design Implementation
 - Timeline: 19/04 - 02/05
 - Goal: Finish off implentation of the First design
-- Rationale-------
+- Rationale for user stories:
+  -  Finished all key functionality and started tracking using Google analytics because we released the app at the en of the first week of this 2-week sprint
+  -  We added a few nice-to-have features like an About page and the ability to delete food items from the user's list because we thought this would enhance the app's clarity and usability respectively.
 - User stories completed:
-   - As a user, I want to know how much money am I forecasted to waste yearly according to my inputted weekly waste
+   - As a user, I want to visualise the yearly forecasted cost of the food I've 'binned' for the week so that I gain perspective on the implications of my food consumption habits
    - As a user, I want to delete food items from my "binned" receipt so that I am able to fix any mistakes
    - As a user, I want to navigate to "less important" pages in the application such as the "About Us" and "Privacy Policy" pages (footer)
    - As a user, I want to share the app via social media or by copying the site's link so that I can show it to my friends
-   - As a user, I want to learn more about app so that I understand the application's purpose
+   - As a user, I want to learn more about app so that I understand the application's purpose (about page)
    - As a user, I want to be able to access the application from any browser so that I need little effort to access it
+   - As a user, if I waste more/less (yearly) than the average person I want to know by how much so that I get a better idea of how am I doing compared to the general UK population
+   - As a product owner, I want to understand how people are using the application so that the team can prioritize features and user stories.
 
 
 #### Highlights
-
-- 
-- highlight 2
+- Key functionality such as calculating the forecasted yearly money wasted and comparing it with the average UK consumer was implemented
 - Hosted the site on AWS EC2 to be able to share it with people easily
 
 #### Implementation
