@@ -217,6 +217,36 @@ The session highlighted key issues in usability and informed the next iteration 
 ### Second Prototype: Food Waste Calculator
 User feedback informed the second prototype which calculates cost accrued for food wasted per individual. To address issues (1) and (2), users will only have to input food wasted, which is not dependent on when they shop for groceries. Less information is required from users to produce the output: a calculation of money lost and environmental damage done by food wasted. To address (3), users are informed of the amount of food wasted in pounds along with a personalized goal (e.g, buy fewer groceries). Social norming and a personalized goal could nudge behavior change.
 
+1. **Landing page with a one-off use of the calculator. The gives an idea of what the web application is about.**
+
+<p align="center">
+<img src="Images/landing-page-cal.gif">
+</p>
+<br></br>
+
+
+2. **In order to get the full functionality of the web application, all users are required to have an account.**
+
+<p align="center">
+<img src="Images/sign-up-cal.gif">
+</p>
+<br></br>
+
+3. **Once the user have logged in/created an account, they get some information about how the web application works. This is where they meet Jane, which is a character that follows them throughout the application. The calculator allows the user to enter as many food items as they need and generates a total for all food items.**
+
+<p align="center">
+<img src="Images/main-page.gif">
+</p>
+<br></br>
+
+4. **Once the user have entered in all their food items, they can navigate to the statistics page and view their results. A cost breakdown is included to help the user understand how much money they have wasted. In addition, the user can view the impact their waste have on the environment. Lastly, a food breakdown is included to help the user better understand which food item they are wasting the most**
+
+<p align="center">
+<img src="Images/stats-cal.gif">
+</p>
+<br></br>
+
+#
 ### Second Prototype: Wireframe Walk-through
 Users were again shown the updated/new wireframe protoype to see if the changes made were an improvement on the last version and to gleen more insight into improving the user experience of the site. A mix of four users, some from the last feedback session and some new to the site, aged 18-30 were asked to explore the wireframe telling the feedback practioners, their opinion on what each page did, how effective it was at doing this, and what they would do next. The practioners checked off the user story list tasks the user's were able to complete on their own and any tasks left at the end were then hinted at to see if the user could accomplish there task. 
 

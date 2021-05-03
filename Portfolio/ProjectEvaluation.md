@@ -5,7 +5,7 @@ A brief description of what this section is about.
 ## Table of Contents
 - [Reflective Discussion of The Success of The Project](#reflective-discussion-of-the-success-of-the-project)
 	- [Reflection on Working Practices](#reflection-on-working-practices)
-- [Industry and Academic Reviewk](#industry-and-academic-review)
+- [Industry and Academic Review](#industry-and-academic-review)
 	- [Academic Review](#academic-review)
 - [Discussion of Future Work](#discussion-of-future-work)
 - [Social and Ethical Implications](#social-and-ethical-implications)
