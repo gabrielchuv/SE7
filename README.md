@@ -8,7 +8,7 @@ This web application's primary objective is to increase awareness about househol
 | <img align="left" width="100" height="100" src="Portfolio/Images/glorious_leader_2.jpeg">| [Alex Digpal-Race](https://github.com/alexDigpalRace) : <cr20208@bristol.ac.uk>|
 | Picture     |[Zain Kassam](https://github.com/Zainzzkk) : <dw20513@bristol.ac.uk>|
 | Picture     |[Anita Nguyen](https://github.com/ng0c) : <wl20794@bristol.ac.uk>|
-| Picture     |[Jessica Sung](https://github.com/jessicaksung) : <zu20706@bristol.ac.uk>
+| <img align="left" width="100" height="100" src="Portfolio/Images/profile_JS.jpg">     |[Jessica Sung](https://github.com/jessicaksung) : <zu20706@bristol.ac.uk>
 | Picture     |[Gabriel Chu Valdez](https://github.com/gabrielchuv) : <gabriel.chu.2020@bristol.ac.uk>
 |             |             |
 
@@ -19,10 +19,10 @@ This web application's primary objective is to increase awareness about househol
 * Project Abstract 
 * Objectives
 * Team
-* 
+
 ### 2. [Background & Motivation](Portfolio/BackgroundAndMotivation.md)
-* Industry Review
-* Academic Review
+* Industry Review - market analysis 
+* Academic Review - problem definition 
 
 ### 3. [System Implementation](Portfolio/SystemImplementation.md)
 * Stack Architecture
@@ -45,4 +45,4 @@ This web application's primary objective is to increase awareness about househol
 * Reflective Discussion on the Success of the Project
 * Discussion of Future Works
 * Reflection on Working Practices of the Team
-* Social and ethical Implications
+* Social and Ethical Implications

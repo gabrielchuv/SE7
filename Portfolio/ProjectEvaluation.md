@@ -5,8 +5,8 @@ A brief description of what this section is about.
 ## Table of Contents
 - [Reflective Discussion of The Success of The Project](#reflective-discussion-of-the-success-of-the-project)
 	- [Reflection on Working Practices](#reflection-on-working-practices)
-- [Discussion of Future Work](#discussion-of-future-work)
 - [Social and Ethical Implications](#social-and-ethical-implications)
+- [Discussion of Future Work](#discussion-of-future-work)
 - [Bibliography](#bibliography)
 
 ## Reflective Discussion of The Success of The Project
@@ -136,6 +136,27 @@ Furthermore, we have ensure to include a cookies notice, which users can opt out
 ### 9. Be collaborative
 As mentioned in section 1 and 5, we have involved the user at every stage of development. The users we have spoken to did not all have a background in Software Development, which meant that we were able to get a lot of different perspectives on our design.
 <br></br>
+
+## Future Works 
+As an advanced prototype, Money Bin could be further developed to provide actionable tips for behavior change, increase the accuracy of the statistics for individual food waste and improve the rigor and generalizability of evaluations. 
+
+### Design for Action
+During semi-structured interviews and prototype walk-throughs, users suggested providing actionable tips regarding the issue of individual food waste. Some users suggested tackling the causes of the issue like over-spending on grocery shopping or visibility of spoiled food in the fridge. One user suggested tips for what can be done after food went to waste, for example, by using coffee beans as facial/body scrubs. 
+
+After bringing awareness to the issue, the results page can conclude with actionable goals and links to resources. For example, if most of the money lost comes from oranges, the application can set a personal goal for the user to buy less oranges and consequently lose less money from food waste: “Looks like you’re wasting most on oranges. The next time you go grocery shopping, buy less oranges and save!” It can also link to helpful resources like how to turn coffee beans into scrubs or how to score vegetables properly to last longer. 
+
+### Develop for Accuracy
+Currently, the database for food items and cost for each food is populated manually, limiting the number of searchable items. There is only one option (quantity) to indicate the amount of food wasted but it may be difficult to define 1 quantity of an item (e.g., 1 grape or 2 chickens). These options limit the accuracy of the exact foods that went to waste. 
+
+One solution may be to use an external API for food items and cost. APIs from major grocery chains can be explored to include a diversity of foods and their current costs. If there are limits to using external APIs due to costs or other development constraints, data can be crowd-sourced from users. Additional features can be developed for users to create new food items and add it to the database. Finally, more options can be introduced for the quantity of foods such as in grams, cups or by a fraction of a plate. 
+
+Developing for accuracy is important as this is what differentiates our product from competitors.  Market analysis revealed that competitors like Lovefoodhatewaste.co.nz and Savingfood.eu are good at providing convenience or accuracy but not both. Our product could provide both, providing a novelty in service. 
+
+
+### Evaluate with Rigor   
+Test users were limited socially to people within the team’s social network. To reduce bias and recruit wider personalities of users, the product could be evaluated with users in other universities or through wider channels like Facebook groups or email listservs. 
+
+Due to the time constraint and speed of agile development, the time set for evaluation was limited. For example, the evaluation of a prototype from one sprint was concurrent with the development of the next sprint. As user feedback was processed and translated into technical requirements, the next sprint may be underway and be tweaked to include new requirements. Ideally, there will be a clear separation between sprints for one sprint to inform the next. Moreover, with more time, different techniques for evaluation may be explored like affinity diagramming and thematic analysis. These techniques help remove biases so that feedback is used more to inform than validate an idea. 
 
 
 ## Bibliography
