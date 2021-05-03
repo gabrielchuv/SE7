@@ -100,11 +100,11 @@ Session 2: converging ideas: the team voted on the top 4 ideas.
 
 Session 3: design thinking: the team was led through a formal double-diamond design thinking session, divering and convering on various project ideas. The idea of a food waste tracker was chosen.
 
-![Miro board from design thinking session](https://github.com/gabrielchuv/SE7/blob/main/Portfolio/Images/design_thinking.jpg)
+![Miro board from design thinking session](Images/UXDesign/design_thinking.jpg)
 
 Session 4: brainstorming features: the team brainstormed features and prioritized them into three categories: core features, useful features, nice to have.
 
-![Miro board for feature prioritization](https://github.com/gabrielchuv/SE7/blob/main/Portfolio/Images/features.jpg)
+![Miro board for feature prioritization](Images/UXDesign/features.jpg)
 
 Session 5: user persona and wireframing: The target user and the user flow were defined. An outline of the wireframe was created with each page having a specific task.
 
@@ -129,7 +129,7 @@ Session 13: designing for high-fidelity design: the high-fidelity design was pre
 ### First User Persona
 With the aim of having a user-centred design process from the start, we created a hypothethical target user persona. Max is mainly characterized by caring about the environment and wanting to take action outside and inside his life to create a more sustainable world. Further details can be seen below:
 
-![User Persona 1](https://github.com/gabrielchuv/SE7/blob/main/Portfolio/Images/User_persona_1.png)
+![User Persona 1](Images/UXDesign/User_persona_1.png)
 
 #### User surveys
 We subjected our assumptions for Max to test by surveying 36 students from various courses at the University of Bristol. The updated user persona was based on the results of the surveys and can be seen below.
@@ -147,7 +147,7 @@ Most of the relevant results are reflected by the new user persona, however, an 
 
 ### Second User Persona
 
-![User Persona 1](https://github.com/gabrielchuv/SE7/blob/main/Portfolio/Images/User_persona_2.png)
+![User Persona 1](Images/UXDesign/User_persona_2.png)
 
 
 ## Design Process
@@ -160,7 +160,7 @@ Furthermore, we designed our prototype in the perspective of the user, and thus,
 1. **Landing page with login and sign up options. Users are required to have an account in order to get the full functionality of the website.**
 
 <p align="center">
-<img src="Images/login.gif">
+<img src="Images/UXDesign/login.gif">
 </p>
 <br></br>
 
@@ -168,39 +168,39 @@ Furthermore, we designed our prototype in the perspective of the user, and thus,
 2. **After login, a fridge pops up. If it is a new user, the fridge will be empty otherwise it will be filled with the user's ingredients. The fridge on the website represents the user's actual fridge.**
 
 <p align="center">
-<img src="Images/after-login.gif">
+<img src="Images/UXDesign/after-login.gif">
 </p>
 <br></br>
 
 3. **The user can search for different food items and as the user types, a list of suggested foods will be visible for the user to select from.**
 
 <p align="center">
-<img src="Images/add-food.gif">
+<img src="Images/UXDesign/add-food.gif">
 </p>
 <br></br>
 
 4. **If the desired food item is not available, the user can add the food item manually.**
 
 <p align="center">
-<img src="Images/add-missing-food.gif">
+<img src="Images/UXDesign/add-missing-food.gif">
 </p>
 <br></br>
 
 5. **If the expiration date of any of the food items are incorrect, the user have the option to edit this manually.**
 
 <p align="center">
-<img src="Images/edit-food.gif">
+<img src="Images/UXDesign/edit-food.gif">
 </p>
 <br></br>
 
 6. **The website has an in-app notification system. The user have the option to edit their notification preferences. We wanted to ensure that the user have access to notifications directly on our website, as well as, through email/social media.**
 
 <p align="center">
-<img src="Images/notifications.gif">
+<img src="Images/UXDesign/notifications.gif">
 </p>
 
 <p align="center">
-<img src="Images/settings.gif">
+<img src="Images/UXDesign/settings.gif">
 </p>
 <br></br>
 
@@ -219,28 +219,28 @@ User feedback informed the second prototype which calculates cost accrued for fo
 1. **Landing page with a one-off use of the calculator. The gives an idea of what the web application is about.**
 
 <p align="center">
-<img src="Images/landing-page-cal.gif">
+<img src="Images/UXDesign/landing-page-cal.gif">
 </p>
 <br></br>
 
 2. **In order to get the full functionality of the web application, all users are required to have an account.**
 
 <p align="center">
-<img src="Images/sign-up-cal.gif">
+<img src="Images/UXDesign/sign-up-cal.gif">
 </p>
 <br></br>
 
 3. **Once the user have logged in/created an account, they get some information about how the web application works. This is where they meet Jane, which is a character that follows them throughout the application. The calculator allows the user to enter as many food items as they need and generates a total for all food items.**
 
 <p align="center">
-<img src="Images/main-page-cal.gif">
+<img src="Images/UXDesign/main-page-cal.gif">
 </p>
 <br></br>
 
 4. **Once the user have entered in all their food items, they can navigate to the statistics page and view their results. A cost breakdown is included to help the user understand how much money they have wasted. In addition, the user can view the impact their waste have on the environment. Lastly, a food breakdown is included to help the user better understand which food item they are wasting the most**
 
 <p align="center">
-<img src="Images/stats-cal.gif">
+<img src="Images/UXDesign/stats-cal.gif">
 </p>
 <br></br>
 

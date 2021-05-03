@@ -5,7 +5,7 @@
 
 ## Industry review
 
-![Alternative analysis](https://github.com/gabrielchuv/SE7/blob/main/Portfolio/Images/alternatives.png)
+![Alternative analysis](Images/BackgroundAndMotivation/alternatives.png)
 
 As seen above, we have compared our application with other currently existing ones across two dimensions: convenience and accuracy. We found that none of the existing solutions provide a good performance across the two dimensions simultaneously and that very few tools are targeted at households.
 
