@@ -223,7 +223,6 @@ User feedback informed the second prototype which calculates cost accrued for fo
 </p>
 <br></br>
 
-
 2. **In order to get the full functionality of the web application, all users are required to have an account.**
 
 <p align="center">
@@ -234,7 +233,7 @@ User feedback informed the second prototype which calculates cost accrued for fo
 3. **Once the user have logged in/created an account, they get some information about how the web application works. This is where they meet Jane, which is a character that follows them throughout the application. The calculator allows the user to enter as many food items as they need and generates a total for all food items.**
 
 <p align="center">
-<img src="Images/main-page.gif">
+<img src="Images/main-page-cal.gif">
 </p>
 <br></br>
 
