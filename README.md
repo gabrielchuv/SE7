@@ -4,7 +4,7 @@ This web application's primary objective is to increase awareness about househol
 
 ## **The Team**
 * [Alex Digpal-Race](https://github.com/alexDigpalRace) : <cr20208@bristol.ac.uk>
-<img style="float: left;" src="Portfolio/Images/glorious_leader_2.jpeg" width="400" height="150">
+<img align="left" width="100" height="100" src="Portfolio/Images/glorious_leader_2.jpeg">
 
 * [Zain Kassam](https://github.com/Zainzzkk) : <dw20513@bristol.ac.uk>
 * [Anita Nguyen](https://github.com/ng0c) : <wl20794@bristol.ac.uk>
