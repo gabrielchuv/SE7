@@ -91,8 +91,6 @@ Based on user feedback, the design of each page was mindful of the number of cli
   * Prioritization of features for MVP
 * Implementation / Iteration 
   * High fidelity design
-  * -- NOT DONE YET -- Drive traffic and gather qualitative/quantitative feedback
-  * -- NOT DONE YET -- Think of design/product future work
 
 ### Design Sessions
 
