@@ -1,11 +1,10 @@
 ## Table of Contents
 - [UX Approach](#ux-approach)
-	- [Design Heuristics](#design-heuristics)
 - [Design Timeline](#design-timeline)
-- [User Personas](#user-personas)
-- [Design Process](#design-process)
 	- [Design sessions](#design-sessions)
-	- [User Personas](#user-personas)
+- [Design Process](#design-process)
+	- [First User Persona](#first-user-persona)
+	- [Second User Persona](#second-user-persona)
 	- [First Prototype](#first-prototype)
 	- [Second Prototype](#second-prototype)
 	- [Third Prototype](#third-prototype)
@@ -34,25 +33,6 @@ is covered in the subsequent sections.
   * Solution (MVP): we treated our initial feature decisions as hypotheses to be tested (LINK HERE)
 
 ## Design Timeline
-
-### Outline
-* Design sessions
-  * Divergent/convergent thinking
-  * Problem definition
-  * User persona definition
-  * Prioritization of features
-  * User flow 
-* User personas
-  * 1st user persona
-  * Design evaluation: User surveys
-  * 2nd user persona	 
-* Wireframing / Prototyping 
-  * 1st interactive wireframe
-  * Design evaluation: User interviews
-  * 2nd interactive wireframe
-  * Design evaluation: User interviews
-  * Design evaluation: Design heuristics
-  * High fidelity wireframe
 
 ### Design Sessions
 
@@ -86,7 +66,7 @@ Session 12: designing for high-fidelity: once the initial MVP was developed, the
 
 Session 13: designing for high-fidelity design: the high-fidelity design was presented to the group and approved to be developed in the next sprint.
 
-## User Personas
+## Design Process
 
 ### First User Persona
 With the aim of having a user-centred design process from the start, we created a hypothethical target user persona. Max is mainly characterized by caring about the environment and wanting to take action outside and inside his life to create a more sustainable world. Further details can be seen below:
@@ -270,10 +250,6 @@ As inputting the food items wasted involves the most feedback from users, severa
 To minimize the amount of information on one page, each task (e.g., introduction of the application, input of food items, output of the cost of food wasted)  was given its own page.
 
 Based on user feedback, the design of each page was mindful of the number of clicks required from users. Initially, the design relied on pop-up overlays, for example, to search for an item and to adjust its quantity with a drop-down. The overlays were removed in favor of simple icons like the plus and minus icons to adjust quantities of one or more items.
-
-
-
-
 
 
 
