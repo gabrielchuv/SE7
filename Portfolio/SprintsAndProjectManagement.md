@@ -41,7 +41,7 @@ Each member acted as a full-stack developer with specialties in particular areas
 some design sessions and co-led initial ideation sessions. 
 - Developer: worked on various aspects of the front-end (these aspects include 'About us' page, footer, and calculator page).
 
-**Jessica Sung** specialized in UX design and front-end. She has led design sessions and created the designs of the MVP and high-fidentity product. She has guided the direction of the project from a reminder service for expiring foods to a food waste calculator based on user feedback and considered the elements of serious play. Jessica has contributed to the usability and value of the product to users. (didnt do anything) - put yourself as the lead designer :)
+**Jessica Sung** specialized in UX design and front-end development. She led design sessions involving project ideation and the evolution of prototypes. As the lead designer, she iterated on the designs and created the designs of the MVP and high-fidentity product. She has guided the direction of the project from a reminder service for expiring foods to a food waste calculator based on user feedback and considered the elements of serious play. Her contributions ensured that the product was usable and valuable to end users. 
 
 **Gabriel Chu** was involved in all parts of the project to different extents and adopting different roles:
 - Project manager: he managed the project as a whole and contributed significantly to defining the problem to be solved. He made sure we were fulfilling the project's brief and going beyond it in certain areas. He kept things on track by setting our progress meetings' agendas.
