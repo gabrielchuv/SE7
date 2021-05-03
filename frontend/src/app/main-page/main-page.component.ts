@@ -13,6 +13,7 @@ import Bin from '../models/bin';
 export class MainPageComponent implements OnInit {
   binList: Bin[] = [];
   runningTotal: number = 0;
+  foodExists: boolean = false;
 
   //link a search service instance on creation
   constructor(
@@ -27,14 +28,27 @@ export class MainPageComponent implements OnInit {
   }
 
   addBinEntry(foodName: string) {
-    console.log(`adding to the bin: ${foodName}`);
-    this.binList.push(new Bin('1', foodName, "1"));
-    this.runningTotal++;
+    //check food item isnt already on list
+    this.binList.forEach((element) => {
+      if (element.food == foodName) {
+        console.log(`${foodName} already on list, incrementing quantity...`);
+        this.incrementQuantity(element);
+        this.foodExists = true;
+        return;
+      }
+    })
+    if (!this.foodExists) {
+      console.log(`adding to the bin: ${foodName}`);
+      this.binList.push(new Bin('1', foodName, "1"));
+      this.runningTotal++;
 
-    // sorting list of items alphabetically
-    var temp = this.binList;
-    this.binList = temp.sort((a, b) => a.food!.localeCompare(b.food!));
-    console.log('sorted as: ' + this.binList);
+      // sorting list of items alphabetically
+      var temp = this.binList;
+      this.binList = temp.sort((a, b) => a.food!.localeCompare(b.food!));
+      console.log('sorted as: ' + this.binList);
+    }
+    //reset var for next add
+    this.foodExists = false;
   }
 
   //decrement quanity of the passed bin
@@ -42,13 +56,16 @@ export class MainPageComponent implements OnInit {
     //parse to int
     var asNumber = parseInt(bin.quantity);
     //if its not 0
-    if (asNumber > 0) {
+    if (asNumber > 1) {
       asNumber--;
       this.runningTotal--;
+      //turn back to string and set it
+      bin.quantity = asNumber.toString();
+      console.log(`decrementing amount to: ${bin.quantity}`);
+    } else {
+      console.log('quantity hit 0, removing...');
+      this.removeBinEntry(bin);
     }
-    //turn back to string and set it
-    bin.quantity = asNumber.toString();
-    console.log(`decrementing amount to: ${bin.quantity}`);
   }
 
   //increment quanity of the passed bin
