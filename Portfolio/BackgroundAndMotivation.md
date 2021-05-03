@@ -17,13 +17,11 @@ Although the rest of the tools could, in principle, be used by households, they 
 
 In light of this evaluation, we hypothesized that a tool that was both convenient and accurate would be adopted by people and taken seriously enough to elicit an emotional response and hopefully a change in behaviour.
 
-TODO - STILL NOT COMPELLING
-
 ## Problem defintion
 
-Food loss and waste is a global issue across various dimensions: financial, environmental, and ethical. Financially, it is estimated that the total cost associated with food lost or wasted is 2.6 trillion dollars annually (REF: http://www.fao.org/3/i3991e/i3991e.pdf). Out of this amount, around 700 billion dollars can be linked with environmental waste (REF: http://www.fao.org/nr/sustainability/food-loss-and-waste/en/). 
+Food loss and waste is a global issue across various dimensions: financial, environmental, and ethical. Financially, it is estimated that the total cost associated with food lost or wasted is 2.6 trillion dollars annually (REF: http://www.fao.org/3/i3991e/i3991e.pdf). Out of this amount, around 700 billion dollars can be linked with environmental waste<sup>2</sup>. 
 
-However, the environmental cost is not solely financial. The carbon footprint caused by food wastage is estimated at 3.3 billion tonnes of CO2 yearly (REF: http://www.fao.org/news/story/en/item/196402/icode/) or 6% of global greenhouse gas emissions (REF: https://ourworldindata.org/food-waste-emissions). Moreover, the volume of water associated with wasted or lost food is approximately 250km3 or three times the size of lake Geneva. Viewing this from a smaller-scale perspective reveals similarly shocking numbers. For instance, one kilogram of wasted apples or beef is associated with 822 and a whopping 15415 litres of water wasted respectively(REF: http://www.fao.org/news/story/en/item/196402/icode/).
+However, the environmental cost is not solely financial. The carbon footprint caused by food wastage is estimated at 3.3 billion tonnes of CO2 yearly<sup>3</sup> or 6% of global greenhouse gas emissions<sup>4</sup>. . Moreover, the volume of water associated with wasted or lost food is approximately 250km3 or three times the size of lake Geneva. Viewing this from a smaller-scale perspective reveals similarly shocking numbers. For instance, one kilogram of wasted apples or beef is associated with 822 and a whopping 15415 litres of water wasted respectively(REF: http://www.fao.org/news/story/en/item/196402/icode/).
 
 The human population is predicted to grow up to 9.8 billion by 2050 (REF: https://www.un.org/development/desa/en/news/population/world-population-prospects-2017.html) and, unless action is taken, the aforementioned consequences of food waste will only worsen, engendering potentially irreversible implications for our planet. This is enough to take a strong negative utilitarian stance against the issue (REF: "Utilitarianism resources," [Online]. Available: https://www.utilitarianism.com/karl-popper.html. [Accessed 05 01 2021].). Additionally, already today, if it were possible to redistribute wasted food, we would be able to feed all the undernourished population (815 million people (REF: https://www.worldhunger.org/world-hunger-and-poverty-facts-and-statistics/)) at least twice (REF: https://www.wfpusa.org/articles/8-facts-to-know-about-food-waste-and-hunger/#:~:text=Right%20now%2C%20the%20world%20produces,before%20it%20can%20be%20consumed.&text=Along%20with%20chronic%20poverty%2C%20conflict,root%20causes%20of%20hunger%20worldwide.). This mismatch between the existence yet unavailability of resources further highlights our ethical responsibility towards minimizing the extent of this issue
 
@@ -41,3 +39,19 @@ If we zoom in even further to understand what causes this food waste, we encount
 Finally, as conveyed by our industry review (link), other alternatives have been unsuccessfully trying to balance solutions that offer both convenience and accuracy. Thus, our final definition of the problem is:
 
 <b>We will focus on motivating UK studnets to waste less in order to contribute towards the reduction of food wastage coming from UK households. At a lower-level, we will attempt to solve the problems of inconvenience and accuracy simultaneously in order to aid with our overlying goal of motivating students.</b>
+
+  
+## Bibliography
+
+1. 
+2. “Sustainability Pathways: Food Loss and Waste.” Accessed May 3, 2021. http://www.fao.org/nr/sustainability/food-loss-and-waste/en/.
+3. “FAO - News Article: Food Wastage: Key Facts and Figures.” Accessed May 3, 2021. http://www.fao.org/news/story/en/item/196402/icode/.
+4. Our World in Data. “Food Waste Is Responsible for 6% of Global Greenhouse Gas Emissions.” Accessed May 3, 2021. https://ourworldindata.org/food-waste-emissions.
+
+
+  
+  
+
+
+  
+  
