@@ -19,10 +19,10 @@ This web application's primary objective is to increase awareness about househol
 * Project Abstract 
 * Objectives
 * Team
-* 
+
 ### 2. [Background & Motivation](Portfolio/BackgroundAndMotivation.md)
-* Industry Review
-* Academic Review
+* Industry Review - market analysis 
+* Academic Review - problem definition 
 
 ### 3. [System Implementation](Portfolio/SystemImplementation.md)
 * Stack Architecture
@@ -45,4 +45,4 @@ This web application's primary objective is to increase awareness about househol
 * Reflective Discussion on the Success of the Project
 * Discussion of Future Works
 * Reflection on Working Practices of the Team
-* Social and ethical Implications
+* Social and Ethical Implications
