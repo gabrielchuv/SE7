@@ -85,6 +85,12 @@ Creation of epic ...... goal of testing hypotehsis as efficiently as possible so
   - As a backend engineer, I want to....search functionality... so that...
   - ANYTHING ELSE????
 
+<p align="center">
+  <img src="Images/Sprints/sprint0.png"/>
+  <span>Note: 1 story point = 2 hours</span>
+</p>
+<br>
+
 #### What was accomplished in sprint 0
 This sprint was used as a starting point for the team to get used to the Scrum methodology. We identified the dependencies that needed to be completed before starting to build the application, tracked them with the help of Jira and finished them by the end of the week. The dependencies mainly had to do with increasing the fidelity of our previous wireframes in order to clarify and speed up the development in subsequent sprints. The basic backend's infrastructure was also put in place.... ALEX FINISH THIS
 
@@ -106,6 +112,12 @@ This sprint was used as a starting point for the team to get used to the Scrum m
    - As a user, when I navigate to the stats page I expect to see the forecasted yearly amount of money wasted due to how much food I waste 
    - ANYTHING ELSE???
    - DID WE DO ANY RESPONSIVENESS HERE?
+
+<p align="center">
+  <img src="Images/Sprints/sprint1.png"/>
+  <span>Note: 1 story point = 2 hours</span>
+</p>
+<br>
 
 #### Highlights
 
@@ -150,6 +162,12 @@ The additional feature of searching originally took less time than its assigned 
    - As a user, when I navigate to the application, I want to have the option to deny cookies so that I have greater control of my private data
    - As a user, I want to know what is the applicaiton's privacy policy and what third-party applications are being used to track my data, so that I know that it is a trustworthy site
 
+<p align="center">
+  <img src="Images/Sprints/sprint2.png"/>
+  <span>Note: 1 story point = 2 hours</span>
+</p>
+<br>
+
 #### Highlights
 
 - Amost all core functionality implemented
@@ -184,6 +202,13 @@ It was also identified half way through the sprint (15/04) that it would make se
    - As a user, I want to be able to access the application from any browser so that I need little effort to access it
    - As a user, if I waste more/less (yearly) than the average person I want to know by how much so that I get a better idea of how am I doing compared to the general UK population
    - As a product owner, I want to understand how people are using the application so that the team can prioritize features and user stories.
+
+<p align="center">
+  <img src="Images/Sprints/sprint3.png"/>
+  <img src="Images/Sprints/sprint3-cont.png"/>
+  <span>Note: 1 story point = 2 hours</span>
+</p>
+<br>
 
 
 #### Highlights
