@@ -36,7 +36,7 @@ and clicking).
 
 With that said, we have achieved a lot within the time space that we had. Our objectives and 
 what we wanted to accomplish with the web application was met and executed well.
-
+***
 
 ### Reflection on Working Practices
 The scrum framework (based on agile) used fitted the group really well, However, the separation of roles between 
@@ -68,7 +68,7 @@ Overall, everyone has contributed and taken ownership of their parts of the proj
 clear roles while helping each other and learning from each other. With that said, there were clear 
 work preferences among the teammates, and it would have been beneficial to take more advantage of them 
 by allocating or deallocating work accordingly.
-
+***
 
 ### Reflection on the impact of COVID-19
 Remote working had both positives and negatives. Working from home rather than in a lab at university
@@ -83,7 +83,7 @@ was proven to be more difficult as one could often feel isolated. Another aspect
 a bit challenging was user interviews, it
 would have been better to conduct these interviews in-person, as it usually result in greater insights
 about the underlying motivations of people (i.e. non verbal cues).
-
+***
 
 ### Unit testing / Functional testing.
 Testing of the site, as a whole, was a weak/forgotten point of the development. All testing was done in a functional testing format as this was quicker and simpler than unit testing. The testing normally followed a certain work flow carried out by the developer. On implementation of a task, the developer would be constantly building the site with docker and viewing the tasks page in their browser to ensure the right look/layout or logic was being built and to spot any bugs as they went. After the task was finished the group would be notified and the implementation would be pushed on to the remote repo and merged into develop. Any conflicts would then be dealt with and the developer would begin site-wide function testing normally with one other (for minor features/changes an extra person wasn't needed) to check there were no obvious bugs in the workings of the components, pages and site. Because the site only consisted of three (main) pages, the amount of tasks a user could do on the pages was limited so testing the whole site after a change only took a couple of minutes. 
