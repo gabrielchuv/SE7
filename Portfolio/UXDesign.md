@@ -267,6 +267,11 @@ The second wireframe walkthrough uncovered...
 This prototype includes elements of play and emphasizes the objectives to bring awareness and nudge behavior change. 
 
 ### Play Revisited 
+Up until now, the focus has been on the serious problem and the prototypes were practical in nature. The design challenge was to embed elements of play throughout the interaction and create an enjoyable experience to a practical calculator application. 
+
+A lengthy discussion was had. Some members suggested diverging the project idea to focus on carbon pollution and bring back Jane the Cow, which users spoke highly of. The character was humorous but this would involve redesigning and changing focus of the project with 3 weeks until deadline. Other members suggested an earlier idea of a “Black Mirror” storyline to introduce the problem and provide users two options per scene of how the storyline should play out. This idea was engaging but it was difficult to think of how to incorporate existing features (e.g., search engine for foods, food item list, calculated money lost from food waste) to the storyline. 
+
+To make a decision, we referred back to user feedback. We asked, “Which issue was important? What kind of information mattered? What did users like or dislike?” It was clear that financial information regarding food waste and the character, Jane the Cow, were well received. We decided to keep our idea of a food waste calculator, keep the existing features we developed and introduce a similar character, Sally the Pot-of-Money. To add play to the interaction, we used Sally as a game mechanic to delight users. Instead of typing the estimate of money lost from food waste, users can click Sally (as she is moving by animation) to increase their estimate. We were able to stay focused on the scope of the project, introduce a humorous character and make the act of estimating a cost a clickable game. 
 
 
 ### A Nudge for Change 
