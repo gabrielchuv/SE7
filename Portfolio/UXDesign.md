@@ -12,24 +12,25 @@
 	- [High-fidelity Design](#high-fidelity-design)
 
 ## UX Approach
-We took a pragmatic approach to implementing the user experience by using elements from systems thinking, design thinking, and lean UX as necessary.
-In this section we outline the rationale behind the choice of these paradigms and the elements that we borrowed from them. 
+
+We took a pragmatic approach to designing a solution by using elements from systems thinking, design thinking, and lean UX as necessary.
+In this section we outline the rationale behind the choice of these paradigms and the elements that we borrowed from them. The actual implementation
+is covered in the subsequent sections.
 
 * Systems thinking: given the broader socio-environmental issue that we are trying to tackle, we used systems thinking to narrow down the scope
-  of our project and maximize our opportunity for impact. The implementation details are outlined in the Problem Scope section { link to section }
+  of our project and maximize our opportunity for impact. The implementation details are outlined in the Background and Motivation section { link to section }
 
 * Design thinking: this paradigm allowed us to put the user at the centre of every decision we made. The elements that we implemented were:
-  * Problem definition:
-  * User definition:
-  * Ideation:
-  * Wireframing:
-  * Testing:
-
-* Lean UX: we emphasized this approach to tighten our design feedback loop and move closer to a usable and valuable application faster
-  * Assumptions:{outline initial assumptions (users, features, problem etc.) }
-  * MVP
-
-A word about user evaluation: user acceptance testing /evaluation of designs. Details will be provided in next sections.
+  * Problem definition: early on in the project we made sure to define the problem that we were trying to solve (i.e. reducing food waste) to focus our ideation sessions.
+  * User definition: early on in the project we created a user persona for the segment we are targeting. This helped us focus our ideas and design decisions on a particular persona which increases the probability of building something useful for this segment.
+  * Ideation: we used divergent thinking techniques such as brainstorming and building upon other people's ideas. This is where our problem and user definitions came into play and proved to be useful to anchor our ideas.
+  * Wireframing: after narrowing down our ideas we proceeded to wireframe our solution.
+  * Testing: this element of design thinking overlaps with a Lean UX mindset which will be explained below.
+ 
+* Lean UX: we embedded this approach into our design process by turning all of our design core elements into assumptions that we proceeded to test consistently with users.
+  * User persona: we treated all of the elements of our first user persona (LINK HERE) as assumptions which were tested with the help of a survey and resulted in a second user persona (LINK HERE)
+  * Problem: we treated our low-level problem definition (i.e. people a ---- NEED TO FINISH
+  * Solution (MVP): we treated our initial feature decisions as hypotheses to be tested (LINK HERE)
 
 ### Design Heuristics
 
@@ -90,8 +91,6 @@ Based on user feedback, the design of each page was mindful of the number of cli
   * Prioritization of features for MVP
 * Implementation / Iteration 
   * High fidelity design
-  * -- NOT DONE YET -- Drive traffic and gather qualitative/quantitative feedback
-  * -- NOT DONE YET -- Think of design/product future work
 
 ### Design Sessions
 

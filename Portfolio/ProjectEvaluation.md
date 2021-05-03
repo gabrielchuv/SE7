@@ -5,8 +5,6 @@ A brief description of what this section is about.
 ## Table of Contents
 - [Reflective Discussion of The Success of The Project](#reflective-discussion-of-the-success-of-the-project)
 	- [Reflection on Working Practices](#reflection-on-working-practices)
-- [Industry and Academic Review](#industry-and-academic-review)
-	- [Academic Review](#academic-review)
 - [Discussion of Future Work](#discussion-of-future-work)
 - [Social and Ethical Implications](#social-and-ethical-implications)
 - [Bibliography](#bibliography)
@@ -14,7 +12,15 @@ A brief description of what this section is about.
 ## Reflective Discussion of The Success of The Project
 Details of how you evaluated your designs (techniques used & awareness of their limitations). Description of techniques suitable for your particular design. A timeline of evaluation of your design
 
-Unit testing / Functional testing.
+### Unit testing / Functional testing.
+Testing of the site, as a whole, was a weak/forgotten point of the development. All testing was done in a functional testing format as this was quicker and simpler than unit testing. The testing normally followed a certain work flow carried out by the developer. On implementation of a task, the developer would be constantly building the site with docker and viewing the tasks page in their browser to ensure the right look/layout or logic was being built and to spot any bugs as they went. After the task was finished the group would be notified and the implementation would be pushed on to the remote repo and merged into develop. Any conflicts would then be dealt with and the developer would begin site-wide function testing normally with one other (for minor features/changes an extra person wasn't needed) to check there were no obvious bugs in the workings of the components, pages and site. Because the site only consisted of three (main) pages, the amount of tasks a user could do on the pages was limited so testing the whole site after a change only took a couple of minutes. 
+
+Examples of the final functional test scripts a developer would generally follow have been screenshotted below, however these were created after most of the testing had actually done. For most of the testing it was an iterative process, for example belows image of the changing food quantities test plan shows the total quantity of food items being tested for (Test C). However this was originally not done by the developers, the increment and decrement buttons were implemented and functionally tested that they worked for each food item on the list. It was then shown in the stand up meeting where the bug was pointed out and fixed after. Then the total was tested alongside the increment/decrement buttons to check they were all working together as they should.
+
+![Changing food quantities test plan](https://github.com/gabrielchuv/SE7/blob/develop/Portfolio/Images/food_quantity_test_plan.png)
+![Money estimate/Sally test plan](https://github.com/gabrielchuv/SE7/blob/develop/Portfolio/Images/money_estimate_test_plan.png)
+
+For a bigger site (with more pages, components etc) unit testing would have had to have been used, as constantly loading the site and testing it would have taken too long. Unit testing may have also sped up the development as the tests could be set to run upon each build of the site with docker and bugs would have been instantly spotted as opposed to having the developer go through each page looking for bugs. For layout/design of the site, unit tests aren't really relevant so the only area that was potentially slowed down by not doing them was the business logic of the site.
 
 User acceptance testing. Evaluation of your design with users – methods undertaken, findings, implications
 
