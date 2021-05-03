@@ -32,26 +32,22 @@ As well as the scrum meetings, the team engaged in heavy pair programming throug
 ## Summary of Individual Contributions
 Each member acted as a full-stack developer with specialties in particular areas. 
 
-Alex Digpal-Race : scrum-master, backend designer and implementer, frontend logic coder and service creator, site rhymer
+**Alex Digpal-Race** : scrum-master, backend designer and implementer, frontend logic coder and service creator, site rhymer
 
-Zain Kassam :
+**Zain Kassam** :
 
-Anita Nguyen was involved in various aspects of the project. These aspects includes:
+**Anita Nguyen** was involved in various aspects of the project. These aspects includes:
 - UX desgin: co-created and distributed surveys to better understand the target audience. Was involved in
 some design sessions and co-led initial ideation sessions. 
 - Developer: worked on various aspects of the front-end (these aspects include 'About us' page, footer, and calculator page).
 
-Jessica Sung specialized in UX design and front-end. She has led design sessions and created the designs of the MVP and high-fidentity product. She has guided the direction of the project from a reminder service for expiring foods to a food waste calculator based on user feedback and considered the elements of serious play. Jessica has contributed to the usability and value of the product to users. (didnt do anything) - put yourself as the lead designer :)
+**Jessica Sung** specialized in UX design and front-end. She has led design sessions and created the designs of the MVP and high-fidentity product. She has guided the direction of the project from a reminder service for expiring foods to a food waste calculator based on user feedback and considered the elements of serious play. Jessica has contributed to the usability and value of the product to users. (didnt do anything) - put yourself as the lead designer :)
 
-Gabriel Chu was involved in all parts of the project to different extents and adopting different roles:
-
--Project manager: he managed the project as a whole and contributed significantly to defining the problem to be solved. He made sure we were fulfilling the project's brief and going beyond it in certain areas. He kept things on track by setting our progress meetings' agendas.
-
--Product owner: he led the sprint planning sessions by prioritizing user stories and defining what the MVP should include. He maintained the product backlog and made sure user stories were value-focused. He worked with the lead designer to iterate over our designs.
-
--UX designer: he led some of the design thinking sessions. He co-created and distributed the surveys used to gain a better understanding of the problem and target audience. His participation in design meetings always aimed at maximizing usability and making sure the application transmits its value to users.
-
--Developer: he contributed to the frontend and hosted our application on AWS to share it with users.
+**Gabriel Chu** was involved in all parts of the project to different extents and adopting different roles:
+- Project manager: he managed the project as a whole and contributed significantly to defining the problem to be solved. He made sure we were fulfilling the project's brief and going beyond it in certain areas. He kept things on track by setting our progress meetings' agendas.
+- Product owner: he led the sprint planning sessions by prioritizing user stories and defining what the MVP should include. He maintained the product backlog and made sure user stories were value-focused. He worked with the lead designer to iterate over our designs.
+- UX designer: he led some of the design thinking sessions. He co-created and distributed the surveys used to gain a better understanding of the problem and target audience. His participation in design meetings always aimed at maximizing usability and making sure the application transmits its value to users.
+- Developer: he contributed to the frontend and hosted our application on AWS to share it with users.
 
 
 ## Rationale behind MVP
