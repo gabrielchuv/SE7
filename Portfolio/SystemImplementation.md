@@ -47,7 +47,7 @@ Important to note that the food property of the Bins collection is a foreign key
 ## Middle Tier
 
 ### Express
-<img style="float: left;" src="Images/SystemImplementation/express.png" width="300" height="150">
+<img style="float: left;" src="Images/SystemImplementation/express.png" width="400" height="150">
 Part of the MEAN stack, express is a Node.js framework that makes building an API, to interact with the backend db, really easy. One of the first tasks done with express was to link the frontend (localhost:4200) being served by angular to the server (localhost:3000). It meant the team could use nodemon (detailed below) to continuously track changes to the website and made doing anything to the site much quicker. Building the API that the frontend interacted with was also made vastly simpler (compared to trying to do it without express), express has routing methods so whenever a request (get, post etc) was sent from the frontend, we could code a method to tell the backend exactly what data to retrieve from/send into the db using the mongoose models.
 
 ### Node
