@@ -50,32 +50,19 @@ Gabriel Chu was involved in all parts of the project to different extents and ad
 
 -Developer: he contributed to the frontend and hosted our application on AWS to share it with users.
 
+
+## Rationale behind MVP
+
+
 ## Documentation of Sprints
 
 
-### Sprint 0: Working on dependencies
-- Timeline: 29/03 - 02/03
-- Goal: finish off dependencies and get used to the scrum methodology and Jira
-- Tasks completed: 
-  - Landing page high fidelity design
-  - Main page high fidelity design
-  - Statistics page high fidelity design
-  - Food item entity structure
-  - Food item search
+### High-level overview
 
-#### What was accomplished in sprint 0
-This sprint was used as a starting point or the team to get used to the Scrum methodology. We defined the dependencies that needed to be completed before being able to start building the application, tracked them with the help of Jira and finished them by the end of the week. The dependencies mainly had to do with increasing the fidelity of our previous wireframes in order to clarify and speed up the development in subsequent sprints. The basic backend's infrastructure was also put in place.... ALEX FINISH THIS
-
-#### Sprint 1: 
-- Timeline: 05/04 - 11/04
-- Goal: Create the MVP's frontend
-- User stories completed: 
-   - As a user I want to search for a food item
-   - As a user I want to navigate to the stats page from the main page
-- Criteria: we used 3 criteria to decide what to include in our first iteration of the MVP. 
+Criteria: we used 3 criteria to decide what to include in our first iteration of the MVP. 
   1. The lean methodology which promotes the identification and testing of the riskiest assumptions.
   2. A risk/difficulty assessment to focus our efforts on high risk assumptions that are relatively easy to test.
-  3. Data from our user survey to focus on the assumption that is most likely to be true.
+  3. Data from our user survey to focus our efforts on the assumption that is most likely to be true according to potential users.
 
 We ranked our assumptions by order of risk and framed them as testable hypotheses. We selected the "problem" and "target segment" assumptions from our Lean Canvas (insert link) because they are the ones that can "make or break" our project. Moreover, we did not select the first (riskiest) assumption because it is dependent on the other ones and, hence, more difficult to test from the start. From the remaining assumptions, we chose number 2 because, according to our surveys, 33% of surveyees cared about food wastage due to the money associated with it. This was the largest group.
 
@@ -84,8 +71,50 @@ We ranked our assumptions by order of risk and framed them as testable hypothese
    3. We believe postgraduate students at the University of Bristol will input their wasted food because they care about knowing how much food they are wasting.
    4. We believe postgraduate students at the University of Bristol will input their wasted food because they care about knowing how much pollution they are contribution with due to wasted food.
 
-#### Summary of plan for sprint 1
-Sprint 1 was where the design phase of the project ended and the implementation phase began. Going into sprint 1, high priority (must-have) features were selected from the design phase and given estimated time-to-complete scores. We knew these scores would vary in practice but they were used to get a rough sense of the complexity of the features and to help share the load evenly throughout the group.
+Creation of epic ...... goal of testing hypotehsis as efficiently as possible so user stories stem from this
+
+
+### Sprint 0: Working on dependencies
+- Timeline: 29/03 - 02/03
+- Goal: finish off dependencies and get used to the scrum methodology and Jira
+- User stories completed: 
+  - As a designer, I want to design the high fidelity landing page so that users understand the value of the application as quick as possible
+  - As a designer, I want to design the high fidelity main page so that users can search for items and add them to their list as easy as possible
+  - As a designer, I want to design the high fidelity statistics page so that user can absorb and process the value of the application as eas as possible
+  - As a backend engineer, I want create the food item entity structure so that 
+  - As a backend engineer, I want to create the food item entity structure so that...
+  - As a backend engineer, I want to....search functionality... so that...
+  - ANYTHING ELSE????
+
+#### What was accomplished in sprint 0
+This sprint was used as a starting point for the team to get used to the Scrum methodology. We identified the dependencies that needed to be completed before starting to build the application, tracked them with the help of Jira and finished them by the end of the week. The dependencies mainly had to do with increasing the fidelity of our previous wireframes in order to clarify and speed up the development in subsequent sprints. The basic backend's infrastructure was also put in place.... ALEX FINISH THIS
+
+### Sprint 1: MVP's frontend
+
+#### Plan
+
+- Timeline: 05/04 - 11/04
+- Goal: Create the MVP's frontend
+- Rationale for user stories
+  -  Going into sprint 1, high priority (must-have) features were selected from the design phase. More specifically, most of the stories in this sprint are necessary for users to be able to navigate and orient themselves through the app. 
+- User stories completed: 
+   - As a user, when I navigate to the landing page I expect to see the title and subtitle so that I understand if the site is relevant for me 
+   - As a user, I can click on the "Calculate" button in the landing page so that I can navigate to the page where I can track my food waste
+   - As a user, when I navigate to the main page I expect to see the search bar, my receipt of "binned" items, and a "calculate" button 
+   - As a user, I want to search for a food item so that I can add it to my list of tracked items
+   - As a user, I want to navigate to the stats page from the main page so that I can see the result of how much money I'm wasting due to food waste
+   - As a user, when I navigate to the stats page I expect to see the forecasted yearly amount of money wasted due to how much food I waste 
+   - ANYTHING ELSE???
+   - DID WE DO ANY RESPONSIVENESS HERE?
+
+#### Highlights
+
+- Users are able to navigate through the entire app and understand what each page is about
+- highlight 2??
+- highlight 3??
+
+#### Implementation
+Sprint 1 was where the design phase of the project ended and the implementation phase began. User story points were assigned to each story after having quick group discussions. We knew these scores would vary in practice but they were used to get a rough sense of the complexity of the features and to help share the load evenly throughout the group. 
 
 Pair programming for the sprint was favoured to accelerate learning and debugging, with 2 pods (with two members in each) starting/implementing the more complex features. The one-person pod was given a lesser scored feature to complete.
 
@@ -104,15 +133,33 @@ The aim for sprint 1 was to get the MVP (consisting of three different pages) de
 The additional feature of searching originally took less time than its assigned 8-hours but also introduced a problem that only one person was able to do it locally. This meant the task of integrating docker with the project was added and ended up taking double the time to get it sorted.
 
 
-### Sprint 2: First Design Implementation
+### Sprint 2: Finish MVP's functionality
 - Timeline: 12/04 - 18/04
-- Goal: Add to the MVP all missing features from the design
+- Goal: Add missing key functionality to the MVP
+- Rationale for user stories
+  - 
 - User stories completed:
-   - As a user I would like to click on a food item I've searched for and add it to my 'binned' receipt
-   - As a user I would like to visualise the yearly forecasted cost of the food I've 'binned' for the week
-   - As a user I would like to go back to the landing page once I viewed the yearly forecast
+   - As a user, when I click on a food item I've searched for I want it to be added to my "binned" receipt so that it gets tracked when calculating how much I'm wasting
+   - As a user, I want to visualise the yearly forecasted cost of the food I've 'binned' for the week so that I gain perspective on the implications of my food consumption habits
+   - As a user, I want to navigate back to the landing page once I've viewed the statistics page so that I can start the process again or have another user do it
+   - These were 3 stories: As a user, when I navigate to the landing page, main, and stats pages from a mobile device, I want to continue understanding the application and be able to calculate how much money I'm wating yearly
+   - As a user, when I get many results from a food item search, I want to be able to view them as a scrollable vertical list so that I can easily pick the one I am trying to find.
+   - As a user, I want to add and delete the number of items associated with a specific food item so that I match how much food I have wasted more accurately (plus and minus buttons)
+   - As a user, when I navigate to the application, I want to have the option to deny cookies so that I have greater control of my private data
+   - As a user, I want to know what is the applicaiton's privacy policy and what third-party applications are being used to track my data, so that I know that it is a trustworthy site
+   - As a user, if I waste more/less (yearly) than the average person I want to know by how much so that I get a better idea of how am I doing compared to the general UK population
 
-#### Summary of plan for sprint 2
+   
+
+WHY THESE STORIES
+
+#### Highlights
+
+- highlight 1
+- highlight 2
+- highlight 3
+
+#### Implementation
 Sprint 2 was where the features left out of the MVP were implemented, a user could search for a food item from the database but nothing would happened when it was clicked, similarly once a food item had been added to the 'binned' receipt based off of the design each food needed a plus and minus button to change the quantity. Clicking the calculate button needed to (as well as navigating to the stats page) send the 'binned' food items out to the database. Site responsiveness for all pages needed to be debugged to get the site working on many different displays (not just monitors). Some team members were having deployment issues with docker and not being able to access food items which also needed to be fixed.
 
 #### What was accomplished in sprint 2
@@ -125,13 +172,26 @@ Responsiveness of the site was assigned a high priority as the team wanted a who
 It was also identified half way through the sprint (15/04) that it would make sense to add some place holder data into the stats page so whoever coded the logic into the stats page in the next sprint wouldn't have to mess with the CSS or HTML, so this was also completed in sprint 2.
 
 
-### Sprint 3: First Design completion & Second Design Implementation
+### Sprint 3: MVP release & Second Design Implementation
 - Timeline: 19/04 - 02/05
 - Goal: Finish off implentation of the First design
+- Rationale-------
 - User stories completed:
-   - As a user I want to see my yearly forecasted cost of food waste in the stats page
+   - As a user, I want to know how much money am I forecasted to waste yearly according to my inputted weekly waste
+   - As a user, I want to delete food items from my "binned" receipt so that I am able to fix any mistakes
+   - As a user, I want to navigate to "less important" pages in the application such as the "About Us" and "Privacy Policy" pages (footer)
+   - As a user, I want to share the app via social media or by copying the site's link so that I can show it to my friends
+   - As a user, I want to learn more about app so that I understand the application's purpose
+   - As a user, I want to be able to access the application from any browser so that I need little effort to access it
 
-#### Summary of plan for sprint 3
+
+#### Highlights
+
+- 
+- highlight 2
+- Hosted the site on AWS EC2 to be able to share it with people easily
+
+#### Implementation
 Going into sprint 3 the team knew semester two units were back on so there would be less time to work on the website. With this in mind sprint 3 was given an initial duration of two weeks instead of one and the scrum meetings would move to every other day occurrence. It was planned that by the end of sprint 3 the release version of the site would be done, so any nice-to-have features that the team wanted needed implementing. An about page, site footer, alternative navigation, getting the site hosted online, populating the db with more food items, bug fixes for the bin, a cookie notice, T&C's and calulating the yearly cost were all planned for the sprint.
 
 #### What was accomplished in sprint 3
