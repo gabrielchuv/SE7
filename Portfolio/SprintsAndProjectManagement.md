@@ -76,7 +76,7 @@ Creation of epic ...... goal of testing hypotehsis as efficiently as possible so
 ### Sprint 0: Working on dependencies
 - Timeline: 29/03 - 02/03
 - Goal: finish off dependencies and get used to the scrum methodology and Jira
-- User stories completed: 
+- Main user stories completed: 
   - As a designer, I want to design the high fidelity landing page so that users understand the value of the application as quick as possible
   - As a designer, I want to design the high fidelity main page so that users can search for items and add them to their list as easy as possible
   - As a designer, I want to design the high fidelity statistics page so that user can absorb and process the value of the application as eas as possible
@@ -103,7 +103,7 @@ This sprint was used as a starting point for the team to get used to the Scrum m
 - Rationale for user stories
   -  Most of the stories in this sprint are necessary for users to understand the application and be able to navigate and orient themselves in it.
   -  Going into sprint 1, high priority (must-have) features were selected from the design phase. More specifically, most of the stories in this sprint are necessary for
-- User stories completed: 
+- Main user stories completed: 
    - As a user, when I navigate to the landing page I expect to see the title and subtitle so that I understand if the site is relevant for me 
    - As a user, I can click on the "Calculate" button in the landing page so that I can navigate to the page where I can track my food waste
    - As a user, when I navigate to the main page I expect to see the search bar, my receipt of "binned" items, and a "calculate" button 
@@ -150,7 +150,7 @@ The additional feature of searching originally took less time than its assigned 
   - We made sure it worked responsively in different devices because we were planning on releasing it to Bristol University students later on.
   - We also implemented a cookie banner and a privacy policy page since we were planning to release it online and we were going to use third-party apps to track behaviour.
   - Despite it not being essential, we took care of some usability details (i.e. scrollable lists) in order to discard a reason like poor usability when assessing why people went or did not go through the whole user flow.
-- User stories completed:
+- Main user stories completed:
    - As a user, when I click on a food item I've searched for I want it to be added to my "binned" receipt so that it gets tracked when calculating how much I'm wasting
    - As a user, I want to navigate back to the landing page once I've viewed the statistics page so that I can start the process again or have another user do it
    - These were 3 stories: As a user, when I navigate to the landing page, main, and stats pages from a mobile device, I want to continue understanding the application and be able to calculate how much money I'm wating yearly
@@ -192,7 +192,7 @@ It was also identified half way through the sprint (15/04) that it would make se
 - Rationale for user stories:
   -  Finished all key functionality and started tracking using Google analytics because we released the app at the en of the first week of this 2-week sprint
   -  We added a few nice-to-have features like an About page and the ability to delete food items from the user's list because we thought this would enhance the app's clarity and usability respectively.
-- User stories completed:
+- Main user stories completed:
    - As a user, I want to visualise the yearly forecasted cost of the food I've 'binned' for the week so that I gain perspective on the implications of my food consumption habits
    - As a user, I want to delete food items from my "binned" receipt so that I am able to fix any mistakes
    - As a user, I want to navigate to "less important" pages in the application such as the "About Us" and "Privacy Policy" pages (footer)
