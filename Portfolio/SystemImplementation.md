@@ -28,6 +28,7 @@ TODO: Include class diagrams, sequence diagrams
 The backend consisted of the API, server and the database detailed below?. 
 
 ### MongoDB
+<img style="float: left;" src="Images/SystemImplementation/MongoDB.png">
 MongoDB was the database host chosen for this website, its a noSQL db so there was no messing around with relationships and making sure tables abided to normal form rules. It allowed the team to hit the ground running, as soon as we had got a high fidelity mock up, we could immediately visulise and design the data model needed to save into Mongo. The data model was fairly simplistic and only consisted of two collections.
 
 * **Fooditems collection**: This was where all the food items a user could pick from (or create) were stored, it had four properties required for each document (food item) name, mass, cost, category (also mongoDB gave it a few automaticaly e.g. each one had a unique _id). It was debated whether the food item should have a volume property, and have it XOR'd with the mass property, so any liquid based food items could be easily quantified (not many people will know how much there milk weighs). From the start it was agreed to just have mass to keep it simple and that volume would be a nice to have feature to be added if there was time.
