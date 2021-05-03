@@ -4,11 +4,10 @@
 - [Design Timeline](#design-timeline)
 - [User Personas](#user-personas)
 - [Design Process](#design-process)
+	- [Design sessions](#design-sessions)
+	- [User Personas](#user-personas)
 	- [First Prototype](#first-prototyping)
-	- [First Prototype: Wireframe Walkthrough](#first-prototype-wireframe-walkthrough)
 	- [Second Prototype](#first-prototyping)
-	- [Second Prototype: Wireframe Walkthrough](#second-prototype-wireframe-walkthrough)
-	- [Minimal Viable Product](#minimal-viable-product-mvp)
 	- [High-fidelity Design](#high-fidelity-design)
 
 ## UX Approach
