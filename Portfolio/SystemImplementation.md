@@ -35,7 +35,7 @@ MongoDB was the database host chosen for this website, its a noSQL db so there w
 * **Bins collection**: This was where any entries of food (wasted) the user had chosen to be tracked ended up, it also had four properties (as well as the default mongo ones) usrID, food, quantity, date_added. The food and quanitity added properties were the only ones adjustable to the user where as date_added was added by mongoDB based on the time it was added and the usrID was planned to be added by the site to distinguish entries in the bins collection by user. The end aim would have been to have a cloud based database where the user's food wasted entries would have been sent, which would have meant the documents in the collection needed to have an identifier of who had tracked (sent) that data. This was another nice-to-have feature (extension) that although planned for was never realised. Because user accounts weren't implemented and each user using the site would have had a local copy of the bins collection (so nother other user data would have been on it), the usrID = "1" was hardcoded for each new bin entry
 
 ### Database Implementation
-![Data Model](https://github.com/gabrielchuv/SE7/blob/main/Portfolio/Images/datamodel.png)
+![Data Model](https://github.com/gabrielchuv/SE7/blob/develop/Portfolio/Images/datamodel.png)
 
 Above is the picture of the data model, as mentioned above, user accounts were planned for which would have meant saving information for each user however was never implemented. MongoDB was not used directly (no use of the mongo console used). The mongoose js library was used to easily implement the design above onto the website, two schema files matching the diagram above were coded and can be found in the backend/models directory.
 
