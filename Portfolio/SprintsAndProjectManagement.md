@@ -36,7 +36,10 @@ Alex Digpal-Race : scrum-master, backend designer and implementer, frontend logi
 
 Zain Kassam :
 
-Anita Nguyen :
+Anita Nguyen was involved in various aspects of the project. These aspects includes:
+- UX desgin: co-created and distributed surveys to better understand the target audience. Was involved in
+some design sessions and co-led initial ideation sessions. 
+- Developer: worked on various aspects of the front-end (these aspects include 'About us' page, footer, and calculator page).
 
 Jessica Sung specialized in UX design and front-end. She has led design sessions and created the designs of the MVP and high-fidentity product. She has guided the direction of the project from a reminder service for expiring foods to a food waste calculator based on user feedback and considered the elements of serious play. Jessica has contributed to the usability and value of the product to users. (didnt do anything) - put yourself as the lead designer :)
 
