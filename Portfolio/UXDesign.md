@@ -6,9 +6,11 @@
 - [Design Process](#design-process)
 	- [Design sessions](#design-sessions)
 	- [User Personas](#user-personas)
-	- [First Prototype](#first-prototyping)
-	- [Second Prototype](#first-prototyping)
-	- [High-fidelity Design](#high-fidelity-design)
+	- [First Prototype](#first-prototype)
+	- [Second Prototype](#second-prototype)
+	- [Third Prototype](#third-prototype)
+	- [Fourth Prototype](#fourth-prototype)
+
 
 ## UX Approach
 
@@ -258,9 +260,9 @@ The second wireframe walkthrough uncovered...
 2. The about and FAQ's could really be merged into one and the about can be a tab of the FAQ page.
 3. Submitting food items on the user main page could be clearer.
 
-### Minimal Viable Product (MVP)
+### Third Prototype 
 
-### High-fidelity Design
+### Fourth Prototype: High-fidelity Design
 
 
 
