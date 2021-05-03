@@ -75,23 +75,23 @@ Based on user feedback, the design of each page was mindful of the number of cli
 ## Design Timeline
 
 ### Outline
-* Ideation / Concept development
-  * Design thinking
+* Design sessions
+  * Divergent/convergent thinking
   * Problem definition
-  * User personas
+  * User persona definition
   * Prioritization of features
-  * User flow
-* Wireframing / Prototyping
-  * Balsamiq wireframing according to user stories
-  * Feedback from first wireframe
-    * Changed our problem assumption accordingly and modified wireframe
-  * Feedback from surveys
-    * Changed our target audience assumption accordingly
-  * Got feedback for second wireframe
-  * Design heuristics and UX principles prioritization
-  * Prioritization of features for MVP
-* Implementation / Iteration
-  * High fidelity design
+  * User flow 
+* User personas
+  * 1st user persona
+  * Design evaluation: User surveys
+  * 2nd user persona	 
+* Wireframing / Prototyping 
+  * 1st interactive wireframe
+  * Design evaluation: User interviews
+  * 2nd interactive wireframe
+  * Design evaluation: User interviews
+  * Design evaluation: Design heuristics
+  * High fidelity wireframe
 
 ### Design Sessions
 
