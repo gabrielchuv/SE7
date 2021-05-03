@@ -1,4 +1,4 @@
-# **dontwastefood.no**
+# **Money Bin**
 
 This web application's primary objective is to increase awareness about household food waste. Moreover, it also aims to nudge people's behaviour into taking food waste more seriously and ultimately contribute to the reduction of it.
 
