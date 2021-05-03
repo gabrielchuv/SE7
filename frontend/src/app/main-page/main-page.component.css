@@ -4,17 +4,15 @@
 
 .wrapper {
   position: relative;
-  min-height: 100vh;
-  width: 100%;
+  height: 100vh;
+  width: 100vw;
   margin: 0;
   padding: 0;
 }
 
 .title-style {
-  max-width: 100%;
-  width: 100%;
-  max-height: 10%;
-  height: 100%;
+  width: 40vw;
+  height: 10vh;
   font-weight: bolder;
   font-size: 45px;
   text-align: center;
@@ -23,22 +21,23 @@
 }
 
 .search-bin-container {
-  max-width: 1000px;
-  max-height: 800px;
-  width: 100%;
-  height: 100%;
+  width: 50vw;
+  /*max-width: 1000px;*/
+  height: 100vh;
   transform: translate(0%, 0%);
-  top: 10%;
-  left: 2%;
+  top: 1%;
+  left: 0;
   position: absolute;
+  display: flex;
+  justify-content: center;
 }
 
 .bin-image {
-  max-width: 50%;
-  max-height: 50%;
+  width: 50vh;
+  height: 50vh;
   position: absolute;
   bottom: 20%;
-  margin: 0 auto;
+  margin-top: 1vh;
   right: 50%;
   transform: translate(50%, 0%);
   z-index: -1;
@@ -46,8 +45,8 @@
 
 .sally {
   position: absolute;
-  width: 70%;
-  height: 90%;
+  width: 60%;
+  height: 100%;
   bottom: 0;
   left: 48%;
 }
@@ -78,25 +77,23 @@
 }
 
 .search {
-  position: relative;
+  position: absolute;
   top: 20%;
   left: 25%;
 }
   .right-side-container {
-    max-height: 830px;
-    max-width: 800px;
-    height: 100%;
-    width: 100%;
-    right: 2%;
-    top: 10%;
+    height: 100vh;
+    width: 50vw;
+    /*max-width: 800px;*/
+    right: 0;
+    top: 1%;
     position: absolute;
   }
 
 .receipt {
   max-width: 70%;
-  max-height: 92%;
+  height: 89vh;
   width: 100%;
-  height: 100%;
   background: #FFFFFF;
   box-shadow: 1px 2px 3px 0 rgba(0,0,0,0.10);
   border-radius: 6px;
@@ -106,8 +103,7 @@
 }
 
 .heading {
-  max-height: 15%;
-  height: 100%;
+  height: 9vh;
   text-align: center;
   border-bottom: 2px solid #272C35;
   color: #000000;
@@ -115,12 +111,13 @@
 
 .heading-line {
   padding-top: 1%;
-  font-size: 35px;
+  font-size: 2vw;
+  font-size: 4vh;
   font-weight: bolder;
 }
 
 .heading-sub-line {
-  font-size: 25px;
+  font-size: 30px;
   font-weight: lighter;
 }
 
@@ -130,7 +127,7 @@
   justify-items: center;
   background: #FFFFFF;
   max-height: 6.5%;
-  height: 100%;
+  height: 4vh;
   padding-top: 1%;
   border-bottom:  2px solid #272C35;
 }
@@ -139,8 +136,7 @@
 }
 
 .item-full{
-  max-height: 72%;
-  height: 100%;
+  height: 71vh;
 }
 
 .item {
@@ -153,8 +149,7 @@
 
 .sub-item {
   border-top: 2px solid #272C35;
-  max-height: 8%;
-  height: 100%;
+  height: 5vh;
   display: flex;
   bottom: 0;
 }
@@ -244,16 +239,16 @@ input:focus {
 
 /* Style of calculate button */
 .calculate-button {
-  margin: auto;
+  /*margin: auto;*/
   position: absolute;
-  bottom: 1%;
+  bottom: 6%;
   right: 50%;
   transform: translate(50%, 0%);
   width: 70%;
 }
 
 .calculate-button button {
-  height: 45px;
+  height: 4vh;
   border: 1px solid  #272C35;
   padding-left: 15px;
   padding-right: 15px;
@@ -277,616 +272,112 @@ input:focus {
   padding-right: 10px;
 }
 
-@media all and (orientation: landscape) and (min-width: 922px) and (max-width: 1919px) and (min-height: 640px){
+@media all and (orientation: portrait) {
 
-  .title-style{
-    font-size: 250%;
-    width: 100%;
-    height: 10%;
-    color: #272C35;
-  }
   .search-bin-container {
-    height: 85%;
-    width: 50%;
+    width: 100vw;
+    height: 40vh;
+    top: 0;
   }
 
-  .right-side-container {
-    height: 87%;
-    width: 60%;
-    right: -5%;
-  }
-
-  .receipt {
-    height: 90%;
-  }
-  .heading {
-    height: 75%;
-  }
-  .heading-line {
-    font-size: 150%;
-  }
-  .heading-sub-line {
-    font-size: 150%;
-  }
-  .sub-heading {
-    height: 75%;
-  }
-  .sub-heading-text {
-    font-size: 150%;
-  }
-  .item-full {
-    height: 100%;
-  }
-  .item {
-    height: 75%;
-  }
-
-  .description {
-    font-size: 125%;
-  }
-  .quantity {
-    font-size: 125%;
-  }
-
-  .sub-item {
-    height: 75%;
-  }
-
-  .sub-description {
-    font-size: 125%;
-  }
-
-  .item-count {
-    font-size: 125%;
-  }
-
-  .calculate-button button {
-    font-size: 115%;
-  }
-}
-@media all and (orientation: landscape) and (min-width: 922px) and (max-width: 1919px) and (min-height: 563px) and (max-height: 639px){
-
-  .title-style{
-    font-size: 250%;
-    width: 100%;
-    height: 10%;
-    color: #272C35;
-  }
-  .search-bin-container {
-    height: 85%;
-    width: 50%;
-  }
-
-  .right-side-container {
-    height: 90%;
-    width: 60%;
-    right: -5%;
-    top: 10%;
-  }
-
-  .receipt {
-    height: 85%;
-  }
-  .heading {
-    height: 50%;
-  }
-  .heading-line {
-    font-size: 100%;
-  }
-  .heading-sub-line {
-    font-size: 100%;
-    padding-bottom: 1%;
-  }
-  .sub-heading {
-    height: 75%;
-    padding-bottom: 4%;
-  }
-  .sub-heading-text {
-    font-size: 100%;
-  }
-  .item-full {
-    height: 60%;
-  }
-  .item {
-    height: 75%;
-  }
-
-  .description {
-    font-size: 100%;
-  }
-
-  .quantity input {
-    font-size: 100%;
-  }
-
-
-  .sub-item {
-    height: 75%;
-    transform: translate(0%, 120%);
-  }
-
-  .sub-description {
-    font-size: 100%;
-  }
-
-  .item-count {
-    font-size: 125%;
-  }
-
-  .calculate-button button {
-    font-size: 115%;
-  }
-}
-
-@media all and (orientation: landscape) and (min-width: 922px) and (max-width: 1919px) and (max-height: 562px){
-
-  .title-style{
-    font-size: 250%;
-    width: 100%;
-    height: 10%;
-    color: #272C35;
-  }
-  .search-bin-container {
-    height: 85%;
-    width: 50%;
-  }
-
-  .right-side-container {
-    height: 100%;
-    width: 60%;
-    right: -5%;
-    top: 0
-  }
-
-  .receipt {
-    height: 85%;
-  }
-  .heading {
-    height: 50%;
-  }
-  .heading-line {
-    font-size: 100%;
-  }
-  .heading-sub-line {
-    font-size: 100%;
-    padding-bottom: 1%;
-  }
-  .sub-heading {
-    height: 75%;
-    padding-bottom: 4%;
-  }
-  .sub-heading-text {
-    font-size: 100%;
-  }
-  .item-full {
-    height: 60%;
-  }
-  .item {
-    height: 75%;
-  }
-
-  .description {
-    font-size: 100%;
-  }
-
-  .quantity input {
-    font-size: 100%;
-  }
-
-
-  .sub-item {
-    height: 75%;
-  }
-
-  .sub-description {
-    font-size: 100%;
-  }
-
-  .item-count {
-    font-size: 125%;
-  }
-
-  .calculate-button button {
-    font-size: 115%;
-  }
-}
-
-@media all and (orientation: landscape) and (max-width: 921px) and (min-height: 640px){
   .title-style {
-    font-size: 120%;
     width: 100%;
-    color: #272C35;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1%;
   }
-  .search-bin-container {
-    height: 85%;
-    width: 50%;
+
+  .bin-image {
+    height: 0;
+    width: 0;
   }
 
   .search {
-    top: 16%;
-    left: 25%;
+    top: 40%;
+    left: 20%;
   }
+
   .right-side-container {
-    height: 87%;
-    width: 60%;
-    right: -5%;
+    width: 100vw;
+    height: 60vh;
+    bottom: 0;
+    transform: translate(0, 58.4%);
   }
 
   .receipt {
-    height: 85%;
+    height: 51vh;
   }
-  .heading {
-    height: 75%;
-  }
-  .heading-line {
-    font-size: 150%;
-  }
-  .heading-sub-line {
-    font-size: 150%;
-  }
-  .sub-heading {
-    height: 75%;
-  }
-  .sub-heading-text {
-    font-size: 150%;
-  }
+
   .item-full {
-    height: 100%;
-  }
-  .item {
-    height: 75%;
+    height: 34vh;
   }
 
-  .description {
-    font-size: 125%;
-  }
-  .quantity {
-    font-size: 125%;
-  }
-
-  .sub-item {
-    height: 75%;
+  .sally {
+    height: 15vh;
+    width: 15vh;
+    margin-left: 55%;
   }
 
-  .sub-description {
-    font-size: 125%;
-  }
-
-  .item-count {
-    font-size: 100%;
-  }
-
-  .calculate-button button {
-    font-size: 115%;
-  }
-
-}
-
-@media all and (orientation: landscape) and (max-width: 921px) and (max-height: 639px){
-  .title-style {
-    font-size: 100%;
-    width: 100%;
-    color: #272C35;
-  }
-  .search-bin-container {
-    height: 85%;
-    width: 50%;
-  }
-
-  .search {
-    top: 16%;
-    left: 25%;
-  }
-  .right-side-container {
-    height: 80%;
-    width: 60%;
-    right: -5%;
+  .thought-container {
     top: 18%;
   }
-
-  .receipt {
-    height: 87%;
-  }
-  .heading {
-    height: 60%;
-  }
-  .heading-line {
-    font-size: 100%;
-  }
-  .heading-sub-line {
-    font-size: 100%;
-  }
-  .sub-heading {
-    height: 75%;
-  }
-  .sub-heading-text {
-    font-size: 80%;
-  }
-  .item-full {
-    height: 70%;
-  }
-  .item {
-    height: 50%;
+  .thought-bubble {
+    height: 20vh;
+    width: 25vw;
   }
 
-  .description {
-    font-size: 90%;
-  }
-  .quantity input {
-    font-size: 90%;
-  }
-
-  .sub-item {
-    height: 75%;
-  }
-
-  .sub-description {
-    font-size: 90%;
-  }
-
-  .item-count {
-    font-size: 80%;
+  .bubble-text {
+    height: 10vh;
+    width: 15vw;
+    transform: translate(5%, -30%);
+    font-size: 150%;
   }
 
   .calculate-button button {
-    font-size: 87%;
-    height: 100%;
+    height: 5vh;
+    margin-top: 1vh;
   }
+
+  @media (min-height: 725px) and (max-height: 1053px){
+    .title-style {
+      font-size: 7vw;
+    }
+    .bubble-text {
+      font-size: 3vw;
+    }
+    .heading-line {
+      font-size: 5vw;
+    }
+    .sub-heading-text {
+      font-size: 3vw;
+    }
+    .sub-description {
+      font-size: 3vw;
+    }
+    .item-count {
+      font-size: 3vw;
+    }
+    .calculate-button button {
+      font-size: 4vw;
+    }
+  }
+
+  /*@media (max-width: 420px) and (max-height: 724px){*/
+  /*  .title-style {*/
+  /*    font-size: 175%;*/
+  /*  }*/
+  /*  .bubble-text {*/
+  /*    font-size: 85%;*/
+  /*  }*/
+  /*  .heading-line {*/
+  /*    font-size: 210%;*/
+  /*  }*/
+  /*  .sub-heading-text {*/
+  /*    font-size: 125%;*/
+  /*  }*/
+  /*}*/
 
 }
 
-@media all and (orientation: portrait) and (min-width: 331px) and (max-width: 768px){
 
-  .search-bin-container {
-    top: 0;
-    width: 100%;
-    height: 40%;
-    margin-top: 18%;
-  }
-
-  .title-style {
-    font-size: 150%;
-    width: 97%;
-    color: #272C35;
-  }
-
-  .search {
-    width: 100%;
-    top: 22%;
-  }
-  .bin-image {
-    height: 30%;
-    width: 30%;
-    bottom: 25%;
-    z-index: -1;
-  }
-
-  .right-side-container{
-    height: 60%;
-    transform: translate(0, 50%);
-  }
-
-  .receipt {
-    height: 85%;
-  }
-  .heading-line {
-    font-size: 120%;
-  }
-  .heading-sub-line {
-    font-size: 120%;
-  }
-
-  .sub-heading-text {
-    font-size: 100%;
-  }
-
-  .item-full {
-    height: 70%;
-  }
-
-  .sub-description {
-    font-size: 100%;
-  }
-
-  .item-count {
-    font-size: 80%;
-  }
-
-  .calculate-button button {
-    font-size: 150%;
-    height: 100%;
-  }
-
-}
-
-@media all and (orientation: portrait) and (min-width: 250px) and (max-width: 330px){
-
-  .search-bin-container {
-    top: 0;
-    width: 100%;
-    height: 40%;
-    margin-top: 18%;
-  }
-
-  .title-style {
-    font-size: 150%;
-    width: 97%;
-    top: 15%;
-    color: #272C35;
-  }
-
-  .search {
-    width: 100%;
-    top: 22%;
-  }
-  .bin-image {
-    height: 30%;
-    width: 30%;
-    bottom: 25%;
-    z-index: -1;
-  }
-
-  .right-side-container{
-    height: 60%;
-    transform: translate(0, 50%);
-  }
-
-  .receipt {
-    height: 85%;
-  }
-  .heading-line {
-    font-size: 120%;
-  }
-  .heading-sub-line {
-    font-size: 120%;
-  }
-
-  .sub-heading-text {
-    font-size: 100%;
-  }
-
-  .item-full {
-    height: 70%;
-  }
-
-  .sub-description {
-    font-size: 100%;
-  }
-
-  .item-count {
-    font-size: 80%;
-  }
-
-  .calculate-button button {
-    font-size: 150%;
-    height: 100%;
-  }
-
-}
-
-@media all and (orientation: portrait) and (min-width: 769px) and (max-width: 1337px){
-
-  .search-bin-container {
-    top: 0;
-    width: 100%;
-    height: 40%;
-  }
-
-  .title-style {
-    font-size: 170%;
-    width: 97%;
-    color: #272C35;
-  }
-
-  .search {
-    top: 30%;
-  }
-  .bin-image {
-    height: 40%;
-    width: 20%;
-    bottom: 5%;
-    z-index: -1;
-  }
-
-  .right-side-container{
-    height: 60%;
-    transform: translate(0, 50%);
-    width: 100%;
-    left: 10%;
-  }
-
-  .receipt {
-    height: 85%;
-  }
-  .heading-line {
-    font-size: 120%;
-  }
-  .heading-sub-line {
-    font-size: 120%;
-  }
-
-  .sub-heading-text {
-    font-size: 100%;
-  }
-
-  .item-full {
-    height: 70%;
-  }
-
-  .sub-description {
-    font-size: 100%;
-  }
-
-  .item-count {
-    font-size: 80%;
-  }
-
-  .calculate-button button {
-    font-size: 150%;
-    height: 100%;
-  }
-
-}
-
-@media all and (orientation: portrait) and (max-width: 330px){
-
-  .search-bin-container {
-    top: 0;
-    width: 100%;
-    height: 40%;
-  }
-
-  .title-style {
-    font-size: 150%;
-    width: 97%;
-    color: #272C35;
-  }
-
-  .search {
-    width: 100%;
-    top: 30%;
-  }
-  .bin-image {
-    height: 40%;
-    width: 40%;
-    bottom: 5%;
-    z-index: -1;
-  }
-
-  .right-side-container{
-    height: 60%;
-    transform: translate(0, 50%);
-  }
-
-  .receipt {
-    height: 85%;
-  }
-  .heading-line {
-    font-size: 120%;
-  }
-  .heading-sub-line {
-    font-size: 120%;
-  }
-
-  .sub-heading-text {
-    font-size: 100%;
-  }
-
-  .item-full {
-    height: 70%;
-  }
-
-  .sub-description {
-    font-size: 100%;
-  }
-
-  .item-count {
-    font-size: 80%;
-  }
-
-  .calculate-button button {
-    font-size: 115%;
-    height: 100%;
-  }
-
-}
