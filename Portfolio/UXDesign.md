@@ -33,45 +33,6 @@ is covered in the subsequent sections.
   * Problem: we treated our low-level problem definition (i.e. people a ---- NEED TO FINISH
   * Solution (MVP): we treated our initial feature decisions as hypotheses to be tested (LINK HERE)
 
-### Design Heuristics
-
-When designing the system and user interactions, 5 common usability heuristics were taken into account. This was adapted from https://www.nngroup.com/articles/ten-usability-heuristics/.
-
-**1. Visibility of the system**
-
-The objective of the application is to increase awareness of individual food waste. To do so, the system guided users through the following steps:
-
-<p align="center">
-Users guess how much money they are losing from food waste <br>
-↓ <br>
-Users input the amount of food went to waste that week <br>
-↓ <br>
-The system calculates their money lost from food waste per year <br>
-</p>
-
-To ensure all steps are completed in order and to prevent skipping of steps, users are navigated to the next step by a button at the bottom of the page. There is no option to skip steps and users are alerted if a step is incomplete (e.g., no input for estimate of food wasted). To set expectations, buttons are clearly labeled with the objective of the next page and instructions for each page are bolded as headers.
-
-**2. Reliability to the Real World**
-
-With the theme around food waste and money lost, the design of the application includes recognizable icons related to the theme. For example, the search page perfectly exemplifies the two themes of food waste and money. The search term function is positioned above an icon of a waste bin to emphasize that the food searched were the foods that went to waste. On the same page, the list of food items added are displayed on a receipt format as receipts typically hold information of items and quantity of items. The template itself was off of a real grocery store receipt.
-
-**3. User control**
-
-The group discussed whether to add a function to remove items from the list once they are added. Some argued that the item to remove can remain on the list but be set to 0. Others argued that the system will automatically remove the item once it is set to 0 quantity. To provide users more control in the case that an item was added by mistake or an item is to be removed, an additional ‘x’ icon was added next to the food name. A simple click on the icon will remove the item.
-
-**4. Error prevention**
-
-As the system requires users to complete tasks in-order, extra thought was given to guide users through each step. To do so, a pot-of-money character, Sally, is introduced. From the landing page to the results page, Sally provides instructions and feedback on her thought bubble. As well as providing useful information, Sally becomes a familiar character throughout the application.
-
-As inputting the food items wasted involves the most feedback from users, several error-prevention features were added. For example, the search box is validated on alphanumeric inputs and items selected are marked with bolder colors on hover. The items added are immediately displayed as a list for validation.
-
-**5. Minimalistic design**
-
-To minimize the amount of information on one page, each task (e.g., introduction of the application, input of food items, output of the cost of food wasted)  was given its own page.
-
-Based on user feedback, the design of each page was mindful of the number of clicks required from users. Initially, the design relied on pop-up overlays, for example, to search for an item and to adjust its quantity with a drop-down. The overlays were removed in favor of simple icons like the plus and minus icons to adjust quantities of one or more items.
-
-
 ## Design Timeline
 
 ### Outline
@@ -244,7 +205,7 @@ User feedback informed the second prototype which calculates cost accrued for fo
 <br></br>
 
 #
-### Design evaluation: User interviews
+### Design evaluation: User Interviews
 Users were again shown the updated/new wireframe protoype to see if the changes made were an improvement on the last version and to gleen more insight into improving the user experience of the site. A mix of four users, some from the last feedback session and some new to the site, aged 18-30 were asked to explore the wireframe telling the feedback practioners, their opinion on what each page did, how effective it was at doing this, and what they would do next. The practioners checked off the user story list tasks the user's were able to complete on their own and any tasks left at the end were then hinted at to see if the user could accomplish there task.
 
 The second wireframe walkthrough uncovered...
@@ -260,25 +221,58 @@ The second wireframe walkthrough uncovered...
 
 ## Third Prototype: First High-fidelity Design
 
-
-
-## Fourth Prototype: Second High-fidelity Design
-
-This prototype includes elements of play and emphasizes the objectives to bring awareness and nudge behavior change. 
-
-### Play Revisited 
+### Design Evaluation: Play Revisited and Call-for-Action 
 Up until now, the focus has been on the serious problem and the prototypes were practical in nature. The design challenge was to embed elements of play throughout the interaction and create an enjoyable experience to a practical calculator application. 
 
 A lengthy discussion was had. Some members suggested diverging the project idea to focus on carbon pollution and bring back Jane the Cow, which users spoke highly of. The character was humorous but this would involve redesigning and changing focus of the project with 3 weeks until deadline. Other members suggested an earlier idea of a “Black Mirror” storyline to introduce the problem and provide users two options per scene of how the storyline should play out. This idea was engaging but it was difficult to think of how to incorporate existing features (e.g., search engine for foods, food item list, calculated money lost from food waste) to the storyline. 
 
 To make a decision, we referred back to user feedback. We asked, “Which issue was important? What kind of information mattered? What did users like or dislike?” It was clear that financial information regarding food waste and the character, Jane the Cow, were well received. We decided to keep our idea of a food waste calculator, keep the existing features we developed and introduce a similar character, Sally the Pot-of-Money. To add play to the interaction, we used Sally as a game mechanic to delight users. Instead of typing the estimate of money lost from food waste, users can click Sally (as she is moving by animation) to increase their estimate. We were able to stay focused on the scope of the project, introduce a humorous character and make the act of estimating a cost a clickable game. 
 
-
-### A Nudge for Change 
-
 We purposefully framed the issue to promote behavior change. In terms of language and tone, the prototype applies internal reconciliation to bring awareness and help users internalize the issue to their own actions <sup>1</sup>. For example, on the landing page, uses are asked, “Where has your money gone?” to convey the impact of money lost for them. Then on the search page, they are asked, “What foods have you wasted this month?” to convey their individual contribution to the issue. This approach was supported by research that showed that awareness of the issue on their own behavior is needed to nudge behavior change<sup>2, 3</sup>. To push towards ation, we framed our call-to-action with social-norming. For example, on the results page, the reported cost of individual food waste is compared to the average cost of food waste per individual in the UK: “That’s more waste than that of the majority of people in the UK.” We chose social norming as research has shown that this approach may nudge individuals towards reducing waste<sup>4</sup>. Additionally, at a speaker event, Social Norms-Based Messaging: A Engine for Environmental Action by Author Robert Cialdini, attended by our UX designer, social norming has been a powerful motivator to reduce undesirable behavior. It follows the heuristic of “following the majority” and portrays a behavior as an outlier or not approved. 
 
 To provide a quick action that users can respond to, a share option was included in the results page. As an application to bring awareness to the issue, this feature would further spread the word and start conversations around food waste around the user’s social network. 
+
+## Fourth Prototype: Second High-fidelity Design
+
+### Design Evaluation: Design Heuristics
+5 common usability heuristics were taken into account. This was adapted from https://www.nngroup.com/articles/ten-usability-heuristics/.
+
+**1. Visibility of the system**
+
+The objective of the application is to increase awareness of individual food waste. To do so, the system guided users through the following steps:
+
+<p align="center">
+Users guess how much money they are losing from food waste <br>
+↓ <br>
+Users input the amount of food went to waste that week <br>
+↓ <br>
+The system calculates their money lost from food waste per year <br>
+</p>
+
+To ensure all steps are completed in order and to prevent skipping of steps, users are navigated to the next step by a button at the bottom of the page. There is no option to skip steps and users are alerted if a step is incomplete (e.g., no input for estimate of food wasted). To set expectations, buttons are clearly labeled with the objective of the next page and instructions for each page are bolded as headers.
+
+**2. Reliability to the Real World**
+
+With the theme around food waste and money lost, the design of the application includes recognizable icons related to the theme. For example, the search page perfectly exemplifies the two themes of food waste and money. The search term function is positioned above an icon of a waste bin to emphasize that the food searched were the foods that went to waste. On the same page, the list of food items added are displayed on a receipt format as receipts typically hold information of items and quantity of items. The template itself was off of a real grocery store receipt.
+
+**3. User control**
+
+The group discussed whether to add a function to remove items from the list once they are added. Some argued that the item to remove can remain on the list but be set to 0. Others argued that the system will automatically remove the item once it is set to 0 quantity. To provide users more control in the case that an item was added by mistake or an item is to be removed, an additional ‘x’ icon was added next to the food name. A simple click on the icon will remove the item.
+
+**4. Error prevention**
+
+As the system requires users to complete tasks in-order, extra thought was given to guide users through each step. To do so, a pot-of-money character, Sally, is introduced. From the landing page to the results page, Sally provides instructions and feedback on her thought bubble. As well as providing useful information, Sally becomes a familiar character throughout the application.
+
+As inputting the food items wasted involves the most feedback from users, several error-prevention features were added. For example, the search box is validated on alphanumeric inputs and items selected are marked with bolder colors on hover. The items added are immediately displayed as a list for validation.
+
+**5. Minimalistic design**
+
+To minimize the amount of information on one page, each task (e.g., introduction of the application, input of food items, output of the cost of food wasted)  was given its own page.
+
+Based on user feedback, the design of each page was mindful of the number of clicks required from users. Initially, the design relied on pop-up overlays, for example, to search for an item and to adjust its quantity with a drop-down. The overlays were removed in favor of simple icons like the plus and minus icons to adjust quantities of one or more items.
+
+
+
 
 
 
