@@ -43,7 +43,7 @@ Finally, as conveyed by our industry review, other alternatives have been unsucc
   
 ## Bibliography
 
-1. pdf
+1. [2014 - Food wastage footprint full-cost accounting final.pdf](https://github.com/gabrielchuv/SE7/files/6417440/2014.-.Food.wastage.footprint.full-cost.accounting.final.pdf)
 2. “Sustainability Pathways: Food Loss and Waste.” Accessed May 3, 2021. http://www.fao.org/nr/sustainability/food-loss-and-waste/en/.
 3. “FAO - News Article: Food Wastage: Key Facts and Figures.” Accessed May 3, 2021. http://www.fao.org/news/story/en/item/196402/icode/.
 4. Our World in Data. “Food Waste Is Responsible for 6% of Global Greenhouse Gas Emissions.” Accessed May 3, 2021. https://ourworldindata.org/food-waste-emissions.
@@ -53,8 +53,9 @@ Finally, as conveyed by our industry review, other alternatives have been unsucc
 8. World Food Program USA. “Here Are 8 Facts You Should Know About Food Waste and Hunger.” Accessed May 3, 2021. https://www.wfpusa.org/articles/8-facts-to-know-about-food-waste-and-hunger/.
 9. “12.3.1 Global Food Losses | Sustainable Development Goals | Food and Agriculture Organization of the United Nations.” Accessed May 3, 2021. http://www.fao.org/sustainable-development-goals/indicators/1231.
 10. Reset - reliable?
-11. pdf
-12. wrap - pdf
+11. [mb060e02.pdf](https://github.com/gabrielchuv/SE7/files/6417443/mb060e02.pdf)
+12. [Food-surplus-and-waste-in-the-UK-key-facts-Jan-2020.pdf](https://github.com/gabrielchuv/SE7/files/6417444/Food-surplus-and-waste-in-the-UK-key-facts-Jan-2020.pdf)
+
 
 
   
