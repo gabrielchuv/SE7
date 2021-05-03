@@ -21,12 +21,12 @@ In light of this evaluation, we hypothesized that a tool that was both convenien
 
 Food loss and waste is a global issue across various dimensions: financial, environmental, and ethical. Financially, it is estimated that the total cost associated with food lost or wasted is 2.6 trillion dollars annually (REF: http://www.fao.org/3/i3991e/i3991e.pdf). Out of this amount, around 700 billion dollars can be linked with environmental waste<sup>2</sup>. 
 
-However, the environmental cost is not solely financial. The carbon footprint caused by food wastage is estimated at 3.3 billion tonnes of CO2 yearly<sup>3</sup> or 6% of global greenhouse gas emissions<sup>4</sup>. . Moreover, the volume of water associated with wasted or lost food is approximately 250km3 or three times the size of lake Geneva. Viewing this from a smaller-scale perspective reveals similarly shocking numbers. For instance, one kilogram of wasted apples or beef is associated with 822 and a whopping 15415 litres of water wasted respectively(REF: http://www.fao.org/news/story/en/item/196402/icode/).
+However, the environmental cost is not solely financial. The carbon footprint caused by food wastage is estimated at 3.3 billion tonnes of CO2 yearly<sup>3</sup> or 6% of global greenhouse gas emissions<sup>4</sup>. Moreover, the volume of water associated with wasted or lost food is approximately 250km3 or three times the size of lake Geneva. Viewing this from a smaller-scale perspective reveals similarly shocking numbers. For instance, one kilogram of wasted apples or beef is associated with 822 and a whopping 15415 litres of water wasted respectively<sup>3</sup>. .
 
-The human population is predicted to grow up to 9.8 billion by 2050 (REF: https://www.un.org/development/desa/en/news/population/world-population-prospects-2017.html) and, unless action is taken, the aforementioned consequences of food waste will only worsen, engendering potentially irreversible implications for our planet. This is enough to take a strong negative utilitarian stance against the issue (REF: "Utilitarianism resources," [Online]. Available: https://www.utilitarianism.com/karl-popper.html. [Accessed 05 01 2021].). Additionally, already today, if it were possible to redistribute wasted food, we would be able to feed all the undernourished population (815 million people (REF: https://www.worldhunger.org/world-hunger-and-poverty-facts-and-statistics/)) at least twice (REF: https://www.wfpusa.org/articles/8-facts-to-know-about-food-waste-and-hunger/#:~:text=Right%20now%2C%20the%20world%20produces,before%20it%20can%20be%20consumed.&text=Along%20with%20chronic%20poverty%2C%20conflict,root%20causes%20of%20hunger%20worldwide.). This mismatch between the existence yet unavailability of resources further highlights our ethical responsibility towards minimizing the extent of this issue
+The human population is predicted to grow up to 9.8 billion by 2050<sup>5</sup> and, unless action is taken, the aforementioned consequences of food waste will only worsen, engendering potentially irreversible implications for our planet. This is enough to take a strong negative utilitarian stance against the issue (REF: "Utilitarianism resources," [Online]. Available: https://www.utilitarianism.com/karl-popper.html. [Accessed 05 01 2021].). Additionally, already today, if it were possible to redistribute wasted food, we would be able to feed all the undernourished population (815 million people<sup>7</sup>) at least twice<sup>8</sup>. This mismatch between the existence yet unavailability of resources further highlights our ethical responsibility towards minimizing the extent of this issue
 
 
-Given the magnitude of the problem, it is not surprising the the United Nations has chosen the reduction of food waste as one of its 2030 sustainable development goals: “By 2030, halve per capita global food waste at the retail and consumer levels and reduce food losses along production and supply chains, including post-harvest losses” (REF: http://www.fao.org/sustainable-development-goals/indicators/1231/en/).
+Given the magnitude of the problem, it is not surprising the the United Nations has chosen the reduction of food waste as one of its 2030 sustainable development goals: “By 2030, halve per capita global food waste at the retail and consumer levels and reduce food losses along production and supply chains, including post-harvest losses”<sup>9</sup>.
 
 To start tackling this complex global issue, we will first make a distinction between food loss and food waste. The former generally signifies food lost in the earlier stages of production (i.e. food suppliers excluding retailers and consumers) whereas the latter refers to food that is fit for human consumption that is not used (REF: https://en.reset.org/knowledge/global-food-waste-and-its-environmental-impact-09122018#:~:text=An%20estimated%201.3%20billion%20tonnes,FAO)%20of%20the%20United%20Nations). Perhaps unsurprisingly, the proportion of food lost or wasted during later stages of the supply chain (i.e. by consumers) is greater in developed economies like the UK than in developing ones. (GRAPH) (REF: http://www.fao.org/3/mb060e/mb060e02.pdf). For this reason, and due to our proximity and access to UK end-consumers (i.e. students), this project will focus on reducing UK end-consumers’ food waste. 
 
@@ -36,17 +36,41 @@ Being the group that contributes the most with wastage, and because most current
 
 If we zoom in even further to understand what causes this food waste, we encounter that 41% of food (by weight) was wasted because it was not used in time, 28% due to personal preference, and 25% because people cooked too much (REF:wrap). These are all reasons upon which consumers have agency and could potentially change if properly motivated. Therefore, we have decided to focus on increasing consumers’ motivation to waste less.
 
-Finally, as conveyed by our industry review (link), other alternatives have been unsuccessfully trying to balance solutions that offer both convenience and accuracy. Thus, our final definition of the problem is:
+Finally, as conveyed by our industry review, other alternatives have been unsuccessfully trying to balance solutions that offer both convenience and accuracy. Thus, our final definition of the problem is:
 
 <b>We will focus on motivating UK studnets to waste less in order to contribute towards the reduction of food wastage coming from UK households. At a lower-level, we will attempt to solve the problems of inconvenience and accuracy simultaneously in order to aid with our overlying goal of motivating students.</b>
 
   
 ## Bibliography
 
-1. 
+1. pdf
 2. “Sustainability Pathways: Food Loss and Waste.” Accessed May 3, 2021. http://www.fao.org/nr/sustainability/food-loss-and-waste/en/.
 3. “FAO - News Article: Food Wastage: Key Facts and Figures.” Accessed May 3, 2021. http://www.fao.org/news/story/en/item/196402/icode/.
 4. Our World in Data. “Food Waste Is Responsible for 6% of Global Greenhouse Gas Emissions.” Accessed May 3, 2021. https://ourworldindata.org/food-waste-emissions.
+5. “World Population Projected to Reach 9.8 Billion in 2050, and 11.2 Billion in 2100 | UN DESA | United Nations Department of Economic and Social Affairs,” June 21, 2017. https://www.un.org/development/desa/en/news/population/world-population-prospects-2017.html.
+6. blank
+7. “World Hunger, Poverty Facts, Statistics 2018 - World Hunger News.” Accessed May 3, 2021. https://www.worldhunger.org/world-hunger-and-poverty-facts-and-statistics/.
+8. World Food Program USA. “Here Are 8 Facts You Should Know About Food Waste and Hunger.” Accessed May 3, 2021. https://www.wfpusa.org/articles/8-facts-to-know-about-food-waste-and-hunger/.
+9. “12.3.1 Global Food Losses | Sustainable Development Goals | Food and Agriculture Organization of the United Nations.” Accessed May 3, 2021. http://www.fao.org/sustainable-development-goals/indicators/1231.
+10. Reset - reliable?
+11. pdf
+12. wrap - pdf
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
+
+
+  
+  
 
 
   
