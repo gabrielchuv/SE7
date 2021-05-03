@@ -4,7 +4,7 @@ This web application's primary objective is to increase awareness about househol
 
 ## **The Team**
 * [Alex Digpal-Race](https://github.com/alexDigpalRace) : <cr20208@bristol.ac.uk>
-    [Scrum Master, Junior Glorious Leader] (Images/glorious_leader.jpg)
+    ![Scrum Master, Junior Glorious Leader] (Images/glorious_leader.jpg)
 * [Zain Kassam](https://github.com/Zainzzkk) : <dw20513@bristol.ac.uk>
 * [Anita Nguyen](https://github.com/ng0c) : <wl20794@bristol.ac.uk>
 * [Jessica Sung](https://github.com/jessicaksung) : <zu20706@bristol.ac.uk>
