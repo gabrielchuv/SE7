@@ -258,18 +258,18 @@ The second wireframe walkthrough uncovered...
 2. The about and FAQ's could really be merged into one and the about can be a tab of the FAQ page.
 3. Submitting food items on the user main page could be clearer.
 
-## Third Prototype: First high-fidelity design
+## Third Prototype: First High-fidelity Design
 
 
 
-## Fourth Prototype: Second high-fidelity Design
+## Fourth Prototype: Second High-fidelity Design
 
 This prototype includes elements of play and emphasizes the objectives to bring awareness and nudge behavior change. 
 
-###Play Revisited 
+### Play Revisited 
 
 
-###A Nudge for Change 
+### A Nudge for Change 
 
 We purposefully framed the issue to promote behavior change. In terms of language and tone, the prototype applies internal reconciliation to bring awareness and help users internalize the issue to their own actions <sup>1</sup>. For example, on the landing page, uses are asked, “Where has your money gone?” to convey the impact of money lost for them. Then on the search page, they are asked, “What foods have you wasted this month?” to convey their individual contribution to the issue. This approach was supported by research that showed that awareness of the issue on their own behavior is needed to nudge behavior change<sup>2, 3</sup>. To push towards ation, we framed our call-to-action with social-norming. For example, on the results page, the reported cost of individual food waste is compared to the average cost of food waste per individual in the UK: “That’s more waste than that of the majority of people in the UK.” We chose social norming as research has shown that this approach may nudge individuals towards reducing waste<sup>4</sup>. Additionally, at a speaker event, Social Norms-Based Messaging: A Engine for Environmental Action by Author Robert Cialdini, attended by our UX designer, social norming has been a powerful motivator to reduce undesirable behavior. It follows the heuristic of “following the majority” and portrays a behavior as an outlier or not approved. 
 
