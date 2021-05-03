@@ -23,9 +23,6 @@ Reflective discussion of the success of the project. How well did your project f
 ### Reflection on Working Practices
 Reflect on the working practices of your group, how well they did or did not work, e.g, management of issues, communication, Agile (etc)
 
-## Industry and Academic Review
-
-
 
 ## Discussion of Future Work
 Discussion of future work (in terms of design, development and evaluation)
