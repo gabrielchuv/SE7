@@ -47,17 +47,21 @@ Important to note that the food property of the Bins collection is a foreign key
 ## Middle Tier
 
 ### Express
+<img style="float: left;" src="Images/SystemImplementation/express.png">
 Part of the MEAN stack, express is a Node.js framework that makes building an API, to interact with the backend db, really easy. One of the first tasks done with express was to link the frontend (localhost:4200) being served by angular to the server (localhost:3000). It meant the team could use nodemon (detailed below) to continuously track changes to the website and made doing anything to the site much quicker. Building the API that the frontend interacted with was also made vastly simpler (compared to trying to do it without express), express has routing methods so whenever a request (get, post etc) was sent from the frontend, we could code a method to tell the backend exactly what data to retrieve from/send into the db using the mongoose models.
 
 ### Node
+<img style="float: left;" src="Images/SystemImplementation/nodejs.png">
 Node was used to host the backend server. Nodemon was used in extension to Node to continuously serve any changes on the frontend which made the design/responsiveness phase of the site development much quicker and more intuitive.
 
 ### RESTful API
+<img style="float: left;" src="Images/SystemImplementation/api.png">
 The API was built based on the RESTful design. There were only two collections of data we needed to interact with, CRUD (Create, Read, Update, Delete) methods were written for each with two read methods for each collection, to read all or read specific entries. It was decided all methods should be accessible to the user, especially as for this build, the user would only be affecting their local DB and not a shared one. Express handled what method should be triggered based on the request type and the URL and then the method would have a corresponding mongoose command which would be carried out, the response would then be sent back from the db and then send back to the frontend by the api.
 
 ## Front End
 
 ### Angular
+<img style="float: left;" src="Images/SystemImplementation/angular.png">
 At first the implementation of the design to angular was to generate a component for each distinct web page (landing, main, stats pages for the MVP), with two pairs of the team doing the two complex web pages whilst the other member did a simpler one. HTML & Css only was done by the 3 pairs inititially as an easy introduction to Angular development. After the web pages were in a draft state the team (as detailed in sprint 1) split off into different tasks, some working on fine-tuning the responsiveness/layout and structure of the web pages whilst others focussed on coding the typescript to define the logic of each web page.
 
  Half-way through sprint 1 (MVP) the team quickly discovered the power of angular components and nesting relevant components for easy data communication. For example the main page originally had the search bar coded into it, it was pointed out that in future releases the search bar may be needed else where in the site and copying from one page to another would be needlessly complex. Instead a component was created for the search bar and then nested into the main page as a child component. Nesting the component meant that data e.g. a food item being clicked on by the user could easily be outputted to the parent main page component using directives and the Event Emitter class but it also meant whole search bar component could easily be put somewhere else if needed in the future.
@@ -79,6 +83,7 @@ Agile management software, Jira was used to help plan out the features. During t
 The release branch, similar to main, was used for saving the site when it was in an appropriate state for the general public. It was only created during the middle of sprint 3 when we had got the first design of the food wastage calculator site implemented. This was then hosted in the internet via AWS and could be sent out/visited to anyone as opposed to a select few of our test users. Because this branch was for 'release' states only the branch was only pushed twice, once for the first design implementation and once for the second design implentation which is the most current version of the site.
 
 ### Implementation of Docker
+<img style="float: left;" src="Images/SystemImplementation/docker.png">
 Docker was a way to get the same environment working across the whole team for development. Through github we could share the same code and run the site through node (& express) on each machine, but having the same data populating our local instance of the database was a problem. Using a Dockerfile to build an image of the website and then running a docker-compose script to start up and connect the image built, with a containerised instance of mongoDB that prepopulated itself with our needed data (food items).
 
 We could then run/use the site and any data created (bin entries) during runtime was saved into the mongoDB container for use later on.
