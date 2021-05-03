@@ -15,24 +15,22 @@ This web application's primary objective is to increase awareness about househol
 
 ## **The Process**
 
-### 1. [System Design](Portfolio/SystemDesign.md)
-* Product requirements
-* User requirements for key subsystems
-* Architecture of the entire systems
+### 1. [Project Overview](Portfolio/ProjectOverview.md)
+* Project Abstract 
+* Objectives
+* Team
 
 ### 2. [System Implementation](Portfolio/SystemImplementation.md)
-* Stack architecture
-* Back End - MongoDB - database implementation
-* Middle Tier - Express, Node, the RESTful API
+* Stack Architecture
+* Back End - MongoDB
+* Middle Tier - Express, Node, RESTful API
 * Front End - Angular
-* Deployment details (implementation of Docker)
+* Deployment - Docker
 
 ### 3. [UX Design](Portfolio/UXDesign.md)
-* Design Process, early prototyping and ideation
-* Identification of interacting users and broader stakeholders
-* UX approach – design heuristics/approach and methods
-* Understanding of user group
-* The evolution of UI wireframes for key subsystems
+* UX Approach 
+* Timeline 
+* Process - user personas, wireframe evolution, prototypes 
 
 ### 4. [Sprints & Project Management](Portfolio/SprintsAndProjectManagement.md)
 * The team's working methods
