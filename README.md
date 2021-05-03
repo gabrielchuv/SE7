@@ -9,8 +9,6 @@ This web application's primary objective is to increase awareness about househol
 | <img align="left" width="100" height="100" src="Portfolio/Images/anita-profile.png">     |[Anita Nguyen](https://github.com/ng0c) : <wl20794@bristol.ac.uk>| Developer, UX Designer |
 | <img align="left" width="100" height="100" src="Portfolio/Images/profile_JS.jpg">     |[Jessica Sung](https://github.com/jessicaksung) : <zu20706@bristol.ac.uk>| Role here |
 | Picture     |[Gabriel Chu Valdez](https://github.com/gabrielchuv) : <gabriel.chu.2020@bristol.ac.uk>| Role here |
-|             |             |             |
-
 
 ## **The Process**
 
