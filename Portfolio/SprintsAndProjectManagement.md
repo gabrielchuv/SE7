@@ -81,9 +81,9 @@ Creation of epic ...... goal of testing hypotehsis as efficiently as possible so
   - As a designer, I want to design the high fidelity main page so that users can search for items and add them to their list as easy as possible
   - As a designer, I want to design the high fidelity statistics page so that user can absorb and process the value of the application as eas as possible
   - As a backend engineer, I want create the food item entity structure so that 
-  - As a backend engineer, I want to create the food item entity structure so that...
-  - As a backend engineer, I want to....search functionality... so that...
-  - ANYTHING ELSE????
+  - As a backend engineer, I want to create the food item entity structure so that you can have a populated list of food items that the user can select from.
+  - As a frontend engineer, I want to create a service that would allow a form to collect the name of a food item from the user and generate a request to send to the backend to gain a response to send to the user.
+  - As a backend engineer, I created a RESTful API to handle requests and responses from and to the frontend.
 
 #### What was accomplished in sprint 0
 This sprint was used as a starting point for the team to get used to the Scrum methodology. We identified the dependencies that needed to be completed before starting to build the application, tracked them with the help of Jira and finished them by the end of the week. The dependencies mainly had to do with increasing the fidelity of our previous wireframes in order to clarify and speed up the development in subsequent sprints. The basic backend's infrastructure was also put in place.... ALEX FINISH THIS
@@ -104,21 +104,18 @@ This sprint was used as a starting point for the team to get used to the Scrum m
    - As a user, I want to search for a food item so that I can add it to my list of tracked items
    - As a user, I want to navigate to the stats page from the main page so that I can see the result of how much money I'm wasting due to food waste
    - As a user, when I navigate to the stats page I expect to see the forecasted yearly amount of money wasted due to how much food I waste 
-   - ANYTHING ELSE???
-   - DID WE DO ANY RESPONSIVENESS HERE?
 
 #### Highlights
 
 - Users are able to navigate through the entire app and understand what each page is about
-- highlight 2??
-- highlight 3??
+- Search functionality implemented from the main page. The search component was nested within the main page component so that the two could communicate.
+
 
 #### Implementation
 Sprint 1 was where the design phase of the project ended and the implementation phase began. User story points were assigned to each story after having quick group discussions. We knew these scores would vary in practice but they were used to get a rough sense of the complexity of the features and to help share the load evenly throughout the group. 
 
 Pair programming for the sprint was favoured to accelerate learning and debugging, with 2 pods (with two members in each) starting/implementing the more complex features. The one-person pod was given a lesser scored feature to complete.
 
-#### What was accomplished in sprint 1
 We already had a base site from the technical workshops where the frontend and backend were linked and the api was set up to interact with the food items in a database. 
 
 To start off with an easy initiation to the project, each pod was assigned a web page each of the site, an angular component was generated for each page, and the CSS style and HTML was coded to get the look of each page matching the MVP design.
@@ -152,9 +149,11 @@ The additional feature of searching originally took less time than its assigned 
 
 #### Highlights
 
-- Amost all core functionality implemented
+- Almost all core functionality implemented
+- Sending food item data from the frontend to be saved in the backend when clicking on the main page's "Calculate" button
 - Made the application responsive
-- highlight 3????
+- Fixed Docker issues for achieving continuous deployment
+- Added Privacy policy and cookies banner
 
 #### Implementation
 Sprint 2 was where the features left out of the MVP were implemented, a user could search for a food item from the database but nothing would happened when it was clicked, similarly once a food item had been added to the 'binned' receipt based off of the design each food needed a plus and minus button to change the quantity. Clicking the calculate button needed to (as well as navigating to the stats page) send the 'binned' food items out to the database. Site responsiveness for all pages needed to be debugged to get the site working on many different displays (not just monitors). Some team members were having deployment issues with docker and not being able to access food items which also needed to be fixed.
@@ -184,11 +183,13 @@ It was also identified half way through the sprint (15/04) that it would make se
    - As a user, I want to be able to access the application from any browser so that I need little effort to access it
    - As a user, if I waste more/less (yearly) than the average person I want to know by how much so that I get a better idea of how am I doing compared to the general UK population
    - As a product owner, I want to understand how people are using the application so that the team can prioritize features and user stories.
+   - As a frontend engineer, I want to create a search service so that I can send data between unrelated components to calculate yearly cost in the stats page
 
 
 #### Highlights
-- Key functionality such as calculating the forecasted yearly money wasted and comparing it with the average UK consumer was implemented
+- Final key functionality such as calculating the forecasted yearly money wasted and comparing it with the average UK consumer was implemented
 - Hosted the site on AWS EC2 to be able to share it with people easily
+- Redesigned the application and added playful elements
 
 #### Implementation
 Going into sprint 3 the team knew semester two units were back on so there would be less time to work on the website. With this in mind sprint 3 was given an initial duration of two weeks instead of one and the scrum meetings would move to every other day occurrence. It was planned that by the end of sprint 3 the release version of the site would be done, so any nice-to-have features that the team wanted needed implementing. An about page, site footer, alternative navigation, getting the site hosted online, populating the db with more food items, bug fixes for the bin, a cookie notice, T&C's and calulating the yearly cost were all planned for the sprint.
