@@ -212,7 +212,7 @@ The session highlighted key issues in usability and informed the next iteration 
 2. **The burden of inputting and editing food items was greater than the benefit of reminders.** Users agreed that the process of inputting and editing items involved “too many clicks.” One user commented, “It’s going to be faster to go to my fridge and check expiration dates instead of going to my laptop and inputting all of the foods.”
 3. **The application promoted awareness but did not incentivize for behavior change.** A user admitted that reminders of expiring food is good to know but would not incentivise him to reduce food waste. Information regarding money lost would: “If it tells me, 'You wasted $25 bucks,' I’m like 'ugh' I wasted $25. The next time I go grocery shopping, instead of getting a gallon of milk, I’ll get half that and adjust my grocery buying. After months or weeks hopefully I'm closer to 0 wastage.” He suggested providing a metric of food wasted and tackling the causes themselves including poor planning and over-buying.
 
-### Second Prototype: Food Waste Calculator
+## Second Prototype: Food Waste Calculator
 User feedback informed the second prototype which calculates cost accrued for food wasted per individual. The idea is that users will input the food wasted and receive a statistic of how much money they lost from food waste. This addresses issues (1) and (2) in that users will only have to input food waste, which is independent of when they shop for groceries. Assuming the food wasted is less than the food bought, less input is required by users for the system to work. From issue (3) we learned that users are sensitive to financial information. In response, the prototype brings awareness to not only the number of food items that went to waste but also the amount of money lost from food waste. A walk-through is as follows:
 
 1. **Landing page with a one-off use of the calculator. The gives an idea of what the web application is about.**
@@ -258,9 +258,17 @@ The second wireframe walkthrough uncovered...
 2. The about and FAQ's could really be merged into one and the about can be a tab of the FAQ page.
 3. Submitting food items on the user main page could be clearer.
 
-### Third Prototype 
+## Third Prototype: First high-fidelity design
 
-### Fourth Prototype: High-fidelity Design
+### Design evaluation: Design heuristics
+
+
+## Fourth Prototype: Second high-fidelity Design
+
+
+### Design evaluation: Playful elements
+
+
 
 
 
