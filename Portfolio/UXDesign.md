@@ -278,5 +278,14 @@ To provide a quick action that users can respond to, a share option was included
 
 
 
+## Bibliography 
 
-Note, the icons used in the design and application were courtesy of canva.com and giffy.com.
+1. Applying Behaviour Change Methods to Food Waste. (2020). In Routledge Handbook of Food Waste (pp. 293–310). Routledge. https://doi.org/10.4324/9780429462795-23
+2. Bamberg, S., & Moser, G. (n.d.). Twenty years after Hines, Hungerford, and Tomera: A new meta-analysis of psycho-social determinants of pro-environmental behaviour—ScienceDirect. Retrieved April 26, 2021, from https://www.sciencedirect.com/science/article/abs/pii/S0272494406000909
+3. Klöckner, C., & Blöbaum, A. (2010). A comprehensive action determination model—Toward a broader understanding of ecological behaviour using the example of travel mode choice. 574-586. https://doi.org/10.1016/j.jenvp.2010.03.001
+4. Quantified consumer insights on food waste | REFRESH. (n.d.). Retrieved April 26, 2021, from https://eu-refresh.org/quantified-consumer-insights-food-waste
+![image](https://user-images.githubusercontent.com/78549556/116885213-a2b46280-abf5-11eb-808b-7ec4cea7d8a3.png)
+
+
+## Credits 
+The icons used in the design and application were courtesy of canva.com and giffy.com.
