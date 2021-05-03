@@ -28,7 +28,7 @@ TODO: Include class diagrams, sequence diagrams
 The backend consisted of the API, server and the database detailed below?. 
 
 ### MongoDB
-<img style="float: left;" src="Images/SystemImplementation/MongoDB.png">
+<img style="float: left;" src="Images/SystemImplementation/MongoDB.png" width="500" height="150">
 MongoDB was the database host chosen for this website, its a noSQL db so there was no messing around with relationships and making sure tables abided to normal form rules. It allowed the team to hit the ground running, as soon as we had got a high fidelity mock up, we could immediately visulise and design the data model needed to save into Mongo. The data model was fairly simplistic and only consisted of two collections.
 
 * **Fooditems collection**: This was where all the food items a user could pick from (or create) were stored, it had four properties required for each document (food item) name, mass, cost, category (also mongoDB gave it a few automaticaly e.g. each one had a unique _id). It was debated whether the food item should have a volume property, and have it XOR'd with the mass property, so any liquid based food items could be easily quantified (not many people will know how much there milk weighs). From the start it was agreed to just have mass to keep it simple and that volume would be a nice to have feature to be added if there was time.
@@ -47,15 +47,15 @@ Important to note that the food property of the Bins collection is a foreign key
 ## Middle Tier
 
 ### Express
-<img style="float: left;" src="Images/SystemImplementation/express.png">
+<img style="float: left;" src="Images/SystemImplementation/express.png" width="300" height="150">
 Part of the MEAN stack, express is a Node.js framework that makes building an API, to interact with the backend db, really easy. One of the first tasks done with express was to link the frontend (localhost:4200) being served by angular to the server (localhost:3000). It meant the team could use nodemon (detailed below) to continuously track changes to the website and made doing anything to the site much quicker. Building the API that the frontend interacted with was also made vastly simpler (compared to trying to do it without express), express has routing methods so whenever a request (get, post etc) was sent from the frontend, we could code a method to tell the backend exactly what data to retrieve from/send into the db using the mongoose models.
 
 ### Node
-<img style="float: left;" src="Images/SystemImplementation/nodejs.png" width="200" height="200">
+<img style="float: left;" src="Images/SystemImplementation/nodejs.png" width="300" height="200">
 Node was used to host the backend server. Nodemon was used in extension to Node to continuously serve any changes on the frontend which made the design/responsiveness phase of the site development much quicker and more intuitive.
 
 ### RESTful API
-<img style="float: left;" src="Images/SystemImplementation/api.png">
+<img style="float: left;" src="Images/SystemImplementation/api.png" width="400" height="150">
 The API was built based on the RESTful design. There were only two collections of data we needed to interact with, CRUD (Create, Read, Update, Delete) methods were written for each with two read methods for each collection, to read all or read specific entries. It was decided all methods should be accessible to the user, especially as for this build, the user would only be affecting their local DB and not a shared one. Express handled what method should be triggered based on the request type and the URL and then the method would have a corresponding mongoose command which would be carried out, the response would then be sent back from the db and then send back to the frontend by the api.
 
 ## Front End
