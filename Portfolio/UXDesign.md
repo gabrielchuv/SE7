@@ -132,7 +132,7 @@ With the aim of having a user-centred design process from the start, we created 
 
 ![User Persona 1](Images/UXDesign/User_persona_1.png)
 
-#### User surveys
+### Design evaluation: User surveys
 We subjected our assumptions for Max to test by surveying 36 students from various courses at the University of Bristol. The updated user persona was based on the results of the surveys and can be seen below.
 
 Our approach
@@ -151,9 +151,7 @@ Most of the relevant results are reflected by the new user persona, however, an 
 ![User Persona 1](Images/UXDesign/User_persona_2.png)
 
 
-## Design Process
-
-### First Prototype: Reminder for Expiring Foods
+## First Prototype: Reminder for Expiring Foods
 After the initial ideation sessions, we started our first prototype. We wanted to create a website which help people track the expiration date of their food items. We had the assumption that the reason why people waste food is because it expires before they get the chance to eat them. With this in mind, we designed our prototype around the idea of a fridge, which we wanted to be a core component on our website to represent a person's actual fridge. On the website, the user can input all the food items that they have, and the website will estimate the expiration date of that item (the user have the option to change this if it is inaccurate). Once the user have input all their food items, the website will prompt the user when their food is about to expire. The user can decide how frequent they would like to be notified.
 
 Furthermore, we designed our prototype in the perspective of the user, and thus, continuously asked ourselves "if I was a user, what steps would I take next..." This was important to us because we wanted the prototype to have a smooth user flow and that every step made sense.
@@ -205,8 +203,8 @@ Furthermore, we designed our prototype in the perspective of the user, and thus,
 </p>
 <br></br>
 
-#
-### First Prototype: Wireframe Walk-through
+### Design evaluation: User interviews
+
 The wireframe for an application to remind users of expiring foods was evaluated with 5 users aged 18-30 who were interested in sustainability. During a virtual walk-through, users were asked to navigate each page to accomplish tasks including registering for an account, searching for items, editing expiration dates and setting notification preferences. Any difficulties were noted.
 
 The session highlighted key issues in usability and informed the next iteration of the prototype. The issues were as follows:
@@ -246,7 +244,7 @@ User feedback informed the second prototype which calculates cost accrued for fo
 <br></br>
 
 #
-### Second Prototype: Wireframe Walk-through
+### Design evaluation: User interviews
 Users were again shown the updated/new wireframe protoype to see if the changes made were an improvement on the last version and to gleen more insight into improving the user experience of the site. A mix of four users, some from the last feedback session and some new to the site, aged 18-30 were asked to explore the wireframe telling the feedback practioners, their opinion on what each page did, how effective it was at doing this, and what they would do next. The practioners checked off the user story list tasks the user's were able to complete on their own and any tasks left at the end were then hinted at to see if the user could accomplish there task.
 
 The second wireframe walkthrough uncovered...
