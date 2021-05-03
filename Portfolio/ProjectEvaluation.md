@@ -10,7 +10,80 @@ A brief description of what this section is about.
 - [Bibliography](#bibliography)
 
 ## Reflective Discussion of The Success of The Project
-Details of how you evaluated your designs (techniques used & awareness of their limitations). Description of techniques suitable for your particular design. A timeline of evaluation of your design
+Because of the aforementioned scrum/agile work practices the project stayed on track, 
+with the most current release being a site that although basic, was completely made from scratch 
+and is in a usable proof-of-concept/MVP state that has many avenues for extensions to make it a real 
+product. 
+
+The design was constantly being checked by external target users to gain feedback. We did various early design 
+sessions to engage in divergent 
+and convergent thinking. We put the user at the center of our design. We interviewed and surveyed our 
+target audience to further understand them and the problem at hand. We considered design heuristics and 
+iterated on our design to move from low-fi to high-fi ones.
+The feedback we received was used to change the core idea of the site a few times, which was a little 
+frustrating but ensured the site was sensible. 
+
+In terms of the real-world issue part of the brief, we defined the importance of complex global issue (food waste) and broke it down 
+cogently to make it addressable, taking into consideration our location, access to users, and where our 
+efforts would generate the most value (i.e. changing household’s behaviours).
+
+The playful aspect of the site was a weak point and was mostly a second thought 
+during design and development with the team focusing on the serious issue more than the serious play. 
+Sally was added in on the final sprint which did add a bit of playfulness, e.g. interacting with her 
+on the landing page incremented a money estimate. More of 
+this type of interaction with the site could have been used (e.g. better ways of adding food than search 
+and clicking).
+
+With that said, we have achieved a lot within the time space that we had. Our objectives and 
+what we wanted to accomplish with the web application was met and executed well.
+
+
+### Reflection on Working Practices
+The scrum framework (based on agile) used fitted the group really well, However, the separation of roles between 
+the scrum master and product owner was a bit blurry at the beginning. 
+The product owner tried to tell the team how to 
+organise the tech work at the start (which he shouldn’t have done). We quickly learned from our mistakes, and
+the PO organised the sprint planning meetings while, the SM planned the standups.
+
+In the design stage, different sections of the site were visualised/prototyped so the whole 
+team had a clear vision and agreed on what the site should look like and how it should function. Features 
+were extracted from the prototype and given an assigned priority level that defined the different 
+states of the project (MVP, version 2 etc). As we knew what features needed doing first (higher priority ones) from the start, our backlog was
+mostly made-up without too much discussion/planning. In addition, it was good that everyone were 
+willing (and open) to give honest feedback and criticise each other’s ideas.
+
+The stand-up meetings were a bit of a formality, the group was in constant communication on Teams 
+nearly everyday so any issues/ideas were instantly posted to the group. 
+The stand-ups did give the team an agreed upon meeting point to discuss whole group decisions 
+and helped organise as the team worked in different time-zones for most of the development cycle. In addtion,
+most of the team were almost always available during the week and often during weekends, 
+which was useful to solve any important issues (i.e. when we redesigned the app to 
+include playful elements).
+
+Github proved essential, not only for sharing the source code between devs but to manage releases and versions. 
+Because of the way the team used git (as per continuous integration) any merge conflicts that arised were minor, and 
+bugs could be spotted early as the whole team had access to everything.
+
+Overall, everyone has contributed and taken ownership of their parts of the project. Everyone had 
+clear roles while helping each other and learning from each other. With that said, there were clear 
+work preferences among the teammates, and it would have been beneficial to take more advantage of them 
+by allocating or deallocating work accordingly.
+
+
+### Reflection on the impact of COVID-19
+Remote working had both positives and negatives. Working from home rather than in a lab at university
+meant that we could better focus and work more efficiently. We ensured to use Teams everyday and communicate
+with each other about any issues or challenges that arised. In addition, remote working allowed everyone
+to work independently and at their own pace.
+
+With that said, remote working also made some aspects of this project difficult. The ideation process
+and the design process would have been a lot more efficient in-person, as it would have been easier to 
+sketch and move ideas around (although Miro worked it’s not the same experience). In addition, pair programming
+was proven to be more difficult as one could often feel isolated. Another aspect which was also
+a bit challenging was user interviews, it
+would have been better to conduct these interviews in-person, as it usually result in greater insights
+about the underlying motivations of people (i.e. non verbal cues).
+
 
 ### Unit testing / Functional testing.
 Testing of the site, as a whole, was a weak/forgotten point of the development. All testing was done in a functional testing format as this was quicker and simpler than unit testing. The testing normally followed a certain work flow carried out by the developer. On implementation of a task, the developer would be constantly building the site with docker and viewing the tasks page in their browser to ensure the right look/layout or logic was being built and to spot any bugs as they went. After the task was finished the group would be notified and the implementation would be pushed on to the remote repo and merged into develop. Any conflicts would then be dealt with and the developer would begin site-wide function testing normally with one other (for minor features/changes an extra person wasn't needed) to check there were no obvious bugs in the workings of the components, pages and site. Because the site only consisted of three (main) pages, the amount of tasks a user could do on the pages was limited so testing the whole site after a change only took a couple of minutes. 
@@ -25,10 +98,6 @@ For a bigger site (with more pages, components etc) unit testing would have had 
 User acceptance testing. Evaluation of your design with users – methods undertaken, findings, implications
 
 Reflective discussion of the success of the project. How well did your project fulfil the brief? Were all of your own objectives met
-
-### Reflection on Working Practices
-Reflect on the working practices of your group, how well they did or did not work, e.g, management of issues, communication, Agile (etc)
-
 
 ## Discussion of Future Work
 Discussion of future work (in terms of design, development and evaluation)
