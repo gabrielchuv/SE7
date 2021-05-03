@@ -19,27 +19,30 @@ This web application's primary objective is to increase awareness about househol
 * Project Abstract 
 * Objectives
 * Team
+* 
+### 2. [Background & Motivation](Portfolio/BackgroundAndMotivation.md)
+* Industry Review
+* Academic Review
 
-### 2. [System Implementation](Portfolio/SystemImplementation.md)
+### 3. [System Implementation](Portfolio/SystemImplementation.md)
 * Stack Architecture
 * Back End - MongoDB
 * Middle Tier - Express, Node, RESTful API
 * Front End - Angular
 * Deployment - Docker
 
-### 3. [UX Design](Portfolio/UXDesign.md)
+### 4. [UX Design](Portfolio/UXDesign.md)
 * UX Approach 
 * Timeline 
 * Process - user personas, wireframe evolution, prototypes 
 
-### 4. [Sprints & Project Management](Portfolio/SprintsAndProjectManagement.md)
-* The team's working methods
-* Summary of individual contributions
-* Documentation of sprints (high level overview, timeline, and highlights)
-* The team's workflow
+### 5. [Sprints & Project Management](Portfolio/SprintsAndProjectManagement.md)
+* Working Methods 
+* Individual Contributions 
+* Overview of Sprints - timeline, highlights 
 
-### 5. [Project Evaluation](Portfolio/ProjectEvaluation.md)
-* Reflective discussion of the success of the project
-* Discussion of future work
-* Reflection on working practices of our team
-* Social and ethical implications of our work
+### 6. [Project Evaluation](Portfolio/ProjectEvaluation.md)
+* Reflective Discussion on the Success of the Project
+* Discussion of Future Works
+* Reflection on Working Practices of the Team
+* Social and ethical Implications
