@@ -269,6 +269,7 @@ To minimize the amount of information on one page, each task (e.g., introduction
 Based on user feedback, the design of each page was mindful of the number of clicks required from users. Initially, the design relied on pop-up overlays, for example, to search for an item and to adjust its quantity with a drop-down. The overlays were removed in favor of simple icons like the plus and minus icons to adjust quantities of one or more items.
 
 
+
 Next section: [Sprints and Project Management](https://github.com/gabrielchuv/SE7/blob/develop/Portfolio/UXDesign.md)
 
 Go back to [README](https://github.com/gabrielchuv/SE7/blob/develop/README.md)
