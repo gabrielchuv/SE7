@@ -15,21 +15,21 @@
 
 .wrapper {
   position: relative;
-  min-height: 100vh;
-  width: 100%;
+  height: 100vh;
+  width: 100vw;
   margin: 0;
   padding: 0;
   display: flex;
 }
 
 .faq-section {
-  min-height: 100vh;
+  height: 100vh;
   padding: 10vh 0 0;
 }
 
 .split {
   position: absolute;
-  height: 100%;
+  height: 100vh;
   overflow: hidden;
 }
 
@@ -38,11 +38,12 @@
   margin: 0;
   flex: 1;
   margin-left: 3%;
+  width: 40vw;
 }
 
 .left img {
-  height: 180px;
-  width: auto;
+  height: 22vh;
+  width: 12vw;
 }
 
 .left p {
@@ -51,7 +52,7 @@
 }
 
 .split.right {
-  width: 60%;
+  width: 60vw;
   right: 0;
   float: right;
   margin-top: 5%;
@@ -64,14 +65,14 @@
   display: inline-block;
   font-weight: 600;
   line-height: 1;
-  font-size: 50px;
+  font-size: 3vw;
 }
 
 .faq-title h2::before {
   content: "";
   position: absolute;
   left: 40%;
-  width: 100px;
+  width: 7vw;
   height: 2px;
   background: #000000;
   bottom: -25px;
@@ -96,7 +97,7 @@
 }
 
 .faq .card .card-header {
-  padding: 0px;
+  padding: 0;
   border: none;
   background: none;
   -webkit-transition: all 0.3s ease 0s;
@@ -111,13 +112,13 @@
 }
 
 .faq .card .card-header .faq-title {
-  width: 100%;
+  width: 40vw;
   text-align: left;
   padding: 0px;
   padding-left: 30px;
   padding-right: 30px;
   font-weight: 400;
-  font-size: 15px;
+  font-size: 1vw;
   letter-spacing: 1px;
   color: #3B566E;
   text-decoration: none !important;
@@ -135,9 +136,9 @@
   padding-left: 35px;
   padding-bottom: 16px;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 0.8vw;
   color: #6F8BA4;
-  line-height: 28px;
+  line-height: 2.5vh;
   letter-spacing: 1px;
   border-top: 1px solid #F3F8FF;
 }
@@ -147,7 +148,7 @@
 }
 
 #last-card {
-  height: 250px;
+  height: 30vh;
 }
 
 #last-card p {
@@ -158,12 +159,162 @@
   font-weight: bold;
 }
 
-@media (max-width: 991px) {
-  .faq {
-    margin-bottom: 30px;
+/*@media (max-width: 991px) {*/
+/*  .faq {*/
+/*    margin-bottom: 30px;*/
+/*  }*/
+/*  .faq .card .card-header .faq-title {*/
+/*    line-height: 26px;*/
+/*    margin-top: 10px;*/
+/*  }*/
+/*}*/
+
+@media all and (orientation: landscape) {
+
+  @media (max-width: 767px) {
+    .split.right {
+      background-color: orange;
+      display: flex;
+      justify-content: center;
+      margin-top: 0;
+    }
+
+    .faq-section {
+      padding: 0;
+    }
+
+    .faq {
+      width: 45vw;
+      transform: translate(20%, 0);
+    }
+
+
+    .faq .card .card-header .faq-title {
+      font-size: 1.5vw;
+      height: 10vh;
+    }
+
+    .faq .card .card-body {
+      font-size: 1.5vw;
+    }
+
+    #last-card {
+      height: 20vh;
+    }
   }
-  .faq .card .card-header .faq-title {
-    line-height: 26px;
-    margin-top: 10px;
+
+  @media (min-width: 768px) and (max-width: 1100px) {
+
+    .split.right {
+      background-color: red;
+      display: flex;
+      justify-content: center;
+    }
+
+    .faq-section {
+      padding: 0;
+    }
+
+    .faq {
+      width: 40vw;
+      transform: translate(-10%, 0);
+    }
+
+    .faq .card .card-header .faq-title {
+      font-size: 1.5vw;
+    }
+
+    .faq .card .card-body {
+      font-size: 1.5vw;
+    }
   }
 }
+
+  @media all and (orientation: portrait) {
+
+    .split.left {
+      height: 48vh;
+      width: 100vw;
+      top: 0;
+    }
+
+    table {
+      table-layout: fixed;
+      width: 100vw;
+    }
+    .faq-section {
+      padding: 0;
+    }
+
+    .left img {
+      height: 12vh;
+      width: 22vw;
+    }
+
+    .split.right {
+      height: 52vh;
+      width: 100vw;
+      bottom: 0;
+    }
+
+    .faq {
+      width: 80vw;
+      transform: translate(-20%, 0);
+    }
+
+    .faq .card .card-header .faq-title {
+      font-size: 2vw;
+      padding-right: 0;
+    }
+    .faq .card .card-body {
+      font-size: 2vw;
+    }
+    #last-card {
+      height: 15vh;
+    }
+
+    #last-card p {
+      padding: 30px;
+    }
+
+    #last-card strong {
+      font-weight: bold;
+    }
+
+    @media (max-height: 900px){
+      .split.left {
+        height: 38vh;
+        width: 100vw;
+      }
+      .left img {
+        height: 9vh;
+        width: 14vw;
+      }
+      .split.right {
+        height: 62vh;
+        width: 100vw;
+      }
+      .faq {
+        width: 90vw;
+        transform: translate(5%, 0);
+      }
+      .faq-title h2 {
+        font-size: 7vw;
+      }
+      .faq-title h2::before {
+        width: 20vw;
+      }
+      .faq .card .card-header .faq-title {
+        font-size: 3vw;
+        padding-right: 0;
+        padding-bottom: 10px;
+      }
+      .faq .card .card-body {
+        font-size: 2.5vw;
+      }
+      #last-card {
+        height: 15vh;
+      }
+    }
+  }
+
