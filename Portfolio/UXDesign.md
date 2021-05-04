@@ -70,7 +70,9 @@ Session 13: designing for high-fidelity design: the high-fidelity design was pre
 ## Design Process
 
 ### First User Persona
-With the aim of having a user-centred design process from the start, we created a hypothethical target user persona. Max is mainly characterized by caring about the environment and wanting to take action outside and inside his life to create a more sustainable world. Further details can be seen below:
+We defined our boarder stakeholders to include university students and young professionals around the age of 18-30yrs. The reason they are our main stakeholders is due to the lifestyle of a young professional and university student. An assumption is that students under the age of 18 at school are less likely to be cooking their own meals and doing shopping. However, university students especially live a very busy and stressful lifestyle which may lead to them wasting more food. Students may be likely to buy items at discounted prices/special offers which are close to expiry dates. Hence, their chance of wasting food is higher as items are closer to expiry dates. Also, students may get take-away which may be wasted or cause other items they bought to go off. This is the main reason this makes them stakeholders. Young professionals are likely to be busy and learning to cook and manage time. Hence their chance of food wastage is also high. With time management, it may lead to quicker meals being made which don’t use all ingredients, takeaway, which could again lead to food wastage. 
+
+With our broader stakeholder defined, we created a hypothethical target user persona. Max is mainly characterized by caring about the environment and wanting to take action outside and inside his life to create a more sustainable world. Further details can be seen below:
 
 ![User Persona 1](Images/UXDesign/User_persona_1.png)
 
@@ -78,9 +80,11 @@ With the aim of having a user-centred design process from the start, we created 
 We subjected our assumptions for Max to test by surveying 36 students from various courses at the University of Bristol. The updated user persona was based on the results of the surveys and can be seen below.
 
 Our approach
-We selected questions that would allow us to test the different areas that we deeemed core to our user persona. More specifically, we aimed to gather data around the assumptions we had made about our users' goals, frustrations, demographics and food consumption habits. Additionally, we selected questions that would allows us to understand to what extend an individual user was experiencing the issue of wasting food.
+We selected questions that would allow us to test the different areas that we deeemed core to our user persona. More specifically, we aimed to gather data around the assumptions we had made about our users' goals, frustrations, demographics and food consumption habits. Additionally, we selected questions that would allows us to understand to what extend an individual user was experiencing the issue of wasting food. Questions included how often groceries were bought, how often they find food has gone bad, why it happened and how would they prevent this from happening. It was hoped that by gathering responses from this survey, we could tailor and target our SPA to the correct issues and impact to raise awareness. 
 
 Moreover, we approached the data analysis by first filtering the results by frequency of experiencing the problem of food wastage to narrow down the results to those who experienced the problem the most. These people are more likely to become early adopters and 50% of surveyees fit this criterion. This subset of people was further analyzed. Some of the questions were open-ended so we placed the data into categories (i.e. Hobbies: likes sports, likes arts etc.) to be able to summarize it.
+
+Though the survey was aimed at our target users (university students) it was skewed towards students at one university or just friends.  It would be more useful to collect responses at different universities, age groups and geographic areas to see if our assumptions are generalizable. 
 
 Insights
 
@@ -198,6 +202,7 @@ Users were again shown the updated/new wireframe protoype to see if the changes 
 1. The naming of the statistics tab and page caused confusion as to what the tab pertained before going to it, renaming it to something more OBVIOUS? (what else would statistics means on a tracking food wastage site).
 2. The about and FAQ's could really be merged into one and the about can be a tab of the FAQ page.
 3. Submitting food items on the user main page could be clearer.
+4. The wireframe was designed for desktop view but users may interact with the site on different devices or layouts. During the walkthrough, one user viewed it on a mobile screen, which the wireframe was not designed for. 
 
 ## Third Prototype: First High-fidelity Design
 
@@ -250,22 +255,6 @@ As inputting the food items wasted involves the most feedback from users, severa
 To minimize the amount of information on one page, each task (e.g., introduction of the application, input of food items, output of the cost of food wasted)  was given its own page.
 
 Based on user feedback, the design of each page was mindful of the number of clicks required from users. Initially, the design relied on pop-up overlays, for example, to search for an item and to adjust its quantity with a drop-down. The overlays were removed in favor of simple icons like the plus and minus icons to adjust quantities of one or more items.
-
-**Design Evaluation
-
-We used many methods for evaluation of our ideas for this project.  We identified our target audience which included young professionals and students.  Once the target audience was identified, an anonymised survey was created and sent out to them.  The survey included demographical questions such as age, profession, education level.  More targeted questions were then asked which collected information on shopping and consumption habits.  Questions included how often groceries were bought, how often they find food has gone bad, why it happened and how would they prevent this from happening.  It was hoped that by gathering responses from this survey, we could tailor and target our SPA to the correct issues and impact to raise awareness.  We received 38 responses which we used to tailor our application, and which provided valuable insight.  
-Using balsamiq, we also generated a design prototype of the website.  Within this prototype, we linked together slides (pages) so as to make the prototype as realistic as possible.  This was then shown to various people within our target audience, so to obtain their opinion on the function and ease of use of the application.  Valuable feedback was given which led to us changing our initial idea from a fridge to track waste, to tracking the amount of food wasted.  We also received feedback on the layout of the website and changes to be made.
-Our final design evaluation involved gathering feedback on a working version of our site so to get final opinions and also final feedback on minor changes which can be made to our site design.  The aim of this feedback was not to change the site or pages but to maybe make ease of use easier or find the best layout with people.
-These methods of evaluation were very useful, as without them, it would have been very difficult to tailor our SPA for our target audience.  Rather than just creating a functional application, it is important to maximise the impact factor of it so to bring about awareness and change.  The design prototype was especially useful as this is what enabled us to change and bring about more impact for the issue we were tackling.  Also, the design prototype was very useful for seeing how a user might interact with a website (which might not necessarily be how we would).  Hence, unclear buttons or navigation can be changed and can make the website as easy to use as possible.
-However, these methods of evaluation, as useful as they are, also have many drawbacks and limitations.  One such limitation is that our demographics were very skewed towards people in Bristol or just friends.  It would be more useful to collect responses on different age groups, and areas where the average income is lower or higher to see how useful the application would be for those people.  Another limitation, is that the design prototype was for desktop view and many of our users may use the application on a mobile which may have a different layout.  
-
-**Stakeholders
-
-Our broader stakeholders include university students and young professionals around the age of 18-30yrs.  The reason they are our main stakeholders is due to the lifestyle of a young professional and university student.  An assumption is that students under the age of 18 at school are less likely to be cooking their own meals and doing shopping. 
-However, university students especially live a very busy and stressful lifestyle which may lead to them wasting more food.  Students may be likely to buy items at discounted prices/special offers which are close to expiry dates.  Hence, their chance of wasting food is higher as items are closer to expiry dates.  Also, students may get take-away which may be wasted or cause other items they bought to go off.  This is the main reason this makes them stakeholders.
-Young professionals are likely to be busy and learning to cook and manage time.  Hence their chance of food wastage is also high.  With time management, it may lead to quicker meals being made which don’t use all ingredients, takeaway, which could again lead to food wastage.
-Both these broader stakeholders would benefit from our product as it allows them to estimate the amount of food wasted.  By being able to estimate the amount of food wasted, it is hoped that our stakeholders are able to be shocked or be able to see how much they could save by not wasting food.  
-
 
 ## Bibliography 
 
