@@ -105,21 +105,21 @@ h1, h2 {
 
 .thought-bubble {
   position: absolute;
-  height: 27%;
-  width: 32%;
-  left: 12%;
-  bottom: 50%;
+  height: 20vh;
+  width: 20vw;
+  left: 10%;
+  top: 20%;
   z-index: -1;
 }
 
 .bubble-text {
   position: absolute;
-  height: 30%;
-  width: 30%;
-  left: 12%;
-  bottom: 35%;
+  height: 15vh;
+  width: 15vw;
+  left: 15%;
+  top: 30%;
   text-align: center;
-  font-size: 1.3rem;
+  font-size: 1vw;
 }
 
 .sally {
@@ -140,6 +140,13 @@ h1, h2 {
       transform: translate(0, -10%);
       height: 50vh;
       width: 50vw;
+    }
+
+    .thought-bubble {
+      transform: translate(-85%, -30%);
+    }
+    .bubble-text {
+      transform: translate(-100%, -10%);
     }
     .estimateTerm {
       font-size: 3.5vw;
@@ -171,9 +178,15 @@ h1, h2 {
       height: 40vh;
       width: 40vw;
     }
+    .thought-bubble {
+      transform: translate(-85%, -10%);
+    }
+    .bubble-text {
+      transform: translate(-100%, 10%);
+    }
     .estimateTerm {
       font-size: 3vw;
-      transform: translate(0, 60%);
+      bottom: 10%;
     }
     .content-right {
       top: 20%;
@@ -207,8 +220,20 @@ h1, h2 {
     width: 100vw;
   }
 
+  .thought-bubble {
+    width: 50vw;
+    left: 0;
+    height: 10vh;
+  }
+
+  .bubble-text {
+    font-size: 2.5vw;
+    width: 40vw;
+    left: 5%;
+  }
+
   .estimateTerm {
-    transform: translate(-85%, 0);
+    transform: translate(-100%, 0);
   }
 
   @media (max-height: 900px){
@@ -222,6 +247,7 @@ h1, h2 {
     .subheader {
       font-size: 5vw;
     }
+
     .btn {
       font-size: 4vw;
     }
@@ -232,6 +258,7 @@ h1, h2 {
     .estimateTerm {
       font-size: 5vw;
       transform: translate(-75%, 0);
+      bottom: 5%;
     }
   }
 }
