@@ -53,13 +53,9 @@ Each member acted as a full-stack developer with specialties in particular areas
 - Developer: he contributed to the frontend and hosted our application on AWS to share it with users.
 
 
-## Rationale behind MVP
-
-
 ## Documentation of Sprints
 
-
-### High-level overview
+### Rationale behind MVP
 
 Criteria: we used 3 criteria to decide what to include in our first iteration of the MVP. 
   1. The lean methodology which promotes the identification and testing of the riskiest assumptions.
