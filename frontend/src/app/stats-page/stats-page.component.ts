@@ -53,9 +53,11 @@ export class StatsPageComponent implements OnInit {
     })
 
     // get estimates from messaging service
-    this.weeklyEstimate = this.messageService.getEstimate();
-    // calculate yearly estimate
-    this.yearlyEstimate = (parseInt(this.weeklyEstimate) * 52).toString();
+    if (this.messageService.getEstimate() !== "") {
+      this.weeklyEstimate = this.messageService.getEstimate();
+      // calculate yearly estimate based on weekly estimate
+      this.yearlyEstimate = (parseInt(this.weeklyEstimate) * 52).toString();
+    }
 
   }
 
