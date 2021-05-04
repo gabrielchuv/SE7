@@ -22,7 +22,8 @@ The MEAN (MongoDB, Express, Angular, Node) stack was chosen to build and run the
 * MEAN is written in one language, Javascript (/Typescript), across both server and client ends, so makes team work and co-ordination much simpler
 * NoSQL database is a lot easier to design, run and use compared to SQL, also able to scale well both vertically and horizontally
 
-![Front End](Images/SystemImplementation/frontend_class_diagram.png)
+![Frontend](Images/SystemImplementation/frontend_class_diagram.png)
+![Backend](Images/SystemImplementation/backend.png)
 
 TODO: Include class diagrams, sequence diagrams
 
