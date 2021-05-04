@@ -59,7 +59,7 @@ h1, h2 {
 .btn-image {
     background-color: inherit;
     border:none;
-    margin-left: 50%;
+    margin-left: 40%;
 }
 
 .cropped {
@@ -93,6 +93,30 @@ h1, h2 {
     align-items: center;
     justify-content: center;
 }
+
+.thought-bubble {
+  position: absolute;
+  height: 27%;
+  width: 32%;
+  left: 12%;
+  bottom: 50%;
+  z-index: -1;
+}
+
+.bubble-text {
+  position: absolute;
+  height: 30%;
+  width: 30%;
+  left: 12%;
+  bottom: 35%;
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+.sally {
+  width: 100%;
+}
+
 
 @media all and (orientation: landscape) {
 
