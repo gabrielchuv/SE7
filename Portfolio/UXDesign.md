@@ -157,7 +157,7 @@ The session highlighted key issues in usability and informed the next iteration 
 ## Second Prototype: Food Waste Calculator
 User feedback informed the second prototype which calculates cost accrued for food wasted per individual. The idea is that users will input the food wasted and receive a statistic of how much money they lost from food waste. This addresses issues (1) and (2) in that users will only have to input food waste, which is independent of when they shop for groceries. Assuming the food wasted is less than the food bought, less input is required by users for the system to work. From issue (3) we learned that users are sensitive to financial information. In response, the prototype brings awareness to not only the number of food items that went to waste but also the amount of money lost from food waste. A walk-through is as follows:
 
-1. **Landing page with a one-off use of the calculator. The gives an idea of what the web application is about.**
+1. **Landing page with a one-off use of the calculator. This gives an idea of what the web application is about.**
 
 <p align="center">
 <img src="Images/UXDesign/landing-page-cal.gif">
@@ -178,7 +178,7 @@ User feedback informed the second prototype which calculates cost accrued for fo
 </p>
 <br></br>
 
-4. **Once the user have entered in all their food items, they can navigate to the statistics page and view their results. A cost breakdown is included to help the user understand how much money they have wasted. In addition, the user can view the impact their waste have on the environment. Lastly, a food breakdown is included to help the user better understand which food item they are wasting the most**
+4. **Once the user have entered in all of their food items, they can navigate to the statistics page and view their results. A cost breakdown is included to help the user understand how much money they have wasted. In addition, the user can view the impact their waste have on the environment. Finally, a food breakdown is included to help the user better understand which food item they are wasting the most**
 
 <p align="center">
 <img src="Images/UXDesign/stats-cal.gif">

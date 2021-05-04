@@ -54,7 +54,8 @@ Video goes here
 
 ### 5. [Project Evaluation](Portfolio/ProjectEvaluation.md)
 * Reflective Discussion on the Success of the Project
-* Discussion of Future Works
 * Reflection on Working Practices of the Team
+* Reflection on The Impact of COVID-19
+* Discussion of Future Works
 * Social and Ethical Implications
 
