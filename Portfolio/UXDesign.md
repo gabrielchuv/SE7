@@ -267,7 +267,7 @@ As inputting the food items wasted involves the most feedback from users, severa
 To minimize the amount of information on one page, each task (e.g., introduction of the application, input of food items, output of the cost of food wasted)  was given its own page.
 
 Based on user feedback, the design of each page was mindful of the number of clicks required from users. Initially, the design relied on pop-up overlays, for example, to search for an item and to adjust its quantity with a drop-down. The overlays were removed in favor of simple icons like the plus and minus icons to adjust quantities of one or more items.
-<br>
+<br><br><br>
 Next section: [Sprints and Project Management](https://github.com/gabrielchuv/SE7/blob/develop/Portfolio/UXDesign.md) <br>
 Go back to [README](https://github.com/gabrielchuv/SE7/blob/develop/README.md)
 
