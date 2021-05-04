@@ -39,7 +39,7 @@ Each member acted as a full-stack developer with specialties in particular areas
 - DevOps: integrated project with docker.
 
 **Zain Kassam** : was involved in various aspects of this projects - especially in areas of his strengths.  These include:
--UX design: helping with linking up the high fidelity design to allow for seamless user testing.
+- UX design: helping with linking up the high fidelity design to allow for seamless user testing.
 - Development: worked on various aspects of front-end development.  These include implementing the first landing page (before redesign), stats page and contribution to functionality of other aspects of the main page.
 - Responsiveness: ensuring that all the pages are responsive on majority of devices
 
