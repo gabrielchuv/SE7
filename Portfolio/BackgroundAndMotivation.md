@@ -29,17 +29,17 @@ Given the magnitude of the problem, it is not surprising the the United Nations 
 
 ## Problem definition
 
-To start tackling this complex global issue, we will first make a distinction between food loss and food waste. The former generally signifies food lost in the earlier stages of production (i.e. food suppliers excluding retailers and consumers) whereas the latter refers to food that is fit for human consumption that is not used<suo>10</sup>. Perhaps unsurprisingly, the proportion of food lost or wasted during later stages of the supply chain (i.e. by consumers) is greater in developed economies like the UK than in developing ones<sup>11</sup> (GRAPH). For this reason, and due to our proximity and access to UK end-consumers (i.e. students), this project will focus on reducing UK end-consumers’ food waste. 
+To start tackling this complex global issue, we will first make a distinction between food loss and food waste. The former generally signifies food lost in the earlier stages of production (i.e. food suppliers excluding retailers and consumers) whereas the latter refers to food that is fit for human consumption that is not used<suo>10</sup>. Perhaps unsurprisingly, the proportion of food lost or wasted during later stages of the supply chain (i.e. by the retail sector and consumers) is greater in developed economies like the UK than in developing ones<sup>11</sup> (GRAPH). For this reason, we will reduce the scope of the project to focus on the retail sector and end consumers.
 
-If we zoom into the UK context, we find that, in 2018, 9.5 billion tonnes of food were wasted, out of which, 70% (or 6.6 billion tonnes) were edible. This is equivalent to 19 billion pounds a year or 25 million tonnes of greenhouse gases. Moreover, 70% of this waste comes from households. This is 6.6 million tonnes wasted (or 4.5 million edible tonnes). Only 28% comes from the manufacturing and HaFS sectors combined.<sup>12</sup>
+If we zoom into the UK context, we find that, in 2018, 9.5 billion tonnes of food were wasted, out of which, 70% (or 6.6 billion tonnes) were edible. This is equivalent to 19 billion pounds a year or 25 million tonnes of greenhouse gases. Moreover, 70% of this waste comes from households. This is 6.6 million tonnes wasted (or 4.5 million edible tonnes). On the other hand, only 28% comes from the manufacturing and Hospitality and Food Service sectors combined.<sup>12</sup>
 
-Being the group that contributes the most with wastage, and because most current tools are targeted towards businesses (according to our industry review) we will be focusing on households as our target segment.
+As mentioned above, households are the group that contributes the most with wastage. Moreover, according to our industry review, most food-wastage calculator tools are targeted towards businesses. In light of these reasons, and given our proximity and access to a household sub-segment (i.e. students), we will be focusing on students as our target segment.
 
 If we zoom in even further to understand what causes this food waste, we encounter that 41% of food (by weight) was wasted because it was not used in time, 28% due to personal preference, and 25% because people cooked too much<sup>12</sup>. These are all reasons upon which consumers have agency and could potentially change if properly motivated. Therefore, we have decided to focus on increasing consumers’ motivation to waste less.
 
-Finally, as conveyed by our industry review, other alternatives have been unsuccessfully trying to balance solutions that offer both convenience and accuracy. Thus, our final definition of the problem is:
+Finally, as conveyed by our industry review, other alternatives have been unsuccessfully trying to balance solutions that offer both convenience and accuracy. Thus, our definition of the problem is:
 
-<b>We will focus on motivating UK studnets to waste less in order to contribute towards the reduction of food wastage coming from UK households. At a lower-level, we will attempt to solve the problems of inconvenience and accuracy simultaneously in order to aid with our overlying goal of motivating students.</b>
+<b>We will focus on motivating UK studnets to waste less in order to contribute towards the reduction of food wastage coming from UK households. At a lower-level, we will attempt to solve the problems of inconvenience and inaccuracy simultaneously in order to aid with our overlying goal of motivating students.</b>
 
   
 ## Bibliography
