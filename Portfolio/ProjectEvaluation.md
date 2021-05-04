@@ -193,3 +193,7 @@ that we were able to get a lot of different perspectives on our design.
 <br></br>
 
 ## Bibliography
+
+
+<br><br>
+Go back to [README](https://github.com/gabrielchuv/SE7/blob/develop/README.md)
