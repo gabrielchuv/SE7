@@ -9,7 +9,7 @@ footer {
     position:relative;
     z-index: 9;
 }
-    
+
 footer h3 {
     color: #FFFFFF;
     letter-spacing: 1px;
@@ -17,12 +17,22 @@ footer h3 {
     font-size: 25px;
     font-weight: bold !important;
     cursor: pointer;
+
 }
+
+.logo-title {
+  font-family: 'Gaegu', cursive;
+  margin-left: 2%;
+  font-size: 1.3em;
+  color: #FFF;
+  text-decoration: none;
   
+}
+
 footer .list-items {
    overflow: hidden;
 }
-  
+
 footer .list-items li {
     width: 33.3333%;
     float: left;
@@ -37,8 +47,8 @@ footer .list-items li:hover {
     padding: 5px 0;
     color: rgb(143, 141, 141);
 }
- 
-    
+
+
 footer .copyright {
     padding: 15px 0;
     background: #272C35;
@@ -46,7 +56,7 @@ footer .copyright {
     font-size: 15px;
     color: #aaa;
 }
-  
+
 footer .copyright span {
     color: #aaa;
 }

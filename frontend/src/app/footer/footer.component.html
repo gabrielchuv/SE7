@@ -1,14 +1,23 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Gaegu:wght@700&display=swap');
+</style>
+
 <footer>
     <div class="container">
         <div class="row">
             <div class="col-lg-4 col-md-6">
-                <h3><a (click)=onAppNameClick()>Money Bin</a></h3>
+
+                <h3>
+                  <img src="/assets/bin_white.png" alt="" width="30" height="30" class="d-inline-block align-text-top">
+                  <a class="logo-title"(click)=onAppNameClick()>Money Bin</a>
+                </h3>
+
                 <ul class="list-items">
                     <li><a (click)="onAboutClick()">About Us</a></li>
                     <li><a (click)="onPrivacyClick()">Privacy Policy</a></li>
                 </ul>
-            </div>        
-        </div>      
+            </div>
+        </div>
     </div>
     <div class="copyright text-center">
         &copy; 2021 <span>Money Bin</span>
