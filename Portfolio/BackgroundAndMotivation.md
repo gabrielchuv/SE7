@@ -40,11 +40,10 @@ If we zoom in even further to understand what causes this food waste, we encount
 Finally, as conveyed by our industry review, other alternatives have been unsuccessfully trying to balance solutions that offer both convenience and accuracy. Thus, our definition of the problem is:
 
 <b>We will focus on motivating UK studnets to waste less in order to contribute towards the reduction of food wastage coming from UK households. At a lower-level, we will attempt to solve the problems of inconvenience and inaccuracy simultaneously in order to aid with our overlying goal of motivating students.</b>
-
-
-[Next section: UX Design](https://github.com/gabrielchuv/SE7/blob/main/Portfolio/UXDesign.md)
-
-[Go back to README](https://github.com/gabrielchuv/SE7/blob/main/README.md)
+<br><br><br>
+Next section: [UX Design](https://github.com/gabrielchuv/SE7/blob/develop/Portfolio/UXDesign.md)
+<br>
+Go back to [README](https://github.com/gabrielchuv/SE7/blob/develop/README.md)
 
 
   
