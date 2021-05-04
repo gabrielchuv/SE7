@@ -38,7 +38,7 @@ Each member acted as a full-stack developer with specialties in particular areas
 - Frontend: created the search service, models, and contributed to search component logic, main page logic, stats page logic.
 - DevOps: integrated project with docker.
 
-**Zain Kassam** :
+**Zain Kassam** : was involved in various aspects of this projects - especially in areas of his strengths.  These include:
 
 **Anita Nguyen** was involved in various aspects of the project. These aspects includes:
 - UX desgin: co-created and distributed surveys to better understand the target audience. Was involved in some design sessions and co-led initial ideation sessions. 
