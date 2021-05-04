@@ -66,14 +66,13 @@ Criteria: we used 3 criteria to decide what to include in our first iteration of
   2. A risk/difficulty assessment to focus our efforts on high risk assumptions that are relatively easy to test.
   3. Data from our user survey to focus our efforts on the assumption that is most likely to be true according to potential users.
 
-We ranked our assumptions by order of risk and framed them as testable hypotheses. We selected the "problem" and "target segment" assumptions from our Lean Canvas (insert link) because they are the ones that can "make or break" our project. Moreover, we did not select the first (riskiest) assumption because it is dependent on the other ones and, hence, more difficult to test from the start. From the remaining assumptions, we chose number 2 because, according to our surveys, 33% of surveyees cared about food wastage due to the money associated with it. This was the largest group.
+We ranked our assumptions about the problem we are solving by order of risk and framed them as testable hypotheses. The first 2 hypotheses concerned our two main objectives, namely, raising awareness and motivating a change on behaviour. However, these are reliant on users being interested enough to engage with the application. Thus, we hypothesized three reasons (hypotheses 3 to 5) why they might engage and selected hypothesis 2 because according to our surveys, 33% of surveyees cared about food wastage due to the money lost associated with it. This was the largest group.
 
-   1. We believe postgraduate students at the University of Bristol will reduce their food wastage after seeing how much they would have wasted in a year.
-   2. We believe postgraduate students at the University of Bristol will input their wasted food because they care about knowing how much money they are wasting due to wasted food.
-   3. We believe postgraduate students at the University of Bristol will input their wasted food because they care about knowing how much food they are wasting.
-   4. We believe postgraduate students at the University of Bristol will input their wasted food because they care about knowing how much pollution they are contribution with due to wasted food.
-
-Creation of epic ...... goal of testing hypotehsis as efficiently as possible so user stories stem from this
+   1. We believe students at the University of Bristol will share the application with their friends because they think the application proposes a compelling case in favour of wasting less food.
+   2. We believe students at the University of Bristol will reduce their food wastage after seeing how much they would have wasted in a year.
+   3. We believe students at the University of Bristol will input their wasted food because they care about knowing how much money they are wasting.
+   4. We believe students at the University of Bristol will input their wasted food because they care about knowing how much food they are wasting.
+   5. We believe students at the University of Bristol will input their wasted food because they care about knowing how much pollution they are contribution with due to wasted food.
 
 
 ### Sprint 0: Working on dependencies
