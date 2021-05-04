@@ -97,3 +97,8 @@ Functional testing was favoured for the development of the site as it was quicke
 Docker was a way to get the same environment working across the whole team for development. Through github we could share the same code and run the site through node (& express) on each machine, but having the same data populating our local instance of the database was a problem. Using a Dockerfile to build an image of the website and then running a docker-compose script to start up and connect the image built, with a containerised instance of mongoDB that prepopulated itself with our needed data (food items).
 
 We could then run/use the site and any data created (bin entries) during runtime was saved into the mongoDB container for use later on.
+
+<br><br><br>
+Next section: [Project Evaluation](https://github.com/gabrielchuv/SE7/blob/develop/Portfolio/ProjectEvaluation.md)
+<br>
+Go back to [README](https://github.com/gabrielchuv/SE7/blob/develop/README.md)
