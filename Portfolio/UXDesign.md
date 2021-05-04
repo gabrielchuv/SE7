@@ -206,7 +206,15 @@ Users were again shown the updated/new wireframe protoype to see if the changes 
 
 ## Third Prototype: First High-fidelity Design
 
-### Design Evaluation: Play Revisited and Call-for-Action 
+After iterating on the wireframes, it was time to design and develop the minimum viable product. For the purposes of a minimally usable site, we decided to focus on the practical implementation of a food waste calculator. The focus was on 3 main pages: 
+
+1. landing page  where users are introduced to the objective of the site. 
+2. search page where users are asked to search for spoiled foods and populate them in a list. 
+3. results page where users are informed of how much money they are losing per year from food waste. 
+
+We decided to separate each tasks into separate pages and include only the necessary information and features to complete the task. Thus, we removed the navigation tab which caused confusion in the wireframe walk-through and designed a system where users are guided to the next page via buttons. In response to the feedback on responsiveness, we developed the site to be compatible on major screen sizes. This site was deployed to share with users for evaluation via AWS. 
+
+### Design Evaluation: Play Revisited and a Call-for-Action 
 Up until now, the focus has been on the serious problem and the prototypes were practical in nature. The design challenge was to embed elements of play throughout the interaction and create an enjoyable experience to a practical calculator application. 
 
 A lengthy discussion was had. Some members suggested diverging the project idea to focus on carbon pollution and bring back Jane the Cow, which users spoke highly of. The character was humorous but this would involve redesigning and changing focus of the project with 3 weeks until deadline. Other members suggested an earlier idea of a “Black Mirror” storyline to introduce the problem and provide users two options per scene of how the storyline should play out. This idea was engaging but it was difficult to think of how to incorporate existing features (e.g., search engine for foods, food item list, calculated money lost from food waste) to the storyline. 
@@ -219,8 +227,10 @@ To provide a quick action that users can respond to, a share option was included
 
 ## Fourth Prototype: Second High-fidelity Design
 
+With a functioning food waste calculator and a consensus on the playful interactions of the site, a high-fidelity prototype was designed. This included all of the search and calculate features in the MVP. The calculator itself was made playful by gamifying its use. The tone of the site changed from “input food items went to waste and see how much money you lost from food waste” to “guess how much you loss from food waste and see how much you’re actually losing.” The high-fidelity design incorporated the playful elements within the core of the application and emphasized the objective to bring awareness by featuring a sharing option. 
+
 ### Design Evaluation: Design Heuristics
-5 common usability heuristics were taken into account. This was adapted from https://www.nngroup.com/articles/ten-usability-heuristics/.
+THe final prototype was evaluated against common usability heuristics. This was adapted from https://www.nngroup.com/articles/ten-usability-heuristics/.
 
 **1. Visibility of the system**
 
