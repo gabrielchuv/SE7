@@ -49,6 +49,7 @@
   height: 100%;
   bottom: 0;
   left: 48%;
+  z-index: -1;
 }
 
 .thought-bubble {
@@ -125,7 +126,6 @@
   grid-auto-flow: column;
   justify-items: center;
   background: #FFFFFF;
-  max-height: 6.5%;
   height: 4vh;
   padding-top: 1%;
   border-bottom:  2px solid #272C35;
@@ -139,10 +139,7 @@
 }
 
 .item {
-  /*padding: 20px 30px;*/
-  padding-top: 2%;
-  max-height: 10%;
-  height: 100%;
+  height: 5vh;
   display: flex;
 }
 
@@ -156,32 +153,26 @@
 .description {
   width: 50%;
   text-align: center;
-  font-size: 20px;
+  font-size: 2vh;
+  padding: 10px 0 10px;
 }
-
-/*.description span {*/
-/*  display: block;*/
-/*  font-size: 15px;*/
-/*  color: #272C35;*/
-/*  font-weight: 400;*/
-/*  width: 130px;*/
-/*}*/
-
-/*.description span:first-child {*/
-/*  margin-bottom: 5px;  width: 50%;*/
-/*  text-align: center;*/
-/*  font-size: 19px;*/
-/*}*/
-
-/*.description span:last-child {*/
-/*  font-weight: 300;*/
-/*  margin-top: 8px;*/
-/*  color: #272C35;*/
-/*}*/
 
 .quantity {
   width: 50%;
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.increment {
+  background-color: black;
+  font-size: 3vh;
+  height: 3.5vh;
+  width: 3.5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .quantity input {
@@ -189,35 +180,9 @@
   border: none;
   text-align: center;
   width: 15%;
-  font-size: 20px;
+  font-size: 2vh;
   color: #272C35;
   font-weight: 300;
-}
-
-button[class*=btn] {
-  max-width: 25px;
-  max-height: 25px;
-  height: 100%;
-  width: 100%;
-  font-size: 15px;
-  background-color: #272C35;
-  border-radius: 15px;
-  margin: 0 auto;
-  border: none;
-  cursor: pointer;
-}
-
-button[class*=btn]:hover {
-  background-color: #434343;
-}
-
-button span {
-  color: #ffffff;
-}
-
-button:focus,
-input:focus {
-  outline:0;
 }
 
 .sub-description {
@@ -267,8 +232,8 @@ input:focus {
   color: #000000;
   cursor: pointer;
   text-align: center;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding: 10px 10px 10px 10px;
+  font-size: 1.5vh;
 }
 
 @media all and (orientation: landscape) {
@@ -285,6 +250,12 @@ input:focus {
     .heading-sub-line {
       font-size: 3.5vh;
     }
+    .heading {
+      height: 13vh;
+    }
+    .sub-heading {
+      height: 5vh;
+    }
     .sub-heading-text {
       font-size: 3vh;
     }
@@ -293,6 +264,11 @@ input:focus {
     }
     .item-count {
       font-size: 3vh;
+    }
+    .item-full {
+      height: 65vh;
+    }
+    .item {
     }
 
     .calculate-button button {
@@ -340,7 +316,7 @@ input:focus {
     width: 100vw;
     height: 60vh;
     bottom: 0;
-    transform: translate(0, 58.4%);
+    transform: translate(0, 68%);
   }
 
   .receipt {
@@ -427,22 +403,6 @@ input:focus {
       font-size: 4vw;
     }
   }
-
-  /*@media (max-width: 420px) and (max-height: 724px){*/
-  /*  .title-style {*/
-  /*    font-size: 175%;*/
-  /*  }*/
-  /*  .bubble-text {*/
-  /*    font-size: 85%;*/
-  /*  }*/
-  /*  .heading-line {*/
-  /*    font-size: 210%;*/
-  /*  }*/
-  /*  .sub-heading-text {*/
-  /*    font-size: 125%;*/
-  /*  }*/
-  /*}*/
-
 }
 
 

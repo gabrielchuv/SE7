@@ -38,17 +38,10 @@
           <div class="description">
             {{bin.food}}
           </div>
-          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
           <div class="quantity">
-            <button class="minus-btn" type="button" (click)="decrementQuantity(bin)">
-              <span class="glyphicon glyphicon-minus"></span>
-            </button>
+            <button mat-mini-fab class="increment" (click)="decrementQuantity(bin)">-</button>
             <input type="text" value="{{bin.quantity}}">
-            <button class="plus-btn" type="button" (click)="incrementQuantity(bin)">
-              <span class="glyphicon glyphicon-plus"></span>
-            </button>
+            <button mat-mini-fab class="increment" (click)="incrementQuantity(bin)">+</button>
           </div>
         </div>
       </cdk-virtual-scroll-viewport>
