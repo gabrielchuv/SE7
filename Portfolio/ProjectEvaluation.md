@@ -1,13 +1,12 @@
 # Project Evaluation
 
-A brief description of what this section is about.
-
 ## Table of Contents
 - [Reflective Discussion of The Success of The Project](#reflective-discussion-of-the-success-of-the-project)
 	- [Reflection on Working Practices](#reflection-on-working-practices)
 	- [Reflection on The Impact of COVID-19](#reflection-on-the-impact-of-COVID-19)
 - [Social and Ethical Implications](#social-and-ethical-implications)
-- [Discussion of Future Work](#discussion-of-future-work)
+- [Discussion of Future Work](#discussion-of-future-work)}
+- [Unit testing / functional testing](#unit-testing-/-functional-testing)
 - [Bibliography](#bibliography)
 
 ## Reflective Discussion of The Success of The Project
