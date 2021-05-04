@@ -2,6 +2,15 @@
   font-family: 'Open Sans', sans-serif;
 }
 
+.navbar-brand {
+  font-family: 'Gaegu', cursive;
+  color: #000000;
+  cursor: pointer;
+  font-size: 1.7em;
+  margin-top: 2%;
+  margin-left: 3%;
+}
+
 .wrapper {
   position: relative;
   min-height: 100vh;
