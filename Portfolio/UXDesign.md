@@ -17,7 +17,7 @@ We took a pragmatic approach to designing a solution by using elements from syst
 In this section we outline the rationale behind the choice of these paradigms and the elements that we borrowed from them. The actual implementation
 is covered in the subsequent sections.
 
-* Systems thinking: given the broader socio-environmental issue that we are trying to tackle, we borrowed principles from systems thinking to explore the multidimensional causes and consequences of food wastage. This was useful to identify key leverage areas that we could reasonably tackle to maximize our impact on this issue. It took the form of a top-down analysis and breakdown of the problem of food wastage which is outlined in the Academic Review and Problem Definition sections within the ![Background and Motivation](BackgroundAndMotivation.md) section.
+* Systems thinking: given the broader socio-environmental issue that we are trying to tackle, we borrowed principles from systems thinking to explore the multidimensional causes and consequences of food wastage. This was useful to identify key leverage areas that we could reasonably tackle to maximize our impact on this issue. It took the form of a top-down analysis and breakdown of the problem of food wastage which is outlined in the Academic Review and Problem Definition sections within the [Background and Motivation](BackgroundAndMotivation.md) section.
 
 * Design thinking: this paradigm allowed us to put the user at the centre of every decision we made. The elements that we implemented were:
   * Problem definition: early on in the project we made sure to define the problem that we were trying to solve (i.e. reducing food waste) to focus our ideation sessions.
