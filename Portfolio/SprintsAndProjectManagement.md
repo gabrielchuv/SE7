@@ -237,3 +237,8 @@ Originally the team knew that projects like this were normally underestimated wi
 
 ## The team's workflow
 This is discussed in the system implementation.
+
+<br><br><br>
+Next section: [System Implementation](https://github.com/gabrielchuv/SE7/blob/develop/Portfolio/SystemImplementation.md)
+<br>
+Go back to [README](https://github.com/gabrielchuv/SE7/blob/develop/README.md)
