@@ -25,14 +25,17 @@ h1, h2 {
 
 .split.left {
   position: absolute;
-  top:19%;
   z-index: 1;
-  width: 45%;
-  height: 80%;
+  left: 0;
+  width: 45vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .split.right {
-  width: 60%;
+  width: 60vw;
   right:0;
 }
 
@@ -47,13 +50,16 @@ h1, h2 {
 
 .estimateTerm {
   font-size: 2rem;
-  margin-left: 5%;
   text-align: left;
+  position: absolute;
+  bottom: 25%;
+  margin-left: 50%;
 }
 
 .btn-image {
     background-color: inherit;
     border:none;
+    margin-left: 50%;
 }
 
 .cropped {
@@ -86,4 +92,113 @@ h1, h2 {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+@media all and (orientation: landscape) {
+
+  @media (max-height: 645px) and (max-width: 763px){
+    .split.left {
+      left: 0;
+      top: 0;
+      height: 100vh;
+    }
+    .btn-image {
+      top: 0;
+      transform: translate(0, -10%);
+      height: 50vh;
+      width: 50vw;
+    }
+    .estimateTerm {
+      font-size: 3.5vw;
+      transform: translate(0, 60%);
+    }
+    .content-right {
+      top: 20%;
+    }
+    .header {
+      font-size: 4vw;
+    }
+    .subheader {
+      font-size: 2vw;
+    }
+    .btn {
+      font-size: 2vw;
+    }
+  }
+
+  @media (max-height: 645px) and (min-width: 764px){
+    .split.left {
+      left: 0;
+      top: 0;
+      height: 100vh;
+    }
+    .btn-image {
+      top: 0;
+      transform: translate(0, -10%);
+      height: 40vh;
+      width: 40vw;
+    }
+    .estimateTerm {
+      font-size: 3vw;
+      transform: translate(0, 60%);
+    }
+    .content-right {
+      top: 20%;
+    }
+    .header {
+      font-size: 4vw;
+    }
+    .subheader {
+      font-size: 2vw;
+    }
+    .btn {
+      font-size: 2vw;
+    }
+  }
+}
+
+@media all and (orientation: portrait){
+  .split.left {
+    position: absolute;
+    top: 0;
+    height: 40vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .split.right {
+    bottom: 0;
+    left: 0;
+    height: 60vh;
+    width: 100vw;
+  }
+
+  .estimateTerm {
+    transform: translate(-85%, 0);
+  }
+
+  @media (max-height: 900px){
+
+    .content-right {
+      top: 25%;
+    }
+    .header {
+      font-size: 6vw;
+    }
+    .subheader {
+      font-size: 5vw;
+    }
+    .btn {
+      font-size: 4vw;
+    }
+    .content-right {
+      margin-left: 2vw;
+      width: 60vw;
+    }
+    .estimateTerm {
+      font-size: 5vw;
+      transform: translate(-75%, 0);
+    }
+  }
 }
