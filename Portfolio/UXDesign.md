@@ -3,6 +3,7 @@
 - [Design Timeline](#design-timeline)
 	- [Design sessions](#design-sessions)
 - [Design Process](#design-process)
+	- [Stakeholders](#stakeholders)
 	- [First User Persona](#first-user-persona)
 	- [Second User Persona](#second-user-persona)
 	- [First Prototype](#first-prototype)
@@ -69,9 +70,10 @@ Session 13: designing for high-fidelity design: the high-fidelity design was pre
 
 ## Design Process
 
-### First User Persona
+### Stakeholders 
 We defined our boarder stakeholders to include university students and young professionals around the age of 18-30yrs. The reason they are our main stakeholders is due to the lifestyle of a young professional and university student. An assumption is that students under the age of 18 at school are less likely to be cooking their own meals and doing shopping. However, university students especially live a very busy and stressful lifestyle which may lead to them wasting more food. Students may be likely to buy items at discounted prices/special offers which are close to expiry dates. Hence, their chance of wasting food is higher as items are closer to expiry dates. Also, students may get take-away which may be wasted or cause other items they bought to go off. This is the main reason this makes them stakeholders. Young professionals are likely to be busy and learning to cook and manage time. Hence their chance of food wastage is also high. With time management, it may lead to quicker meals being made which don’t use all ingredients, takeaway, which could again lead to food wastage. 
 
+### First User Persona
 With our broader stakeholder defined, we created a hypothethical target user persona. Max is mainly characterized by caring about the environment and wanting to take action outside and inside his life to create a more sustainable world. Further details can be seen below:
 
 ![User Persona 1](Images/UXDesign/User_persona_1.png)
