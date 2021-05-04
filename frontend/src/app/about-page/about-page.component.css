@@ -3,8 +3,10 @@
 }
 
 .navbar-brand {
+  font-family: 'Gaegu', cursive;
   color: #000000;
   cursor: pointer;
+  font-size: 1.5em;
 }
 
 .navbar-brand:hover {
