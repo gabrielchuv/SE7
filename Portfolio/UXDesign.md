@@ -13,9 +13,9 @@
 
 ## UX Approach
 
-We took a pragmatic approach to designing a solution by using elements from systems thinking, design thinking, and lean UX as necessary.
+We took a pragmatic approach to designing a solution by using elements from systems thinking, design thinking, and Lean UX as necessary.
 In this section we outline the rationale behind the choice of these paradigms and the elements that we borrowed from them. The actual implementation
-is covered in the subsequent sections.
+is covered in the other sections.
 
 * Systems thinking: given the broader socio-environmental issue that we are trying to tackle, we borrowed principles from systems thinking to explore the multidimensional causes and consequences of food wastage. This was useful to identify key leverage areas that we could reasonably tackle to maximize our impact on this issue. It took the form of a top-down analysis and breakdown of the problem of food wastage which is outlined in the Academic Review and Problem Definition sections within the [Background and Motivation](BackgroundAndMotivation.md) section.
 
@@ -24,12 +24,14 @@ is covered in the subsequent sections.
   * User definition: early on in the project we created a user persona for the segment we are targeting. This helped us focus our ideas and design decisions on a particular persona which increases the probability of building something useful for this segment.
   * Ideation: we used divergent thinking techniques such as brainstorming and building upon other people's ideas. This is where our problem and user definitions came into play and proved to be useful to anchor our ideas.
   * Wireframing: after narrowing down our ideas we proceeded to wireframe our solution.
-  * Testing: this element of design thinking overlaps with a Lean UX mindset which will be explained below.
+  * Testing: this element of design thinking overlaps with Lean UX which will be explained below.
 
-* Lean UX: we embedded this approach into our design process by turning all of our design core elements into assumptions that we proceeded to test consistently with users.
-  * User persona: we treated all of the elements of our first user persona (LINK HERE) as assumptions which were tested with the help of a survey and resulted in a second user persona (LINK HERE)
-  * Problem: we treated our low-level problem definition (i.e. people a ---- NEED TO FINISH
-  * Solution (MVP): we treated our initial feature decisions as hypotheses to be tested (LINK HERE)
+* Lean UX: we embedded this approach into our design process by consistently testing or evaluating all of our core design outputs with the help of users or the project's brief to inform a next iteration. This is outlined in the Design Evaluation sections within the timeline below.
+  * User persona: our first user persona was tested via a user survey and resulted in a second user persona.
+  * First prototype: this prototype was tested via user interviews and resulted in the next prototype.
+  * Second prototype: this prototype was tested via user interviews and resulted in the next prototype.
+  * Third prototype: this prototype was evaluated against the brief's "serious play" requirement and resulted in the next prototype.
+  * Fourth prototype: this prototype was evalueated agains a set of design heuristics.
 
 ## Design Timeline
 
