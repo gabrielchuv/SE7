@@ -55,7 +55,7 @@ button:hover {
 }
 
 .search-results {
-  height: 650px;
+  height: 40vh;
 }
 
 .example-form {
@@ -73,6 +73,10 @@ button:hover {
   .maxsize {
     width: 60vw;
     height: 20vh;
+  }
+
+  .search-results {
+    height: 12vh;
   }
 }
 
