@@ -115,7 +115,7 @@ Subsequently, we accessed it via an SSH connection. In this Linux instance we in
 
 ![port80](Images/SystemImplementation/compose-ports.PNG)
 
-Initially, we were using 16gb of storage capacity but the application started to struggle to run so we changed it to 30gb which is the maximum for this micro[change this] free container that AWS EC2 offers.
+Initially, we were using 16gb of storage capacity but the application started to struggle to run so we changed it to 30gb which is the maximum for this t2.micro free instance that AWS EC2 offers.
 
 ![storage](Images/SystemImplementation/storage.PNG)
 
