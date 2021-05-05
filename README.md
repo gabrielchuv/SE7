@@ -2,7 +2,7 @@
 <p align="center" style="font-size: 20px"><b> A food waste calculator </b></p>
 <p align="center"><img src="Portfolio/Images/demo.gif"width=70%></p>
 <p align="center">
-<a style="font-size: 20px" href="Intended hyperlink">Watch our demo video here</a>
+<a style="font-size: 20px" href="https://youtu.be/QPAQZRCcuss">Watch our trailer here</a>
 </p>
 
 #
