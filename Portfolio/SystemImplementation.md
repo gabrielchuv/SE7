@@ -102,6 +102,26 @@ Docker was a way to get the same environment working across the whole team for d
 
 (Further specifics can be found above in database implementation).
 
+### Hosting via AWS EC2
+We decided to host our application on the AWS EC2 service so that we could get our application to users with greater ease. The main obstacle with this process was to find the right tool to help us host our application. 
+
+A colleague recommended us Heroku which we tried first as it seemed straightforward to use. We rapidly implemented it so that the frontend was hosted online with the help of Heroku. However, at this stage we encountered the issue of linking our frontend with our backend. Heroku used to have a free mongoDB instance called [mLab](https://devcenter.heroku.com/changelog-items/1823) which had been recently discontinued. We tried to host our application by building a docker image first with no success. We also attempted to use other services like [EvenNode](https://www.evennode.com/?utm_source=geekflare).
+
+Eventually, we decided to use AWS EC2, partly as a recommendation from Marceli, and because we found a coherent tutorial that helped us go through a lot of the necessary steps. The first step was to create an EC2 instance. We configured its security group so that it could receive requests via HTTP, HTTPS, and SSH via IPv4 and IPv6.
+
+[security groups image]
+
+Subsequently, we accessed it via an SSH connection. In this Linux instance we installed docker and docker-compose, cloned our release repository, and edited the docker-compose.yml file to expose port 3000 on port 80 of the EC2 instance.
+
+[Image of ports]
+
+Initially, we were using 16gb of storage capacity but the application started to struggle to run so we changed it to 30gb which is the maximum for this micro[change this] free container that AWS EC2 offers.
+
+[Image of storage]
+
+We created two instances for our two latest versions of the MVP which can be accessed [here](http://18.219.146.56/) and [here](http://13.59.46.105/).
+
+
 <br><br><br>
 Next section: [Project Evaluation And Reflections](https://github.com/gabrielchuv/SE7/blob/develop/Portfolio/ProjectEvaluationAndReflections.md)
 <br>
