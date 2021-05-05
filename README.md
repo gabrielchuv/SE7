@@ -32,7 +32,7 @@ Video goes here
 2. Navigate to SE7 project folder
 3. Add a .env file
 4. Run `docker compose up --build`
-5. Go to [http://localhost:3000](localhost:3000) to view the site
+5. Go to [http://localhost:3000](http://localhost:3000) to view the site
 
 <br>
 
