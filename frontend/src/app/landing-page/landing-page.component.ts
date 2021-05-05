@@ -37,7 +37,7 @@ export class LandingPageComponent implements OnInit {
   }
 
   changeLabelName() {
-    var temp: number = parseInt(this.estimate) + 10;
+    var temp: number = parseInt(this.estimate) + 3;
     this.estimate = temp.toString();
   }
 }
