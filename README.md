@@ -34,7 +34,7 @@ This web application's primary objective is to increase awareness about househol
 
 <br>
 
-### **Alternatively view online at:** [http://13.59.46.105/home](http://13.59.46.105/home)
+### **Alternatively view online at:** [http://13.59.46.105/](http://13.59.46.105/)
 
 <br>
 <br>
