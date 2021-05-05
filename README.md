@@ -1,5 +1,9 @@
 <p align="center"><img src="Portfolio/Images/moneybin-banner.png"width=100%></p>
 <p align="center" style="font-size: 20px"><b> A food waste calculator </b></p>
+<p align="center"><img src="Portfolio/Images/demo.gif"width=60%></p>
+<p align="center">
+<a style="font-size: 20px" href="Intended hyperlink">Watch our demo video here</a>
+</p>
 
 #
 ## Abstract
@@ -13,12 +17,6 @@ According to the Food and Agriculture Organization of the United Nations, the to
 
 This web application's primary objective is to increase awareness about household food waste. Moreover, it also aims to nudge people's behaviour into taking food waste more seriously and ultimately contribute to the reduction of it.
 
-
-## Video
-
-Video goes here
-
-***
 <br>
 
 # Getting started
@@ -36,7 +34,7 @@ Video goes here
 
 <br>
 
-### **Alternatively view online at:**
+### **Alternatively view online at:** [http://13.59.46.105/home](http://13.59.46.105/home)
 
 <br>
 <br>
