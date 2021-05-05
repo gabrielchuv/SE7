@@ -33,7 +33,7 @@ As well as the scrum meetings, the team engaged in heavy pair programming throug
 Each member acted as a full-stack developer with specialties in particular areas. 
 
 **Alex Digpal-Race** was involved in: 
-- Scrum master: lead the scrum ceremonies, reviewed how sprints had gone.
+- Scrum master: led the scrum ceremonies, reviewed how sprints had gone.
 - Backend: created the server, models, food seeder and RESTful API used.
 - Frontend: created the search service, models, and contributed to search component logic, main page logic, stats page logic and message service.
 - DevOps: integrated project with docker.
