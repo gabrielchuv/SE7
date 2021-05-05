@@ -227,6 +227,25 @@ We purposefully framed the issue to promote behavior change. In terms of languag
 
 To provide a quick action that users can respond to, a share option was included in the results page. As an application to bring awareness to the issue, this feature would further spread the word and start conversations around food waste around the user’s social network. 
 
+### Design Evaluation: Web Analytics 
+To start getting a better gauge on engagement and other user preferences, we decided to track users’ engagement with our application via Google Analytics (GA). We shared the link to our application in various online course groups from the University of Bristol and asked people to check it out.
+
+For tracking acquisition, we used Bitly to quickly and reliably track how many people entered the site. GA can be a bit unreliable and we wanted to maximize reliability due to the small number of users we were tracking. As you can see below, 39 users entered our application.
+
+![bitly-chart]()
+
+Moreover, the following engagement chart from Google Analytics shows that, on average, each user stayed around 45 seconds. It is possible for this data to be misleading (i.e. due to outliers) but as a first impression, it reveals a high likelihood that users are engaging with the application to some extent.
+
+![ga-chart]()
+
+Finally, the following Tech Overview chart reveals that at least half of the people used browsers other than Chrome to interact with our application. This is important because we mainly designed our app thinking about Chrome and already a couple of the users of this prototype told us that it was looking odd from a safari desktop device. Unsurprisingly, another insight is that half of the users used mobile devices to enter our site.
+
+![ga-chart2]()
+
+One of the core goals of the application is to raise awareness and a considerable amount of users are needed for that. To reach that objective, at this stage, we also need to maximize the quantity of users that are capable of interacting with our app so that we can gather quantitative feedback from them and make our app more engaging. Therefore, we decided to use this last insight to justify the need to make our site as responsive as possible during our last sprint.
+
+The main limitation of this quick quantitative research is the poor quality of the data obtained. Unfortunately, GA was built to track multiple-page applications and it requires a fair amount of tweaking to adjust it to an SPA. We decided to deprioritize this for the scope of this project, however, making sure we track how users navigate throughout our SPA components and interact with specific events such as adding food items, or sharing with their friends will help us make better decisions.
+
 ## Fourth Prototype: Second High-fidelity Design
 
 With a functioning food waste calculator and a consensus on the playful interactions of the site, a high-fidelity prototype was designed. This included all of the search and calculate features in the MVP. The calculator itself was made playful by gamifying its use. The tone of the site changed from “input food items went to waste and see how much money you lost from food waste” to “guess how much you loss from food waste and see how much you’re actually losing.” The high-fidelity design incorporated the playful elements within the core of the application and emphasized the objective to bring awareness by featuring a sharing option. 
