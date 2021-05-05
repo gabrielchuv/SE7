@@ -24,7 +24,7 @@ Video goes here
 | The Team    |             | Role        |
 | :---------: | ----------- | ----------- |
 | <img align="left" width="100" height="100" src="Portfolio/Images/glorious_leader_2.jpeg">| [Alex Digpal-Race](https://github.com/alexDigpalRace) : <cr20208@bristol.ac.uk>| Scrum Master, Full stack |
-| <img align="left" width="100" height="100" src="Portfolio/Images/20200910_121056.jpg"     |[Zain Kassam](https://github.com/Zainzzkk) : <dw20513@bristol.ac.uk>| Front-end developer, Responsiveness |
+| <img align="left" width="100" height="100" src="Portfolio/Images/20200910_121056.jpg">|[Zain Kassam](https://github.com/Zainzzkk) : <dw20513@bristol.ac.uk>| Front-end developer, Responsiveness |
 | <img align="left" width="100" height="100" src="Portfolio/Images/anita-profile.png">     |[Anita Nguyen](https://github.com/ng0c) : <wl20794@bristol.ac.uk>| Front-end developer, UX Designer |
 | <img align="left" width="100" height="100" src="Portfolio/Images/profile_JS.jpg">     |[Jessica Sung](https://github.com/jessicaksung) : <zu20706@bristol.ac.uk>| Front-end developer, UX Designer |
 | Picture     |[Gabriel Chu Valdez](https://github.com/gabrielchuv) : <gabriel.chu.2020@bristol.ac.uk>| Project manager, product owner, designer, fontend developer, Dev Ops engineer |
