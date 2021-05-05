@@ -79,6 +79,13 @@ router.patch('/search/foods/:foodname', (req, res) => {
         .catch((error) => console.log(error));
 });
 
+//DELETE ALL FOOD ITEM (for debugging)
+router.delete('/search/foods/delete/all', (req, res) => {
+    fooditem.deleteMany({ })
+        .then((fooditem) => res.send(fooditem))
+        .catch((error) => console.log(error));
+});
+
 //DELETE A FOOD ITEM
 router.delete('/search/foods/delete/:foodname', (req, res) => {
     fooditem.findOneAndDelete({ 'name': req.params.foodname })

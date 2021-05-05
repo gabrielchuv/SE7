@@ -50,6 +50,8 @@ It would be important to note that the food property of the Bins collection is a
 
 Connecting the database to the web server was done through docker, containers of both the web site and mongoDB were setup in the docker compose file. The connection string used to connect to the mongo db container was pulled in through a .env file which had the login info (left as default for ease when marking), this was another one of the files that had to be in the project root directory. The docker compose would first run the website, connect the relevant ports (3000 on the alpine image to 3000 on the local machine) then utilised a wait script to listen to the mongoDB port (27017), the mongodb image would then be started with the .env information and on success connect to the wait script, linking it to the web site. The site would then be started using nodemon in the alpine image and become accessible to the local machine.
 
+SEEDING FOOD //TODO 
+
 ## Middle Tier
 
 ### Express
