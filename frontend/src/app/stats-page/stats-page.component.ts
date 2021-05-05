@@ -20,6 +20,7 @@ export class StatsPageComponent implements OnInit {
   binTotal: number = 0;
   i: number = 0;
   binList: Bin[] = [];
+  displayText = '';
   weeklyEstimate: string = "0";
   yearlyEstimate: string = "0";
   faPowerOff = faPowerOff;
@@ -48,6 +49,10 @@ export class StatsPageComponent implements OnInit {
             console.log(`Bin entry: food:${binEntry.food} cost:${fooditem[0].cost} quantity=${binEntry.quantity!}`);
             //calculate a running total for the year
             this.binTotal += this.binEntryTotal * 52;
+            if(this.binTotal > 356){
+              this.displayText = `That is £${Math.round(this.binTotal - 356)} more than the average person in the UK.`;
+            }
+            else {this.displayText = `That is £${Math.round(356 - this.binTotal)} less than the average person in the UK.`}
           })
       }
     })
