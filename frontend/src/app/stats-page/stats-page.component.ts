@@ -69,4 +69,10 @@ export class StatsPageComponent implements OnInit {
   onNavClick() {
     this.router.navigate(['../home'], { relativeTo: this.route });
   }
+
+  fbShare() {
+    window.open("https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2F18.219.146.56%2F&amp;src=sdkpreparse");
+  }
+
+
 }
