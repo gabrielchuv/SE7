@@ -35,7 +35,7 @@ Each member acted as a full-stack developer with specialties in particular areas
 **Alex Digpal-Race** was involved in: 
 - Scrum master: lead the scrum ceremonies, reviewed how sprints had gone.
 - Backend: created the server, models, food seeder and RESTful API used.
-- Frontend: created the search service, models, and contributed to search component logic, main page logic, stats page logic.
+- Frontend: created the search service, models, and contributed to search component logic, main page logic, stats page logic and message service.
 - DevOps: integrated project with docker.
 
 **Zain Kassam** : was involved in various aspects of this projects - especially in areas of his strengths.  These include:
@@ -44,7 +44,7 @@ Each member acted as a full-stack developer with specialties in particular areas
 - Responsiveness: ensuring that all the pages are responsive on majority of devices
 
 **Anita Nguyen** was involved in various aspects of the project. These aspects includes:
-- UX desgin: co-created and distributed surveys to better understand the target audience. Was involved in some design sessions and co-led initial ideation sessions. 
+- UX design: co-created and distributed surveys to better understand the target audience. Was involved in some design sessions and co-led initial ideation sessions. 
 - Developer: worked on various aspects of the front-end (these aspects include 'About us' page, footer, and calculator page).
 
 **Jessica Sung** specialized in UX design and front-end development. She led design sessions involving project ideation and the evolution of prototypes. As the lead designer, she iterated on the designs and created the designs of the MVP and high-fidentity product. She has guided the direction of the project from a reminder service for expiring foods to a food waste calculator based on user feedback and considered the elements of serious play. Her contributions ensured that the product was usable and valuable to end users. 
