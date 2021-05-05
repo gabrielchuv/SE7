@@ -76,7 +76,7 @@ const fooditems = [
         category: "vegetable"
     }),
     new Fooditem({
-        name: "berries (1 pack)",
+        name: "berries",
         mass: "12",
         cost: "2.50",
         category: "fruit"
@@ -88,7 +88,7 @@ const fooditems = [
         category: "fruit"
     }),
     new Fooditem({
-        name: "mushroom (1 pack)",
+        name: "mushroom",
         mass: "12",
         cost: "1.90",
         category: "vegetable"
@@ -100,13 +100,13 @@ const fooditems = [
         category: "vegetable"
     }),
     new Fooditem({
-        name: "asparagus (1 pack)",
+        name: "asparagus",
         mass: "12",
         cost: "2.00",
         category: "vegetable"
     }),
     new Fooditem({
-        name: "ham (1 pack)",
+        name: "ham",
         mass: "12",
         cost: "2.50",
         category: "meat"
@@ -172,7 +172,7 @@ const fooditems = [
         category: "vegetable"
     }),
     new Fooditem({
-        name: "celery (1 pack)",
+        name: "celery",
         mass: "12",
         cost: "1.00",
         category: "vegetable"
@@ -190,7 +190,7 @@ const fooditems = [
         category: "vegetable"
     }),
     new Fooditem({
-        name: "spinach (1 pack)",
+        name: "spinach",
         mass: "12",
         cost: "1.30",
         category: "vegetable"
@@ -202,7 +202,7 @@ const fooditems = [
         category: "vegetable"
     }),
     new Fooditem({
-        name: "bread (1 loaf)",
+        name: "bread",
         mass: "12",
         cost: "1.00",
         category: "grains"
