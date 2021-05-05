@@ -1,9 +1,5 @@
 Notes:
-.env was left as default...
-MONGO_USERNAME=your_username
-MONGO_PASSWORD=your_password
-MONGO_PORT=27017
-MONGO_DB=meantest
+.env was left as default (from workshops)
 
 Requried programs: docker
 
