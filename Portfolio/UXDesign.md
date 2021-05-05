@@ -232,7 +232,7 @@ To start getting a better gauge on engagement and other user preferences, we dec
 
 For tracking acquisition, we used Bitly to quickly and reliably track how many people entered the site. GA can be a bit unreliable and we wanted to maximize reliability due to the small number of users we were tracking. As you can see below, 39 users entered our application.
 
-![bitly-chart](Images/UXDesign/bitlychart.PNG)
+![bitly-chart](Images/UXDesign/bitly-chart.PNG)
 
 Moreover, the following engagement chart from Google Analytics shows that, on average, each user stayed around 45 seconds. It is possible for this data to be misleading (i.e. due to outliers) but as a first impression, it reveals a high likelihood that users are engaging with the application to some extent.
 
