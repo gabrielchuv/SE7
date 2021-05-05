@@ -109,15 +109,15 @@ A colleague recommended us Heroku which we tried first as it seemed straightforw
 
 Eventually, we decided to use AWS EC2, partly as a recommendation from Marceli, and because we found a coherent tutorial that helped us go through a lot of the necessary steps. The first step was to create an EC2 instance. We configured its security group so that it could receive requests via HTTP, HTTPS, and SSH via IPv4 and IPv6.
 
-![security groups](Images/SystemImplementation/security-groups.png)
+![security groups](Images/SystemImplementation/security-groups.PNG)
 
 Subsequently, we accessed it via an SSH connection. In this Linux instance we installed docker and docker-compose, cloned our release repository, and edited the docker-compose.yml file to expose port 3000 on port 80 of the EC2 instance.
 
-![port80](Images/SystemImplementation/compose-ports.png)
+![port80](Images/SystemImplementation/compose-ports.PNG)
 
 Initially, we were using 16gb of storage capacity but the application started to struggle to run so we changed it to 30gb which is the maximum for this micro[change this] free container that AWS EC2 offers.
 
-![storage](Images/SystemImplementation/storage.png)
+![storage](Images/SystemImplementation/storage.PNG)
 
 We created two instances for our two latest versions of the MVP which can be accessed [here](http://18.219.146.56/) and [here](http://13.59.46.105/).
 
