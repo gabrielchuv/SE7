@@ -75,5 +75,9 @@ export class StatsPageComponent implements OnInit {
     window.open("https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2F18.219.146.56%2F&amp;src=sdkpreparse");
   }
 
+  twitterShare() {
+    window.open("https://twitter.com/share");
+  }
+
 
 }
