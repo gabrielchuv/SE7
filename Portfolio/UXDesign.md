@@ -96,7 +96,7 @@ Most of the relevant results are reflected by the new user persona, however, an 
 
 Our survey can be accessed [here](https://forms.gle/9Geo8f37rcHJN8de8).
 
-![survey](Images/UXDesign/survey.png)
+![survey](Images/UXDesign/survey.PNG)
 
 ### Second User Persona
 
