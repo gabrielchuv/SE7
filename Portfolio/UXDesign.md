@@ -94,7 +94,9 @@ Though the survey was aimed at our target users (university students) it was ske
 
 Most of the relevant results are reflected by the new user persona, however, an additional insights was that half of surveyees (i.e. people who didn’t experience food going bad often) said that they “never” or "almost never" wasted food. Interestingly, a larger amount of people from this subset were already taking actions to prevent wastage compared to the group who had the problem more often. This would make the former group the right one to target if we were aiming to create a tool that allows people to take action on reducing food wastage. However, our tool’s main objective is to change people's behaviour (hopefully nudging them into behaving more like the former group) which reconfirms our decision to focus on the latter group of people who are not taking effective action to reduce their food wastage.
 
-( ADD LINKS ) Our survey questions can be seen here and the raw data can be seen here.
+Our survey can be accessed [here](https://forms.gle/9Geo8f37rcHJN8de8).
+
+![survey](Images/UXDesign/survey.png)
 
 ### Second User Persona
 
