@@ -10,7 +10,7 @@
 - [Discussion of Future Work](#discussion-of-future-work)
 
 ## Design evaluation and user acceptance testing
-The contents of this section are embedded in the [UX Design](https://github.com/gabrielchuv/SE7/blob/develop/Portfolio/UXDesign.md) section with explanation of the iterative design process we engaged in.
+The contents of this section are embedded in the [UX Design](https://github.com/gabrielchuv/SE7/blob/develop/Portfolio/UXDesign.md) section within the "Design evaluation" sub-sections. We thought it was clearer to include them there because they help explain the iterative design process we followed.
 
 ## Unit testing / Functional testing.
 Testing of the site, as a whole, was a weak point of the development process. All testing was done as functional testing, as this was quicker and simpler than unit testing. The testing typically followed a certain work flow carried out by the developer. On implementing a task, the developer would be regularly building the site with Docker and viewing the updates in their browser to ensure the correct layout or logic was being built and to spot noticeable bugs. After the task was finished, the group would be notified and the implementation would be pushed on to the remote repository and merged into the develop branch. Any conflicts would then be dealt with and the developer would begin site-wide function testing normally with one other (for minor features/changes an extra person wasn't needed) to check there were no notable bugs in the workings of the components, pages and site. Because the site only consisted of three (main) pages, the amount of tasks a user could do on the pages was limited so testing the whole site after a change only took a couple of minutes.
