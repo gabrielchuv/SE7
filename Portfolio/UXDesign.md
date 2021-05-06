@@ -109,7 +109,7 @@ Some of the key insights gained from the survey that helped us shape the new use
 - 61% of surveyees claimed the reason for their food going bad is because they forgot to eat it. 17% said they simply did not want to cook it.
 - 33% of respondents stated that wating food bothers them because of the wasted money, 22% said it was because of environmental concerns.
 
-![User Persona 2](Images/UXDesign/User_persona_2.png)
+![User Persona 2](Images/UXDesign/User-persona-2.png)
 
 The main limitation of this survey was that part of the data we were trying to obtain was qualitative so when processing the answers we had to allocate them into categories to be able to make sense of them. This may have introduced bias into the analysis, particularly because of the small number of respondents.
 
