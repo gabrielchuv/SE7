@@ -209,7 +209,7 @@ User feedback informed the second prototype which calculates cost accrued for fo
 
 #
 ### Design evaluation: User Interviews
-Users were again shown the updated/new wireframe prototype to see if the changes made were an improvement on the last version and to gleen more insight into improving the user experience of the site. A mix of four users, some from the last feedback session and some new to the site, aged 18-30 were asked to explore the wireframe telling the feedback practitioners, their opinion on what each page did, how effective it was at doing this, and what they would do next. The practitioners checked off the user story list tasks the user's were able to complete on their own and any tasks left at the end were then hinted at to see if the user could accomplish there task. The second wireframe walkthrough uncovered: 
+The same methodology of a wireframe walkthrough was used to see if the changes made were an improvement on the last version and to gleen more insight into improving the user experience of the site. A mix of four users, some from the last feedback session and some new to the site, aged 18-30 were asked to explore the wireframe telling the feedback practitioners, their opinion on what each page did, how effective it was at doing this, and what they would do next. The practitioners checked off the user story list tasks the user's were able to complete on their own and any tasks left at the end were then hinted at to see if the user could accomplish there task. The second wireframe walkthrough uncovered: 
 
 #### Pro's
 1. The **Jane the cow** feature was a nice 'gamified' way to measure and compare how well the user was doing in terms of waste.
@@ -264,7 +264,7 @@ One of the core goals of the application is to raise awareness and a considerabl
 
 The main limitation of this quick quantitative research is the poor quality of the data obtained. Unfortunately, GA was built to track multiple-page applications and it requires a fair amount of tweaking to adjust it to an SPA. We decided to deprioritize this for the scope of this project, however, making sure we track how users navigate throughout our SPA components and interact with specific events such as adding food items, or sharing with their friends will help us make better decisions.
 
-## Fourth Prototype: Second High-fidelity Design
+## Fourth Prototype: Second High-fidelity Prototype
 
 With a functioning food waste calculator and a consensus on the playful interactions of the site, a high-fidelity prototype was designed. This included all of the search and calculate features in the MVP. The calculator itself was made playful by gamifying its use. The tone of the site changed from “input food items went to waste and see how much money you lost from food waste” to “guess how much you loss from food waste and see how much you’re actually losing.” The high-fidelity design incorporated the playful elements within the core of the application and emphasized the objective to bring awareness by featuring a sharing option. 
 
