@@ -114,7 +114,7 @@ Some of the key insights gained from the survey that helped us shape the new use
 The main limitation of this survey was that part of the data we were trying to obtain was qualitative so when processing the answers we had to allocate them into categories to be able to make sense of them. This may have introduced bias into the analysis, particularly because of the small number of respondents.
 
 ## First Prototype: Reminder for Expiring Foods
-After the initial ideation sessions, we started our first prototype. We wanted to create a website which help people track the expiration date of their food items. We had the assumption that the reason why people waste food is because it expires before they get the chance to eat them. With this in mind, we designed our prototype around the idea of a fridge, which we wanted to be a core component on our website to represent a person's actual fridge. On the website, the user can input all the food items that they have, and the website will estimate the expiration date of that item (the user have the option to change this if it is inaccurate). Once the user has inputted all their food items, the website will prompt the user when their food is about to expire. The user can decide how frequent they would like to be notified.
+After the initial ideation sessions, we started our first prototype. We wanted to create a website which help people track the expiration date of their food items. We had the assumption that the reason why people waste food is because it expires before they get the chance to eat them. With this in mind, we designed our prototype around the idea of a fridge, which we wanted to be a core component on our website to represent a person's actual fridge. On the website, the user can input all the food items that they have, and the website will estimate the expiration date of that item (the user has the option to change this if it is inaccurate). Once the user has inputted all their food items, the website will prompt the user when their food is about to expire. The user can decide how frequent they would like to be notified.
 
 Furthermore, we designed our prototype in the perspective of the user, and thus, continuously asked ourselves "if I was a user, what steps would I take next..." This was important to us because we wanted the prototype to have a smooth user flow and that every step made sense.
 
@@ -147,14 +147,14 @@ Furthermore, we designed our prototype in the perspective of the user, and thus,
 </p>
 <br></br>
 
-5. **If the expiration date of any of the food items are incorrect, the user have the option to edit this manually.**
+5. **If the expiration date of any of the food items are incorrect, the user has the option to edit this manually.**
 
 <p align="center">
 <img src="Images/UXDesign/edit-food.gif">
 </p>
 <br></br>
 
-6. **The website has an in-app notification system. The user has the option to edit their notification preferences. We wanted to ensure that the user have access to notifications directly on our website, as well as, through email/social media.**
+6. **The website has an in-app notification system. The user has the option to edit their notification preferences. We wanted to ensure that the user has access to notifications directly on our website, as well as, through email/social media.**
 
 <p align="center">
 <img src="Images/UXDesign/notifications.gif">
@@ -193,7 +193,7 @@ User feedback informed the second prototype which calculates cost accrued for fo
 </p>
 <br></br>
 
-3. **Once the user have logged in/created an account, they get some information about how the web application works. This is where they meet Jane, which is a character that follows them throughout the application. The calculator allows the user to enter as many food items as they need and generates a total for all food items.**
+3. **Once the user has logged in/created an account, they get some information about how the web application works. This is where they meet Jane, which is a character that follows them throughout the application. The calculator allows the user to enter as many food items as they need and generates a total for all food items.**
 
 <p align="center">
 <img src="Images/UXDesign/main-page-cal.gif">
