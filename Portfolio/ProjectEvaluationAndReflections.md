@@ -28,6 +28,10 @@ with the most current release being a site that although basic, was completely m
 and is in a usable proof-of-concept/MVP state that has many avenues for extensions to make it a real
 product.
 
+Our main high-level long-term objective was to raise awareness about food waste and change behaviour. Thanks to the qualitative feedback gathered and the engagement chart from Google Analytics, we are able to tell that we are in the process of creating and engaging application which is the goal we were hoping to achieve during this project. The biggest hurdle before knowing for certain if we have created an application that can change behaviour has not been achieved yet but it looks like we are moving in the right direction.
+
+Compared to the alternatives available online, we were able to build a tool that is more convenient and accurate to use due to the importance we gave to users throughout our process. As proposed in the "Future Work" section, there are still steps that can be taken to improve these dimensions, however, we are pleased to have met our objectives for this project.
+
 The design was regularly being checked by external target users to gain feedback. We did various early design
 sessions to engage in divergent
 and convergent thinking. We put the user at the center of our design. We interviewed and surveyed our
