@@ -222,7 +222,7 @@ Users were again shown the updated/new wireframe prototype to see if the changes
 3. Submitting food items on the user main page could be clearer.
 4. The wireframe was designed for desktop view but users may interact with the site on different devices or layouts. During the walkthrough, one user viewed it on a mobile screen, which the wireframe was not designed for. 
 
-## Third Prototype: First High-fidelity Design
+## Third Prototype: Minimum Viable Product
 
 After iterating on the wireframes, it was time to design and develop the minimum viable product. For the purposes of a minimally usable site, we decided to focus on the practical implementation of a food waste calculator. The focus was on 3 main pages: 
 
@@ -231,6 +231,8 @@ After iterating on the wireframes, it was time to design and develop the minimum
 3. results page where users are informed of how much money they are losing per year from food waste. 
 
 We decided to separate each task into separate pages and include only the necessary information and features to complete the task. Thus, we removed the navigation tab which caused confusion in the wireframe walk-through and designed a system where users are guided to the next page via buttons. In response to the feedback on responsiveness, we developed the site to be compatible on major screen sizes. This site was deployed to share with users for evaluation via AWS. 
+
+A live site, used for user evaluation, can be found here: http://18.219.146.56/.
 
 ### Design Evaluation: Play Revisited and a Call-for-Action 
 Up until now, the focus has been on the serious problem and the prototypes were practical in nature. The design challenge was to embed elements of play throughout the interaction and create an enjoyable experience to a practical calculator application. 
@@ -265,6 +267,8 @@ The main limitation of this quick quantitative research is the poor quality of t
 ## Fourth Prototype: Second High-fidelity Design
 
 With a functioning food waste calculator and a consensus on the playful interactions of the site, a high-fidelity prototype was designed. This included all of the search and calculate features in the MVP. The calculator itself was made playful by gamifying its use. The tone of the site changed from “input food items went to waste and see how much money you lost from food waste” to “guess how much you loss from food waste and see how much you’re actually losing.” The high-fidelity design incorporated the playful elements within the core of the application and emphasized the objective to bring awareness by featuring a sharing option. 
+
+A live site for the high-fidelity prototype can be found here: http://13.59.46.105/home.
 
 ### Design Evaluation: Design Heuristics
 THe final prototype was evaluated against common usability heuristics. This was adapted from https://www.nngroup.com/articles/ten-usability-heuristics/.
