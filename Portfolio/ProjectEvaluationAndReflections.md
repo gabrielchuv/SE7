@@ -7,20 +7,20 @@
 	- [Reflection on Working Practices](#reflection-on-working-practices)
 	- [Reflection on The Impact of COVID-19](#reflection-on-the-impact-of-COVID-19)
 - [Social and Ethical Implications](#social-and-ethical-implications)
-- [Discussion of Future Work](#discussion-of-future-work)}
+- [Discussion of Future Work](#discussion-of-future-work)
 
 ## Design evaluation and user acceptance testing
 The contents of this section are embedded in the [UX Design](https://github.com/gabrielchuv/SE7/blob/develop/Portfolio/UXDesign.md) section with explanation of the iterative design process we engaged in.
 
 ## Unit testing / Functional testing.
-Testing of the site, as a whole, was a weak point of the development process. All testing was done as functional testing as this was quicker and simpler than unit testing. The testing typically followed a certain work flow carried out by the developer. On implementing a task, the developer would be regularly building the site with Docker and viewing the updates in their browser to ensure the correct layout or logic was being built and to spot noticeable bugs. After the task was finished, the group would be notified and the implementation would be pushed on to the remote repository and merged into the develop branch. Any conflicts would then be dealt with and the developer would begin site-wide function testing normally with one other (for minor features/changes an extra person wasn't needed) to check there notable bugs in the workings of the components, pages and site. Because the site only consisted of three (main) pages, the amount of tasks a user could do on the pages was limited so testing the whole site after a change only took a couple of minutes.
+Testing of the site, as a whole, was a weak point of the development process. All testing was done as functional testing, as this was quicker and simpler than unit testing. The testing typically followed a certain work flow carried out by the developer. On implementing a task, the developer would be regularly building the site with Docker and viewing the updates in their browser to ensure the correct layout or logic was being built and to spot noticeable bugs. After the task was finished, the group would be notified and the implementation would be pushed on to the remote repository and merged into the develop branch. Any conflicts would then be dealt with and the developer would begin site-wide function testing normally with one other (for minor features/changes an extra person wasn't needed) to check there were no notable bugs in the workings of the components, pages and site. Because the site only consisted of three (main) pages, the amount of tasks a user could do on the pages was limited so testing the whole site after a change only took a couple of minutes.
 
-The work flow of the functional test scripts a developer would generally follow is below. For most of the testing, it was an iterative process, building on smaller components and integrating with other features accordingly. For example, the image of the test plan for changing quantities of food items shows the total quantity of food items being tested for (Test C). However, this was originally not done by the developers. The increment and decrement buttons were implemented and functionally tested that they worked for each food item on the list. It was then demo-ed in the stand up meeting where bugs are pointed out, additional test requirements are discussed and fixed afterwards. Then, the calculated total was tested alongside the increment/decrement buttons to check they were all working together as they should.
+The work flow of the functional test scripts a developer would generally follow are below. For most of the testing, it was an iterative process, building on smaller components and integrating with other features accordingly. For example, the image of the test plan for changing quantities of food items shows the total quantity of food items being tested for (Test C). However, this was originally not done by the developers. The increment and decrement buttons were implemented and functionally tested that they worked for each food item on the list. It was then demo-ed in the stand up meeting where bugs were pointed out and fixed afterwards. Then, the calculated total was tested alongside the increment/decrement buttons to check they were all working together as they should.
 
 ![Changing food quantities test plan](Images/ProjectEvaluation/food_quantity_test_plan.png)
 ![Money estimate/Sally test plan](Images/ProjectEvaluation/money_estimate_test_plan.png)
 
-For testing the interactions of the site as a whole (with more pages, components etc), unit testing would have had to have been used, as constantly loading the site and testing it would have taken too long. Unit testing may have also sped up the development as the tests could be set to run upon each build of the site with docker and bugs would have been instantly spotted as opposed to having the developer go through each page looking for bugs manually. For testing the layout/design of the site, unit tests aren't appropriate and may be faster to render the site and adjust the resolutions manually.
+For testing the interactions of the site as a whole (with more pages, components etc), unit testing would have had to have been used, as constantly loading the site and testing it would have taken too long. Unit testing may have also sped up the development as the tests could be set to run upon each build of the site with docker and bugs would have been instantly spotted as opposed to having the developer go through each page looking for bugs manually.
 
 ## Reflective Discussion of The Success of The Project
 Because of the scrum/agile work practices, the project stayed on track
@@ -52,19 +52,14 @@ what we wanted to accomplish with the web application was met and executed well.
 ***
 
 ### Reflection on Working Practices
-The scrum framework (based on agile) used fitted the group really well, However, the separation of roles between
-the scrum master and product owner was a bit blurry at the beginning.
-The product owner tried to tell the team how to
+The scrum framework (based on agile) used, fitted the group really well. However, the separation of roles between
+the scrum master and product owner was a bit blurry at the beginning. The product owner tried to tell the team how to
 organize the tech work at the start (which he shouldn’t have done). We quickly learned from our mistakes, and
 the PO organized the sprint planning meetings while, the SM planned the stand up meetings.
 
-In the design stage, different sections of the site were visualised/prototyped so the whole
+In the design stage, different sections of the site were visualized/prototyped so the whole
 team had a clear vision and agreed on what the site should look like and how it should function. Features
-were extracted from the prototype and given an assigned priority level that defined the different
-states of the project (MVP, version 2 etc). As we knew what features needed doing first (higher priority ones)
-from the start, our backlog was
-mostly made-up without too much discussion/planning. In addition, it was good that everyone were
-willing (and open) to give honest feedback and criticise each other’s ideas.
+were extracted from the prototype and given an assigned priority level that defined the different states of the project (MVP, version 2 etc). As we knew what features needed doing first (higher priority ones) from the start, our backlog was mostly made-up without too much discussion/planning. In addition, it was good that everyone was willing (and open) to give honest feedback and criticize each other’s ideas.
 
 The stand-up meetings were a bit of a formality, the team was in constant communication on Microsoft Teams
 nearly everyday so any issues/ideas were instantly posted to the group.
