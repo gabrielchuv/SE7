@@ -174,7 +174,9 @@ The session highlighted key issues in usability and informed the next iteration 
 2. **The burden of inputting and editing food items was greater than the benefit of reminders.** Users agreed that the process of inputting and editing items involved “too many clicks.” One user commented, “It’s going to be faster to go to my fridge and check expiration dates instead of going to my laptop and inputting all of the foods.”
 3. **The application promoted awareness but did not incentivize for behavior change.** A user admitted that reminders of expiring food is good to know but would not incentivize him to reduce food waste. Information regarding money lost would: “If it tells me, 'You wasted $25 bucks,' I’m like 'ugh' I wasted $25. The next time I go grocery shopping, instead of getting a gallon of milk, I’ll get half that and adjust my grocery buying. After months or weeks hopefully I'm closer to 0 wastage.” He suggested providing a metric of food wasted and tackling the causes themselves including poor planning and over-buying.
 
-User-interviews were very helpful in providing qualitative insights on the usability and viability of the project idea. Since the evaluation was "live," we saw how users interacted with the wireframe and what questions or barriers came up in real time. This helped us pin-point which features needed modification. However, this approach has limitations. Mainly, the interview environment is not like the environment where the user would ideally interact with the site. As test users were aware that they were being evaluated, this may also lead to bias in how they reacted or responded. Additionally, since the interview was administered via a virtual call, physical cues with added insight may not have been picked up.  
+User-interviews were very helpful in providing qualitative insights on the usability and viability of the project idea. Since the evaluation was "live," we saw how users interacted with the wireframe and what questions or barriers came up in real time. This helped us pin-point which features needed modification.
+
+However, this approach has limitations. Mainly, the interview environment is not like the environment where the user would ideally interact with the site. As test users were aware that they were being evaluated, this may also lead to bias in how they reacted or responded. Additionally, since the interview was administered via a virtual call, physical cues with added insight may not have been picked up.  
 
 ## Second Prototype: Food Waste Calculator
 User feedback informed the second prototype which calculates cost accrued for food wasted per individual. The idea is that users will input the food wasted and receive a statistic of how much money they lost from food waste. This addresses issues (1) and (2) in that users will only have to input food waste, which is independent of when they shop for groceries. Assuming the food wasted is less than the food bought, less input is required by users for the system to work. From issue (3) we learned that users are sensitive to financial information. In response, the prototype brings awareness to not only the number of food items that went to waste but also the amount of money lost from food waste. A walk-through is as follows:
@@ -266,12 +268,12 @@ The main limitation of this quick quantitative research is the poor quality of t
 
 ## Fourth Prototype: Second High-fidelity Prototype
 
-With a functioning food waste calculator and a consensus on the playful interactions of the site, a high-fidelity prototype was designed. This included all of the search and calculate features in the MVP. The calculator itself was made playful by gamifying its use. The tone of the site changed from “input food items went to waste and see how much money you lost from food waste” to “guess how much you loss from food waste and see how much you’re actually losing.” The high-fidelity design incorporated the playful elements within the core of the application and emphasized the objective to bring awareness by featuring a sharing option. 
+With a functioning food waste calculator and a consensus on the playful interactions of the site, a high-fidelity prototype was designed. This included all of the search and calculate features in the MVP. The calculator itself was made playful by gamifying its use. The tone of the site changed from “input food items went to waste and see how much money you lost from food waste” to “guess how much you loss from food waste and see how much you’re actually losing.” 
 
 A live site for the high-fidelity prototype can be found here: http://13.59.46.105/home.
 
 ### Design Evaluation: Design Heuristics
-THe final prototype was evaluated against common usability heuristics. This was adapted from https://www.nngroup.com/articles/ten-usability-heuristics/.
+The final prototype was evaluated against common usability heuristics. This was adapted from https://www.nngroup.com/articles/ten-usability-heuristics/.
 
 **1. Visibility of the system**
 
