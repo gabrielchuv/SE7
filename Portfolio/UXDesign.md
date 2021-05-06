@@ -6,10 +6,10 @@
 	- [Stakeholders](#stakeholders)
 	- [First User Persona](#first-user-persona)
 	- [Second User Persona](#second-user-persona)
-	- [First Prototype](#first-prototype)
-	- [Second Prototype](#second-prototype)
-	- [Third Prototype](#third-prototype)
-	- [Fourth Prototype](#fourth-prototype)
+	- [First Prototype](#first-prototype-reminder-for-expiring-foods)
+	- [Second Prototype](#second-prototype-food-waste-calculator)
+	- [Third Prototype](#third-prototype-first-high-fidelity-design)
+	- [Fourth Prototype](#fourth-prototype-second-high-fidelity-design)
 
 
 ## UX Approach
@@ -142,7 +142,7 @@ Furthermore, we designed our prototype in the perspective of the user, and thus,
 </p>
 <br></br>
 
-6. **The website has an in-app notification system. The user have the option to edit their notification preferences. We wanted to ensure that the user have access to notifications directly on our website, as well as, through email/social media.**
+6. **The website has an in-app notification system. The user has the option to edit their notification preferences. We wanted to ensure that the user have access to notifications directly on our website, as well as, through email/social media.**
 
 <p align="center">
 <img src="Images/UXDesign/notifications.gif">
@@ -188,7 +188,7 @@ User feedback informed the second prototype which calculates cost accrued for fo
 </p>
 <br></br>
 
-4. **Once the user have entered in all of their food items, they can navigate to the statistics page and view their results. A cost breakdown is included to help the user understand how much money they have wasted. In addition, the user can view the impact their waste have on the environment. Finally, a food breakdown is included to help the user better understand which food item they are wasting the most**
+4. **Once the user has entered in all of their food items, they can navigate to the statistics page and view their results. A cost breakdown is included to help the user understand how much money they have wasted. In addition, the user can view the impact their waste have on the environment. Finally, a food breakdown is included to help the user better understand which food item they are wasting the most**
 
 <p align="center">
 <img src="Images/UXDesign/stats-cal.gif">
