@@ -26,7 +26,7 @@ Having identified a worthwhile problem to focus on (i.e. the reduction of food w
 ### Success checklist
 We created a set of sub-goals that indicate the extent to which we have progressed towards our high-level objectives.They are ordered from short-term to long-term and from less ambitious to more ambitious ones. Some of the latter goals within each objective are meant to surpass the duration of the current project and serve to outline the general direction the project would take across these different objectives. Some of these points are elaborated in the “Future Work” section.
 
-The points in green are the ones tackled to some extent by our current project and the ones in red are longer-term goals.
+The points in green are the ones tackled by our current project and the ones in red are longer-term goals.
 
 - Raising awareness about food waste and motivating a change in behaviour
   ```diff
