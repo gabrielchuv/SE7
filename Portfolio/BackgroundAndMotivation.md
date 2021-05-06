@@ -7,7 +7,7 @@
 
 ![Alternative analysis](Images/BackgroundAndMotivation/alternatives.png)
 
-As seen above, we have compared our application with other existing applications regarding food waste across two dimensions: convenience and accuracy. We found that none of the existing solutions provide good performance across the two dimensions simultaneously and that very few tools are targeted at individuals.
+As seen above, we have compared our MoneyBin (previously known as DoNotWasteFood) with other existing applications regarding food waste across two dimensions: convenience and accuracy. We found that none of the existing solutions provide good performance across the two dimensions simultaneously and that very few tools are targeted at individuals.
 
 Firstly, the most compelling application we found was created by [It's Fresh](https://www.itsfresh.com/food-waste-calculator/survey.html), a company with the aim of developing technologies to extend the quality of fresh food. It allows users to easily add new food items that they have thrown away and it provides an estimate of how much money they are wasting and how much pollution they are contributing with due to their food waste. However, this tool has limited accuracy because it only allows users to enter a small variety of fruits and vegetables and no other food categories like meats, dairy etc.
 
@@ -15,7 +15,7 @@ Another application was created by the organizers of the ["Love Food Hate Waste"
 
 Although the rest of the tools could, in principle, be used by individuals in households, they had retail businesses as their main target segment: [Savingfood.eu](https://savingfood.eu/food-waste-calculator/), [Restaurant.eatapp.co](https://restaurant.eatapp.co/free-food-cost-calculator), and [Flwprotocol.org](https://flwprotocol.org/why-measure/food-loss-and-waste-value-calculator/). These applications could all provide relatively accurate predictions of the long-term financial or environmental consequences of food waste. Nevertheless, they were also less convenient to use because they required lots of inputs from users such as average size of portions and weights which the an average household may not easily have access to.
 
-In light of this evaluation, we hypothesized that a tool that is both convenient and accurate would be readily adopted and impactful enough to elicit an emotional response. This is one of MoneyBin's goals (previously known as DontWasteFood as seen in the 2D matrix).
+In light of this evaluation, we hypothesized that a tool that is both convenient and accurate would be readily adopted and impactful enough to elicit an emotional response.
 
 ## Academic review
 
