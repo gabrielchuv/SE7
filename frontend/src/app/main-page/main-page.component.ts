@@ -31,21 +31,18 @@ export class MainPageComponent implements OnInit {
     //check food item isnt already on list
     this.binList.forEach((element) => {
       if (element.food == foodName) {
-        console.log(`${foodName} already on list, incrementing quantity...`);
         this.incrementQuantity(element);
         this.foodExists = true;
         return;
       }
     })
     if (!this.foodExists) {
-      console.log(`adding to the bin: ${foodName}`);
       this.binList.push(new Bin('1', foodName, "1"));
       this.runningTotal++;
 
       // sorting list of items alphabetically
       var temp = this.binList;
       this.binList = temp.sort((a, b) => a.food!.localeCompare(b.food!));
-      console.log('sorted as: ' + this.binList);
     }
     //reset var for next add
     this.foodExists = false;
@@ -61,9 +58,7 @@ export class MainPageComponent implements OnInit {
       this.runningTotal--;
       //turn back to string and set it
       bin.quantity = asNumber.toString();
-      console.log(`decrementing amount to: ${bin.quantity}`);
     } else {
-      console.log('quantity hit 0, removing...');
       this.removeBinEntry(bin);
     }
   }
@@ -74,7 +69,6 @@ export class MainPageComponent implements OnInit {
     asNumber++;
     this.runningTotal++;
     bin.quantity = asNumber.toString();
-    console.log(`incrementing amount to: ${bin.quantity}`);
   }
 
 
@@ -82,12 +76,11 @@ export class MainPageComponent implements OnInit {
   toStats() {
     // Prevents user from going to stats page if their bin is empty
     if (this.binList.length == 0) {
-      window.alert("Please enter an item");
+      window.alert("Please enter a food item with the search bar.");
     } else {
-      console.log("redirecting to stats page and sending data...");
       for (let i = 0; i < this.binList.length; i++) {
         this.searchService.createBin(this.binList[i].usrID!, this.binList[i].food!, this.binList[i].quantity!)
-          .subscribe((res) => console.log(`added bin: ${res} to database`));
+          .subscribe();
       }
       //send binList to stats page to calculate yearly forecast
       this.messageService.setBinList(this.binList);

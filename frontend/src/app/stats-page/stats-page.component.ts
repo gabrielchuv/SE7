@@ -46,7 +46,6 @@ export class StatsPageComponent implements OnInit {
           .subscribe((fooditem: any) => {
             //get the total cost of the binEntry (= food.cost x bin.quantity)
             this.binEntryTotal = parseFloat(fooditem[0].cost) * parseInt(binEntry.quantity!);
-            console.log(`Bin entry: food:${binEntry.food} cost:${fooditem[0].cost} quantity=${binEntry.quantity!}`);
             //calculate a running total for the year
             this.binTotal += this.binEntryTotal * 52;
             //conditional text to compare forecaste with average money wasted in the UK

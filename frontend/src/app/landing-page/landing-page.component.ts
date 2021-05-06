@@ -28,7 +28,7 @@ export class LandingPageComponent implements OnInit {
   onCalculateClick() {
     // Prevents user from going to main page without an estimate
     if (this.estimate == 0) {
-      window.alert("Please enter an estimate");
+      window.alert("Please enter a estimate by clicking on the pot-of-money icon.");
     } else {
       // store estimate to use in stats page
       this.messageService.setEstimate(this.estimate.toString());
@@ -37,7 +37,7 @@ export class LandingPageComponent implements OnInit {
   }
 
   changeLabelName() {
-    var temp: number = parseInt(this.estimate) + 3;
+    var temp: number = parseInt(this.estimate) + 5;
     this.estimate = temp.toString();
   }
 }
