@@ -92,16 +92,26 @@ Though the survey was aimed at our target users (university students) it was ske
 
 #### Insights
 
-Most of the relevant results are reflected by the new user persona, however, an additional insights was that half of surveyees (i.e. people who didn’t experience food going bad often) said that they “never” or "almost never" wasted food. Interestingly, a larger amount of people from this subset were already taking actions to prevent wastage compared to the group who had the problem more often. This would make the former group the right one to target if we were aiming to create a tool that allows people to take action on reducing food wastage. However, our tool’s main objective is to change people's behaviour (hopefully nudging them into behaving more like the former group) which reconfirms our decision to focus on the latter group of people who are not taking effective action to reduce their food wastage.
+Most of the relevant results are reflected by the new user persona, however, an additional insight was that half of surveyees (i.e. people who didn’t experience food going bad often) said that they “never” or "almost never" wasted food. Interestingly, a larger amount of people from this subset were already taking actions to prevent wastage compared to the group who had the problem more often. This would make the former group the right one to target if we were aiming to create a tool that allows people to take action on reducing food wastage. However, our tool’s main objective is to change people's behaviour (hopefully nudging them into behaving more like the former group) which reconfirms our decision to focus on the latter group of people who are not taking effective action to reduce their food wastage.
 
 Our survey can be accessed [here](https://forms.gle/9Geo8f37rcHJN8de8).
 
 ![survey](Images/UXDesign/survey.PNG)
 
 ### Second User Persona
+Some of the key insights gained from the survey that helped us shape the new user persona were:
 
-![User Persona 1](Images/UXDesign/User_persona_2.png)
+- 67% of respondents were female.
+- 83% of respondents were between 18 and 30 years old.
+- In their free time, 28% of respondents liked to exercise, 22% like to watch moves, and 17% liked to do artistic activities (i.e. photograph).
+- 72% of surveyees had "health and wellbeing" as a lifestyle goal and 22% also had "supporting sustainability" as their goal.
+- 44% of surveyees claimed that lack of motivaiton/discipline was not allowing them to fulfil their goals, 22% thought it was their poor time management.
+- 61% of surveyees claimed the reason for their food going bad is because they forgot to eat it. 17% said they simply did not want to cook it.
+- 33% of respondents stated that wating food bothers them because of the wasted money, 22% said it was because of environmental concerns.
 
+![User Persona 2](Images/UXDesign/User_persona_2.png)
+
+The main limitation of this survey was that part of the data we were trying to obtain was qualitative so when processing the answers we had to allocate them into categories to be able to make sense of them. This may have introduced bias into the analysis, particularly because of the small number of respondents.
 
 ## First Prototype: Reminder for Expiring Foods
 After the initial ideation sessions, we started our first prototype. We wanted to create a website which help people track the expiration date of their food items. We had the assumption that the reason why people waste food is because it expires before they get the chance to eat them. With this in mind, we designed our prototype around the idea of a fridge, which we wanted to be a core component on our website to represent a person's actual fridge. On the website, the user can input all the food items that they have, and the website will estimate the expiration date of that item (the user have the option to change this if it is inaccurate). Once the user has inputted all their food items, the website will prompt the user when their food is about to expire. The user can decide how frequent they would like to be notified.
