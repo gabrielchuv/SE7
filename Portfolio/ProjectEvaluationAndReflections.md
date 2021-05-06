@@ -1,20 +1,19 @@
 # Project Evaluation And Reflections
 
 ## Table of Contents
-- [Design evaluation and user acceptance testing](#design-evaluation-and-user-acceptance-testing)
+- [Design Evaluation & User Acceptance Testing](#design-evaluation-and-user-acceptance-testing)
 - [Unit testing / functional testing](#unit-testing-/-functional-testing)
 - [Reflective Discussion of The Success of The Project](#reflective-discussion-of-the-success-of-the-project)
 	- [Reflection on Working Practices](#reflection-on-working-practices)
 	- [Reflection on The Impact of COVID-19](#reflection-on-the-impact-of-COVID-19)
 - [Social and Ethical Implications](#social-and-ethical-implications)
 - [Discussion of Future Work](#discussion-of-future-work)}
-- [Bibliography](#bibliography)
 
 ## Design evaluation and user acceptance testing
-The contents of this section were embedded in the [UX Design](https://github.com/gabrielchuv/SE7/blob/develop/Portfolio/UXDesign.md) section to aid with the explanation of the iterative design process we engaged in.
+The contents of this section are embedded in the [UX Design](https://github.com/gabrielchuv/SE7/blob/develop/Portfolio/UXDesign.md) section with explanation of the iterative design process we engaged in.
 
 ## Unit testing / Functional testing.
-Testing of the site, as a whole, was a weak point of the iterative development process. All testing was done as functional testing as this was quicker and simpler than unit testing. The testing typically followed a certain work flow carried out by the developer. On implementation of a task, the developer would be regularly building the site with Docker and viewing the updates in their browser to ensure the correct layout or logic was being built and to spot noticeable bugs. After the task was finished, the group would be notified and the implementation would be pushed on to the remote repository and merged into the develop branch. Any conflicts would then be dealt with and the developer would begin site-wide function testing normally with one other (for minor features/changes an extra person wasn't needed) to check there notable bugs in the workings of the components, pages and site. Because the site only consisted of three (main) pages, the amount of tasks a user could do on the pages was limited so testing the whole site after a change only took a couple of minutes.
+Testing of the site, as a whole, was a weak point of the development process. All testing was done as functional testing as this was quicker and simpler than unit testing. The testing typically followed a certain work flow carried out by the developer. On implementing a task, the developer would be regularly building the site with Docker and viewing the updates in their browser to ensure the correct layout or logic was being built and to spot noticeable bugs. After the task was finished, the group would be notified and the implementation would be pushed on to the remote repository and merged into the develop branch. Any conflicts would then be dealt with and the developer would begin site-wide function testing normally with one other (for minor features/changes an extra person wasn't needed) to check there notable bugs in the workings of the components, pages and site. Because the site only consisted of three (main) pages, the amount of tasks a user could do on the pages was limited so testing the whole site after a change only took a couple of minutes.
 
 The work flow of the functional test scripts a developer would generally follow is below. For most of the testing, it was an iterative process, building on smaller components and integrating with other features accordingly. For example, the image of the test plan for changing quantities of food items shows the total quantity of food items being tested for (Test C). However, this was originally not done by the developers. The increment and decrement buttons were implemented and functionally tested that they worked for each food item on the list. It was then demo-ed in the stand up meeting where bugs are pointed out, additional test requirements are discussed and fixed afterwards. Then, the calculated total was tested alongside the increment/decrement buttons to check they were all working together as they should.
 
@@ -41,7 +40,7 @@ In terms of the real-world issue part of the brief, we defined the importance of
  to make it addressable, taking into consideration our location, access to users, and where our
 efforts would generate the most value (i.e. changing household’s behaviors).
 
-The team discussed playful elements but decided to focus on the serious issue more than the playful elements.
+The team decided to focus more on the serious than playful elements in early stages of the project.
 A discussion was had and a decision was made to develop a working, practical application regarding food waste and incorporate the playful elements in later sprints.
 Taking into account existing features, Sally was added on the final sprint which did add a bit of playfulness within the core of the application, e.g. interacting with her
 on the landing page incremented a money estimate. More of
@@ -95,9 +94,9 @@ With that said, remote working also made some aspects of this project difficult.
 and design process would have been a lot more efficient in-person, as it would have been easier to
 sketch and move ideas around (although Miro worked it’s not the same experience). In addition, pair programming
 was proven to be more difficult as one could often feel isolated. Another aspect which was also
-a bit challenging was user interviews, it
-would have been better to conduct these interviews in-person, as it usually result in greater insights
-about the underlying motivations of people (i.e. non verbal cues).
+a bit challenging was user interviews. It
+would have been better to conduct these interviews in-person, as it usually results in greater insights
+about the underlying motivations and reactions (i.e. non verbal cues).
 ***
 
 ## Discussion of Future Work
@@ -190,9 +189,6 @@ As mentioned in section 1 and 5, we have involved the user at every stage of dev
 The users we have spoken to did not all have a background in Software Development, which meant
 that we were able to get a lot of different perspectives on our design.
 <br></br>
-
-## Bibliography
-
 
 <br><br>
 Go back to [README](https://github.com/gabrielchuv/SE7/blob/develop/README.md)
