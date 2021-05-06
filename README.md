@@ -38,7 +38,7 @@ The points in green are the ones tackled by our current project and the ones in 
 - Designing and building a differentiated solution (convenience and accuracy)
   ```diff
   + Testing our designs with potential users frequently to optimize for usability.
-  + Asking people to fill in how much they think they’ve wasted only this week.
+  + Asking people to fill in how much they think they have wasted only during the current week (not the current month like other alternatves)
   + Not asking users to fill in hard to get information like specific food weights.
   + Considering the quantity of food items and their cost when calculating the forecasted yearly value
   - Utilize an API to extract current costs of food items from a supermarket
