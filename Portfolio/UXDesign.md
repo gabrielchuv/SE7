@@ -217,7 +217,7 @@ Users were again shown the updated/new wireframe prototype to see if the changes
 3. The statistical breakdown of the user's wastage was a great medium for visualizing progress to reduce waste and makes the site more impactful/actionable to the food wastage issue.
 
 #### Con's
-1. The naming of the statistics tab and page caused confusion as to what the tab pertained before going to it, renaming it to something more OBVIOUS?
+1. The naming of the statistics tab and page caused confusion as to what the tab pertained before going to it, so it might be worth it to rename it to something more clear.
 2. The about and FAQ's could really be merged into one and the about can be a tab of the FAQ page.
 3. Submitting food items on the user main page could be clearer.
 4. The wireframe was designed for desktop view but users may interact with the site on different devices or layouts. During the walkthrough, one user viewed it on a mobile screen, which the wireframe was not designed for. 
@@ -226,7 +226,7 @@ Users were again shown the updated/new wireframe prototype to see if the changes
 
 After iterating on the wireframes, it was time to design and develop the minimum viable product. For the purposes of a minimally usable site, we decided to focus on the practical implementation of a food waste calculator. The focus was on 3 main pages: 
 
-1. landing page  where users are introduced to the objective of the site. 
+1. landing page where users are introduced to the objective of the site. 
 2. search page where users are asked to search for spoiled foods and populate them in a list. 
 3. results page where users are informed of how much money they are losing per year from food waste. 
 
@@ -246,7 +246,7 @@ We purposefully framed the issue to promote behavior change. In terms of languag
 To provide a quick action that users can respond to, a share option was included in the results page. As an application to bring awareness to the issue, this feature would further spread the word and start conversations around food waste around the user’s social network. 
 
 ### Design Evaluation: Web Analytics 
-To start getting a better gauge on engagement and other user preferences, we decided to track users’ engagement with our application via Google Analytics (GA). We shared the link to our application in various online course groups from the University of Bristol and asked people to check it out.
+To start getting a better feel on engagement and other user preferences, we decided to track users’ engagement with our application via Google Analytics (GA). We shared the link to our application in various online course groups from the University of Bristol and asked people to check it out.
 
 For tracking acquisition, we used Bitly to quickly and reliably track how many people entered the site. GA can be a bit unreliable and we wanted to maximize reliability due to the small number of users we were tracking. As you can see below, 39 users entered our application.
 
